@@ -1,39 +1,22 @@
-{
-  "name": "ai-daily-brief",
-  "gemini": {
-    "model": "gemini-3.8-flash"
-  },
-  "newsletter": {
-    "language": "zh",
-    "max_highlights": 8,
-    "default_lookback": "48h",
-    "editorial_prompt": "专业、克制、信息密度高的中文科技媒体口吻；重事实与判断，少形容词；面向 AI 从业者与独立开发者。"
-  },
-  "mail": {
-    "subject_prefix": "[AI日报]"
-  },
-  "sources": {
-    "rss": [
-      {
-        "url": "https://daily.juya.uk/rss.xml",
-        "name": "橘鸦AI早报"
-      },
-      {
-        "url": "https://www.ainewslog.com/rss.xml",
-        "name": "AI Daily"
-      },
-      {
-        "url": "https://dailydawn.dev/zh.json",
-        "name": "DailyDawn 中文"
-      },
-      {
-        "url": "https://simonwillison.net/atom/everything/",
-        "name": "Simon Willison"
-      },
-      {
-        "url": "https://hnrss.org/frontpage",
-        "name": "Hacker News Front Page"
-      }
-    ]
-  }
-}
+name: ai-daily-brief
+gemini:
+  model: "gemini-3.1-flash-lite"
+newsletter:
+  language: "zh"
+  max_highlights: 8
+  default_lookback: "48h"
+  editorial_prompt: "专业、克制、信息密度高的中文科技媒体口吻；重事实与判断，少形容词；面向 AI 从业者与独立开发者。"
+mail:
+  subject_prefix: "[AI日报]"
+sources:
+  rss:
+    - url: "https://daily.juya.uk/rss.xml"
+      name: "橘鸦AI早报"
+    - url: "https://www.ainewslog.com/rss.xml"
+      name: "AI Daily"
+    - url: "https://dailydawn.dev/zh.json"
+      name: "DailyDawn 中文"
+    - url: "https://simonwillison.net/atom/everything/"
+      name: "Simon Willison"
+    - url: "https://hnrss.org/frontpage"
+      name: "Hacker News Front Page"
