@@ -282,7 +282,8 @@ def main() -> None:
     log(f"抓取窗口：{since.isoformat()} 之后")
     raw_items: list[tuple[dict, str]] = []
     for src in cfg.get("sources", {}).get("rss", []):
-        name, url = src.get("name", url), src["url"]
+        url = src["url"]
+        name = src.get("name", url)
         try:
             items = parse_rss(url, since)
         except Exception as e:
