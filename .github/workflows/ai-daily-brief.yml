@@ -8,59 +8,86 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ai-daily-brief
+  cancel-in-progress: false
+
 jobs:
   brief:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run DayBrief
-        uses: yoanbernabeu/daybrief@v0.1.0
+      - uses: actions/setup-python@v5
         with:
-          config: config.yaml
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Generate daily brief
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL || 'openai/gpt-oss-120b' }}
+          BRIEF_MAX_ITEMS: "30"
+        run: python3 scripts/groq_brief.py --config config.yaml --lookback 48h
+
+      - name: Publish to GitHub Pages
+        run: |
+          mkdir -p docs
+          LATEST=$(ls -t daily-md/*.md 2>/dev/null | head -n1 || true)
+          if [ -n "$LATEST" ]; then
+            cp "$LATEST" docs/index.md
+          fi
+          printf '# AI 日报归档\n\n' > docs/README.md
+          ls -1 daily-md/*.md 2>/dev/null | sort -r | while read f; do
+            d=$(basename "$f" .md)
+            echo "- [$d](https://raw.githubusercontent.com/${{ github.repository }}/main/daily-md/$d.md)" >> docs/README.md
+          done
+          echo "docs ready"
+
+      - name: Send email (QQ SMTP)
+        env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           MAIL_FROM_EMAIL: ${{ secrets.MAIL_FROM_EMAIL }}
-          MAIL_FROM_NAME: AI日报
           DAYBRIEF_RECIPIENTS: ${{ secrets.DAYBRIEF_RECIPIENTS }}
-
-      - name: Export Markdown + publish to Pages
         run: |
-          mkdir -p daily-md docs
-          LATEST=$(ls -t output/*.json | head -n1)
-          DATE=$(basename "$LATEST" .json)
-          python3 - "$LATEST" "daily-md/$DATE.md" <<'PY'
-          import json, sys, re
-          src, dst = sys.argv[1], sys.argv[2]
-          d = json.load(open(src, encoding="utf-8"))
-          L = []
-          L.append(f"# {d.get('subject','AI 日报')}\n")
-          ed = d.get("editorial","")
-          for p in ed.split("\n\n"):
-              p = p.strip()
-              if p: L.append(p + "\n")
-          L.append("\n## 今日要点\n")
-          for i, h in enumerate(d.get("highlights", []), 1):
-              L.append(f"### {i}. {h.get('title','')}\n")
-              L.append(f"- 来源：{h.get('source_name','')} · {h.get('source_url','')}")
-              an = h.get("analysis","")
-              if an: L.append(f"- 分析：{an}")
-              L.append("")
-          rs = d.get("resources", [])
-          if rs:
-              L.append("\n## 其他值得一看\n")
-              for r in rs:
-                  L.append(f"- [{r.get('title','')}]({r.get('source_url','')})（{r.get('source_name','')}）：{r.get('summary','')}")
-          open(dst, "w", encoding="utf-8").write("\n".join(L))
-          print("wrote", dst)
+          LATEST=$(ls -t output/*.html 2>/dev/null | head -n1 || true)
+          [ -z "$LATEST" ] && { echo "no html"; exit 0; }
+          python3 - "$LATEST" <<'PY'
+          import os, smtplib, ssl, sys
+          from email.header import Header
+          from email.mime.text import MIMEText
+          html_path = sys.argv[1]
+          html = open(html_path, encoding="utf-8").read()
+          subject = "AI 日报 " + os.path.basename(html_path).replace(".html", "")
+          msg = MIMEText(html, "html", "utf-8")
+          msg["Subject"] = Header(subject, "utf-8")
+          msg["From"] = os.environ["MAIL_FROM_EMAIL"]
+          msg["To"] = os.environ["DAYBRIEF_RECIPIENTS"]
+          host = os.environ["SMTP_HOST"]
+          port = int(os.environ.get("SMTP_PORT", "465"))
+          user = os.environ["SMTP_USERNAME"]
+          pwd = os.environ["SMTP_PASSWORD"]
+          if pwd.startswith("PLACEHOLDER"):
+              print("SMTP_PASSWORD 仍是占位符，跳过发信")
+              sys.exit(0)
+          if port == 465:
+              ctx = ssl.create_default_context()
+              with smtplib.SMTP_SSL(host, port, context=ctx, timeout=30) as s:
+                  s.login(user, pwd)
+                  s.sendmail(user, os.environ["DAYBRIEF_RECIPIENTS"].split(","), msg.as_string())
+          else:
+              with smtplib.SMTP(host, port, timeout=30) as s:
+                  s.starttls()
+                  s.login(user, pwd)
+                  s.sendmail(user, os.environ["DAYBRIEF_RECIPIENTS"].split(","), msg.as_string())
+          print("email sent to", os.environ["DAYBRIEF_RECIPIENTS"])
           PY
-          cp "daily-md/$DATE.md" "docs/index.md"
-          printf '# AI 日报归档\n\n' > docs/README.md
-          ls -1 daily-md/*.md | sort -r | while read f; do echo "- [$(basename "$f" .md)](https://raw.githubusercontent.com/${{ github.repository }}/main/daily-md/$(basename "$f"))" >> docs/README.md; done
 
       - name: Telegram notify
         if: ${{ env.TELEGRAM_BOT_TOKEN != '' }}
@@ -68,23 +95,20 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          LATEST=$(ls -t output/*.json | head -n1)
+          LATEST=$(ls -t daily-md/*.md 2>/dev/null | head -n1 || true)
+          [ -z "$LATEST" ] && exit 0
           python3 - "$LATEST" <<'PY'
-          import json, os, sys, urllib.request
-          d = json.load(open(sys.argv[1], encoding="utf-8"))
-          tok = os.environ["TELEGRAM_BOT_TOKEN"]; chat = os.environ["TELEGRAM_CHAT_ID"]
-          lines = [f"*{d.get('subject','AI 日报')}*", ""]
-          for i, h in enumerate(d.get("highlights", []), 1):
-              lines.append(f"{i}. [{h.get('title','')}]({h.get('source_url','')})")
-              an = h.get("analysis","")
-              if an: lines.append(f"   {an[:180]}")
-          body = "\n".join(lines)[:3500]
+          import json, os, sys, urllib.request, pathlib
+          md = pathlib.Path(sys.argv[1]).read_text(encoding="utf-8")
+          body = md[:3800]
+          tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN", ""), os.environ.get("TELEGRAM_CHAT_ID", "")
+          if not tok or not chat:
+              print("telegram secrets missing, skip"); sys.exit(0)
           req = urllib.request.Request(
               f"https://api.telegram.org/bot{tok}/sendMessage",
-              data=json.dumps({"chat_id": chat, "text": body, "parse_mode": "Markdown",
-                               "disable_web_page_preview": True}).encode(),
+              data=json.dumps({"chat_id": chat, "text": body, "disable_web_page_preview": True}).encode(),
               headers={"Content-Type": "application/json"})
-          print(urllib.request.urlopen(req, timeout=30).read().decode())
+          print(urllib.request.urlopen(req, timeout=30).read().decode()[:200])
           PY
 
       - name: Commit outputs
@@ -92,5 +116,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/ daily-md/ docs/
-          git diff --staged --quiet || git commit -m "chore: AI 日报 $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "no changes"; exit 0
+          fi
+          git commit -m "chore: AI 日报 $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do
+            git push && exit 0
+            git fetch origin main && git rebase origin/main || { git rebase --abort; exit 1; }
+          done
+          exit 1
