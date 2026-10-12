@@ -1,0 +1,1 @@
+# AI 日报（DayBrief）\n\n每天北京时间 07:00 自动生成：邮件 + Telegram + GitHub Pages + Markdown 归档。\n
