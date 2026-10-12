@@ -1,6 +1,6 @@
 name: ai-daily-brief
 gemini:
-  model: "gemini-3.1-flash-lite"
+  model: "gemini-flash-lite-latest"
 newsletter:
   language: "zh"
   max_highlights: 8
