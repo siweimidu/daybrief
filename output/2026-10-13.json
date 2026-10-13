@@ -1,0 +1,40 @@
+{
+  "subject": "中国研发支出超美领跑，AI模型与硬件加速齐发",
+  "editorial": "今天最值得关注的趋势是中国2024年研发支出首次超过美国，标志着全球创新力量正向东方转移。\\n在模型层面，Meta发布的Muse Wonder、GLM‑Legal以及Anthropic的蒸馏防御展示了多模态能力和安全防护的快速进展；与此同时，英特尔推出的D270 AI 加速器凭借最高480 GB LPDDR5X内存，为大模型训练和推理提供了硬件支撑。\\n开源生态同样活跃，Janas 通过 SSD 流式加载让超大模型在低配机器上可用，Agent37 低成本代理沙盒降低了 AI 代理实验门槛，Simon Willison 的 web‑edit 则示范了用 C 语言打造现代 Web 应用的可能性。这些项目共同降低了技术入门壁垒。\\n建议从业者密切关注政策与资金动向，评估自家模型与硬件的匹配度，积极参与开源社区并系统提升提示工程、数据治理等 AI 使用技能，以在竞争加剧的环境中保持优势。",
+  "highlights": [
+    {
+      "title": "中国2024研发支出首次超美国 成为全球首位",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://japannews.yomiuri.co.jp/science-nature/science/20260908-347742/",
+      "analysis": "中国研发投入超越美国显示国家层面对创新的持续加码，预示未来资本和人才将更倾向于亚洲市场。对全球供应链和技术合作格局产生深远影响。"
+    },
+    {
+      "title": "英特尔发布 D270 AI 加速器，最高 480 GB LPDDR5X",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "analysis": "大容量高带宽内存让大模型训练和推理不再受显存瓶颈限制，帮助企业在本地部署更复杂的 AI 工作负载。"
+    },
+    {
+      "title": "Python 3.15 正式发布，停止 3.10 支持",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "analysis": "新版本带来性能提升和语法特性，迫使生态系统加速迁移，开发者需尽快升级以免错失安全更新。"
+    },
+    {
+      "title": "web-edit 0.1a0 发布",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "analysis": "展示了在 C 语言层面实现实时网页编辑的可行性，为高性能前端工具提供了新思路，也鼓励社区在低层语言上探索创新。"
+    },
+    {
+      "title": "AI Daily 2026-10-12 新闻汇总",
+      "source_name": "AI Daily",
+      "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-12/",
+      "analysis": "汇总当天 AI 行业热点，帮助从业者快速捕捉技术、投融资和政策动向，是日常情报获取的高效入口。"
+    }
+  ],
+  "categories": {},
+  "generated_at": "2026-10-13T02:57:23.421486+00:00",
+  "model": "openai/gpt-oss-120b",
+  "source_count": 27
+}
