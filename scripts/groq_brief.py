@@ -271,6 +271,39 @@ def _unquote_newlines(s: str) -> str:
     return s.replace("\\r\\n", "\n").replace("\\n", "\n").replace("\\t", "\t")
 
 
+def parse_json_lenient(text: str) -> dict:
+    """模型可能返回包裹对象、裸数组、多段 JSON 或带解释文字。统一取成 dict。"""
+    t = text.strip()
+    if t.startswith("```"):
+        t = re.sub(r"^```[a-z]*\n?", "", t)
+        t = re.sub(r"\n?```$", "", t)
+    dec = json.JSONDecoder()
+
+    def decode_first(s: str, opener: str):
+        idx = s.find(opener)
+        while idx != -1:
+            try:
+                obj, _ = dec.raw_decode(s[idx:])
+                return obj
+            except ValueError:
+                idx = s.find(opener, idx + 1)
+        return None
+
+    # 顶层数组优先：[{...}, {...}] -> {"items": [...]}
+    first_brace, first_bracket = t.find("{"), t.find("[")
+    if first_bracket != -1 and (first_brace == -1 or first_bracket < first_brace):
+        arr = decode_first(t, "[")
+        if isinstance(arr, list):
+            return {"items": [x for x in arr if isinstance(x, dict)]}
+    obj = decode_first(t, "{")
+    if isinstance(obj, dict):
+        # 裸单条：{"id":1,"title":...} 没有 items 包装
+        if "items" not in obj and ("title" in obj or "id" in obj):
+            return {"items": [obj]}
+        return obj
+    return json.loads(t)
+
+
 def _extract_json(text: str) -> str:
     text = text.strip()
     if text.startswith("```"):
@@ -294,21 +327,37 @@ def batch_summarize(chunk: list[dict]) -> list[dict]:
 "summary": "1-2句中文，说明发生了什么、为什么重要",
 "key_points": ["要点1", "要点2"], "category": "模型发布|开源项目|行业动态|技术解读|投融资|其他"}}]}}
 items 数组顺序与输入一致，id 从 1 开始。只依据给出的原文摘要与标题，不得编造。"""
-    try:
-        raw = llm(prompt)
-        data = json.loads(_extract_json(raw))
-    except Exception as e:
-        log(f"  批量失败({len(chunk)}条): {str(e)[:120]}")
+    items: list = []
+    for retry in range(3):
+        try:
+            ask = prompt if retry == 0 else prompt + "\n\n注意：必须输出包含全部 " + str(len(chunk)) + \
+                  " 条的 items 数组，只输出一个完整 JSON，不要多段、不要解释。"
+            raw = llm(ask)
+            data = parse_json_lenient(raw)
+            cand = data.get("items") or data.get("summaries") or data.get("result") or []
+            if not isinstance(cand, list):
+                cand = next((v for v in data.values() if isinstance(v, list)), [])
+            if cand:
+                items = cand
+                break
+            log(f"  批量第{retry + 1}次返回无 items（keys={list(data.keys())[:5]}），重试")
+        except Exception as e:
+            log(f"  批量第{retry + 1}次失败({len(chunk)}条): {str(e)[:120]}")
+    if not items:
         return []
     by_id: dict[int, dict] = {}
-    for rec in data.get("items", []):
+    seq: list[dict] = []
+    for rec in items:
+        if not isinstance(rec, dict):
+            continue
+        seq.append(rec)
         try:
             by_id[int(rec.get("id", 0))] = rec
         except (TypeError, ValueError):
-            continue
+            pass
     out = []
     for i, it in enumerate(chunk, 1):
-        rec = by_id.get(i)
+        rec = by_id.get(i) or (seq[i - 1] if len(seq) >= i else None)
         if not rec:
             continue
         out.append({
@@ -338,7 +387,7 @@ def synthesize(summaries: list[dict]) -> dict:
 - highlights: 最重要的 {n_hl} 条，每条 {{"title","source_name","source_url","analysis"}}，analysis 为 2-3 句中文点评其意义。同来源最多 2 条。
 - categories: 分类计数对象，如 {{"模型发布":3,"开源项目":5}}"""
     raw = llm(prompt)
-    data = json.loads(_extract_json(raw))
+    data = parse_json_lenient(raw)
     hl = data.get("highlights", [])[:n_hl]
     for h in hl:
         h["analysis"] = _unquote_newlines(str(h.get("analysis", "")))
