@@ -40,6 +40,8 @@ class Provider:
 
     def __init__(self) -> None:
         self.down = False
+        self.init_reason = ""
+        self.blacklist_reason = ""
 
     def chat(self, prompt: str) -> str:
         raise NotImplementedError
@@ -47,6 +49,7 @@ class Provider:
     def mark_down(self, reason: str) -> None:
         log(f"  provider {self.name} 拉黑：{reason[:160]}")
         self.down = True
+        self.blacklist_reason = reason[:120]
 
 
 class GroqProvider(Provider):
@@ -61,6 +64,7 @@ class GroqProvider(Provider):
         self.url = "https://api.groq.com/openai/v1/chat/completions"
         if not self.key:
             self.down = True
+            self.init_reason = "无 GROQ_API_KEY"
 
     def chat(self, prompt: str) -> str:
         models = [self.model] + [m for m in self.fallback if m != self.model]
@@ -153,6 +157,9 @@ def llm(prompt: str) -> str:
     global _providers
     if not _providers:
         _providers = [GroqProvider(), GeminiProvider()]
+        state = ", ".join(
+            f"{p.name}={'ok' if not p.down else p.init_reason}" for p in _providers)
+        log(f"  providers: {state}")
     errors: list[str] = []
     for _round in range(5):
         if all(p.down for p in _providers):
@@ -167,7 +174,10 @@ def llm(prompt: str) -> str:
             except RuntimeError as e:
                 errors.append(f"{pr.name}: {str(e)[:120]}")
         time.sleep(5)
-    raise RuntimeError("没有可用模型供应商: " + " | ".join(errors[-3:]))
+    why = "; ".join(errors[-3:]) if errors else \
+        "全部供应商已拉黑（额度耗尽）: " + ", ".join(
+            f"{p.name}={p.blacklist_reason or 'down'}" for p in _providers)
+    raise RuntimeError("没有可用模型供应商: " + why)
 
 
 # ============================================================ feeds
