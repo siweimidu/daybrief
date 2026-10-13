@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: ai-daily-brief
@@ -33,19 +35,56 @@ jobs:
           BRIEF_MAX_ITEMS: "30"
         run: python3 scripts/groq_brief.py --config config.yaml --lookback 48h
 
-      - name: Publish to GitHub Pages
+      - name: Build static site
         run: |
-          mkdir -p docs
-          LATEST=$(ls -t daily-md/*.md 2>/dev/null | head -n1 || true)
-          if [ -n "$LATEST" ]; then
-            cp "$LATEST" docs/index.md
-          fi
-          printf '# AI 日报归档\n\n' > docs/README.md
-          ls -1 daily-md/*.md 2>/dev/null | sort -r | while read f; do
-            d=$(basename "$f" .md)
-            echo "- [$d](https://raw.githubusercontent.com/${{ github.repository }}/main/daily-md/$d.md)" >> docs/README.md
-          done
-          echo "docs ready"
+          mkdir -p site
+          ls daily-md/*.md || exit 0
+          python3 - <<'PY'
+          import glob, os, html
+          files = sorted(glob.glob("daily-md/*.md"), reverse=True)
+          latest = files[0]
+          md = open(latest, encoding="utf-8").read()
+          body = []
+          for line in md.splitlines():
+              e = html.escape(line)
+              if line.startswith("# "):
+                  body.append("<h1>" + e[2:] + "</h1>")
+              elif line.startswith("## "):
+                  body.append("<h2>" + e[3:] + "</h2>")
+              elif line.startswith("### "):
+                  body.append("<h3>" + e[4:] + "</h3>")
+              elif line.startswith("> "):
+                  body.append('<p class="meta">' + e[2:] + "</p>")
+              elif line.startswith("- "):
+                  body.append("<li>" + e[2:] + "</li>")
+              elif line.strip():
+                  body.append("<p>" + e + "</p>")
+          links = "".join(
+              '<li><a href="%s.html">%s</a></li>' % (os.path.basename(f)[:-3], os.path.basename(f)[:-3])
+              for f in files[:30]
+          )
+          page = """<!doctype html><html lang="zh"><head><meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>AI 日报</title><style>
+          body{max-width:760px;margin:24px auto;padding:0 16px;font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif;color:#222;line-height:1.75}
+          h1{font-size:24px}h2{margin-top:28px;border-bottom:1px solid #eee;padding-bottom:6px}
+          .meta{color:#888;font-size:13px}li{margin:6px 0}a{color:#2563eb}
+          nav{margin-top:36px;border-top:1px solid #eee;padding-top:14px}</style></head>
+          <body>%s<nav><strong>历史日报</strong><ul>%s</ul></nav></body></html>""" % ("\n".join(body), links)
+          open("site/index.html", "w", encoding="utf-8").write(page)
+          for f in files:
+              d = os.path.basename(f)[:-3]
+              src = "output/%s.html" % d
+              if os.path.exists(src):
+                  open("site/%s.html" % d, "w", encoding="utf-8").write(open(src, encoding="utf-8").read())
+          print("site built:", len(files), "issues")
+          PY
+
+      - name: Upload Pages artifact
+        if: ${{ hashFiles('site/index.html') != '' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
       - name: Send email (QQ SMTP)
         env:
@@ -63,9 +102,9 @@ jobs:
           from email.header import Header
           from email.mime.text import MIMEText
           html_path = sys.argv[1]
-          html = open(html_path, encoding="utf-8").read()
+          html_body = open(html_path, encoding="utf-8").read()
           subject = "AI 日报 " + os.path.basename(html_path).replace(".html", "")
-          msg = MIMEText(html, "html", "utf-8")
+          msg = MIMEText(html_body, "html", "utf-8")
           msg["Subject"] = Header(subject, "utf-8")
           msg["From"] = os.environ["MAIL_FROM_EMAIL"]
           msg["To"] = os.environ["DAYBRIEF_RECIPIENTS"]
@@ -76,21 +115,21 @@ jobs:
           if pwd.startswith("PLACEHOLDER"):
               print("SMTP_PASSWORD 仍是占位符，跳过发信")
               sys.exit(0)
+          recipients = os.environ["DAYBRIEF_RECIPIENTS"].split(",")
           if port == 465:
               ctx = ssl.create_default_context()
               with smtplib.SMTP_SSL(host, port, context=ctx, timeout=30) as s:
                   s.login(user, pwd)
-                  s.sendmail(user, os.environ["DAYBRIEF_RECIPIENTS"].split(","), msg.as_string())
+                  s.sendmail(user, recipients, msg.as_string())
           else:
               with smtplib.SMTP(host, port, timeout=30) as s:
                   s.starttls()
                   s.login(user, pwd)
-                  s.sendmail(user, os.environ["DAYBRIEF_RECIPIENTS"].split(","), msg.as_string())
+                  s.sendmail(user, recipients, msg.as_string())
           print("email sent to", os.environ["DAYBRIEF_RECIPIENTS"])
           PY
 
       - name: Telegram notify
-        if: ${{ env.TELEGRAM_BOT_TOKEN != '' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -99,13 +138,13 @@ jobs:
           [ -z "$LATEST" ] && exit 0
           python3 - "$LATEST" <<'PY'
           import json, os, sys, urllib.request, pathlib
-          md = pathlib.Path(sys.argv[1]).read_text(encoding="utf-8")
-          body = md[:3800]
           tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN", ""), os.environ.get("TELEGRAM_CHAT_ID", "")
           if not tok or not chat:
               print("telegram secrets missing, skip"); sys.exit(0)
+          md = pathlib.Path(sys.argv[1]).read_text(encoding="utf-8")
+          body = md[:3800]
           req = urllib.request.Request(
-              f"https://api.telegram.org/bot{tok}/sendMessage",
+              "https://api.telegram.org/bot%s/sendMessage" % tok,
               data=json.dumps({"chat_id": chat, "text": body, "disable_web_page_preview": True}).encode(),
               headers={"Content-Type": "application/json"})
           print(urllib.request.urlopen(req, timeout=30).read().decode()[:200])
@@ -115,7 +154,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/ daily-md/ docs/
+          git add output/ daily-md/ site/ || true
           if git diff --staged --quiet; then
             echo "no changes"; exit 0
           fi
@@ -125,3 +164,18 @@ jobs:
             git fetch origin main && git rebase origin/main || { git rebase --abort; exit 1; }
           done
           exit 1
+
+  deploy:
+    needs: brief
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
