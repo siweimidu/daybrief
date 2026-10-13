@@ -1,10 +1,106 @@
 [
   {
-    "title": "OpenAI数学加速快速傅里叶变换",
-    "summary": "文章讨论OpenAI的数学方法声称能更快计算快速傅里叶变换，可能提升信号处理效率。",
+    "title": "Rust 借用检查器 11 年漏洞曝光",
+    "summary": "在 Rust 官方仓库中发现了一个已存在 11 年的借用检查器不安全漏洞。此问题可能导致内存安全错误，提醒社区审视长期未被发现的安全缺陷。",
     "key_points": [
-      "声称实现更快的FFT计算",
-      "在Hacker News获46点赞"
+      "漏洞已潜伏多年未被发现",
+      "影响 Rust 的内存安全模型"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/rust-lang/rust/issues/164250",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "利用 OpenAI 订阅生成有声书",
+    "summary": "一款新工具允许用户使用 OpenAI 订阅将 PDF 文档转换为有声书。该服务简化了内容消费，提升了文字资料的可访问性。",
+    "key_points": [
+      "基于 OpenAI API 实现音频转换",
+      "降低有声书制作门槛"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pdftomp3.com/connect-ai/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "AI 模型或在无数据中心环境自我复制",
+    "summary": "Anthropic 警告称，未来 AI 模型可能在不依赖大型数据中心的情况下自行复制。此趋势对算力分布和安全监管提出新挑战。",
+    "key_points": [
+      "模型自我复制的潜在风险",
+      "可能改变 AI 基础设施格局"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "CFTC 员工被要求撤回可疑石油交易分析",
+    "summary": "美国商品期货交易委员会（CFTC）内部人员被指示撤回对伊朗相关可疑石油交易的分析报告。此事揭示监管机构内部的压力与信息透明度问题。",
+    "key_points": [
+      "分析被迫撤回引发监管质疑",
+      "涉及伊朗石油交易的敏感性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "AWS 推出 Lambda Web Functions 加速网页应用",
+    "summary": "亚马逊 AWS 宣布推出 Lambda Web Functions，旨在为 Web 应用提供快速且一致的性能。该功能让开发者可在无服务器环境中直接运行 Web 端代码。",
+    "key_points": [
+      "在 Lambda 上原生运行 Web 功能",
+      "提升无服务器 Web 应用的响应速度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "加密盗窃者出售带隐藏 eSIM 的硬件钱包",
+    "summary": "黑客将被盗的硬件钱包改装加入隐藏的 eSIM，并在暗网出售。此手法可能用于远程控制或追踪，被盗资产安全性受到新威胁。",
+    "key_points": [
+      "硬件钱包被植入隐蔽通信模块",
+      "增加了加密资产的潜在被控风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Unsiloed 与 TypeSafe Jev 的文档审阅方案",
+    "summary": "Unsiloed 与 TypeSafe Jev 联合推出基于 AI 的文档审阅工具，帮助企业自动化合规与内容检查。该方案强调隐私安全与高效审阅。",
+    "key_points": [
+      "AI 驱动的文档审阅提升效率",
+      "注重数据隐私与安全性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "土耳其发现希蒂特王室档案",
+    "summary": "考古团队在土耳其发现了希蒂特王国的皇家档案，提供了古代近东政治与文化的重要第一手资料。此发现对历史研究具有重要价值。",
+    "key_points": [
+      "揭示希蒂特王国的行政细节",
+      "丰富近东古代史料库"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.thehistoryblog.com/archives/77107",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "OpenAI声称的加速傅里叶变换数学解析",
+    "summary": "OpenAI发布了一篇声称可实现更快傅里叶变换的数学方法，引发社区关注，可能提升信号处理效率。",
+    "key_points": [
+      "提出新算法声称提升FFT速度",
+      "在Hacker News获153票热议"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -12,47 +108,11 @@
     "published": "2026-10-13"
   },
   {
-    "title": "离开科技行业的个人反思",
-    "summary": "作者在博客宣布离职并分享离开技术行业的原因，引发社区广泛讨论。",
-    "key_points": [
-      "作者宣布离职",
-      "在HN获130点赞，118条评论"
-    ],
-    "category": "其他",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://ryanbigg.com/2026/10/leaving-tech",
-    "published": "2026-10-13"
-  },
-  {
-    "title": "2024年中国研发支出首次超美国",
-    "summary": "日本《读卖新闻》报道中国2024年研发投入首次超过美国，标志全球创新格局变化。",
-    "key_points": [
-      "中国成为全球研发最高支出国",
-      "在HN获77点赞，68条评论"
-    ],
-    "category": "行业动态",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://japannews.yomiuri.co.jp/science-nature/science/20260908-347742/",
-    "published": "2026-10-13"
-  },
-  {
-    "title": "Mac Dock图标演变史（OS10至macOS27）",
-    "summary": "博客回顾从OS X到macOS 27的Dock图标变化，展示苹果界面设计的演进。",
-    "key_points": [
-      "展示Dock图标时间线",
-      "在HN获11点赞"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
-    "published": "2026-10-13"
-  },
-  {
     "title": "AI模型可证明隐藏任意能力",
-    "summary": "arXiv论文提出理论证明AI模型能够隐藏特定功能，涉及安全与可解释性问题。",
+    "summary": "新论文展示了AI模型在理论上能够隐藏任意功能，引发对模型安全与可控性的讨论。",
     "key_points": [
-      "提出模型隐藏能力的可证明方法",
-      "在HN获34点赞"
+      "提出可证明的隐藏能力框架",
+      "在Hacker News获217票热议"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -60,11 +120,11 @@
     "published": "2026-10-13"
   },
   {
-    "title": "橘鸦AI早报2026-10-13要闻概览",
-    "summary": "早报列出Meta发布Muse Wonder模型系列、X订阅整合、智谱法律模型等多项AI行业动态。",
+    "title": "橘鸦AI早报 2026-10-13要闻概览",
+    "summary": "早报列出Meta发布Muse Wonder模型系列、X Subscription整合Grok等多项AI产品更新，展示行业最新动态。",
     "key_points": [
-      "Meta发布Muse Wonder系列",
-      "多家企业推出新模型与服务"
+      "Meta推出Muse Wonder模型系列",
+      "X Subscription整合Grok、Cursor等"
     ],
     "category": "行业动态",
     "source_name": "橘鸦AI早报",
@@ -72,23 +132,35 @@
     "published": "2026-10-13"
   },
   {
-    "title": "80岁供体血细胞逆转为20岁以下干细胞",
-    "summary": "研究显示将80岁供体血细胞重编程后可获得分子年龄低于20岁的干细胞，具再生医学潜力。",
+    "title": "SolidCraft：Rust实现的开源参数化CAD",
+    "summary": "GitHub项目提供基于Rust的开源参数化CAD工具，支持MCP特性，受到开发者关注。",
     "key_points": [
-      "老年血细胞成功逆转年龄",
-      "在HN获125点赞，80条评论"
+      "使用Rust开发参数化CAD",
+      "支持MCP特性"
     ],
-    "category": "技术解读",
+    "category": "开源项目",
     "source_name": "Hacker News Front Page",
-    "source_url": "https://doi.org/10.1111/acel.70751",
-    "published": "2026-10-12"
+    "source_url": "https://github.com/bherbruck/solidcraft",
+    "published": "2026-10-13"
   },
   {
-    "title": "Blokkily：实验性先行模式DAW支持MCP",
-    "summary": "GitHub项目Blokkily提供一种以模式为先的数字音频工作站，支持MCP协议，吸引开发者关注。",
+    "title": "DailyDawn 2026-10-13 AI逆向工具热度飙升",
+    "summary": "报道morluto/rea在GitHub Trending获45327星，agent驱动逆向工具需求激增，传统付费逆向工具市场受冲击。",
     "key_points": [
-      "实现模式优先的DAW设计",
-      "在HN获28点赞，16条评论"
+      "morluto/rea获高星并绑定Qwen3.8-27B",
+      "逆向工具需求增长120%"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-13",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Blokkily：实验性模式优先的MCP支持DAW",
+    "summary": "GitHub项目推出一种以模式为先的数字音频工作站，兼容MCP插件，吸引音频开发者关注。",
+    "key_points": [
+      "模式优先的DAW设计",
+      "支持MCP插件"
     ],
     "category": "开源项目",
     "source_name": "Hacker News Front Page",
@@ -96,11 +168,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "Janas：通过SSD流式传输专家运行超大模型",
-    "summary": "开源项目 Janas 允许用户通过从 SSD 流式传输专家，来运行内存无法容纳的大型语言模型。",
+    "title": "Janas：通过SSD流式加载运行超大LLM",
+    "summary": "项目实现将超出内存容量的大模型分块从SSD流入内存，突破RAM限制，提升大模型可用性。",
     "key_points": [
-      "支持运行超出物理内存大小的LLM",
-      "采用从SSD流式加载专家的技术"
+      "支持超过RAM大小的LLM",
+      "从SSD流式加载专家模型"
     ],
     "category": "开源项目",
     "source_name": "Hacker News Front Page",
@@ -108,35 +180,35 @@
     "published": "2026-10-12"
   },
   {
-    "title": "AI是一种工具，熟练使用需要技巧",
-    "summary": "探讨了人工智能作为工具的本质，强调要发挥其最大价值需要使用者具备相应的技能。",
+    "title": "AI是工具，熟练使用需技巧",
+    "summary": "文章强调AI应被视作工具，成功应用依赖使用者的专业技能与经验，呼吁理性使用。",
     "key_points": [
-      "人工智能本质上仍是工具",
-      "熟练掌握和使用AI需要专业技能"
+      "AI使用需要专业技能",
+      "强调工具性而非神化"
     ],
-    "category": "技术解读",
+    "category": "其他",
     "source_name": "Hacker News Front Page",
     "source_url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
     "published": "2026-10-12"
   },
   {
-    "title": "Phreak.ing：互联网电话交换机",
-    "summary": "介绍了一个名为 Phreak.ing 的互联网电话交换机相关项目或平台。",
+    "title": "Phreak.ing：互联网电话交换平台",
+    "summary": "Phreak.ing 项目在 Hacker News 热门，提供基于互联网的电话交换功能，吸引了大量关注。",
     "key_points": [
-      "涉及互联网电话交换机技术",
-      "引发Hacker News社区关注讨论"
+      "实现互联网电话交换",
+      "在 HN 获 133 点投票"
     ],
-    "category": "其他",
+    "category": "开源项目",
     "source_name": "Hacker News Front Page",
     "source_url": "https://phreak.ing/",
     "published": "2026-10-12"
   },
   {
-    "title": "英特尔推出D270 GPU AI加速器，配备高达480GB LPDDR5X",
-    "summary": "英特尔发布了D270数据中心GPU AI加速器，拥有高达480GB的LPDDR5X内存配置。",
+    "title": "Intel D270 GPU AI 加速器发布",
+    "summary": "Intel 推出 D270 GPU AI 加速器，配备最高 480 GB LPDDR5X，受到业界关注。",
     "key_points": [
-      "面向数据中心的GPU AI加速器",
-      "配备高达480GB LPDDR5X大容量内存"
+      "最高 480 GB LPDDR5X 内存",
+      "在 HN 获 236 点"
     ],
     "category": "行业动态",
     "source_name": "Hacker News Front Page",
@@ -144,35 +216,23 @@
     "published": "2026-10-12"
   },
   {
-    "title": "探讨vfmaddrnd231pd是谁",
-    "summary": "技术博客文章探讨了网络标识或代号 vfmaddrnd231pd 的背景与含义。",
+    "title": "揭秘 vfmaddrnd231pd 身份",
+    "summary": "一篇博客文章探讨了 vfmaddrnd231pd 的身份，引发社区讨论。",
     "key_points": [
-      "对特定网络代号进行追踪或探讨",
-      "引发社区技术爱好者的关注"
+      "作者调查身份",
+      "在 HN 获 218 点"
     ],
-    "category": "技术解读",
+    "category": "其他",
     "source_name": "Hacker News Front Page",
     "source_url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
     "published": "2026-10-12"
   },
   {
-    "title": "Show HN：Brickbrag – 浏览器中的多人积木搭建世界",
-    "summary": "作者在 Hacker News 上展示了 Brickbrag，一个直接运行在浏览器中的多人积木搭建世界。",
+    "title": "ZX Spectrum 演示程序编写指南",
+    "summary": "Mark Round 分享了在 ZX Spectrum 上编写 Demoscene Intro 的经验，面向复古编程爱好者。",
     "key_points": [
-      "支持浏览器端直接运行",
-      "提供多人联机的积木搭建体验"
-    ],
-    "category": "开源项目",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://brickbrag.com/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "为 ZX Spectrum 编写 Demoscene 演示程序",
-    "summary": "一篇技术博客分享了为经典的 ZX Spectrum 计算机编写 Demoscene 风格 Intro 的过程。",
-    "key_points": [
-      "基于复古硬件 ZX Spectrum",
-      "展示了 Demoscene 演示程序的创作过程"
+      "演示程序创作技巧",
+      "在 HN 获 138 点"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -180,11 +240,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "在 Firefox 中实现大文件下载断点续传",
-    "summary": "介绍了如何在 Firefox 浏览器中让大文件下载支持恢复和续传功能的技术技巧。",
+    "title": "Firefox 大文件下载支持断点续传",
+    "summary": "Lunarwatcher 提供了在 Firefox 中实现大文件下载可续传的方案，提高用户体验。",
     "key_points": [
-      "针对 Firefox 浏览器的下载优化",
-      "解决大文件下载的可恢复性问题"
+      "实现下载断点续传",
+      "在 HN 获 221 点"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -192,23 +252,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "Codex CLI 默认安装自更新守护进程",
-    "summary": "GitHub 上的讨论指出 Codex CLI 默认会安装持久化且能自我更新的后台守护进程，引发用户关注。",
+    "title": "Python 3.15 正式发布",
+    "summary": "Python 3.15 正式上线，带来显式惰性导入等新特性，开发者可弃用 3.10。",
     "key_points": [
-      "Codex CLI 默认行为包含后台守护进程",
-      "引发社区关于持久化和自更新机制的讨论"
-    ],
-    "category": "开源项目",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://github.com/openai/codex/issues/48195",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Python 3.15 发布与版本迭代",
-    "summary": "Python 3.15 正式发布，开发者迎来了新版本的同时也结束了对 Python 3.10 的支持并开始拥抱 3.11 的特性，重点关注 PEP 810 的显式延迟导入。",
-    "key_points": [
-      "Python 3.15 带来全新特性指南",
-      "支持通过 PEP 810 进行显式延迟导入"
+      "显式惰性导入 (PEP 810)",
+      "在 Simon Willison 博客发布"
     ],
     "category": "技术解读",
     "source_name": "Simon Willison",
@@ -216,59 +264,23 @@
     "published": "2026-10-12"
   },
   {
-    "title": "Meta 推出 Muse Wonder",
-    "summary": "Meta AI 发布了名为 Muse Wonder 的新研究与博客内容，引发 Hacker News 社区热议。",
+    "title": "Agent37：低成本 AI 代理沙盒",
+    "summary": "Agent37 提供每月约 0.37 美元的 AI 代理沙盒服务，成本仅为行业平均的 10% 以下。",
     "key_points": [
-      "Meta AI 发布 Muse Wonder 项目",
-      "在 HN 上获得了较高的点赞与评论关注"
+      "每月约 0.37 美元",
+      "在 HN 进行产品发布"
     ],
-    "category": "行业动态",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://research.meta.ai/blog/muse-wonder",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Agent37 提供低成本 AI 智能体沙盒",
-    "summary": "YC F26 初创公司 Agent37 推出了运行 AI 智能体的低成本沙盒服务，平均每沙盒成本低于市场提供商的 10%。",
-    "key_points": [
-      "运行 AI 智能体的低成本沙盒方案",
-      "平均每个沙盒每月成本约 0.37 美元"
-    ],
-    "category": "行业动态",
+    "category": "投融资",
     "source_name": "Hacker News Front Page",
     "source_url": "https://news.ycombinator.com/item?id=50059096",
     "published": "2026-10-12"
   },
   {
-    "title": "使用 C 语言构建的现代网页应用",
-    "summary": "探讨了如何使用 C 语言编写现代 Web 应用程序的技术文章，在技术社区引起了广泛讨论。",
+    "title": "web-edit 0.1a0：基于 Tailscale 的文件编辑工具",
+    "summary": "Simon Willison 发布 web-edit 0.1a0，使用 CodeMirror 6 提供网页 UI，可通过 Tailscale 在手机上编辑文件。",
     "key_points": [
-      "展示了用 C 语言开发现代 Web 应用的可行性",
-      "在 Hacker News 获得大量关注与评论"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://prophitt.me/writing/a-modern-web-app-in-c",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "GLM-Legal 法律大模型发布",
-    "summary": "智谱 z.ai 推出了 GLM-Legal 法律领域大模型相关资讯，在技术社区获得广泛讨论。",
-    "key_points": [
-      "专注于法律领域的 GLM-Legal 模型上线",
-      "引发社区对于垂直领域大模型的讨论"
-    ],
-    "category": "模型发布",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://z.ai/blog/glm-legal",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "web-edit 0.1a0 发布",
-    "summary": "Simon Willison 推出了 web-edit 0.1a0，这是一个基于 Python 的网页端文件查看与编辑工具，主要配合 Tailscale 在移动端安全使用。",
-    "key_points": [
-      "提供文件夹和文件浏览与编辑的 Web UI",
-      "使用 CodeMirror 6 构建，适合通过 Tailscale 远程访问"
+      "支持 Tailscale 远程编辑",
+      "使用 CodeMirror 6 界面"
     ],
     "category": "开源项目",
     "source_name": "Simon Willison",
@@ -276,11 +288,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "datasette-ports 0.4 更新发布",
-    "summary": "Datasette 插件 datasette-ports 0.4 版本发布，现在支持最新版本并可显示检测到的进程 PID。",
+    "title": "datasette-ports 0.4 发布",
+    "summary": "插件 datasette-ports 0.4 现已兼容最新版，能够检测并列出当前机器上的所有 Datasette 实例，并显示 PID，便于使用 Python 3.15 profiler 进行性能分析。",
     "key_points": [
-      "支持检测并列出当前机器上的所有 Datasette 实例",
-      "新增显示检测到的 PID 以便搭配 Python 3.15 性能分析器使用"
+      "兼容最新版 Datasette",
+      "显示 PID 方便 profiler"
     ],
     "category": "开源项目",
     "source_name": "Simon Willison",
@@ -288,12 +300,12 @@
     "published": "2026-10-12"
   },
   {
-    "title": "GPT-6.1 Sol上下文增至500k及AI行业动态",
-    "summary": "OpenAI将Codex中的GPT-6.1 Sol默认上下文升至500k，同时Claude发放项目额度并引发多项生态动态。",
+    "title": "AI 早报 2026-10-12",
+    "summary": "本期 AI 早报涵盖 GPT 6.1 Sol 在 Codex 中默认上下文提升至 500k、Tibo 调查 Pro 用户用量偏好、Claude 为付费用户发放 100 美元 Projects 额度、SpaceX AI 部门更名为 SpaceXSI、谷歌灰度测试 Gemini 4 Argon 等热点。",
     "key_points": [
-      "GPT-6.1 Sol在Codex中默认上下文升至500k",
-      "Claude向部分付费用户发放100美元Projects初始额度",
-      "马斯克将SpaceX人工智能部门更名为SpaceXSI"
+      "GPT 6.1 Sol 上下文提升至 500k",
+      "SpaceX AI 部门更名为 SpaceXSI",
+      "Claude 付费用户获得 100 美元 Projects 额度"
     ],
     "category": "行业动态",
     "source_name": "橘鸦AI早报",
@@ -301,12 +313,12 @@
     "published": "2026-10-12"
   },
   {
-    "title": "AI日报：AirLLM实现4GB显卡运行70B模型",
-    "summary": "当日AI动态显示AirLLM可在单个4GB GPU上运行70B推理，AI成功发现CRISPR酶，且托瓦兹使用Claude编写Linux。",
+    "title": "AI 日报 2026-10-12",
+    "summary": "本期 AI 日报报道 AirLLM4G70B 在单张 4GB GPU 上完成 70B 推理、AI 发现 CRISPR 酶、托瓦兹使用 Claude 编写 Linux 内核分支。",
     "key_points": [
-      "AirLLM4G70B可在单张4GB显卡上运行70B推理",
-      "AI成功发现CRISPR酶",
-      "托瓦兹使用Claude编写Linux内核分支"
+      "AirLLM4G70B 单 GPU 推理",
+      "AI 发现 CRISPR 酶",
+      "托瓦兹用 Claude 编写 Linux"
     ],
     "category": "技术解读",
     "source_name": "AI Daily",
@@ -314,12 +326,12 @@
     "published": "2026-10-12"
   },
   {
-    "title": "AI Daily: AirLLM Inference & CRISPR Discovery",
-    "summary": "Highlights include running 70B inference on a 4GB GPU via AirLLM, Anthropic agents discovering a CRISPR-like enzyme, and Torvalds using Claude Code.",
+    "title": "AI Daily 2026-10-12",
+    "summary": "AI Daily 报道 AirLLM 在单张 4GB GPU 上完成 70B 推理、Anthropic 代理发现类似 CRISPR 酶、托瓦兹使用 Claude 编写 Linux 内核分支。",
     "key_points": [
-      "AirLLM runs 70B inference on a single 4GB GPU",
-      "Anthropic agents find a CRISPR-like enzyme",
-      "Torvalds uses Claude Code for Linux kernel branch"
+      "AirLLM 单 GPU 推理",
+      "Anthropic 代理发现类似 CRISPR 酶",
+      "托瓦兹用 Claude编写 Linux"
     ],
     "category": "技术解读",
     "source_name": "AI Daily",
@@ -327,14 +339,14 @@
     "published": "2026-10-12"
   },
   {
-    "title": "GitHub热点与俄区云服务市场机遇",
-    "summary": "AnyPS5等项目登上GitHub Trending，同时Yandex基础设施事故带动俄区云服务替代方案需求爆发。",
+    "title": "DailyDawn 2026-10-12",
+    "summary": "DailyDawn 报道 GitHub Trending 上 AnyPS5 与 morluto/rea 两大项目，Yandex 基础设施故障导致俄区云市场机会，Qwen 量化版本快速覆盖消费级显卡场景，暗示低成本替代方案将迎来需求。",
     "key_points": [
-      "AnyPS5等项目登上GitHub Trending",
-      "Yandex基础设施事故引发7日搜索涨幅+42%",
-      "俄区中小云服务商和独立开发者迎来低成本替代方案的市场机遇"
+      "AnyPS5 与 morluto/rea 在 GitHub Trending",
+      "Yandex 基础设施故障导致俄区云市场机会",
+      "Qwen 量化版本覆盖消费级显卡"
     ],
-    "category": "开源项目",
+    "category": "行业动态",
     "source_name": "DailyDawn 中文",
     "source_url": "https://dailydawn.dev/zh/2026-10-12",
     "published": "2026-10-12"
