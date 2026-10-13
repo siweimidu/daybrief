@@ -32,7 +32,11 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL || 'openai/gpt-oss-120b' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-flash-lite-latest' }}
           BRIEF_MAX_ITEMS: "30"
+          BRIEF_BATCH: "8"
+          BRIEF_DEADLINE_S: "1200"
         run: python3 scripts/groq_brief.py --config config.yaml --lookback 48h
 
       - name: Build static site
