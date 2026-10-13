@@ -114,7 +114,13 @@ def groq_chat(messages: list[dict], json_mode: bool = True, temperature: float =
         req = urllib.request.Request(
             GROQ_URL,
             data=json.dumps(payload).encode(),
-            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+            headers={
+                "Authorization": f"Bearer {key}",
+                "Content-Type": "application/json",
+                # Cloudflare 会因默认 Python-urllib UA 返回 403/1010
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+                "Accept": "application/json",
+            },
         )
         for attempt in range(3):
             try:
@@ -124,7 +130,7 @@ def groq_chat(messages: list[dict], json_mode: bool = True, temperature: float =
             except urllib.error.HTTPError as e:
                 body = e.read().decode()[:300]
                 last_err = f"{model} HTTP {e.code}: {body}"
-                if e.code in (429, 413):
+                if e.code in (429, 413, 403):
                     break  # 换模型
                 time.sleep(2 * (attempt + 1))
             except Exception as e:
