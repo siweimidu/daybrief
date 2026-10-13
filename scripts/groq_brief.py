@@ -39,10 +39,36 @@ def _strip_html(s: str) -> str:
     return s.strip()
 
 
+def _parse_jsonfeed(raw: bytes, since: datetime) -> list[dict]:
+    data = json.loads(raw.decode("utf-8"))
+    out: list[dict] = []
+    for it in data.get("items", []):
+        v = it.get("date_published") or it.get("date_modified")
+        if not v:
+            continue
+        try:
+            d = datetime.fromisoformat(v.replace("Z", "+00:00"))
+        except Exception:
+            continue
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        if d <= since:
+            continue
+        link = it.get("url") or it.get("external_url") or it.get("_id") or ""
+        title = _strip_html(it.get("title", ""))
+        if not link or not title:
+            continue
+        out.append({"title": title, "url": link, "published": d})
+    return out
+
+
 def parse_rss(url: str, since: datetime, timeout: int = 25) -> list[dict]:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AI-Daily/1.0)"})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         raw = resp.read()
+    head = raw.lstrip()[:1]
+    if head in (b"{", b"["):  # JSON Feed
+        return _parse_jsonfeed(raw, since)
     items: list[dict] = []
     # RSS 2.0 / Atom 通用解析
     try:
@@ -174,7 +200,7 @@ def summarize_item(item: dict, source_name: str, language: str) -> dict | None:
         return None
     return {
         "title": data.get("title") or item["title"],
-        "summary": data.get("summary", ""),
+        "summary": _unquote_newlines(data.get("summary", "")),
         "key_points": data.get("key_points", [])[:5],
         "category": data.get("category", "其他"),
         "source_name": source_name,
@@ -204,16 +230,22 @@ def synthesize(summaries: list[dict], language: str) -> dict:
     data = json.loads(_extract_json(raw))
     hl = data.get("highlights", [])[:MAX_HIGHLIGHTS]
     for h in hl:
-        h.setdefault("analysis", "")
+        h["analysis"] = _unquote_newlines(h.get("analysis", ""))
+    editorial = _unquote_newlines(data.get("editorial", ""))
     return {
         "subject": data.get("subject", "AI 日报"),
-        "editorial": data.get("editorial", ""),
+        "editorial": editorial,
         "highlights": hl,
         "categories": data.get("categories", {}),
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "model": MODEL,
         "source_count": len(summaries),
     }
+
+
+def _unquote_newlines(s: str) -> str:
+    """模型有时把换行写成字面 \\n，统一还原成真换行。"""
+    return s.replace("\\r\\n", "\n").replace("\\n", "\n").replace("\\t", "\t")
 
 
 def _extract_json(text: str) -> str:
