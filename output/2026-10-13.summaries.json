@@ -1,13 +1,22 @@
 [
   {
-    "title": "离开科技行业的决定",
-    "summary": "一位在科技行业有影响力的从业者宣布离职，计划转向其他领域或生活方式。此举引发对科技行业工作压力和职业路径的讨论，凸显行业人才流动的趋势。",
+    "title": "OpenAI的FFT算法被指是恶意利用而非突破",
+    "summary": "文章指出OpenAI提出的快速傅里叶变换（FFT）算法更倾向于是一种巧妙的利用手段，而非实质性的重大技术突破。",
     "key_points": [
-      "该人士在科技圈拥有多年经验或知名度",
-      "离职原因可能包括职业倦怠、价值观转变或追求个人生活",
-      "社群对其决定反响热烈，讨论行业工作环境",
-      "可能对所在公司或项目产生影响",
-      "反映出科技行业人才流动的更广泛现象"
+      "针对OpenAI的FFT算法提出质疑",
+      "认为其属于恶意利用而非突破"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.argmin.net/p/faster-fourier-transforms",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "离开科技行业",
+    "summary": "作者探讨了离开科技行业的个人经历与思考，在Hacker News上引发了广泛的关注与讨论。",
+    "key_points": [
+      "作者分享了离开科技行业的背景",
+      "引发社区对职业选择的讨论"
     ],
     "category": "行业动态",
     "source_name": "Hacker News Front Page",
@@ -15,13 +24,11 @@
     "published": "2026-10-13"
   },
   {
-    "title": "中国2024研发支出首次超美国 成为全球首位",
-    "summary": "2024 年，中国的研发经费总额首次超过美国，成为全球最大研发投入国。此举标志着全球创新格局的重大转变，凸显中国在科技竞争中的崛起。",
+    "title": "2024年中国研发支出首次超越美国",
+    "summary": "根据相关报道，中国在2024年的研发总支出首次超过美国，成为全球最大的研发资金投入国。",
     "key_points": [
-      "中国2024年研发总支出首次超过美国，位居全球首位",
-      "两国研发投入差距缩小，显示中国政府对科技创新的持续加码",
-      "该趋势可能影响全球技术竞争格局和产业链布局",
-      "数据来源于公开统计或行业报告"
+      "中国首次成为研发支出最高国家",
+      "超越美国成为2024年榜首"
     ],
     "category": "行业动态",
     "source_name": "Hacker News Front Page",
@@ -29,42 +36,35 @@
     "published": "2026-10-13"
   },
   {
-    "title": "橘鸦AI早报 2026-10-13",
-    "summary": "橘鸦AI早报于2026-10-13发布，提供当日AI领域的最新资讯与分析。由于无法获取具体内容，本文仅概述其发布时间和来源。",
+    "title": "研究称AI模型可证明能隐藏任意能力",
+    "summary": "一篇arXiv论文表明，人工智能模型能够在理论上证明其有能力隐藏任意特定的功能或能力。",
     "key_points": [
-      "发布时间：2026-10-13",
-      "来源：橘鸦AI早报",
-      "提供AI行业每日资讯",
-      "链接：https://daily.juya.uk/issues/2026-10-13/"
+      "探讨AI模型隐藏能力的理论证明",
+      "在学术界引发安全与可解释性讨论"
     ],
-    "category": "其他",
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2610.13928",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "橘鸦AI早报：Meta、智谱等发布新模型",
+    "summary": "汇总了多项AI动态，包括Meta发布Muse Wonder系列模型、智谱推出法律模型GLM Legal以及多款模型的额度重置与更新。",
+    "key_points": [
+      "Meta发布Muse Wonder模型系列",
+      "智谱推出法律模型GLM Legal并开放测试"
+    ],
+    "category": "模型发布",
     "source_name": "橘鸦AI早报",
     "source_url": "https://daily.juya.uk/issues/2026-10-13/",
     "published": "2026-10-13"
   },
   {
-    "title": "强化对模型蒸馏攻击的防御",
-    "summary": "Anthropic 发布了一系列技术措施，以提升对模型蒸馏攻击的防御能力。该工作旨在防止攻击者通过蒸馏手段复制或泄露模型知识，对模型安全和商业竞争具有重要意义。",
+    "title": "80岁捐赠者血细胞被转化为20岁以下干细胞",
+    "summary": "最新科学研究显示，来自80岁捐赠者的血细胞成功被重编程为分子年龄低于20岁的干细胞。",
     "key_points": [
-      "提出了新的防御机制以检测和阻止蒸馏过程",
-      "阐述了蒸馏攻击的潜在风险与危害",
-      "展示了防御方案在实验中的有效性",
-      "提供了实现防御的实践指南"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://www.anthropic.com/research/distillation-defenses",
-    "published": "2026-10-13"
-  },
-  {
-    "title": "80岁血细胞重编成分子年龄<20的干细胞",
-    "summary": "研究者将80岁捐献者的血细胞成功重编为诱导多能干细胞，且这些细胞的分子年龄指标显示低于20岁。这表明即使在高龄，细胞的衰老标记可以被逆转，为老年人自体再生疗法提供新思路。",
-    "key_points": [
-      "使用80岁捐献者的血细胞进行诱导多能干细胞重编",
-      "重编得到的细胞分子年龄测定低于20岁",
-      "实现了表观遗传层面的年龄逆转",
-      "为老年人自体细胞治疗和再生医学提供潜在路径",
-      "该成果在2026年10月的Hacker News前沿报道中引发关注"
+      "80岁老人的血细胞实现逆龄转化",
+      "分子年龄成功降至20岁以下"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -72,13 +72,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "实验性模式优先 DAW 支持 MCP",
-    "summary": "一款在 GitHub 上发布的实验性数字音频工作站采用 pattern‑first（模式优先）设计，并实现了对 MCP（MIDI 控制协议）的支持。该项目通过 Show HN 向社区展示，旨在提供更灵活的音乐编排方式并提升硬件交互体验，可能对音乐制作工具的未来发展产生影响。",
+    "title": "Show HN：支持MCP的实验性模式优先DAW",
+    "summary": "开发者开源了一款实验性的、以模式为中心的数字音频工作站（DAW），并且支持MCP协议。",
     "key_points": [
-      "采用 pattern‑first 工作流，强调音乐片段的快速组织与编辑",
-      "内置对 MCP（MIDI 控制协议）的兼容，方便硬件控制器集成",
-      "开源发布在 GitHub，欢迎社区贡献和反馈",
-      "面向实验性创新，可能为传统 DAW 提供新思路"
+      "基于GitHub开源的实验性项目",
+      "支持MCP并采用模式优先设计"
     ],
     "category": "开源项目",
     "source_name": "Hacker News Front Page",
@@ -86,28 +84,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "用 GPT-6 Astra 将闲置 Kindle 变成相框",
-    "summary": "作者将一台闲置的 Kindle 改装为数字相框，借助 GPT-6 Astra 自动下载、筛选并展示照片。此做法展示了大模型在边缘设备上的实用性和创意改造潜力。",
+    "title": "Janas：从SSD流式传输专家以运行超大LLM",
+    "summary": "该开源项目允许通过从SSD实时流式传输专家数据，来运行超越本地内存（RAM）大小的大型语言模型。",
     "key_points": [
-      "利用 GPT-6 Astra 进行图片抓取与智能筛选",
-      "在 Kindle 上部署轻量化 UI 实现全自动相框功能",
-      "示例代码和配置公开，易于复制改装",
-      "凸显大模型在低功耗硬件上的可行性",
-      "激发硬件再利用与 AI 创意结合的社区兴趣"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Janas：通过SSD流式加载运行超大模型",
-    "summary": "Janas 是一个开源工具，利用 SSD 的高速读取，将模型参数按需流式加载，使得在显存或内存不足的机器上也能运行超过 RAM 大小的 LLM。该方案通过分块调度和缓存策略，降低了对大容量内存的依赖，提升了大模型的可访问性。",
-    "key_points": [
-      "支持在 RAM 小于模型大小的情况下运行 LLM",
-      "通过 SSD 流式读取和智能缓存实现参数分块加载",
-      "开源于 GitHub，提供示例代码和文档",
-      "有助于降低硬件成本，扩大大模型的使用场景"
+      "支持运行超出RAM限制的LLM",
+      "利用SSD流式加载专家数据"
     ],
     "category": "开源项目",
     "source_name": "Hacker News Front Page",
@@ -115,129 +96,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "AI 是工具，熟练使用需技巧",
-    "summary": "文章指出，人工智能本质上是辅助工具，只有掌握相应的使用技巧才能发挥其最大价值。作者强调了提示工程、数据治理和人机协作等关键能力的重要性，并提醒企业和个人在采用 AI 时需保持审慎。",
+    "title": "Python 3.15 发布：引入显式延迟导入",
+    "summary": "Python 3.15 正式发布，带来了包括 PEP 810 显式延迟导入在内的新特性，同时开源维护者也可以开始告别 Python 3.10 并拥抱 3.11 的功能。",
     "key_points": [
-      "AI 需要通过精心设计的提示（prompt）才能得到可靠输出",
-      "有效使用 AI 依赖于数据质量和伦理审查",
-      "人机协作和持续学习是提升 AI 效能的关键"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Phreak.ing：互联网电话交换平台",
-    "summary": "Phreak.ing 是一个面向互联网电话的交换系统，旨在提供灵活的通话路由与管理功能。该项目在 2026-10-12 登上 Hacker News 头条，显示出业界对新型 VoIP 基础设施的关注。",
-    "key_points": [
-      "提供互联网电话的交换与路由功能",
-      "旨在简化 VoIP 通话的部署与管理",
-      "在 Hacker News 前页获得广泛关注",
-      "可能对开放通信平台有推动作用"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://phreak.ing/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "英特尔发布 D270 AI 加速器，最高 480 GB LPDDR5X",
-    "summary": "英特尔在2026年10月12日公布了面向数据中心的 D270 GPU AI 加速器，支持最高 480 GB LPDDR5X 高带宽内存。该加速器旨在提升大模型训练和推理性能，帮助企业应对日益增长的AI算力需求。",
-    "key_points": [
-      "采用全新 D 系列架构，针对 AI 工作负载优化",
-      "配备最高 480 GB LPDDR5X 内存，提供极高带宽",
-      "定位数据中心，支持大规模模型训练和推理",
-      "预计将与英特尔 Xeon 处理器深度集成，提升整体系统效率"
-    ],
-    "category": "行业动态",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "揭秘 Hacker News 用户 vfmaddrnd231pd 身份",
-    "summary": "2026年10月12日，Hacker News首页出现标题为“Who is vfmaddrnd231pd?”的帖子，社区成员开始讨论该用户名背后的真实身份。该账号因在多个技术话题中发表高质量评论而受到关注，讨论涉及网络匿名性与信息可信度的问题。",
-    "key_points": [
-      "帖子在 Hacker News 首页曝光，引发广泛关注",
-      "vfmaddrnd231pd 以高质量技术评论闻名",
-      "社区成员对其匿名身份进行猜测和调查",
-      "讨论涉及网络匿名性与信息可信度的影响",
-      "截至目前暂无官方确认的身份信息"
-    ],
-    "category": "其他",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Brickbrag — 浏览器多人积木建造世界",
-    "summary": "Brickbrag 是一款基于浏览器的实时多人积木建造平台，用户无需安装即可在网页上共同搭建和探索虚拟世界。该项目展示了 WebGL 与 WebRTC 等前沿技术在低延迟多人交互中的应用，降低了创作门槛，具有一定的技术示范价值。",
-    "key_points": [
-      "全程在浏览器运行，无需下载或插件",
-      "支持实时多人协作建造与互动",
-      "采用 WebGL/Three.js 实现高效渲染",
-      "利用 WebRTC/WebSocket 实现低延迟同步",
-      "提供开放的 API，便于二次开发或嵌入其他项目"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://brickbrag.com/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "ZX Spectrum 演示片段编写指南",
-    "summary": "文章介绍了在 ZX Spectrum 上制作 demoscene intro 的基本步骤和技巧，阐述了实现过程中的技术要点。作者指出，这类作品对复古计算爱好者和创意编程社区具有重要意义。",
-    "key_points": [
-      "选择合适的开发工具和汇编语言",
-      "优化代码以适应 Spectrum 的硬件限制",
-      "使用彩色效果和音频提升视觉冲击",
-      "提供调试和性能测试的实用建议",
-      "分享作品发布渠道并获取社区反馈"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Firefox 实现大文件断点续传",
-    "summary": "Firefox 正在引入对大文件下载的断点续传支持，用户在网络中断或暂停后可继续下载而无需重新开始。此功能通过改进下载管理器和利用 HTTP Range 请求实现，提升了用户体验并降低了带宽浪费。",
-    "key_points": [
-      "引入断点续传机制，针对大文件下载优化",
-      "改进下载管理器，支持自动恢复中断的下载任务",
-      "利用 HTTP Range 请求实现分块下载，提升效率",
-      "对企业和普通用户均有价值，减少重复下载的流量消耗",
-      "已合并至主分支，计划在下个版本发布"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Codex CLI 默认安装持久自更新后台守护进程",
-    "summary": "Codex CLI 在最新版本中默认部署一个常驻的后台守护进程，并具备自动更新功能。该进程在系统启动后持续运行，能够自行拉取最新代码，无需用户手动干预。此举引发了对系统资源占用和安全隐私的关注，社区呼吁提供关闭或手动安装选项。",
-    "key_points": [
-      "默认安装持久化后台守护进程",
-      "守护进程具备自我更新机制",
-      "进程在系统启动后自动启动并常驻",
-      "可能导致额外的资源消耗和安全隐私风险",
-      "社区要求提供可选关闭或手动安装方式"
-    ],
-    "category": "技术解读",
-    "source_name": "Hacker News Front Page",
-    "source_url": "https://github.com/openai/codex/issues/48195",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "Python 3.15 正式发布，停止 3.10 支持",
-    "summary": "Simon Willison 宣布 Python 3.15 正式上线，并正式结束对 3.10 的维护。此举意味着开发者需要迁移到更新的 3.11 或更高版本，以获得最新特性和安全修复。",
-    "key_points": [
-      "Python 3.15 带来一系列性能和语法改进",
-      "官方停止对 Python 3.10 的安全更新和 bug 修复",
-      "作者已将项目升级至 3.11，展示迁移可行性",
-      "社区需尽快评估并更新依赖以保持兼容性"
+      "正式发布 Python 3.15 版本",
+      "支持基于 PEP 810 的显式延迟导入（lazy import）"
     ],
     "category": "技术解读",
     "source_name": "Simon Willison",
@@ -245,42 +108,35 @@
     "published": "2026-10-12"
   },
   {
-    "title": "Meta发布Muse Wonder模型",
-    "summary": "Meta在其研究博客上公布了名为Muse Wonder的新模型，旨在提升多模态或生成任务的表现。文章概述了模型的核心设计和潜在应用，强调了其在效率和可扩展性方面的优势。",
+    "title": "Meta 发布 Muse Wonder",
+    "summary": "Meta 官方研究博客发布了名为 Muse Wonder 的新文章与动态，引发了 Hacker News 社区的高度关注与热议。",
     "key_points": [
-      "介绍了Muse Wonder的整体架构和创新点",
-      "展示了模型在若干基准任务上的性能提升",
-      "强调了模型在计算资源利用和可扩展性上的优势",
-      "提供了公开的技术报告和实验细节"
+      "来自 Meta AI Research 的最新发布",
+      "在 Hacker News 上获得了较高的点赞与评论关注"
     ],
-    "category": "模型发布",
+    "category": "行业动态",
     "source_name": "Hacker News Front Page",
     "source_url": "https://research.meta.ai/blog/muse-wonder",
     "published": "2026-10-12"
   },
   {
-    "title": "Agent37 推出低成本 AI 代理沙盒平台",
-    "summary": "Agent37（YC F26）在 Hacker News 上发布，提供低成本的代理沙盒服务，帮助开发者以更低费用运行和测试 AI 代理。此举降低了代理开发的门槛，促进了 AI 代理生态的快速迭代。",
+    "title": "Agent37 推出低成本 AI 智能体沙箱",
+    "summary": "YC F26 初创公司 Agent37 推出了用于运行 AI 智能体的低成本沙箱服务，号称成本不到主流供应商的 10%，平均每沙箱每月仅需 0.37 美元。",
     "key_points": [
-      "提供专用的低价代理沙盒环境",
-      "相较于现有平台成本更低",
-      "面向开发者和创业公司加速代理实验",
-      "隶属 Y Combinator F26 批次",
-      "在 Hacker News Launch HN 版块公开发布"
+      "专注于提供低成本的 AI 智能体运行沙箱",
+      "平均成本低至每沙箱每月 0.37 美元"
     ],
-    "category": "技术解读",
+    "category": "开源项目",
     "source_name": "Hacker News Front Page",
     "source_url": "https://news.ycombinator.com/item?id=50059096",
     "published": "2026-10-12"
   },
   {
-    "title": "用 C 语言打造现代 Web 应用",
-    "summary": "作者展示了如何使用 C 语言构建一套现代化的 Web 应用，涵盖了从路由、模板渲染到数据库交互的完整流程。此示例表明即使在高层语言盛行的今天，C 仍可用于开发可维护且高性能的 Web 服务，具有一定的参考价值。",
+    "title": "用 C 语言构建现代 Web 应用",
+    "summary": "探讨如何使用 C 语言来开发现代 Web 应用程序的技术文章，在技术社区中引发了广泛讨论与关注。",
     "key_points": [
-      "采用 C 语言配合轻量级 HTTP 库实现请求处理",
-      "使用现代 C 编程技巧和模块化设计提升可维护性",
-      "展示了与数据库和前端模板的集成方式",
-      "强调了性能优势及在资源受限环境中的适用性"
+      "探讨 C 语言在现代 Web 开发中的应用",
+      "获得数百名开发者的点赞与讨论"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -288,14 +144,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "GLM-Legal：面向法律场景的大模型发布",
-    "summary": "2026年10月12日，Hacker News首页报道了GLM-Legal的发布。该模型专为法律文本理解与生成设计，旨在提升法律行业的AI应用效率。",
+    "title": "GLM-Legal 法律大模型发布",
+    "summary": "智谱 AI（Z.ai）发布了专注于法律领域的 GLM-Legal 模型，在 Hacker News 上引发了大量关注和讨论。",
     "key_points": [
-      "GLM-Legal是GLM系列的法律专用版本",
-      "针对合同、判例等法律文档进行微调",
-      "旨在帮助律师、法务人员提升工作效率",
-      "强调合规性与隐私保护",
-      "在Hacker News上受到广泛关注"
+      "由 Z.ai 发布的法律垂直领域大模型",
+      "在社区内引发了数百条关于其应用与表现的讨论"
     ],
     "category": "模型发布",
     "source_name": "Hacker News Front Page",
@@ -303,14 +156,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "web-edit 0.1a0 发布",
-    "summary": "Simon Willison 在博客上宣布发布 web-edit 0.1a0，这是该项目的首个公开版本。该版本提供了基础的网页编辑功能，标志着项目进入可用阶段并邀请社区参与后续开发。",
+    "title": "Python 轻量 Web 编辑工具 web-edit 0.1a0",
+    "summary": "开发者通过 Codex 和 GPT-6 协助构建了一个 Python Web 应用 web-edit 0.1a0，通过 Web UI 提供文件夹中文件的浏览与 CodeMirror 6 编辑功能。",
     "key_points": [
-      "首次公开发布 web-edit 0.1a0 版本",
-      "实现了基本的网页实时编辑功能",
-      "提供了插件或扩展的初步框架",
-      "代码已开源，可在 GitHub 获取",
-      "鼓励社区贡献和反馈"
+      "由 AI 辅助开发的本地文件浏览与编辑 Web 应用",
+      "适合配合 Tailscale 在移动端直接安全管理文件"
     ],
     "category": "开源项目",
     "source_name": "Simon Willison",
@@ -318,13 +168,11 @@
     "published": "2026-10-12"
   },
   {
-    "title": "凯文·凯利2016年AI预测十年回顾",
-    "summary": "文章回顾了凯文·凯利在2016年对人工智能的十项预测，并评估了截至2026年的实现情况。通过对比预测与现实，指出哪些预测准确、哪些偏离，以及对行业发展的启示，凸显预测的前瞻性和局限性。",
+    "title": "凯文·凯利 2016 年 AI 预测的十年回顾",
+    "summary": "文章回顾并盘点了著名科技观察家凯文·凯利（Kevin Kelly）在 2016 年对人工智能发展的预测在十年后的兑现情况。",
     "key_points": [
-      "列出原始的十项AI预测并逐项分析其进展",
-      "指出实现较好或未达预期的技术领域",
-      "讨论预测背后的趋势判断对当前AI布局的影响",
-      "总结对未来AI发展方向的启示"
+      "回顾凯文·凯利十年前的 AI 预言",
+      "探讨十年后技术现实与当时预测的对比"
     ],
     "category": "技术解读",
     "source_name": "Hacker News Front Page",
@@ -332,54 +180,15 @@
     "published": "2026-10-12"
   },
   {
-    "title": "datasette-ports 0.4 版发布",
-    "summary": "Simon Willison 于 2026‑10‑12 公布 datasette-ports 0.4 版本。该版本对 Datasette 的端口插件进行更新，提供功能改进和错误修复，提升数据发布的便利性和可靠性。此更新对使用 Datasette 的开发者和数据团队具有重要意义。",
+    "title": "Datasette 插件 datasette-ports 0.4 发布",
+    "summary": "用于检测和列出当前机器上所有 Datasette 实例的插件 datasette-ports 发布 0.4 版本，现已支持最新版本并可显示检测到的 PID。",
     "key_points": [
-      "发布 datasette-ports 0.4 版本",
-      "包含功能改进与错误修复",
-      "提升插件的稳定性和兼容性",
-      "加强对 Datasette 数据发布工作流的支持",
-      "对开源社区的持续迭代具有示范作用"
+      "Datasette 插件更新至 0.4 版本",
+      "新增显示检测到的进程 PID 以便配合 Python 3.15 分析器使用"
     ],
     "category": "开源项目",
     "source_name": "Simon Willison",
     "source_url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "橘鸦AI早报 2026-10-12",
-    "summary": "因链接内容不可访问，暂无具体报道信息。",
-    "key_points": [],
-    "category": "其他",
-    "source_name": "橘鸦AI早报",
-    "source_url": "https://daily.juya.uk/issues/2026-10-12/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "2026年10月12日AI日报概览",
-    "summary": "本期AI日报汇总了2026年10月12日的最新人工智能动态，包括行业新闻、技术进展和投融资信息。帮助读者快速了解当天AI领域的关键事件及其意义。",
-    "key_points": [
-      "行业动态概览",
-      "技术新进展",
-      "投融资动态",
-      "模型发布与开源项目概况"
-    ],
-    "category": "其他",
-    "source_name": "AI Daily",
-    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-12-zh/",
-    "published": "2026-10-12"
-  },
-  {
-    "title": "AI Daily 2026-10-12 新闻汇总",
-    "summary": "AI Daily 于2026-10-12发布，汇总当日AI领域的最新动态，帮助读者快速了解行业热点。",
-    "key_points": [
-      "当日AI行业新闻概览",
-      "重点技术与产品发布情况",
-      "投融资与政策动态概述"
-    ],
-    "category": "行业动态",
-    "source_name": "AI Daily",
-    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-12/",
     "published": "2026-10-12"
   }
 ]
