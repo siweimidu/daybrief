@@ -23,7 +23,7 @@ import yaml
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
-FALLBACK_MODELS = ["openai/gpt-oss-20b", "llama-3.1-8b-instant"]
+FALLBACK_MODELS = ["openai/gpt-oss-20b"]
 MAX_HIGHLIGHTS = 8
 
 
