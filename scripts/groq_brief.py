@@ -23,7 +23,7 @@ import yaml
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
-FALLBACK_MODELS = ["openai/gpt-oss-20b", "llama-3.3-70b-versatile"]
+FALLBACK_MODELS = ["openai/gpt-oss-20b", "llama-3.1-8b-instant"]
 MAX_HIGHLIGHTS = 8
 
 
@@ -107,36 +107,47 @@ def groq_chat(messages: list[dict], json_mode: bool = True, temperature: float =
         raise SystemExit("GROQ_API_KEY 未设置")
     models = [MODEL] + [m for m in FALLBACK_MODELS if m != MODEL]
     last_err = None
+    budget = int(os.environ.get("BRIEF_TIME_BUDGET_S", "1200"))
+    t0 = time.monotonic()
     for model in models:
         payload = {"model": model, "messages": messages, "temperature": temperature}
         if json_mode:
             payload["response_format"] = {"type": "json_object"}
-        req = urllib.request.Request(
-            GROQ_URL,
-            data=json.dumps(payload).encode(),
-            headers={
-                "Authorization": f"Bearer {key}",
-                "Content-Type": "application/json",
-                # Cloudflare 会因默认 Python-urllib UA 返回 403/1010
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-                "Accept": "application/json",
-            },
-        )
-        for attempt in range(3):
+        body_bytes = json.dumps(payload).encode()
+        hdrs = {
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+            # Cloudflare 会因默认 Python-urllib UA 返回 403/1010
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+            "Accept": "application/json",
+        }
+        attempt = 0
+        while attempt < 4 and time.monotonic() - t0 < budget:
+            attempt += 1
+            req = urllib.request.Request(GROQ_URL, data=body_bytes, headers=hdrs)
             try:
-                with urllib.request.urlopen(req, timeout=90) as resp:
+                with urllib.request.urlopen(req, timeout=120) as resp:
                     j = json.loads(resp.read().decode())
                 return j["choices"][0]["message"]["content"]
             except urllib.error.HTTPError as e:
                 body = e.read().decode()[:300]
                 last_err = f"{model} HTTP {e.code}: {body}"
-                if e.code in (429, 413, 403):
-                    break  # 换模型
-                time.sleep(2 * (attempt + 1))
+                if e.code == 429:
+                    try:
+                        wait = int(float(e.headers.get("Retry-After", "10")))
+                    except ValueError:
+                        wait = 10
+                    wait = min(wait + 2, 75)
+                    log(f"  429 on {model}, wait {wait}s (retry {attempt}/4)")
+                    time.sleep(wait)
+                    continue
+                if e.code in (403, 404, 413):
+                    break  # 权限/模型问题：换模型
+                time.sleep(2 * attempt)
             except Exception as e:
                 last_err = f"{model} {e}"
-                time.sleep(2 * (attempt + 1))
-        log(f"  warn: {last_err}")
+                time.sleep(2 * attempt)
+        log(f"  warn: {last_err} -> next model")
     raise RuntimeError(f"所有模型均失败: {last_err}")
 
 
@@ -175,7 +186,7 @@ def summarize_item(item: dict, source_name: str, language: str) -> dict | None:
 def synthesize(summaries: list[dict], language: str) -> dict:
     compact = [
         {"title": s["title"], "source": s["source_name"], "category": s["category"],
-         "summary": s["summary"], "key_points": s["key_points"], "url": s["source_url"]}
+         "summary": s["summary"][:90], "key_points": [k[:60] for k in s["key_points"][:3]], "url": s["source_url"]}
         for s in summaries
     ]
     prompt = f"""你是资深中文科技媒体主编。下面是今天的 {len(summaries)} 条资讯摘要（JSON）。
