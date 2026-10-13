@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""AI 日报生成器：RSS 抓取 -> Groq 摘要 -> Groq 合成 -> JSON + Markdown。
+"""AI 日报生成器 v2：RSS/JSONFeed 抓取 -> 批量 LLM 摘要 -> 合成 -> JSON+MD+HTML。
 
-替代 daybrief（只支持 Gemini）。Groq 免费额度大、速度快。
-用法：python3 scripts/groq_brief.py [--config config.yaml] [--output output]
+双供应商：Groq（OpenAI 兼容）与 Gemini 原生 REST，谁有额度用谁；
+任一供应商报「tokens per day」直接拉黑本次运行，绝不空等。
+摘要按 8 条一批调用，28 条资讯只需约 4 次调用，省 token 也省时间。
 """
 from __future__ import annotations
 
@@ -21,38 +22,164 @@ from pathlib import Path
 
 import yaml
 
-GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
-FALLBACK_MODELS = ["openai/gpt-oss-20b"]
-MAX_HIGHLIGHTS = 8
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
-
-MIN_INTERVAL = float(os.environ.get("BRIEF_MIN_INTERVAL_S", "6"))
-_last_call = [0.0]
-
-
-def _throttle() -> None:
-    wait = MIN_INTERVAL - (time.monotonic() - _last_call[0])
-    if wait > 0:
-        time.sleep(wait)
-    _last_call[0] = time.monotonic()
+RUN_DEADLINE = float(os.environ.get("BRIEF_DEADLINE_S", "1500"))
+_deadline = time.monotonic() + RUN_DEADLINE
 
 
 def log(msg: str) -> None:
     print(f"[{datetime.now(timezone.utc).strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
-# ---------------------------------------------------------------- RSS
+# ============================================================ providers
+
+class Provider:
+    name = "base"
+
+    def __init__(self) -> None:
+        self.down = False
+
+    def chat(self, prompt: str) -> str:
+        raise NotImplementedError
+
+    def mark_down(self, reason: str) -> None:
+        log(f"  provider {self.name} 拉黑：{reason[:160]}")
+        self.down = True
+
+
+class GroqProvider(Provider):
+    name = "groq"
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.key = os.environ.get("GROQ_API_KEY", "")
+        self.model = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
+        self.fallback = [m for m in os.environ.get(
+            "GROQ_FALLBACK_MODELS", "openai/gpt-oss-20b").split(",") if m]
+        self.url = "https://api.groq.com/openai/v1/chat/completions"
+        if not self.key:
+            self.down = True
+
+    def chat(self, prompt: str) -> str:
+        models = [self.model] + [m for m in self.fallback if m != self.model]
+        last = None
+        for model in models:
+            if time.monotonic() > _deadline:
+                break
+            payload = {"model": model, "messages": [{"role": "user", "content": prompt}],
+                       "temperature": 0.3, "response_format": {"type": "json_object"},
+                       "max_tokens": 3500}
+            try:
+                out = self._post(payload, self.key)
+                return json.loads(out)["choices"][0]["message"]["content"]
+            except urllib.error.HTTPError as e:
+                body = e.read().decode("utf-8", "ignore")[:400]
+                last = f"HTTP {e.code}: {body}"
+                if e.code == 429 and "per day" in body:
+                    self.mark_down(last)
+                    return ""  # 交给下一个 provider
+                if e.code == 429:
+                    time.sleep(20)
+                    continue
+                if e.code in (403, 404, 413):
+                    continue  # 换模型
+                time.sleep(4)
+            except Exception as e:
+                last = str(e)
+                time.sleep(4)
+        raise RuntimeError(f"groq 失败: {last}")
+
+    @staticmethod
+    def _post(payload: dict, key: str) -> str:
+        req = urllib.request.Request(
+            "https://api.groq.com/openai/v1/chat/completions",
+            data=json.dumps(payload).encode(),
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json",
+                     "Accept": "application/json", "User-Agent": BROWSER_UA})
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            return resp.read().decode("utf-8")
+
+
+class GeminiProvider(Provider):
+    name = "gemini"
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.key = os.environ.get("GEMINI_API_KEY", "")
+        self.model = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+        if not self.key:
+            self.down = True
+
+    def chat(self, prompt: str) -> str:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent"
+        payload = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                   "generationConfig": {"responseMimeType": "application/json",
+                                        "temperature": 0.3}}
+        last = None
+        for attempt in range(3):
+            if time.monotonic() > _deadline:
+                break
+            try:
+                req = urllib.request.Request(url, data=json.dumps(payload).encode(), headers={
+                    "x-goog-api-key": self.key, "Content-Type": "application/json",
+                    "User-Agent": BROWSER_UA})
+                with urllib.request.urlopen(req, timeout=120) as resp:
+                    j = json.loads(resp.read().decode("utf-8"))
+                return j["candidates"][0]["content"]["parts"][0]["text"]
+            except urllib.error.HTTPError as e:
+                body = e.read().decode("utf-8", "ignore")[:400]
+                last = f"HTTP {e.code}: {body}"
+                if e.code == 429:
+                    if re.search(r"retry in \d+h", body) or "per day" in body:
+                        self.mark_down(last)
+                        return ""
+                    time.sleep(min(20 * (attempt + 1), 60))
+                    continue
+                if e.code in (400, 404):
+                    break
+                time.sleep(8 * (attempt + 1))
+            except Exception as e:
+                last = str(e)
+                time.sleep(5)
+        raise RuntimeError(f"gemini 失败: {last}")
+
+
+_providers: list[Provider] = []
+
+
+def llm(prompt: str) -> str:
+    global _providers
+    if not _providers:
+        _providers = [GroqProvider(), GeminiProvider()]
+    errors: list[str] = []
+    for _round in range(5):
+        if all(p.down for p in _providers):
+            break
+        for pr in _providers:
+            if pr.down or time.monotonic() > _deadline:
+                continue
+            try:
+                out = pr.chat(prompt)
+                if out:
+                    return out
+            except RuntimeError as e:
+                errors.append(f"{pr.name}: {str(e)[:120]}")
+        time.sleep(5)
+    raise RuntimeError("没有可用模型供应商: " + " | ".join(errors[-3:]))
+
+
+# ============================================================ feeds
 
 def _strip_html(s: str) -> str:
     s = re.sub(r"<[^>]+>", " ", s or "")
-    s = re.sub(r"\s+", " ", s)
-    return s.strip()
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def _parse_jsonfeed(raw: bytes, since: datetime) -> list[dict]:
     data = json.loads(raw.decode("utf-8"))
-    out: list[dict] = []
+    out = []
     for it in data.get("items", []):
         v = it.get("date_published") or it.get("date_modified")
         if not v:
@@ -65,23 +192,24 @@ def _parse_jsonfeed(raw: bytes, since: datetime) -> list[dict]:
             d = d.replace(tzinfo=timezone.utc)
         if d <= since:
             continue
-        link = it.get("url") or it.get("external_url") or it.get("_id") or ""
+        link = it.get("url") or it.get("external_url") or ""
         title = _strip_html(it.get("title", ""))
         if not link or not title:
             continue
-        out.append({"title": title, "url": link, "published": d})
+        desc = _strip_html(it.get("content_text") or it.get("summary")
+                           or it.get("content_html") or "")[:600]
+        out.append({"title": title, "url": link, "published": d, "desc": desc})
     return out
 
 
-def parse_rss(url: str, since: datetime, timeout: int = 25) -> list[dict]:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AI-Daily/1.0)"})
+def parse_feed(url: str, since: datetime, timeout: int = 25) -> list[dict]:
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         raw = resp.read()
-    head = raw.lstrip()[:1]
-    if head in (b"{", b"["):  # JSON Feed
+    if raw.lstrip()[:1] in (b"{", b"["):
         return _parse_jsonfeed(raw, since)
+
     items: list[dict] = []
-    # RSS 2.0 / Atom 通用解析
     try:
         root = ET.fromstring(raw)
     except ET.ParseError:
@@ -123,8 +251,8 @@ def parse_rss(url: str, since: datetime, timeout: int = 25) -> list[dict]:
                 return d
         return None
 
-    channels = root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
-    for el in channels:
+    entries = root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
+    for el in entries:
         d = date_of(el)
         if d is None or d <= since:
             continue
@@ -132,127 +260,14 @@ def parse_rss(url: str, since: datetime, timeout: int = 25) -> list[dict]:
         title = _strip_html(text_of(el, "title"))
         if not link or not title:
             continue
-        items.append({"title": title, "url": link, "published": d})
+        desc = _strip_html(text_of(el, "description", "summary", "content") or "")[:600]
+        items.append({"title": title, "url": link, "published": d, "desc": desc})
     return items
 
 
-# ---------------------------------------------------------------- Groq
-
-def groq_chat(messages: list[dict], json_mode: bool = True, temperature: float = 0.3) -> str:
-    key = os.environ.get("GROQ_API_KEY", "")
-    if not key:
-        raise SystemExit("GROQ_API_KEY 未设置")
-    models = [MODEL] + [m for m in FALLBACK_MODELS if m != MODEL]
-    last_err = None
-    budget = int(os.environ.get("BRIEF_TIME_BUDGET_S", "900"))
-    t0 = time.monotonic()
-    for model in models:
-        payload = {"model": model, "messages": messages, "temperature": temperature}
-        if json_mode:
-            payload["response_format"] = {"type": "json_object"}
-        body_bytes = json.dumps(payload).encode()
-        hdrs = {
-            "Authorization": f"Bearer {key}",
-            "Content-Type": "application/json",
-            # Cloudflare 会因默认 Python-urllib UA 返回 403/1010
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-            "Accept": "application/json",
-        }
-        for attempt in range(1, 3):
-            _throttle()
-            if time.monotonic() - t0 > budget:
-                raise RuntimeError(f"超出时间预算 {budget}s: {last_err}")
-            req = urllib.request.Request(GROQ_URL, data=body_bytes, headers=hdrs)
-            try:
-                with urllib.request.urlopen(req, timeout=120) as resp:
-                    j = json.loads(resp.read().decode())
-                return j["choices"][0]["message"]["content"]
-            except urllib.error.HTTPError as e:
-                body = e.read().decode()[:200]
-                last_err = f"{model} HTTP {e.code}: {body}"
-                if e.code == 429:
-                    log(f"  429 on {model}, backoff {MIN_INTERVAL * 3}s")
-                    time.sleep(MIN_INTERVAL * 3)
-                    continue
-                if e.code in (403, 404, 413):
-                    break  # 权限/模型问题：换模型
-                time.sleep(3 * attempt)
-            except Exception as e:
-                last_err = f"{model} {e}"
-                time.sleep(3 * attempt)
-        log(f"  warn: {last_err} -> next model")
-    raise RuntimeError(f"所有模型均失败: {last_err}")
-    raise RuntimeError(f"所有模型均失败: {last_err}")
-
-
-def summarize_item(item: dict, source_name: str, language: str) -> dict | None:
-    prompt = f"""你是内容分析编辑。阅读下面这篇资讯并输出结构化摘要。
-
-标题：{item['title']}
-链接：{item['url']}
-来源：{source_name}
-发布时间：{item['published'].strftime('%Y-%m-%d')}
-
-只输出 JSON 对象，字段：
-- title: 精炼中文标题（不超过 30 字）
-- summary: 2-3 句中文摘要，说清发生了什么、为什么重要
-- key_points: 3-5 条中文要点（字符串数组）
-- category: 从 [模型发布, 开源项目, 行业动态, 技术解读, 投融资, 其他] 中选一个
-
-不要编造链接里没有的信息。若链接内容无法访问，就基于标题谨慎概括。"""
-    try:
-        raw = groq_chat([{"role": "user", "content": prompt}])
-        data = json.loads(_extract_json(raw))
-    except Exception as e:
-        log(f"  skip {item['title'][:30]} :: {e}")
-        return None
-    return {
-        "title": data.get("title") or item["title"],
-        "summary": _unquote_newlines(data.get("summary", "")),
-        "key_points": data.get("key_points", [])[:5],
-        "category": data.get("category", "其他"),
-        "source_name": source_name,
-        "source_url": item["url"],
-        "published": item["published"].strftime("%Y-%m-%d"),
-    }
-
-
-def synthesize(summaries: list[dict], language: str) -> dict:
-    compact = [
-        {"title": s["title"], "source": s["source_name"], "category": s["category"],
-         "summary": s["summary"][:90], "key_points": [k[:60] for k in s["key_points"][:3]], "url": s["source_url"]}
-        for s in summaries
-    ]
-    prompt = f"""你是资深中文科技媒体主编。下面是今天的 {len(summaries)} 条资讯摘要（JSON）。
-
-{json.dumps(compact, ensure_ascii=False, indent=1)}
-
-请产出今日 AI 日报，只输出 JSON 对象：
-- subject: 今日日报标题（一行，点出今天最重要的一件事，不超过 25 字）
-- editorial: 4-6 段中文编者按。第 1 段点出今天最值得注意的趋势；中间段落串联多条资讯做判断（它们之间有什么关联、对从业者意味着什么）；最后一段给出可执行建议。观点要鲜明，不要罗列。
-- highlights: 挑 {min(MAX_HIGHLIGHTS, len(summaries))} 条最重要的，每条 {{title, source_name, source_url, analysis}}，analysis 是 2-3 句中文点评（讲意义，不要复述摘要）。
-- categories: 按 category 分组统计，如 {{"模型发布": 3, "开源项目": 5}}
-
-排序规则：重要性优先，同来源不超过 2 条。"""
-    raw = groq_chat([{"role": "user", "content": prompt}])
-    data = json.loads(_extract_json(raw))
-    hl = data.get("highlights", [])[:MAX_HIGHLIGHTS]
-    for h in hl:
-        h["analysis"] = _unquote_newlines(h.get("analysis", ""))
-    editorial = _unquote_newlines(data.get("editorial", ""))
-    return {
-        "subject": data.get("subject", "AI 日报"),
-        "editorial": editorial,
-        "highlights": hl,
-        "categories": data.get("categories", {}),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "model": MODEL,
-        "source_count": len(summaries),
-    }
-
+# ============================================================ pipeline
 
 def _unquote_newlines(s: str) -> str:
-    """模型有时把换行写成字面 \\n，统一还原成真换行。"""
     return s.replace("\\r\\n", "\n").replace("\\n", "\n").replace("\\t", "\t")
 
 
@@ -265,13 +280,84 @@ def _extract_json(text: str) -> str:
     return m.group(0) if m else text
 
 
-# ---------------------------------------------------------------- render
+def batch_summarize(chunk: list[dict]) -> list[dict]:
+    lines = []
+    for i, it in enumerate(chunk, 1):
+        lines.append(f"[{i}] 标题：{it['title']}\n    链接：{it['url']}\n"
+                     f"    来源：{it['source_name']} · {it['published'].strftime('%Y-%m-%d')}\n"
+                     f"    原文摘要：{it.get('desc') or '（无正文，仅凭标题谨慎概括，不要编造）'}")
+    prompt = f"""你是中文科技资讯编辑。对下面 {len(chunk)} 条资讯逐条输出摘要。
+
+{chr(10).join(lines)}
+
+只输出 JSON：{{"items": [{{"id": 1, "title": "精炼中文标题(≤30字)",
+"summary": "1-2句中文，说明发生了什么、为什么重要",
+"key_points": ["要点1", "要点2"], "category": "模型发布|开源项目|行业动态|技术解读|投融资|其他"}}]}}
+items 数组顺序与输入一致，id 从 1 开始。只依据给出的原文摘要与标题，不得编造。"""
+    try:
+        raw = llm(prompt)
+        data = json.loads(_extract_json(raw))
+    except Exception as e:
+        log(f"  批量失败({len(chunk)}条): {str(e)[:120]}")
+        return []
+    by_id: dict[int, dict] = {}
+    for rec in data.get("items", []):
+        try:
+            by_id[int(rec.get("id", 0))] = rec
+        except (TypeError, ValueError):
+            continue
+    out = []
+    for i, it in enumerate(chunk, 1):
+        rec = by_id.get(i)
+        if not rec:
+            continue
+        out.append({
+            "title": (rec.get("title") or it["title"])[:80],
+            "summary": _unquote_newlines(rec.get("summary", ""))[:300],
+            "key_points": [str(k)[:80] for k in (rec.get("key_points") or [])[:3]],
+            "category": rec.get("category", "其他"),
+            "source_name": it["source_name"],
+            "source_url": it["url"],
+            "published": it["published"].strftime("%Y-%m-%d"),
+        })
+    return out
+
+
+def synthesize(summaries: list[dict]) -> dict:
+    compact = [{"t": s["title"], "s": s["source_name"], "c": s["category"],
+                "d": s["summary"][:90], "u": s["source_url"]} for s in summaries]
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    n_hl = min(8, len(summaries))
+    prompt = f"""你是资深中文科技媒体主编。今天是 {today}，下面是今日 {len(summaries)} 条资讯（JSON 数组）。
+
+{json.dumps(compact, ensure_ascii=False)}
+
+产出今日 AI 日报，只输出 JSON 对象：
+- subject: 一行标题，点出今天最重要的事（≤25字）
+- editorial: 4-6段中文编者按，段落之间用真正的换行符分隔（JSON 字符串内写 \\n）。第一段点出最值得关注趋势；中间段落串联多条资讯做判断；最后一段给可执行建议。观点鲜明，不要罗列。
+- highlights: 最重要的 {n_hl} 条，每条 {{"title","source_name","source_url","analysis"}}，analysis 为 2-3 句中文点评其意义。同来源最多 2 条。
+- categories: 分类计数对象，如 {{"模型发布":3,"开源项目":5}}"""
+    raw = llm(prompt)
+    data = json.loads(_extract_json(raw))
+    hl = data.get("highlights", [])[:n_hl]
+    for h in hl:
+        h["analysis"] = _unquote_newlines(str(h.get("analysis", "")))
+    return {
+        "subject": data.get("subject", "AI 日报"),
+        "editorial": _unquote_newlines(str(data.get("editorial", ""))),
+        "highlights": hl,
+        "categories": data.get("categories", {}),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source_count": len(summaries),
+    }
+
+
+# ============================================================ render
 
 def to_markdown(nl: dict, summaries: list[dict], date: str) -> str:
-    L: list[str] = [f"# {nl['subject']}", "", f"> 生成时间：{date} · 模型：{nl['model']} · 资讯 {nl['source_count']} 条", ""]
+    L = [f"# {nl['subject']}", "", f"> 生成时间：{date} · 资讯 {nl['source_count']} 条", ""]
     if nl.get("categories"):
-        cats = " · ".join(f"{k} {v}" for k, v in nl["categories"].items())
-        L += [f"**分类**：{cats}", ""]
+        L += ["**分类**：" + " · ".join(f"{k} {v}" for k, v in nl["categories"].items()), ""]
     L += ["## 编者按", ""]
     for p in re.split(r"\n\s*\n", nl.get("editorial", "")):
         p = p.strip()
@@ -284,109 +370,113 @@ def to_markdown(nl: dict, summaries: list[dict], date: str) -> str:
         if h.get("analysis"):
             L += [f"- 点评：{h['analysis']}"]
         L += [""]
-    others = [s for s in summaries if all(s["title"] != h.get("title") for h in nl["highlights"])]
+    hl_titles = {h.get("title") for h in nl["highlights"]}
+    others = [s for s in summaries if s["title"] not in hl_titles]
     if others:
         L += ["## 其他资讯", ""]
         for s in others:
-            kp = "；".join(s["key_points"][:3])
-            L += [f"- **[{s['title']}]({s['source_url']})**（{s['source_name']} · {s['category']}）：{s['summary']}" + (f"  {kp}" if kp else "")]
+            L += [f"- **[{s['title']}]({s['source_url']})**（{s['source_name']} · "
+                  f"{s['category']}）：{s['summary']}"]
         L += [""]
     return "\n".join(L)
 
 
 def to_html(nl: dict, summaries: list[dict], date: str) -> str:
-    md = to_markdown(nl, summaries, date)
-    body = []
-    for line in md.splitlines():
+    import html as _html
+    parts: list[str] = []
+    for line in to_markdown(nl, summaries, date).splitlines():
+        e = _html.escape(line)
+        e = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", e)
+        e = re.sub(r"\[(.+?)\]\((.+?)\)", r'<a href="\2" style="color:#2563eb">\1</a>', e)
         if line.startswith("### "):
-            body.append(f'<h3 style="margin:18px 0 6px;font-size:17px;color:#111">{line[4:]}</h3>')
+            parts.append("<h3>" + e[4:] + "</h3>")
         elif line.startswith("## "):
-            body.append(f'<h2 style="margin:24px 0 8px;font-size:19px;color:#111;border-bottom:1px solid #eee;padding-bottom:6px">{line[3:]}</h2>')
+            parts.append('<h2 style="border-bottom:1px solid #eee;padding-bottom:6px">'
+                         + e[3:] + "</h2>")
         elif line.startswith("# "):
-            body.append(f'<h1 style="font-size:22px;margin:0 0 8px">{line[2:]}</h1>')
+            parts.append("<h1>" + e[2:] + "</h1>")
         elif line.startswith("> "):
-            body.append(f'<p style="color:#888;font-size:13px;margin:0 0 16px">{line[2:]}</p>')
+            parts.append('<p style="color:#888;font-size:13px">' + e[2:] + "</p>")
         elif line.startswith("- "):
-            body.append(f'<li style="margin:4px 0;line-height:1.6">{_inline(line[2:])}</li>')
+            parts.append("<li>" + e[2:] + "</li>")
         elif line.strip():
-            body.append(f'<p style="line-height:1.75;margin:8px 0;color:#333">{_inline(line)}</p>')
-    lis = "".join(body).replace("<li", "<ul style='padding-left:20px'><li").replace("</li>", "</li></ul>")
-    return f"""<!doctype html><html><head><meta charset="utf-8"><title>{nl['subject']}</title></head>
-<body style="max-width:680px;margin:24px auto;padding:0 16px;font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif">
-{lis}
-</body></html>"""
+            parts.append('<p style="line-height:1.75;margin:8px 0">' + e + "</p>")
+    return ('<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" '
+            'content="width=device-width,initial-scale=1"><title>' + _html.escape(nl["subject"])
+            + '</title></head><body style="max-width:680px;margin:24px auto;padding:0 16px;'
+            "font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif;color:#222;"
+            'line-height:1.75">' + "".join(parts) + "</body></html>")
 
 
-def _inline(s: str) -> str:
-    s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
-    s = re.sub(r"\[(.+?)\]\((.+?)\)", r'<a href="\2" style="color:#2563eb">\1</a>', s)
-    return s
-
-
-# ---------------------------------------------------------------- main
+# ============================================================ main
 
 def main() -> None:
+    global _deadline
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="config.yaml")
     ap.add_argument("--output", default="output")
     ap.add_argument("--lookback", default="48h")
+    ap.add_argument("--max", default=os.environ.get("BRIEF_MAX_ITEMS", "30"))
+    ap.add_argument("--batch", default=os.environ.get("BRIEF_BATCH", "8"))
     args = ap.parse_args()
 
+    _deadline = time.monotonic() + RUN_DEADLINE
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
     hours = int(re.sub(r"\D", "", args.lookback) or 48)
     since = datetime.now(timezone.utc) - timedelta(hours=hours)
-
     log(f"抓取窗口：{since.isoformat()} 之后")
-    raw_items: list[tuple[dict, str]] = []
+
+    raw_items: list[dict] = []
     for src in cfg.get("sources", {}).get("rss", []):
         url = src["url"]
         name = src.get("name", url)
         try:
-            items = parse_rss(url, since)
+            items = parse_feed(url, since)
         except Exception as e:
             log(f"  ✗ {name}: {e}")
             continue
         for it in items:
-            raw_items.append((it, name))
+            it["source_name"] = name
+        raw_items.extend(items)
         log(f"  ✓ {name}: {len(items)} 条")
     if not raw_items:
         log("没有新内容，退出")
-        Path(args.output).mkdir(parents=True, exist_ok=True)
-        (Path(args.output) / "empty.flag").write_text(datetime.now(timezone.utc).isoformat())
         return
 
-    # 去重（同 URL 只保留一次），按时间倒序，限量控制成本
-    seen: set[str] = set()
-    uniq: list[tuple[dict, str]] = []
-    for it, name in sorted(raw_items, key=lambda x: x[0]["published"], reverse=True):
+    seen, uniq = set(), []
+    for it in sorted(raw_items, key=lambda x: x["published"], reverse=True):
         if it["url"] in seen:
             continue
         seen.add(it["url"])
-        uniq.append((it, name))
-    limit = int(os.environ.get("BRIEF_MAX_ITEMS", "30"))
-    log(f"去重后 {len(uniq)} 条，本次处理 {min(limit, len(uniq))} 条")
+        uniq.append(it)
+    limit = min(int(args.max), len(uniq))
+    batch = max(1, int(args.batch))
+    log(f"去重后 {len(uniq)} 条，处理 {limit} 条，每批 {batch} 条")
 
     summaries: list[dict] = []
-    for it, name in uniq[:limit]:
-        s = summarize_item(it, name, "zh")
-        if s:
-            summaries.append(s)
+    for start in range(0, limit, batch):
+        chunk = uniq[start:start + batch]
+        got = batch_summarize(chunk)
+        summaries.extend(got)
+        log(f"  批次 {start // batch + 1}: +{len(got)}（累计 {len(summaries)}）")
+        if time.monotonic() > _deadline:
+            log("  触及运行截止时间，用已得摘要继续")
+            break
     if not summaries:
         log("摘要全部失败，退出")
         sys.exit(1)
-    log(f"摘要完成 {len(summaries)} 条，开始合成日报")
 
-    nl = synthesize(summaries, "zh")
+    log(f"摘要完成 {len(summaries)} 条，开始合成")
+    nl = synthesize(summaries)
     date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
+    Path("daily-md").mkdir(exist_ok=True)
     (out / f"{date}.json").write_text(json.dumps(nl, ensure_ascii=False, indent=2), encoding="utf-8")
-    md_dir = Path("daily-md")
-    md_dir.mkdir(exist_ok=True)
-    (md_dir / f"{date}.md").write_text(to_markdown(nl, summaries, date), encoding="utf-8")
-    (out / f"{date}.html").write_text(to_html(nl, summaries, date), encoding="utf-8")
     (out / f"{date}.summaries.json").write_text(json.dumps(summaries, ensure_ascii=False, indent=2), encoding="utf-8")
-    log(f"完成 → {out}/{date}.json · daily-md/{date}.md")
+    (out / f"{date}.html").write_text(to_html(nl, summaries, date), encoding="utf-8")
+    (Path("daily-md") / f"{date}.md").write_text(to_markdown(nl, summaries, date), encoding="utf-8")
+    log(f"完成 → {out}/{date}.json · daily-md/{date}.md · {out}/{date}.html")
 
 
 if __name__ == "__main__":
