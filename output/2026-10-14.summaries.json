@@ -1,0 +1,387 @@
+[
+  {
+    "title": "Pulse Local：本地运行的Mac预算应用",
+    "summary": "Pulse Local是一款在Mac（Apple Silicon）上本地运行的预算管理应用，所有账本和AI问答均保存在本机，不上传数据。此举提升了用户隐私安全，满足对本地化敏感数据处理的需求。",
+    "key_points": [
+      "AI模型在本机离线运行",
+      "无需账号，数据不外传"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pulseos.finance",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Anthropic自研源码管理系统",
+    "summary": "Anthropic因代码变更量激增（从每日2500次涨至30000次）而自行打造了替代Git的源码控制系统，旨在提升大规模协作效率，展示了AI公司对内部工具的深度定制需求。",
+    "key_points": [
+      "每日代码合并量提升至3万次",
+      "自研系统取代传统Git"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Recreational Programming演示分享",
+    "summary": "该页面展示了关于“Recreational Programming”的演示文稿，吸引了Hacker News社区的关注并获得45票，内容涉及编程的娱乐性和创意实践。",
+    "key_points": [
+      "演示文稿在Hacker News获45票",
+      "探讨编程的娱乐与创意"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cphiri.dev/presentations/recreational-programming",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "llm-gemini 0.35发布，支持Gemini 4 Argon",
+    "summary": "Simon Willison发布了llm-gemini 0.35版本，新增对Gemini 4 Argon模型的支持，该模型通过Gemini API提供，计费为每百万输入2美元、每百万输出10美元。",
+    "key_points": [
+      "新增Gemini 4 Argon模型支持",
+      "计费方案为2美元/输入百万，10美元/输出百万"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "AlphaNIST项目上线",
+    "summary": "AlphaNIST项目在Hacker News上发布，获得37票关注，提供相关资料页面。",
+    "key_points": [
+      "项目页面已上线",
+      "获得社区37票支持"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alpha-nist.github.io/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Physical Intelligence API Beta面向机器人",
+    "summary": "Physical Intelligence推出API Beta，提供前沿模型供各种机器人使用，旨在降低机器人开发的模型接入门槛。该公告在Hacker News上获24票。",
+    "key_points": [
+      "API Beta提供前沿模型",
+      "面向所有机器人平台"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pi.website/blog/api-beta",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "PostEra招聘AI药物发现研究员",
+    "summary": "AI驱动的药物发现公司PostEra（YC W20）在招聘页面发布AI研究员职位，面向加速药物研发。此招聘信息在Hacker News上出现。",
+    "key_points": [
+      "招聘AI研究员用于药物发现",
+      "PostEra为YC W20公司"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "OpenAI工程师因窃听被捕",
+    "summary": "一名OpenAI工程师因涉嫌在高管会议室安装窃听设备被逮捕，此事在媒体和Hacker News上引发广泛讨论，获400票。",
+    "key_points": [
+      "工程师涉嫌窃听高管会议室",
+      "事件引发行业关注与争议"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Parsimony：评估AI代码增量的开源基准",
+    "summary": "推出Parsimony基准，统计AI模型在补丁中实际新增的代码单元并扣除删除代码，以衡量代码膨胀对长期项目的影响。",
+    "key_points": [
+      "使用语法单元而非行数计量",
+      "删除代码会被减除，得到净增量"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://parsimony.lasu.dev/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "四色定理：机器首次超越数学家",
+    "summary": "回顾四色定理的计算机辅助证明，标志着机器首次在该数学难题上胜过人类。",
+    "key_points": [
+      "首次机器完成证明",
+      "改变了数学家对计算机的角色认知"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Guitoro：键盘即可弹奏的浏览器吉他",
+    "summary": "Guitoro是一款免费网页吉他，使用真实乐器采样，可通过键盘、鼠标或触屏演奏并提供调音、和弦工具。",
+    "key_points": [
+      "支持多种吉他和贝司音色",
+      "练习模式可放慢至20%"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://guitoro.com/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Gemini 4 Argon面向机器人发布",
+    "summary": "Google发布Gemini 4 Argon模型，专为机器人应用优化，提升感知与决策能力。",
+    "key_points": [
+      "针对机器人场景设计",
+      "在Google官方博客公布"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Gemini 4 Argon模型官方介绍",
+    "summary": "DeepMind提供Gemini 4 Argon的官方模型页面，并链接到其机器人应用的详细说明。",
+    "key_points": [
+      "官方模型文档入口",
+      "关联机器人专用版本"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://deepmind.google/models/gemini/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Anthropic源码管理系统重构",
+    "summary": "Anthropic在工程博客中分享了对内部源码控制流程的全面 redesign，以提升协作效率和安全性。",
+    "key_points": [
+      "重新设计源码控制架构",
+      "面向大规模模型研发团队"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "HN贴文后网站被AI机器人流量淹没",
+    "summary": "作者在HN发布后，网站遭遇大量AI生成的机器人访问，导致流量激增并影响正常运营。",
+    "key_points": [
+      "AI机器人流量激增",
+      "对站点性能和日志产生冲击"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "英国人均发电量比2000年代下降三分之一",
+    "summary": "Our World in Data数据显示，英国的人均电力产出已比早期2000年代峰值下降约33%。",
+    "key_points": [
+      "人均发电量下降约三分之一",
+      "反映能源消费与生产结构变化"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Thunderbird iOS 原生邮件客户端首秀",
+    "summary": "Thunderbird 正在开发原生 iPhone 邮件应用，首次公开展示了其界面和功能。此举对开源邮件客户端在移动平台的布局具有重要意义。",
+    "key_points": [
+      "原生 iOS 邮件客户端开发中",
+      "首次公开界面和功能预览"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Apple 推出“切换至 Safari”宣传活动",
+    "summary": "Apple 发布全新“Switch to Safari”营销活动，阐释为何用户应放弃 Chrome 改用 Safari。此举旨提升 Safari 市场份额并强化生态安全。",
+    "key_points": [
+      "Apple 宣传活动鼓励切换浏览器",
+      "强调 Safari 相比 Chrome 的优势"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "游戏开发的 AI Harness 架构指南",
+    "summary": "文章提供了在游戏开发中构建 AI Harness 的方法，结合 Claude 代码示例，帮助开发者高效利用生成式 AI。",
+    "key_points": [
+      "介绍 AI Harness 在游戏开发中的作用",
+      "提供 Claude 代码实现示例"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Geoffrey Huntley：使用诊断库的提交钩子",
+    "summary": "Geoffrey Huntley 讨论了通过 pre‑commit 钩子强制代码使用诊断库，以防止直接调用观测模块并提升代码质量。",
+    "key_points": [
+      "使用 pre‑commit 检查诊断库调用",
+      "自动阻止绕过诊断模块的提交"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Apple 全新 Apple TV 4K 正式发布",
+    "summary": "Apple 在发布会上推出新一代 Apple TV 4K，带来更高分辨率和性能提升，吸引家庭娱乐用户关注。",
+    "key_points": [
+      "发布新款 Apple TV 4K",
+      "提升画质和处理性能"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Apple HomeView 新产品亮相",
+    "summary": "Apple 在官方页面公布 HomeView，作为新的家庭中心产品，旨在整合智能家居控制与信息展示。",
+    "key_points": [
+      "推出 HomeView 作为家庭中心",
+      "整合智能家居与信息展示功能"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apple.com/apple-homeview/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "基于闲置 Apple Silicon 的分布式 GPU 云",
+    "summary": "Apple 研究团队展示了一套利用闲置 Apple Silicon 设备构建的动态分布式虚拟 GPU 云，提升算力利用率。",
+    "key_points": [
+      "使用闲置 Apple Silicon 设备",
+      "实现动态分布式 GPU 云服务"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "2026-10-13 AI 早报要闻概览",
+    "summary": "本期 AI 早报汇总了 Meta Muse Wonder 系列模型、X Subscription 整合、Codex 用量重置、智谱法律模型 GLM Legal、OpenBMB MiniCPM V4.7 等多项行业动态。",
+    "key_points": [
+      "Meta 发布 Muse Wonder 系列模型",
+      "X Subscription 整合 Grok、Cursor 与 X Premium",
+      "Codex 用量额度重置"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-13/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "web-edit 0.1a1 发布",
+    "summary": "web-edit 0.1a1 版本发布，加入 Claude Opus 5.5 编写的性能优化，基于 Python 3.15 性能报告。重要性在于提升编辑器速度与效率。",
+    "key_points": [
+      "性能优化由 Claude Opus 5.5 编写",
+      "基于 Python 3.15 性能报告"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "AI 日报 2026-10-13",
+    "summary": "BitNet 推出 1 比特嵌入模型与 VibeASR，推动物理智能与可靠编程代理的基准进展。",
+    "key_points": [
+      "BitNet 发布 1-bit 嵌入模型",
+      "推出 VibeASR"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-13-zh/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "AI Daily 2026-10-13",
+    "summary": "Microsoft BitNet 发布 1-bit 嵌入模型和 VibeASR，GroundingPI 与 AgentSWE 关注物理智能与可靠编码代理。",
+    "key_points": [
+      "BitNet 发布 1-bit 嵌入模型",
+      "GroundingPI 与 AgentSWE 关注可靠编码"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-13/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "DailyDawn 2026-10-13",
+    "summary": "morluto/rea 逆向工具登 GitHub Trending，星数突破 45,327，提供零云端依赖的 Qwen3.8-27B 本地推理，降低逆向成本。",
+    "key_points": [
+      "rea 逆向工具登顶 GitHub Trending",
+      "零云端依赖 Qwen3.8-27B 本地推理"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-13",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "llm-meta-ai 0.2 发布",
+    "summary": "Meta AI 发布 Muse Wonder 系列模型，人工分析评分与 GPT-6.1 Sol 相当，标志着 Meta 可能推出 Fable 类模型。",
+    "key_points": [
+      "Muse Wonder 评分等同 GPT-6.1 Sol",
+      "Meta 每月发布新模型"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+    "published": "2026-10-12"
+  },
+  {
+    "title": "Python 3.15 发布",
+    "summary": "Python 3.15 正式发布，新增显式惰性导入等功能，作者告别 3.10 并拥抱 3.11 的新特性。",
+    "key_points": [
+      "新增显式惰性导入 PEP 810",
+      "作者告别 3.10"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+    "published": "2026-10-12"
+  },
+  {
+    "title": "web-edit 性能分析",
+    "summary": "使用 Python 3.15 的新性能分析器，对 web-edit 进行火焰图与热图演示，展示代码热点。",
+    "key_points": [
+      "使用 Python 3.15 性能分析器",
+      "生成火焰图与热图"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+    "published": "2026-10-12"
+  },
+  {
+    "title": "web-edit 0.1a0 发布",
+    "summary": "web-edit 0.1a0 版本提供基于 Tailscale 的 Web UI，用于浏览与编辑文件，使用 CodeMirror 6 进行编辑。",
+    "key_points": [
+      "基于 Tailscale 的 Web UI",
+      "使用 CodeMirror 6 编辑"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+    "published": "2026-10-12"
+  }
+]
