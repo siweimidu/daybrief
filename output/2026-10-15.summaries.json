@@ -1,0 +1,389 @@
+[
+  {
+    "title": "LFM2.5-24B-A2B：本地高速代理模型",
+    "summary": "Liquid AI 发布 LFM2.5-24B-A2B 大模型，专为本地快速推理的智能代理设计。",
+    "key_points": [
+      "支持本地高速推理",
+      "针对代理任务优化"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "新开源模型：关闭 PR、开放 remix",
+    "summary": "推出一种新模型，采用关闭 Pull Request、开放 remix 的方式鼓励二次创作。",
+    "key_points": [
+      "限制直接贡献",
+      "鼓励 remix 创作"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ghuntley.com/remix/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Tiny Little Office 轻量办公套件",
+    "summary": "Tiny Little Office 是一款极简的在线办公工具，提供基本的文档编辑功能。",
+    "key_points": [
+      "极简设计",
+      "在线使用"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tinylittleoffice.com/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Tree Appreciator：Claude 生成的树欣赏游戏",
+    "summary": "Claude 5.5 Max 被用于生成两棵算法树，构建名为“Tree Appreciator”的三维游戏实验。",
+    "key_points": [
+      "使用 Claude 5.5 Max",
+      "比较两棵生成树"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Jev 1.14.0 发布并加入梦者实验特性",
+    "summary": "Jev 1.14.0 正式上线，新增面向 dreamers 的实验功能。",
+    "key_points": [
+      "版本 1.14.0",
+      "实验性功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://typesafe.ai/blog/jev-1-14",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "OpenCode 2.0 正式发布",
+    "summary": "OpenCode 2.0 正式推出，带来多项重大改进和新特性。",
+    "key_points": [
+      "全新 2.0 版本",
+      "功能增强"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://anoma.ly/notes/opencode-2-0/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Anthropic Scion 受 Mononoke 启发",
+    "summary": "Anthropic 的 Scion 模型在设计上大量借鉴了 Mononoke 的理念。",
+    "key_points": [
+      "Scion 受 Mononoke 启发",
+      "可能在架构上借鉴"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sunshowers.io/posts/anthropic-mononoke/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Yandex 宕机期间恶意机器人迁移流量",
+    "summary": "Yandex 大规模宕机时，恶意机器人未停机而是转移流量，提供了异常流量数据。",
+    "key_points": [
+      "宕机期间机器人迁移",
+      "流量数据分析"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.cloudflare.com/yandex-outage/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "时尚卷发网站",
+    "summary": "该文章介绍了名为 Fancy Curl Sites 的网站，展示了最新的网页设计趋势。",
+    "key_points": [
+      "展示新颖的网页设计",
+      "关注用户体验"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nytpu.com/gemlog/2026-03-18",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "癌症患者须知（2026版）",
+    "summary": "文章列出2026年癌症患者需要了解的关键信息，帮助患者及家属做好准备。",
+    "key_points": [
+      "疾病管理要点",
+      "最新治疗进展"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "中年男性自杀率创历史新高",
+    "summary": "报道指出中年男性的自杀率达到有史以来最高水平，凸显公共健康危机。",
+    "key_points": [
+      "自杀率上升趋势",
+      "需加强心理干预"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "波兰疑似破坏导致保加利亚Starlink站点起火",
+    "summary": "报道波兰疑似破坏行为引发保加利亚的Starlink卫星站点火灾，涉及卫星通信安全。",
+    "key_points": [
+      "疑似破坏行为",
+      "Starlink设施受损"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "银行尝试转让AI数据中心债务",
+    "summary": "银行正努力将刚承销的AI数据中心债务转售，以降低风险并回收资本。",
+    "key_points": [
+      "AI数据中心融资风险",
+      "债务转让策略"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Petal：开源免费CoScreen替代品",
+    "summary": "Petal 项目在开源社区推出，提供免费的实时协作编程工具，取代已停运的CoScreen。",
+    "key_points": [
+      "开源实时协作工具",
+      "免费使用"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://petal.live/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Virtual Oxide Labs：全栈氧化物机架模拟",
+    "summary": "Virtual Oxide Labs 介绍了在软件中完整模拟氧化物硬件机架的技术方案。",
+    "key_points": [
+      "全栈硬件模拟",
+      "提升研发效率"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://oxide.computer/blog/voxel-labs",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "美国稀土产业被出售而非失去",
+    "summary": "文章指出美国的稀土产业并未消失，而是通过出售方式转移所有权，影响供应链格局。",
+    "key_points": [
+      "稀土产业所有权转移",
+      "影响供应链"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "AI攻击报告归因于防护与监控失效",
+    "summary": "专家指出，近期AI黑客事件主要源于防护措施和监控机制的缺失，提醒业界重视安全基础。",
+    "key_points": [
+      "防护失效导致AI被利用",
+      "监控不足加剧风险",
+      "呼吁加强安全基本功"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "单发件人邮箱应用创新",
+    "summary": "一款新邮件应用实现每个收件箱仅接受单一发件人，并支持临时和前缀动态邮箱，提升收件管理效率。",
+    "key_points": [
+      "首次发件人锁定收件箱",
+      "临时邮箱可设时效",
+      "前缀式动态创建新邮箱"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://clova.email/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Has AI tells 文章概览",
+    "summary": "标题为“Has AI tells”的文章在 Hacker News 上获得70分和72条评论，具体内容未在摘要中提供。",
+    "key_points": [
+      "文章链接已公布",
+      "获得70点投票",
+      "收到72条评论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Go 1.27 改进 HTTP/1 连接复用",
+    "summary": "Go 语言 1.27 版提升了 HTTP/1 的连接复用效率，显著改善网络请求性能。",
+    "key_points": [
+      "优化连接复用机制",
+      "提升请求吞吐量",
+      "随 Go 1.27 发布"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://go.dev/blog/http-connection-reuse",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Google 静默跨账号关联手机号",
+    "summary": "Google 在用户未察觉的情况下，将手机号码在所有已登录账号间自动关联，引发隐私关注。",
+    "key_points": [
+      "跨账号自动关联手机号",
+      "用户未被提示",
+      "涉及隐私风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "AI 大规模游戏反编译的利与弊",
+    "summary": "AI 现在能够批量反编译游戏，促进老游戏保存和创意混搭，但也可能导致技术泄露和行业冲击。",
+    "key_points": [
+      "AI 批量反编译游戏",
+      "推动游戏保存与混搭",
+      "潜在安全与行业风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-14 要点",
+    "summary": "橘鸦 AI 早报概览当日要闻，包括Google Gemini 4、OpenAI 桌面优化、多个模型发布及行业优惠等。",
+    "key_points": [
+      "Google Gemini 4 发布",
+      "ChatGPT 桌面应用优化",
+      "多模型上线与优惠信息"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-14/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "AI 日报 2026-10-14 重点",
+    "summary": "AI 日报报道了GreenWAM机器人模型、Tev 长程智能体奖励以及英伟达即将发布的 Nemotron。",
+    "key_points": [
+      "GreenWAM 机器人模型亮相",
+      "Tev 长程智能体获密集奖励",
+      "Nvidia Nemotron 即将发布"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-14-zh/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "AI Daily 2026-10-14",
+    "summary": "GreenWAM 发布机器人世界模型；Tev 在长时程代理环境中实现密集奖励；NVIDIA 将推出 Nemotron Bolt 3.5。",
+    "key_points": [
+      "GreenWAM 机器人世界模型",
+      "Tev 长时程代理环境密集奖励",
+      "NVIDIA Nemotron Bolt 3.5 发布"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-14/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "DailyDawn 2026-10-14",
+    "summary": "VoiceStudio 首日获得 1748 星，支持 646 语言本地语音；GitHub Trending 与 Product Hunt 同步出现自托管语音工具，用户对闭源语音服务需求下降。",
+    "key_points": [
+      "VoiceStudio 646 语言本地语音",
+      "自托管语音工具热度上升",
+      "闭源语音服务用户流失"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-14",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "Anthropic 源码控制重构",
+    "summary": "Anthropic 为应对代码变更激增，构建了自定义 Git 替代方案，日均合并量从 2,500 增至 30,000。",
+    "key_points": [
+      "代码变更速率激增",
+      "自建 Git 替代方案",
+      "日合并量提升至 30,000"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "llm-gemini 0.35 发布",
+    "summary": "发布 llm-gemini 0.35，新增对 Gemini 4 Argon 模型支持，定价为 $2/百万输入、$10/百万输出。",
+    "key_points": [
+      "支持 Gemini 4 Argon",
+      "定价 $2/百万输入",
+      "定价 $10/百万输出"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "Geoffrey Huntley 预提交钩子",
+    "summary": "通过 pre‑commit 钩子检测并阻止直接调用观测模块，强制使用诊断库，提升代码质量。",
+    "key_points": [
+      "pre‑commit 钩子检测观测模块",
+      "强制使用诊断库",
+      "提升代码质量"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-13",
+    "summary": "Meta 发布 Muse Wonder 模型系列；X Subscription 推出整合 Grok、Cursor、X Premium；智谱推出 GLM Legal 法律模型；OpenBMB 发布 MiniCPM V4.7 等多项模型与服务更新。",
+    "key_points": [
+      "Meta Muse Wonder 发布",
+      "X Subscription 新功能",
+      "GLM Legal 法律模型"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-13/",
+    "published": "2026-10-13"
+  },
+  {
+    "title": "web-edit 0.1a1 发布",
+    "summary": "web-edit 0.1a1 通过 Claude Opus 5.5 优化性能，基于 Python 3.15 性能报告。",
+    "key_points": [
+      "性能优化",
+      "Claude Opus 5.5 贡献",
+      "Python 3.15 性能报告"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+    "published": "2026-10-13"
+  }
+]
