@@ -1,0 +1,351 @@
+[
+  {
+    "title": "BeBox：在 Haiku 上复刻 BeBox",
+    "summary": "BeBox 是在 Haiku 系统上运行的应用，模拟了 Be Inc. 早期的 BeBox 电脑，项目已在 GitHub 开源并获得少量关注。",
+    "key_points": [
+      "在 Haiku 上实现 BeBox 仿真",
+      "开源代码托管于 GitHub"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/johnrash/bebox",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "英国制裁加密平台 Cryptomus 涉俄洗钱",
+    "summary": "英国对加密货币平台 Cryptomus 实施制裁，指控其涉及俄罗斯资金洗钱，此举凸显监管对加密行业的严厉态度。",
+    "key_points": [
+      "英国政府对 Cryptomus 实施制裁",
+      "指控涉及俄罗斯洗钱活动"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "我的自托管清单",
+    "summary": "作者分享了自己在自托管环境中运行的多种服务，涵盖网站、媒体、备份等，获得社区大量点赞与评论。",
+    "key_points": [
+      "列举多种自托管应用",
+      "获得高热度（235 点）"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Withings 新用户需付年费同步 Apple Health",
+    "summary": "Withings 宣布新注册用户必须支付 99 美元年费才能使用 Apple Health 同步功能，引发用户不满。",
+    "key_points": [
+      "Apple Health 同步设 99 美元年费",
+      "引起社区强烈反响"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Chirp Pong：音频驱动的双手机对战游戏",
+    "summary": "Chirp Pong 通过手机麦克风捕捉音频信号实现两部手机的实时对战，展示了在静态 HTML 中使用声音进行网络通信的可行性。",
+    "key_points": [
+      "利用麦克风音频实现游戏状态同步",
+      "在纯 HTML 环境下运行"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Torrent 站点持续干扰我的 Sonarr 设置",
+    "summary": "作者描述了在使用 Sonarr 时，遭遇来自种子网站的恶意干扰，导致自动下载和配置被破坏，引发社区讨论。",
+    "key_points": [
+      "Torrent 站点对 Sonarr 产生恶意影响",
+      "引发大量评论与关注"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "E Ink 推出 Kaleido 4 彩色电子纸",
+    "summary": "E Ink 宣布最新彩色电子纸平台 Kaleido 4，提升色彩表现与刷新速度，面向可穿戴和显示设备。",
+    "key_points": [
+      "Kaleido 4 提升彩色显示性能",
+      "针对可穿戴等新场景"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Meta 发布 Muse Spark Open 大模型",
+    "summary": "Meta 开源 Muse Spark Open 816B 大模型，提供在 HuggingFace 等平台的访问，标志着其在生成式 AI 领域的最新进展。",
+    "key_points": [
+      "开源 816B 参数的 Muse Spark Open 模型",
+      "在 HuggingFace 与 Meta 资源平台提供"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://research.meta.ai/blog/muse-spark-open",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Jev 碰撞电车难题的实验",
+    "summary": "Jev 系统被用于探讨经典的电车难题，展示了 AI 在道德决策情境中的表现。此实验对机器伦理研究具有参考价值。",
+    "key_points": [
+      "Jev 与电车难题的交互实验",
+      "揭示 AI 决策的道德挑战"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://zachlandes.com/trolley-problem/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Krea 3：大规模图像编辑模型发布",
+    "summary": "Krea 3 是一款专为大规模图像编辑设计的生成模型，支持高效的编辑工作流。该模型的发布标志着图像生成技术的进一步成熟。",
+    "key_points": [
+      "面向规模化的图像编辑模型",
+      "提升编辑效率与质量"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.krea.ai/krea-3",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "神经网络的洁净性探讨",
+    "summary": "该帖子讨论了神经网络在训练与部署过程中的“洁净”概念，关注模型可解释性与安全性。对提升 AI 系统可信度具有意义。",
+    "key_points": [
+      "提出神经网络洁净性的概念",
+      "关联模型安全与可解释性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://already-clean.goodfire.com/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Steam 客户端速度超越 Epic 新启动器",
+    "summary": "最新测试显示，Steam 客户端的启动与运行速度已超过 Epic 新推出的 Vibe 编码启动器。此对比突显了平台性能优化的竞争。",
+    "key_points": [
+      "Steam 客户端性能提升",
+      "对比 Epic Vibe 启动器的速度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Proa：Rust SSR 多目标渲染框架",
+    "summary": "Proa 是用 Rust 编写的 Web 框架，提供快速的服务器端渲染（SSR）和多目标渲染能力，并附有基准测试与演示视频。适合追求高性能的开发者。",
+    "key_points": [
+      "Rust 实现的高速 SSR",
+      "支持多目标渲染与基准测试"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://proa.so/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "庆祝 Fortran 诞生 70 周年",
+    "summary": "Fortran 迎来 70 周年纪念，回顾其在科学计算中的历史贡献，并展望未来发展方向。",
+    "key_points": [
+      "回顾 Fortran 的历史影响",
+      "展望语言的未来演进"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Simons 基金 1500 万美元助数学家应对 AI",
+    "summary": "Simons 基金启动 1500 万美元项目，帮助数学家在 AI 时代应对新挑战，提供资源与研究支持。此举体现了对基础科学与 AI 交叉的重视。",
+    "key_points": [
+      "投入 1500 万美元支持数学研究",
+      "聚焦 AI 时代的数学挑战"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "AI 逆向硬件设计的探索",
+    "summary": "该博客展示了利用 AI 技术逆向工程硬件的案例，说明 AI 在硬件分析与设计中的潜在应用。",
+    "key_points": [
+      "AI 用于硬件逆向工程",
+      "展示实际案例与方法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "数学家为何泪流满面",
+    "summary": "《I know why the mathematicians weep》在 Hacker News 前页获342分、560条评论，标题暗示探讨数学家的情感。",
+    "key_points": [
+      "在 Hacker News 获得高分",
+      "评论数量达560条"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "带拟物化设计的 Wayland 桌面环境",
+    "summary": "DEsk 是一个基于 Wayland 的 Linux 桌面项目，采用拟物化 UI 设计，在 Hacker News 获得482分。",
+    "key_points": [
+      "使用 Wayland 构建桌面",
+      "采用拟物化界面设计"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/fyzugx/DEsk",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "C++26 合约：前置条件与后置条件概述",
+    "summary": "文章介绍了 C++26 中的合约特性，重点解释前置条件和后置条件的作用与使用方式。",
+    "key_points": [
+      "C++26 引入合约特性",
+      "阐述前置条件和后置条件"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cppstories.com/2026/cpp26_contracts/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Anthropic 收入激增 50%至168亿美元，临近 IPO",
+    "summary": "Anthropic 向投资者披露，季度收入从4.8亿美元增长至16.8亿美元，增长近50%，并报告每美元算力产出1.70美元收入，调整后运营利润率11%。",
+    "key_points": [
+      "Q3 收入达16.8亿美元",
+      "每美元算力产出1.70美元收入"
+    ],
+    "category": "投融资",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Libreboot 26.10 支持 UEFI 与 Chromebook",
+    "summary": "Libreboot 发布 26.10 版本 Ominous Olive，新增对 UEFI 的支持并兼容 Chromebook 硬件。",
+    "key_points": [
+      "新增 UEFI 支持",
+      "兼容 Chromebook"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://libreboot.org/news/libreboot2610.html",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Unfenced：出售邻近公共土地的地块平台",
+    "summary": "Unfenced 是一个网站平台，提供与公共土地相邻的待售土地信息，帮助买家发现此类地块。",
+    "key_points": [
+      "列出邻近公共土地的待售地块",
+      "面向买家展示信息"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://unfenced.land/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-15",
+    "summary": "橘鸦 AI 早报于10月15日发布，涵盖 Claude Code 桌面版更新、TypeSafe AI 新模型、SpaceXSI 语音模型等多项 AI 与科技要闻。",
+    "key_points": [
+      "Claude Code 新增闲置会话压缩",
+      "TypeSafe AI 发布 Jev 模型",
+      "SpaceXSI 推出 Grok Voice 3.0"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-15/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "AI 日报 2026-10-15：Muse 模型发布",
+    "summary": "美国最强开源权重模型 Muse 正式发布，英伟达与 Apertus 联合推出多模态长上下文模型。",
+    "key_points": [
+      "发布开源模型 Muse",
+      "NVIDIA 与 Apertus 推出多模态长上下文模型"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-15-zh/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Muse Spark Open 成为美国顶级开源模型",
+    "summary": "Muse Spark Open 在美国成为首个顶级开源大模型；NVIDIA 的 Nemotron 3.5 与 Apertus 1.5 引入多模态长上下文推理功能。",
+    "key_points": [
+      "Muse Spark Open 领跑美国开源模型",
+      "NVIDIA 新模型支持多模态长上下文推理"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-15/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "DailyDawn 2026-10-15 AI 编码代理压缩突破",
+    "summary": "DailyDawn 报道 GitHub Trending 上的 mksglu/context-mode 通过 AI 编码代理将输出体积压缩 98%，显存占用下降 60%，显著降低逆向任务成本。",
+    "key_points": [
+      "context-mode 将 AI 编码代理输出压缩 98%",
+      "显存占用下降 60%，可在家用 PC 运行多任务"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-15",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Tree Appreciator：Claude 生成三维树木游戏",
+    "summary": "Simon Willison 使用 Claude Opus 5.5 Max 生成名为 Tree Appreciator 的三维游戏，展示两棵算法生成的树木，并通过游戏机制让玩家欣赏差异。",
+    "key_points": [
+      "Claude 生成三维游戏 Tree Appreciator",
+      "游戏聚焦欣赏算法生成树木差异"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "AI 大规模反编译游戏：机遇与风险",
+    "summary": "Simon Willison 讨论 AI 反编译游戏的浪潮，既能促进游戏保存与混搭，又带来行业安全与版权担忧。",
+    "key_points": [
+      "AI 反编译推动游戏保存与混搭",
+      "引发安全与版权风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+    "published": "2026-10-14"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-14 视频版",
+    "summary": "橘鸦 AI 早报视频版概览 Google Gemini 4、OpenAI ChatGPT 桌面优化、Cat Jam 匿名编程模型、Fish Audio Drama 3 等多项技术与产品更新。",
+    "key_points": [
+      "Google Gemini 4 与 OpenAI ChatGPT 桌面优化",
+      "多款新模型与产品发布"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-14/",
+    "published": "2026-10-14"
+  }
+]
