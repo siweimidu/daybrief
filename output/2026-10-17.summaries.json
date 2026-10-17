@@ -1,0 +1,351 @@
+[
+  {
+    "title": "九英寸巨型蜗牛入侵佛罗里达",
+    "summary": "一篇报道关注非洲巨型蜗牛在佛罗里达的入侵情况，提醒生态风险。",
+    "key_points": [
+      "非洲巨型蜗牛体型达九英寸",
+      "可能对当地生态造成威胁"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "代码审查从终点门到实时拼写检查",
+    "summary": "文章讨论代码审查从传统的事后审查转向持续的自动化检查，提升效率。",
+    "key_points": [
+      "AI工具（如Claude）先行审查代码",
+      "人类审查聚焦高层次问题"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/16/code-review/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "为何使用线束提升能效",
+    "summary": "该文解释在能源和代币系统中使用线束（harness）可以提高效率的重要性。",
+    "key_points": [
+      "线束优化能源传输",
+      "提升代币系统的效率"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "未授权的密钥扫描集成引发安全争议",
+    "summary": "Home Assistant 项目中出现未授权的集成扫描用户密钥，引发安全关注。",
+    "key_points": [
+      "集成未经用户授权即扫描密钥",
+      "社区对安全风险展开讨论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "FLUX 3 图像模型 Klein 版本发布",
+    "summary": "BFL AI 推出 FLUX 3 的 Klein 版本，展示最新图像生成能力。",
+    "key_points": [
+      "FLUX 3 Klein 提升生成质量",
+      "面向创意图像应用"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bfl.ai/blog/flux-3-image-klein",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Claude 团队的代码审查实践",
+    "summary": "Anthropic 分享其 Claude 代码团队如何利用 AI 实现高效代码审查的经验。",
+    "key_points": [
+      "AI 自动审查捕获常规错误",
+      "人类审查专注复杂问题"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "记忆关联可让你自行发明 Transformer",
+    "summary": "文章指出通过关联记忆的方式，理论上可以自行推导出 Transformer 结构。",
+    "key_points": [
+      "关联记忆与 Transformer 结构的关系",
+      "提供自学模型的思路"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alexwang.ai/posts/associative-memory/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Claude 揭示 ECDSA 曲线的起源",
+    "summary": "Anthropic 研究团队公开 ECDSA 曲线的历史渊源，增进密码学透明度。",
+    "key_points": [
+      "追溯 ECDSA 曲线的设计历史",
+      "提升密码学社区的理解"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "C++26 新调试头文件",
+    "summary": "C++26 引入全新的调试头文件，提供更便捷的调试工具，提升开发效率。",
+    "key_points": [
+      "新增调试头文件",
+      "改进调试体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "在越狱 PS5 上运行 Llama.cpp",
+    "summary": "开源项目 Llama.cpp 已移植至越狱的 PS5，支持在主机上原生运行任意 GGUF 模型。",
+    "key_points": [
+      "移植 Llama.cpp 至 PS5",
+      "支持 GGUF 模型原生运行"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/cobanov/PS5LM",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Anthropic 获得最高垃圾信用评级",
+    "summary": "金融机构给 Anthropic 2023 年6月的债务分配了最高的垃圾信用评级，反映其财务风险。",
+    "key_points": [
+      "获得最高垃圾评级",
+      "评级时间为6月"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "eBay 限制无线设备上市，免除业余波段",
+    "summary": "eBay 对无线电设备的上市进行限制，但对仅限业余波段的设备作出豁免，引发业界关注。",
+    "key_points": [
+      "限制无线电设备上市",
+      "业余波段设备例外"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Claude 助力设计更高效量子电路",
+    "summary": "Anthropic 的 Claude 模型用于优化量子电路设计，提高效率和资源利用率。",
+    "key_points": [
+      "使用 Claude 优化量子电路",
+      "提升效率"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "GifCities 项目上线",
+    "summary": "GifCities 是一个收集并展示历史 GIF 动画的网站，提供浏览旧互联网内容的入口。",
+    "key_points": [
+      "收集历史 GIF",
+      "在线浏览平台"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://gifcities.org/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Piramidal 招聘中",
+    "summary": "初创公司 Piramidal（Y Combinator W24）发布招聘信息，寻求新成员加入。",
+    "key_points": [
+      "Piramidal 为 YC W24",
+      "正在招聘"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://job-boards.greenhouse.io/piramidalinc/jobs/4443102009",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "美国工作90%任务未被AI基准覆盖",
+    "summary": "研究显示美国工作时间中90%用于AI基准未能充分覆盖的任务，凸显AI评估的局限性。",
+    "key_points": [
+      "90%工作任务未被AI基准覆盖",
+      "暗示AI评估不足"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "/dev/null：面向开发者的社交网络",
+    "summary": "推出了一个专为开发者设计的社交平台 /dev/null，旨在提供代码分享与技术讨论的社区环境，受到 Hacker News 热议。",
+    "key_points": [
+      "专注开发者社交",
+      "提供代码分享与讨论功能"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://dev-null.sh",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "JPEG XL 与 AVIF 在网页中的对比",
+    "summary": "分析了 JPEG XL 与 AVIF 两种图像格式在网页使用场景下的优势与劣势，为前端优化提供参考。",
+    "key_points": [
+      "压缩效率与兼容性比较",
+      "适用场景建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Waymo 在多伦多开展自动驾驶",
+    "summary": "Waymo 在多伦多启动自动驾驶测试，标志着其技术向北美以外市场扩展，受到业界关注。",
+    "key_points": [
+      "多伦多试点",
+      "扩大国际布局"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Big Fish：利用 OpenBSD 37 年旧内核漏洞",
+    "summary": "研究人员公开了名为 Big Fish 的攻击，利用 OpenBSD 长达 37 年的内核漏洞，提醒系统安全重要性。",
+    "key_points": [
+      "曝光旧内核漏洞",
+      "展示攻击链"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://calif.io/research/big-fish",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Dekton 是什么？",
+    "summary": "文章介绍了 Dekton 材料的特性与应用，帮助读者了解这种新型陶瓷复合材料。",
+    "key_points": [
+      "材料特性概述",
+      "潜在应用领域"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.worksinprogress.news/p/porcelain",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "2026-10-16 AI 早报要点",
+    "summary": "橘鸦 AI 早报汇总当天重要 AI 动向，包括 DeepSeek 恢复服务、Gemini 4 Argon、Meta 多模态模型等。",
+    "key_points": [
+      "DeepSeek 恢复服务",
+      "Meta 多模态模型发布"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-16/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Meta 发布 816B 开源模型",
+    "summary": "Meta 开源了 816B 参数的 Muse Spark 模型，可在本地机器上运行，推动大模型本地化趋势。",
+    "key_points": [
+      "816B 参数模型",
+      "本地运行支持"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-16-zh/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "AI Daily：Meta 816B 模型与 OpenGCUA 进展",
+    "summary": "AI Daily 报道 Meta 发布 816B 本地模型，OpenGCUA 推进电脑使用堆栈，RoTA-Bench 评测 3D 推理基准。",
+    "key_points": [
+      "Meta 816B 模型本地化",
+      "OpenGCUA 电脑堆栈升级"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-16/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "OpenCode 2.0 本地 Agent 记忆升级",
+    "summary": "affaan-m/ECC库在GitHub Trending登顶，OpenCode 2.0实现本地 Agent 记忆持久化，agent memory 7日涨幅+217%，并且完全本地运行，消除 API 成本。",
+    "key_points": [
+      "affaan-m/ECC库 1013 星并完成原生适配",
+      "agent memory 7日涨幅+217%，本地编码上下文留存提升400%"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-16",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "Chirp Pong：音频驱动双机Pong",
+    "summary": "一款使用静态 HTML 与手机麦克风传输 chirp 声音的双人 Pong 游戏实验，成功实现通过音频传输游戏状态。",
+    "key_points": [
+      "两台手机通过麦克风发送 chirp 声音实现网络",
+      "游戏在静态 HTML 中运行并加入图形与玩法改进"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "Anthropic IPO前收入增长近50%",
+    "summary": "Anthropic Q3 收入达到 16.8 亿元，较上一季度增长近 50%，调整后运营利润率为 11%。",
+    "key_points": [
+      "Q3 收入 16.8 亿元，收入/计算成本 1.70",
+      "调整后运营利润率 11%"
+    ],
+    "category": "投融资",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "LaTeX渲染器：URL内存储文档",
+    "summary": "该工具借鉴 Tiny Little Office，将文档数据存储在 URL fragment，支持通过 llms.txt 指令让 Agent 构造渲染链接。",
+    "key_points": [
+      "文档数据保存在 URL fragment，便于书签和分享",
+      "llms.txt 指令帮助 Agent 构造渲染 URL"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/15/latex/",
+    "published": "2026-10-15"
+  },
+  {
+    "title": "AI早报 2026-10-15",
+    "summary": "Claude Code 桌面版更新多会话体验并自动压缩闲置会话，SpaceXSI 发布 Grok Voice 3.0 端到端语音模型，OpenAI 宣布部分 GPT‑4 模型退役。",
+    "key_points": [
+      "Claude Code 新增多会话与闲置压缩功能",
+      "SpaceXSI 推出 Grok Voice 3.0 端到端语音模型",
+      "OpenAI 部分 GPT‑4 模型退役"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-15/",
+    "published": "2026-10-15"
+  }
+]
