@@ -1,0 +1,290 @@
+[
+  {
+    "title": "JDK 28 正式发布",
+    "summary": "OpenJDK 公布了 JDK 28 版本，带来最新的语言特性和性能改进，对 Java 开发者至关重要。",
+    "key_points": [
+      "引入新特性和改进",
+      "提升平台性能和安全性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openjdk.org/projects/jdk/28/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Chrome 与 Edge 移除 XSLT 支持",
+    "summary": "Chrome 与 Edge 浏览器决定停止支持 XSLT，可能导致依赖该技术的网页功能失效。",
+    "key_points": [
+      "浏览器功能削减",
+      "开发者需迁移到替代方案"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "微软与 CMU 合作培养软件工程新人",
+    "summary": "微软与卡内基梅隆大学启动合作项目，面向早期职业软件工程师提供培训，旨在提升人才供给。",
+    "key_points": [
+      "企业高校合作培养人才",
+      "聚焦早期职业工程师"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "OpenCode 用户凭证泄露事件",
+    "summary": "OpenCode 平台遭黑客攻击，用户凭证被泄露，引发安全关注。",
+    "key_points": [
+      "用户凭证外泄",
+      "需加强平台安全防护"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://twitter.com/opencode/status/2111516673953935833",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Codex Desktop 持续生成 Crashpad 转储",
+    "summary": "OpenAI 的 Codex Desktop 在使用过程中不断产生 Crashpad 待处理转储，提示潜在的稳定性问题。",
+    "key_points": [
+      "频繁生成崩溃转储",
+      "可能影响用户体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/openai/codex/issues/25921",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "我成为日本公民的经历",
+    "summary": "作者分享了获得日本国籍的个人经历，涉及移民手续和生活感悟。",
+    "key_points": [
+      "取得日本国籍",
+      "分享移民过程体会"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.derekwessman.com/blog-1/natural",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "黄金成为美国最大出口商品",
+    "summary": "最新数据表明，黄金已跃居美国出口额最高的商品，反映全球贵金属需求上升。",
+    "key_points": [
+      "黄金出口额领先",
+      "显示贵金属需求增长"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Artie 招聘企业级 AES 与高级工程师",
+    "summary": "AI 初创公司 Artie（YC S23）对外发布招聘信息，寻求企业级 AES 与资深工程师加入。",
+    "key_points": [
+      "发布招聘信息",
+      "需求企业级与高级技术人才"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.artie.com/careers",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Pele：可主题化的 Mermaid SVG 图表",
+    "summary": "Pele 项目提供将 Mermaid 图表导出为可自定义主题的 SVG，方便在文档和网页中统一视觉风格。",
+    "key_points": [
+      "支持主题自定义",
+      "输出高质量 SVG"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pele.run/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "全球首次太阳能发电量超核能",
+    "summary": "2026 年全球太阳能发电总量首次超过核能，标志着清洁能源加速取代传统能源。",
+    "key_points": [
+      "太阳能装机容量快速增长",
+      "核能在全球能源结构中的比例下降"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "使用 Dorito 粉让鸡肉透明",
+    "summary": "研究者利用 Dorito 粉制造透明鸡肉，展示食品加工新奇技术。",
+    "key_points": [
+      "Dorito 粉作为可视化剂",
+      "实现食品结构的可视化展示"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Esp32sim：在浏览器中运行 ESP32 固件",
+    "summary": "Esp32sim 是一款开源的 ESP32 仿真器，可在浏览器中直接执行固件，降低硬件依赖。",
+    "key_points": [
+      "无需实体硬件即可调试",
+      "支持浏览器实时仿真"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/mikroverk/esp32sim",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "高质量鸭子音频合成器",
+    "summary": "该项目提供一个高保真度的鸭子声音合成器，可用于音效制作和创意项目。",
+    "key_points": [
+      "高保真音色输出",
+      "网页实时合成"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://celphase.github.io/duck-pond/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "《编程的未来》（1982）",
+    "summary": "这篇 1982 年的论文探讨了编程语言和软件工程的长期趋势，对当代技术仍具启发意义。",
+    "key_points": [
+      "预测语言抽象化趋势",
+      "强调软件可维护性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://dl.acm.org/doi/10.1145/358453.358459",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "DeepSeek‑v4.1‑Flash‑1017 模型发布",
+    "summary": "DeepSeek 推出最新的 v4.1‑Flash‑1017 大语言模型，提升推理速度和性能，适用于本地部署。",
+    "key_points": [
+      "更快推理速度",
+      "高效算力需求"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Llmspeed：本地 LLM 速度预览工具",
+    "summary": "Llmspeed 让用户在购买硬件前评估本地大模型的运行速度，帮助做出成本效益决策。",
+    "key_points": [
+      "即时速度测评",
+      "硬件需求评估"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://llmspeed.dev/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "爱沙尼亚线上投票系统源码公开",
+    "summary": "爱沙尼亚公布其线上投票系统的源码，提升透明度与安全审计。",
+    "key_points": [
+      "源码在GitHub公开",
+      "有助于安全研究与公众监督"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/valimised/ivxv",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "怀疑者首次接触Kubernetes的体验",
+    "summary": "作者记录了对Kubernetes的初次使用感受，帮助新手了解上手难点。",
+    "key_points": [
+      "分享学习曲线",
+      "提供实践建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "AI早报 2026-10-17 要闻概览",
+    "summary": "每日AI新闻汇总，涵盖出口管制、OpenAI Codex优化、DeepSeek新产品等。",
+    "key_points": [
+      "AI技术被列入出口管制",
+      "OpenAI优化Codex提升使用量"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-17/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "Claude披露ECDSA曲线来源引发安全热议",
+    "summary": "Claude公开ECDSA曲线完整溯源，引发开发者对加密工具可复用脚本需求激增。",
+    "key_points": [
+      "ECDSA曲线溯源链路公开",
+      "加密工具研发周期大幅缩短"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-17",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "拆除水坝让东北美洲鱼类回归",
+    "summary": "拆除水坝恢复河流通道，帮助鱼类在美国东北部重新迁徙繁殖。",
+    "key_points": [
+      "水坝拆除提升生态连通性",
+      "鱼类数量回升"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "受损珊瑚靠近健康邻居快速恢复",
+    "summary": "研究发现漂白珊瑚在接触健康珊瑚后数天即可恢复，提示相互帮助机制。",
+    "key_points": [
+      "健康珊瑚促进受损珊瑚恢复",
+      "提供生态修复新思路"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.nature.com/articles/d41586-026-03266-x",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "代码审查从终点门到持续AI辅助",
+    "summary": "文章阐述代码审查从事后检查转向写代码时的持续AI检查，提高效率并让人工聚焦高层问题。",
+    "key_points": [
+      "Claude等AI先行审查常规错误",
+      "人审聚焦复杂问题"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/16/code-review/",
+    "published": "2026-10-16"
+  },
+  {
+    "title": "AI早报 2026-10-16 要闻概览",
+    "summary": "每日AI新闻汇总，涵盖Codex活动、DeepSeek补偿、Gemini 4 Argon、Meta多模态模型等。",
+    "key_points": [
+      "Codex活动重置额度并增加算力",
+      "DeepSeek恢复服务并提供补偿"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-16/",
+    "published": "2026-10-16"
+  }
+]
