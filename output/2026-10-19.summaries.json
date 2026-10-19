@@ -1,0 +1,355 @@
+[
+  {
+    "title": "llm-tools-datasette 0.1.1 插件修复发布",
+    "summary": "llm-tools-datasette 插件在 llm 0.33 升级后因 httpx 依赖破坏而失效，现已在 0.1.1 版中修复。",
+    "key_points": [
+      "修复了对 httpx2 的兼容问题",
+      "确保插件在新版 llm 中可正常使用"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "威廉·吉布森与赛博空间商标争议",
+    "summary": "讨论威廉·吉布森提出的“赛博空间”概念是否已被注册为商标，引发业界关注。",
+    "key_points": [
+      "赛博空间概念的法律属性",
+      "对技术文化的潜在影响"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://colo.to/cyberspace.html",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "llm-echo 0.5 版本更新",
+    "summary": "llm-echo 调试插件更新至 0.5，加入对工具调用、系统提示和推理令牌的使用计数。",
+    "key_points": [
+      "提供不依赖真实 LLM 的回显模型",
+      "改进了模拟令牌使用统计"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "RC2 加密算法 π 表的生成过程",
+    "summary": "文章阐述了 RC2 对称加密算法中 π 表的构造方法，帮助理解其内部机制。",
+    "key_points": [
+      "详细解释 π 表的生成步骤",
+      "揭示 RC2 设计细节"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://khalidhamadeh.com/writing/rc2-pi-table",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "WhatsApp MCP 免费在 Cloudflare 上运行",
+    "summary": "作者实现了在 ClaudeFlare 上免费运行的 WhatsApp MCP，支持 Google 账户同步联系人，实现单用户私密接入。",
+    "key_points": [
+      "无需 WhatsApp Business 或服务器",
+      "通过 Google 同步联系人提升搜索体验"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/finereli/whatsapp-mcp",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "不自建 LLM 代理如何监控运行状态",
+    "summary": "探讨在不自行部署 LLM 代理的情况下，如何了解模型调用和性能的监控方法。",
+    "key_points": [
+      "缺乏自建代理的可视化挑战",
+      "提供可能的监控思路或工具"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "混合推理代理：在潜在空间思考、文本执行",
+    "summary": "论文提出混合推理代理，将 LLM 的思考在潜在空间进行，行动通过文本指令实现，展示新型智能体框架。",
+    "key_points": [
+      "在潜在空间进行推理",
+      "通过文本交互执行任务"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2610.18861",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "Free Pascal 编译器新增动态包支持",
+    "summary": "Free Pascal 编译器现在支持动态包，提升模块化和运行时加载能力。",
+    "key_points": [
+      "实现动态包加载功能",
+      "有助于更灵活的应用开发"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.getlazarus.org/dynamic/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "佛罗里达HOA加剧住房危机",
+    "summary": "文章指出佛罗里达的业主协会和公寓管理组织的规定正使本已紧张的住房市场进一步恶化，提醒关注政策对住房供给的影响。",
+    "key_points": [
+      "HOA规则限制新建或改造",
+      "导致住房供应不足"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "PalmOS 跳跳游戏移植项目",
+    "summary": "该 GitHub 项目实现了在 PalmOS 系统上运行的 Lemmings 游戏移植，展示了老平台的开发潜力。",
+    "key_points": [
+      "在 PalmOS 上复刻经典游戏",
+      "开源代码供爱好者学习"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/ardiri/palmos-lemmings",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "/pkg 是什么？",
+    "summary": "文章解释了 /pkg 目录或工具的用途和工作原理，为不熟悉的读者提供入门说明。",
+    "key_points": [
+      "介绍 /pkg 的基本概念",
+      "说明其在系统中的作用"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "Namecheap 冻结所有域名",
+    "summary": "作者在 Reddit 分享了 Namecheap 因未知原因冻结并禁用其全部域名的经历，引发对域名托管安全的关注。",
+    "key_points": [
+      "Namecheap 直接封禁域名",
+      "提醒用户审慎选择域名服务商"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "软件背后的人",
+    "summary": "文章探讨了软件开发者的个人故事或动机，强调人性因素在技术产品中的重要性。",
+    "key_points": [
+      "聚焦开发者个人经历",
+      "讨论技术与人之间的联系"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "Intel 8087 浮点加减微码解析",
+    "summary": "作者分析了 Intel 8087 协处理器实现浮点加法和减法的微码细节，提供了历史硬件设计的技术洞见。",
+    "key_points": [
+      "揭示 8087 的微码实现",
+      "帮助理解早期浮点运算机制"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "Java 密封类与穷尽模式匹配",
+    "summary": "文章介绍了 Java 密封类的特性以及如何配合穷尽的模式匹配使用，提升代码的安全性和可读性。",
+    "key_points": [
+      "解释密封类的限制机制",
+      "展示模式匹配的完整性检查"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "RepRapMicron 开源 3D 打印项目",
+    "summary": "该 GitHub Wiki 记录了 RepRapMicron 微型 3D 打印机的设计与实现，面向开源硬件社区共享。",
+    "key_points": [
+      "提供微型打印机的完整文档",
+      "鼓励社区参与改进"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "《塞尔达》时间线可视化项目",
+    "summary": "作者在《时之笛》重制版发布前，制作了一个基于任天堂官方时间线的可视化图，帮助玩家快速了解分支剧情。",
+    "key_points": [
+      "使用官方《海利亚编年史》为权威",
+      "将时间线分为三条支线并与《荒野之息》相连"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://legendofhyrule.com/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "逆向借用检查新思路",
+    "summary": "文章提出一种逆向的借用检查思路，重新审视Rust的所有权模型，旨在简化安全检查。",
+    "key_points": [
+      "从使用者角度逆向推导借用规则",
+      "可能降低编译器复杂度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://verdagon.dev/blog/reverse-borrow-checking",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "Open MicroManipulator：亚微米3D运动平台",
+    "summary": "开源项目提供了亚微米级别的3D运动控制平台，实现了精确的微型机械操作。",
+    "key_points": [
+      "支持亚微米级定位精度",
+      "基于Stepper驱动的硬件设计"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/0x23/MicroManipulatorStepper",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "解析器组合子技术分享",
+    "summary": "博客深入介绍了解析器组合子技术及其在函数式编程中的应用，帮助读者构建可组合的语法解析器。",
+    "key_points": [
+      "解释组合子原理与实现",
+      "提供实际代码示例"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "DeepSeek搜索API定价0.75美元/千次",
+    "summary": "DeepSeek公布搜索与抓取API的计费标准，每千次成功请求仅需0.75美元，降低了开发者使用成本。",
+    "key_points": [
+      "定价透明且低廉",
+      "保持与之前API调用方式和价格一致"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://api-docs.deepseek.com/guides/search/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "《You Can See Everything》纪录片误导性分析",
+    "summary": "评论指出纪录片《You Can See Everything》对伊丽莎白·霍尔姆斯的叙述存在误导，提醒观众批判性观看。",
+    "key_points": [
+      "揭示影片的偏颇与遗漏",
+      "呼吁对霍尔姆斯案件保持客观"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "橘鸦AI早报 2026-10-18要闻概览",
+    "summary": "橘鸦AI早报汇总了10月18日的AI行业要闻，包括DeepSeek模型更新、OpenCode安全事件等。",
+    "key_points": [
+      "DeepSeek发布V4.1 Flash并开放搜索接口",
+      "OpenCode披露安全事件影响部分用户"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-18/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "AI日报 2026-10-18：新基准测试与模型进展",
+    "summary": "AI日报报道了最新基准测试结果，展示了克劳德代码在终端的部署以及ORL扩散模型的高效性能。",
+    "key_points": [
+      "克劳德代码进入终端环境",
+      "ORL模型单卡每秒生成2788词元"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-18-zh/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "AI Daily 2026-10-18",
+    "summary": "新基准评估真实交付代理，Claude Code 将代理式编码带到终端，ORL diffusion LLM 单机吞吐 2,788 tokens/s。",
+    "key_points": [
+      "评估真实交付代理的新基准",
+      "Claude Code 终端代理式编码",
+      "ORL diffusion LLM 高吞吐"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-18/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "DailyDawn 2026-10-18",
+    "summary": "今日高星项目登榜：Claude插件仓库 1397 星、xerj 工具 1160 星，GitHub Trending 上 ECC、xerj、orca 三项目突破 800 星，显示中小团队对低成本 AI 工具需求激增。",
+    "key_points": [
+      "Claude 官方插件仓库 1397 星",
+      "xerj 工具 1160 星",
+      "ECC、xerj、orca 项目突破 800 星"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-18",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "文档.currentScript 内联渲染",
+    "summary": "利用 document.currentScript 可在页面加载时用脚本动态替换自身，实现简洁的内联模板语言。",
+    "key_points": [
+      "使用 document.currentScript 替换自身",
+      "实现年号动态渲染",
+      "提供简易模板语法"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "web-edit 0.1a2 发布",
+    "summary": "小型 web 应用 web-edit 0.1a2 允许通过 Tailscale 浏览编辑文件，并新增复制到剪贴板功能，方便在不同设备间共享日志。",
+    "key_points": [
+      "web-edit 0.1a2 发布",
+      "支持 Tailscale 文件浏览/编辑",
+      "新增复制到剪贴板"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+    "published": "2026-10-17"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-17",
+    "summary": "AI 早报概览包括 AI 技术出口管制、OpenAI Codex 优化、DeepSeek 产品部整合、Google AI Studio 开放 Gemini 4 Argon、WorkBuddy 故障补偿等多项重要动态。",
+    "key_points": [
+      "AI 技术列入出口管制目录",
+      "OpenAI Codex 优化提升使用量",
+      "DeepSeek 新增搜索抓取 API"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-17/",
+    "published": "2026-10-17"
+  }
+]

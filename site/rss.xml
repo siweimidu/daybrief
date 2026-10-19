@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sun, 18 Oct 2026 00:31:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 00:39:32 +0000</lastBuildDate>
+  <item>
+    <title>DeepSeek搜索API低价上线，混合推理代理引领架构演进</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-19.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-19.html</guid>
+    <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-19 · 资讯 29 条
+分类：开源项目 8 · 技术解读 11 · 行业动态 7 · 模型发布 1 · 其他 2
+编者按
+各位读者好，今天是2026年10月19日。近期科技领域的聚光灯依然聚焦在大模型及其衍生的基础设施演进上。随着DeepSeek等厂商不断压低搜索与抓取API的成本，AI应用正加速从“高门槛探索”走向“普惠量产”阶段。这不仅改变了开发者的成本结构，也对整个搜索与知识获取生态形成了强烈的价格冲击。
+在技术架构层面，智能体的演进正在突破纯文本的传统边界。arxiv上亮相的混合推理代理提出了一种新思路：让LLM在潜在空间中进行深度的思考与推理，而行动则通过文本指令执行。这种“潜在空间思考、文本执行”的模式，预示着未来AI Agent在处理复杂逻辑时将具备更高的效率和更低的冗余度。同时，终端编码工具的爆发（如Claude Code将代理式编码带到终端）和</description>
+  </item>
   <item>
     <title>DeepSeek与AI辅助审查引领研发变革，太阳能迈入新纪元</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-18.html</link>
