@@ -1,0 +1,327 @@
+[
+  {
+    "title": "法国超市冰箱网络漏洞",
+    "summary": "法国多家超市的冰箱在网络上暴露数月，存在被攻击风险，凸显物联网安全隐患。",
+    "key_points": [
+      "冰箱设备长期未受保护地在线",
+      "可能被黑客利用进行入侵或数据窃取"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ipinfo.io/blog/france-fridges-hack",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "编程的讣告",
+    "summary": "作者感叹编程工作被自动化取代，失去了解决复杂逻辑谜题的机会，强调程序员价值的下降。",
+    "key_points": [
+      "编程被代码生成模型取代",
+      "程序员的创造性和高薪工作受到冲击"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "OpenRouter 令牌使用停滞",
+    "summary": "OpenRouter 的令牌使用量已趋于平台上限，说明以往的 token‑maxxing 策略已失效。",
+    "key_points": [
+      "token‑maxxing 已不再提升效率",
+      "平台令牌消耗进入平台瓶颈"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openrouter.ai/rankings",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "模型削弱导致安全风险",
+    "summary": "研究展示削弱（abliterated）模型的方式会被攻击者利用，导致系统被入侵。",
+    "key_points": [
+      "削弱模型降低防御能力",
+      "攻击者可利用模型缺陷进行渗透"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Drupal 超越旧有印象",
+    "summary": "最新展示表明 Drupal 在性能和生态上已大幅提升，远超过去的负面声誉。",
+    "key_points": [
+      "性能、可扩展性显著提升",
+      "社区活跃度和生态系统增长"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://dri.es/state-of-drupal-presentation-september-2026",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "OpenBSD 8.0 引入 Linux 显卡驱动",
+    "summary": "OpenBSD 8.0 将内置来自 Linux 6.18 的 intel、radeon、amdgpu 驱动，提升硬件兼容性。",
+    "key_points": [
+      "首次集成 Linux 显卡驱动",
+      "提升对主流显卡的支持"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bsd.network/@brynet/117407035545900963",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "在 RTX Spark 笔记本上装 Linux",
+    "summary": "作者因没有 Microsoft 账户，将 Linux 系统成功移植到 RTX Spark 笔记本，展示了硬件的可替代性。",
+    "key_points": [
+      "绕过 Windows 限制实现 Linux 安装",
+      "验证 RTX Spark 硬件兼容性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://josie.lol/blog/linux-rtx-spark",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "单哈希布隆过滤器",
+    "summary": "介绍 One Hash Bloom Filters 的原理与优势，提供更高效的集合成员检测方法。",
+    "key_points": [
+      "仅使用单一哈希函数实现布隆过滤",
+      "降低计算和存储开销"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://calabro.io/ohbf",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "配额制度结束",
+    "summary": "文章探讨配额制度的终结及其意义。",
+    "key_points": [
+      "配额制度的历史",
+      "结束的原因"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sanketsaurav.com/writing/end-of-rationing",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "回滚将持续直至士气提升",
+    "summary": "作者指出代码回滚会持续，直到团队士气改善。",
+    "key_points": [
+      "回滚频繁的现象",
+      "士气与回滚的关系"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Evidence招聘软件工程师",
+    "summary": "YC S21公司Evidence正在招聘软件工程师。",
+    "key_points": [
+      "招聘职位",
+      "公司背景"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://evidence.dev/jobs",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Android应用在macOS上原生运行",
+    "summary": "GitHub项目实现Android应用在macOS上原生运行。",
+    "key_points": [
+      "实现方式",
+      "开源代码链接"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/kksimp/Mac.apk",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "MiniMax M3.1 Flash发布",
+    "summary": "MiniMax公司发布M3.1 Flash产品。",
+    "key_points": [
+      "产品名称",
+      "发布信息"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.minimax.io/blog/minimax-m31f",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Laminar发布RL训练模型检测代理轨迹错误",
+    "summary": "Laminar推出flow-1模型，使用强化学习在代理轨迹中发现错误，检测质量匹配GPT-6-sol且成本低23倍。",
+    "key_points": [
+      "flow-1模型",
+      "检测质量匹配GPT-6-sol",
+      "成本降低23倍"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50154029",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "乌克兰首次使用无人机撤离负伤士兵",
+    "summary": "乌克兰宣称首次利用无人机在前线撤离负伤士兵。",
+    "key_points": [
+      "首次无人机撤离",
+      "前线行动"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Agentic监控",
+    "summary": "文章探讨了Agentic监控的概念和实现。",
+    "key_points": [
+      "Agentic监控概念",
+      "实现方法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Plex 漏洞被利用植入加密矿工",
+    "summary": "黑客利用 Plex 软件的多个漏洞在受害者系统中部署加密货币挖矿程序，导致资源被滥用并可能泄露数据。",
+    "key_points": [
+      "多个 Plex 漏洞被公开利用",
+      "攻击者植入加密矿工进行盈利"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Wine 移植至 OpenBSD",
+    "summary": "Wine 项目已成功移植到 OpenBSD 操作系统，提升了在该平台上运行 Windows 应用的兼容性。",
+    "key_points": [
+      "Wine 在 OpenBSD 上可用",
+      "增强跨平台软件支持"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "AI 生成代码难以理解的应对之策",
+    "summary": "Meta 工程师分享了使用 AI 编写代码后难以完全理解代码细节的困惑，呼吁业界思考审查与责任问题。",
+    "key_points": [
+      "AI 代码生成加速开发",
+      "缺乏对代码细节的掌握导致风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50151036",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "动物实验替代技术迎来突破",
+    "summary": "新兴的动物实验替代方法正快速发展，获得业界广泛关注，推动更伦理的科研实践。",
+    "key_points": [
+      "替代技术取得进展",
+      "推动伦理科研"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Let's Encrypt 增加两种远程验证方式",
+    "summary": "Let's Encrypt 引入两种新的远程验证手段以提升域名验证的灵活性和安全性。",
+    "key_points": [
+      "新增两种远程验证",
+      "加强域名验证安全"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Anthropic 公益基金设立并投入 5% 股份",
+    "summary": "Anthropic 宣布成立公益基金，首轮投入公司 5% 股份，旨在推动 AI 领域公益事业。",
+    "key_points": [
+      "设立 Anthropic 公益基金",
+      "首批投入公司 5% 股份"
+    ],
+    "category": "投融资",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-19/",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "巨头本月或发布新前沿模型",
+    "summary": "多家 AI 巨头计划在本月推出新一代前沿模型，并通过新基准和开放移动智能体环境推动智能体评测与训练。",
+    "key_points": [
+      "新模型即将发布",
+      "新基准与移动智能体环境推动评测"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-19-zh/",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "Anthropic、Google、OpenAI 计划本月发布新模型",
+    "summary": "Anthropic、Google 与 OpenAI 预计本月推出新模型，同时新基准和开放移动智能体环境助力 LLM 智能体评估。",
+    "key_points": [
+      "三大公司计划发布新模型",
+      "新基准与移动环境提升 LLM 智能体评估"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-19/",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "本地化 AI 求职工具登 GitHub Trending",
+    "summary": "AI 求职工具 ai-job-search 在 GitHub Trending 上获得 2232 星，实测可在 45 分钟内完成 10 份岗位 JD 的简历定制与求职信撰写，效率比手动提升 4 倍。该工具与其他本地优先项目一起，满足开发者对数据隐私的需求，可能抢占付费 AI 简历平台市场。",
+    "key_points": [
+      "AI 求职工具 ai-job-search 在 GitHub Trending 上获得 2232 星，效率提升 4 倍",
+      "本地化工具满足隐私需求，可能抢占付费平台市场"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-19",
+    "published": "2026-10-19"
+  },
+  {
+    "title": "llm-tools-datasette 0.1.1 发布",
+    "summary": "llm-tools-datasette 0.1.1 版本发布，修复因 LLM 迁移到 httpx2 导致插件兼容性问题。",
+    "key_points": [
+      "修复 httpx2 兼容性问题",
+      "插件 llm-tools-datasette 重新可用"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "published": "2026-10-18"
+  },
+  {
+    "title": "llm-echo 0.5 发布",
+    "summary": "llm-echo 0.5 版本发布，新增对工具调用、系统提示和推理 token 的计数支持，提供不使用 LLM 的调试插件。",
+    "key_points": [
+      "新增 token 计数支持",
+      "提供无 LLM 调试插件"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "published": "2026-10-18"
+  }
+]
