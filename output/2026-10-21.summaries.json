@@ -1,0 +1,334 @@
+[
+  {
+    "title": "Microagi：加速具身通用人工智能",
+    "summary": "Microagi 项目致力于加速具身 AGI 的研发，已在 Hacker News 头条出现，推动通用人工智能向实际物理交互迈进。",
+    "key_points": [
+      "聚焦具身 AGI",
+      "在业界引起关注"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.microagi.ai/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "eMudhra 中级 CA 私钥泄露危机",
+    "summary": "eMudhra 的八个中级 CA 私钥被泄露，影响包括 Mozilla、Microsoft、Apple、Chrome 等根证书信任链，所有使用受信任证书列表的软件需及时更新。",
+    "key_points": [
+      "八个中级 CA 私钥泄露",
+      "需更新 ca‑certificates 包等"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "戒苯二氮卓药物的另一场流行病",
+    "summary": "文章讨论戒用苯二氮卓类药物的困难，称其为“另一场流行病”，在 Hacker News 获得高票关注。",
+    "key_points": [
+      "苯二氮卓戒断挑战",
+      "被视为公共健康危机"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.thebeliever.net/the-other-epidemic/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "美联邦怀疑 ShinyHunters 敲诈站运营者",
+    "summary": "美国联邦执法机构怀疑一名勒索谈判者运营 ShinyHunters 敲诈网站，涉及勒索软件 extortion，该报道在 Hacker News 热议。",
+    "key_points": [
+      "怀疑勒索谈判者运营 ShinyHunters",
+      "涉及勒索软件敲诈"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Battle Drones：音频同步的实时策略游戏",
+    "summary": "Simon Willison 开发的 Battle Drones 是一款受《命令与征服》启发的 RTS 游戏，支持通过音频在邻近设备间同步多人游戏，已发布多版本迭代提升可玩性。",
+    "key_points": [
+      "音频同步多人游戏",
+      "多版本迭代提升可玩性"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "学者应捍卫维基百科等开放知识体系",
+    "summary": "LSE 社会科学博客文章呼吁学者维护维基百科等开放知识平台，强调学术界的责任，该文在 Hacker News 获得大量关注。",
+    "key_points": [
+      "学者应捍卫开放知识",
+      "维基百科等平台重要性"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "SimCity 风格的许可证管理模拟",
+    "summary": "“SimCity, but with Permits” 是一个在线模拟工具，聚焦城市建设中的许可证管理，受到 Hacker News 社区热烈讨论。",
+    "key_points": [
+      "模拟城市许可证流程",
+      "受社区高度关注"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://permit.petercai.com/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "给儿子该教什么？",
+    "summary": "Steve Krouse 在个人博客探讨父亲应教给孩子的内容，引发 Hacker News 大量评论与互动。",
+    "key_points": [
+      "父子教育主题讨论",
+      "引发大量社区互动"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://stevekrouse.com/ends",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "2026年AI代理对抗机器人检测基准",
+    "summary": "2026年发布的研究对比了现代AI代理与现有机器人检测系统的表现，揭示检测技术面临的新挑战。",
+    "key_points": [
+      "对多种AI代理进行基准测试",
+      "发现检测准确率下降"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://research.poh.org/bot-benchmarking-2026/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Google开源TorchTPU：PyTorch在TPU上原生支持",
+    "summary": "Google 将 TorchTPU 开源，使 PyTorch 能直接在 TPU 上运行，提升大模型训练效率。",
+    "key_points": [
+      "提供原生 PyTorch 后端",
+      "加速 TPU 上的模型训练"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/google-pytorch/torch_tpu",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Mistral发布Voxtral 3模型",
+    "summary": "Mistral 推出第三代 Voxtral 模型，进一步提升语音和多模态生成能力。",
+    "key_points": [
+      "Voxtral 系列第三代",
+      "强化语音与多模态表现"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mistral.ai/news/voxtral-3/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "深水地平线16年后海底生物恢复仍有限",
+    "summary": "研究显示，深水地平线油泄漏事故16年后，深海生态恢复仍然缓慢，生物多样性提升有限。",
+    "key_points": [
+      "长期生态影响仍在",
+      "恢复速度低于预期"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "IKEA 3D组装指南上线",
+    "summary": "IKEA 推出全新 3D 组装指南，帮助用户在虚拟环境中预览并学习家具组装。",
+    "key_points": [
+      "提供交互式 3D 预览",
+      "简化组装流程"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sael.net/flatpack/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Respan：开源Rust AI网关插件化",
+    "summary": "Respan 发布基于 Rust 的开源 AI 网关，采用插件化设计，可灵活组合不同提供商和功能。",
+    "key_points": [
+      "插件化架构",
+      "支持多模态与协议"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50167583",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Facebook页面链接发布需付费订阅",
+    "summary": "Facebook 改变政策，页面每月发布超过两条链接需付费订阅，引发用户不满。",
+    "key_points": [
+      "链接发布数量受限",
+      "需付费解锁更多"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Ofcom在4chan案件中认输",
+    "summary": "英国通信监管机构 Ofcom 在针对 4chan 的法律案件中败诉，承认监管难度。",
+    "key_points": [
+      "案件判决对 Ofcom 不利",
+      "凸显监管挑战"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "My Friend Bob Cringely 个人故事",
+    "summary": "该文章在 Hacker News 获得 165 点和 47 条评论，讲述作者与 Bob Cringely 的尴尬经历，引发社区关注。",
+    "key_points": [
+      "165 点",
+      "47 条评论",
+      "个人故事"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tyma.com/my-cringe-story/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "EMudhra 中级 CA 泄露事件",
+    "summary": "报道 EMudhra 中级证书泄露事件，帖子在 Hacker News 获得 614 点和 334 条评论，凸显安全风险。",
+    "key_points": [
+      "614 点",
+      "334 条评论",
+      "中级 CA 证书泄露"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://emudhra.we-have-a-problem.com/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "2026 年 Rust 编译器新进展",
+    "summary": "作者分享 2026 年 Rust 编译器的最新进展和个人感受，帖子得到 155 点和 78 条评论，受到技术社区关注。",
+    "key_points": [
+      "155 点",
+      "78 条评论",
+      "Rust 编译器新特性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "300+ Tor 出口节点被移除",
+    "summary": "作者描述通过手段使超过 300 个 Tor 出口节点被移除，帖子在 Hacker News 获得 315 点和 76 条评论。",
+    "key_points": [
+      "315 点",
+      "76 条评论",
+      "300 多个 Tor 节点被移除"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://kaba.cx/posts/20261020_Tor/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Tsrs：TypeScript 到 Rust 的移植",
+    "summary": "Cloudflare 发布 Tsrs 项目，将 TypeScript 移植到 Rust，帖子获得 341 点和 166 条评论，受到开源社区关注。",
+    "key_points": [
+      "341 点",
+      "166 条评论",
+      "TypeScript 移植至 Rust"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.cloudflare.com/typescript-rust-port/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Apple 损坏 iPad 关键演示功能",
+    "summary": "报道 Apple 损坏了 iPad 的关键演示功能，帖子在 Hacker News 获得 484 点和 247 条评论，引发广泛讨论。",
+    "key_points": [
+      "484 点",
+      "247 条评论",
+      "iPad 演示功能受损"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "橘鸦 AI 早报：模型与政策更新",
+    "summary": "橘鸦 AI 早报于 2026-10-20 发布，包含 MiniMax M3.1 Flash、DeepSeek 禁购等多项模型与政策更新。",
+    "key_points": [
+      "发布 MiniMax M3.1 Flash",
+      "DeepSeek 被禁购并移除",
+      "OpenCode 更新 DeepSeek V4.1 Flash"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-20/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "AI 日报：Kronos、MemT 与 Holi-World",
+    "summary": "AI Daily 于 2026-10-20 报道 Kronos 开源金融 K 线模型、MemT 记忆架构以及 Holi-World 世界智能等新技术。",
+    "key_points": [
+      "Kronos 开源金融 K 线模型",
+      "MemT 推出记忆架构",
+      "Holi-World 构建世界智能"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-20-zh/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Kronos发布金融K线模型",
+    "summary": "Kronos公开发布了金融K线基础模型，MemT-1.0引入内存原生架构，Holi-World构建全景世界。",
+    "key_points": [
+      "Kronos推出开源金融K线模型",
+      "MemT-1.0采用内存原生架构"
+    ],
+    "category": "模型发布|开源项目",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-20/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "GitHub与HuggingFace热议AI求职工具",
+    "summary": "MadsLorentzen/ai-job-search在GitHub Trending上获得高分，聚焦求职自动化；DeepSeek-V4.1-Flash-1017在HuggingFace上线，关注边缘部署。",
+    "key_points": [
+      "ai-job-search在GitHub Trending热度高",
+      "DeepSeek-V4.1-Flash-1017聚焦边缘部署"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-20",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "编程职业的终结",
+    "summary": "Jeremy Scheff的悼文指出，编码代理导致职业程序员失去对复杂逻辑谜题的需求，编程从高薪谜题转变为被取代的角色。",
+    "key_points": [
+      "编码代理削弱程序员需求",
+      "编程从高薪谜题转向被取代"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+    "published": "2026-10-19"
+  }
+]

@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Tue, 20 Oct 2026 01:24:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 01:10:08 +0000</lastBuildDate>
+  <item>
+    <title>AI模型加速与安全危机并行</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-21.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-21.html</guid>
+    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-21 · 资讯 27 条
+编者按
+本日最值得关注的趋势是AI模型与底层硬件加速的同步开放，同时供应链安全危机频发，形成技术与风险并行的格局。
+从Microagi的具身AGI研发到Google开源的TorchTPU，再到Mistral的Voxtral 3模型，AI算力与多模态能力正以指数级速度提升；与此同时，eMudhra中级CA私钥泄露、300+ Tor出口节点被移除以及Facebook链接付费政策等事件暴露出数字信任链与平台治理的脆弱。
+这些动态表明，技术加速带来竞争优势的同时，也在放大安全与合规风险。硬件层面的开放（如TPU）降低了进入门槛，但同样让恶意方更易获取高效算力；证书泄露则直接威胁到浏览器、操作系统的信任根基。
+建议企业在追逐最新模型与加速器的同时，强化供应链审计与密钥管理，关注监管政策变化（如DeepSeek禁购），并在产品设计中预留安全冗余，以在</description>
+  </item>
   <item>
     <title>AI大模型密集蓄力将迎发布潮，智能体与工程安全迎新考验</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-20.html</link>
