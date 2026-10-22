@@ -4,7 +4,20 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Wed, 21 Oct 2026 01:10:08 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 01:08:06 +0000</lastBuildDate>
+  <item>
+    <title>Meta被判250亿美元罚款</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-22.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-22.html</guid>
+    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-22 · 资讯 29 条
+分类：其他 5 · 开源项目 5 · 行业动态 10 · 技术解读 6 · 模型发布 2 · 投融资 1
+编者按
+AI 与安全双轮驱动，监管与技术并行。
+Meta被判250亿美元罚款，凸显数据隐私监管趋严；PHP 8.2.35安全补丁及时修复远程执行漏洞，提醒开发者持续关注语言生态安全；AI Daily报道OpenAI模型登陆Google Cloud，表明大型模型正向多云生态扩散。
+与此同时，eMudhra CA泄露事件暴露根证书链风险，DuckDB 2.0.0 LTS发布带来性能提升，LiteLLM后门警示依赖安全；mitmproxy新增--emudhra参数提升调试功能；Qpack放大攻击提醒HTTP/3服务器需加强协议防护。
+建议企业：及时更新关键语言和框架补丁；审计第三方依赖；强化根证书管理；在多云部署时评估模型安全与合规；对网络</description>
+  </item>
   <item>
     <title>AI模型加速与安全危机并行</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-21.html</link>

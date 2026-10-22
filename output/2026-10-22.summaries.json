@@ -1,0 +1,352 @@
+[
+  {
+    "title": "我们何时成为应有的自己？",
+    "summary": "该文章在 Hacker News 上讨论了个人成长的哲学议题，探讨何时能够实现理想中的自我。此类思考对自我提升和价值观形成具有启发意义。",
+    "key_points": [
+      "围绕自我实现的时间节点展开讨论",
+      "强调个人成长对生活意义的重要性"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.graphsaboutreligion.com/p/when-do-we-become-the-person-we-ought",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "mitmproxy 新增 --emudhra 参数",
+    "summary": "mitmproxy 项目在最新提交中加入了 --emudhra 选项，提升了工具的功能性。此更新对网络调试和安全测试社区具有实用价值。",
+    "key_points": [
+      "在代码库中加入新命令行参数",
+      "增强了代理工具的可配置性"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Airbnb 禁止客人洗碗倒垃圾",
+    "summary": "Airbnb 更新了房东规则，明确禁止要求客人进行洗碗和倒垃圾等家务。此举旨在提升住宿体验，减少客人与房东之间的摩擦。",
+    "key_points": [
+      "房东规则中删除了家务要求",
+      "提升平台住宿服务的舒适度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "整数乘法常数 K=0.003 已跨越",
+    "summary": "在 CrocSwap 项目的整数乘法边界 PR 中，常数 K 达到 0.003，标志着算法性能的突破。此改进对高效数值计算具有技术意义。",
+    "key_points": [
+      "整数乘法的误差常数降低至 0.003",
+      "提升了相关算法的精度与效率"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4441",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "PHP 漏洞暂无简易利用方式",
+    "summary": "作者指出当前已知的 PHP 漏洞缺乏易于利用的攻击手段，降低了短期风险。此信息对安全从业者评估威胁等级有参考价值。",
+    "key_points": [
+      "确认该 PHP 漏洞缺乏直接利用路径",
+      "提示短期内风险相对可控"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://eliastaylor.com/noexploit/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Qpack 放大攻击针对 HTTP/3 服务器",
+    "summary": "研究报告揭示了 Qpack 放大攻击能够对 HTTP/3 服务器造成流量放大，潜在危害网络资源。此发现提醒运营方加强协议防护。",
+    "key_points": [
+      "描述 Qpack 放大攻击原理",
+      "警示 HTTP/3 服务器的安全风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Railway 安全披露公告",
+    "summary": "Railway 在官方博客发布了本周的安全披露，列出多项已修复的漏洞并提供细节。此透明度提升了用户对平台安全的信任。",
+    "key_points": [
+      "公布已修复的安全漏洞列表",
+      "增强平台安全透明度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "PHP Web 运行时安全漏洞 CVE-2026-109618/109619",
+    "summary": "AWS 安全公告披露了两项影响 PHP Web 运行时的 CVE 漏洞，提供了修复信息和影响范围。及时更新可防止潜在的代码执行风险。",
+    "key_points": [
+      "列出 CVE-2026-109618 与 CVE-2026-109619 的细节",
+      "提供修复与防护建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Claude Duet 新模型发布",
+    "summary": "Anthropic 推出 Claude Duet，对话式 AI 模型，已在 Hacker News 获 306 点热议。",
+    "key_points": [
+      "Claude Duet 为新一代对话模型",
+      "在 Hacker News 获得高关注度"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://claude.com/product/claude-duet",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Google Rust 编码规范上线",
+    "summary": "Google 发布官方 Rust 风格指南，帮助开发者统一代码风格，已在 Hacker News 获 194 点赞。",
+    "key_points": [
+      "提供 Rust 代码风格建议",
+      "在 Hacker News 引发讨论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://google.github.io/styleguide/rustguide.html",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "GitLab 19.5.1 安全补丁发布",
+    "summary": "GitLab 发布 19.5.1 关键安全补丁，修复多项漏洞，Hacker News 上获 241 点关注。",
+    "key_points": [
+      "针对 GitLab 关键漏洞的补丁",
+      "提升平台安全性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "PHP 8.x 安全更新紧急发布",
+    "summary": "PHP 基金会发布跨 8.x 版本的安全更新，修补两个远程代码执行漏洞，防止已在网络流传的利用代码。",
+    "key_points": [
+      "修复两处 RCE 漏洞",
+      "提醒用户尽快升级"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Meta 被判 250 亿美元罚款",
+    "summary": "美国新墨西哥州法院裁定 Meta 在 Cambridge Analytica 案中需支付 250 亿美元罚金，Hacker News 关注度高。",
+    "key_points": [
+      "Meta 因数据滥用被巨额罚款",
+      "涉及 Cambridge Analytica 案件"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "EA 关闭 BioWare 工作室",
+    "summary": "EA 宣布关闭旗下游戏开发工作室 BioWare，引发行业广泛关注，Hacker News 获 506 点赞。",
+    "key_points": [
+      "BioWare 将停止运营",
+      "对游戏行业产生影响"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Panache 法国风格 RTS 开源发布",
+    "summary": "开发者在 Apache 2.0 许可下发布移动端实时策略游戏 Panache，已出现法语分支并加入蒸汽朋克元素。",
+    "key_points": [
+      "基于 Battle Drones 的开源 RTS",
+      "支持移动和浏览器平台"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/21/panache/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "新型塑料污染 'Plasticorals' 被发现",
+    "summary": "研究发现一种名为 Plasticorals 的塑料珊瑚碎屑与塑料融合，威胁脆弱的珊瑚礁生态。",
+    "key_points": [
+      "塑料与珊瑚碎屑融合形成新污染",
+      "对海岸线珊瑚礁构成风险"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "PHP 8.2.35 安全更新及强化措施",
+    "summary": "PHP 官方发布 8.2.35 安全补丁，修复多项漏洞并加强安全机制，提升平台可靠性。",
+    "key_points": [
+      "发布安全补丁",
+      "加强安全防护"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "俄勒冈州议员批准资金购买标志性瀑布",
+    "summary": "俄勒冈州立法机构批准拨款，以购买在 Redfin 上挂牌的著名瀑布，涉及公共资产交易。",
+    "key_points": [
+      "批准购买资金",
+      "标志性瀑布挂牌出售"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Patch the Planet 项目协调披露关键漏洞",
+    "summary": "Patch the Planet 项目发布全球响应协调计划，帮助安全研究员披露关键漏洞，提升整体网络安全。",
+    "key_points": [
+      "全球响应协调",
+      "关键漏洞披露"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "DuckDB 2.0.0 LTS 正式发布（代号 Cinnamon Teal）",
+    "summary": "DuckDB 发布 2.0.0 长期支持版，代号 Cinnamon Teal，带来性能提升和新特性，适用于数据分析。",
+    "key_points": [
+      "发布 LTS 版本",
+      "提升性能与新特性"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "LiteLLM 1.107.0 PyPI 包被植入凭证窃取后门",
+    "summary": "安全研究发现 LiteLLM 1.107.0 在 PyPI 上被篡改，包含凭证窃取器和后门，提醒开发者审查依赖安全。",
+    "key_points": [
+      "PyPI 包被篡改",
+      "包含凭证窃取和后门"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "PHP 8.2.35 正式发布（GitHub）",
+    "summary": "PHP 官方在 GitHub 上发布 8.2.35 版本，包含安全修复和改进，得到社区广泛关注。",
+    "key_points": [
+      "在 GitHub 发布",
+      "安全修复与改进"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-21 精选要闻",
+    "summary": "本期早报涵盖 DeepInfer 开源框架、ChatGPT PIN 锁定、Codex 用量重置、OpenAI 账户额度修复等多项 AI 动态。",
+    "key_points": [
+      "DeepInfer 开源",
+      "ChatGPT PIN 锁定",
+      "OpenAI 额度修复"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-21/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "AI 日报 2026-10-21 要点速览",
+    "summary": "日报列出 OpenAI 上线谷歌云、Claude 开发蝎毒蛋白、Meta 与英伟达开源合作、GPT-4 停服等重要消息。",
+    "key_points": [
+      "OpenAI 部署谷歌云",
+      "Claude 蝎毒蛋白",
+      "GPT-4 停服"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-21-zh/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "AI Daily 2026-10-21",
+    "summary": "OpenAI 模型将登陆 Google Cloud，Claude 设计蝎子神经毒素结合物，Meta 与 Nvidia 推出开放模型以应对 GPT-4 API 关闭。",
+    "key_points": [
+      "OpenAI 模型登陆 Google Cloud",
+      "Meta 与 Nvidia 推出开放模型"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-21/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "DailyDawn 2026-10-21",
+    "summary": "Cloudflare/security-audit-skill 仓库获 1712 星，GitHub Actions 集成后单次审计耗时 12 秒；eMudhra CA 泄露事件导致安全关注度飙升。",
+    "key_points": [
+      "Cloudflare/security-audit-skill 12 秒审计",
+      "eMudhra CA 泄露事件引发关注"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-21",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "eMudhra CA 证书泄露",
+    "summary": "eMudhra 8 个中间 CA 私钥泄露，链至主流浏览器根证书，软件需更新根证书列表。",
+    "key_points": [
+      "eMudhra 8 个中间 CA 私钥泄露",
+      "软件需更新根证书列表"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "Battle Drones 游戏实验",
+    "summary": "基于音频同步的 RTS 游戏 Battle Drones 由 Claude 生成，支持多人游戏，已实现多版本迭代。",
+    "key_points": [
+      "Battle Drones 是基于音频同步的 RTS",
+      "游戏由 Claude 生成并支持多人"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+    "published": "2026-10-20"
+  },
+  {
+    "title": "2026-10-20 AI 早报",
+    "summary": "MiniMax 正式发布 M3.1 Flash，美国禁购并移除 DeepSeek，OpenCode 更新 DeepSeek V4.1 Flash，Qoder 免费开放 DeepSeek 新模型。",
+    "key_points": [
+      "MiniMax M3.1 Flash 正式发布",
+      "美国禁购 DeepSeek 并移除"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-20/",
+    "published": "2026-10-20"
+  }
+]
