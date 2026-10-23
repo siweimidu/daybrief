@@ -1,0 +1,374 @@
+[
+  {
+    "title": "北半球星图发布",
+    "summary": "发布了北半球星图资源，帮助天文爱好者识别星座和天体。",
+    "key_points": [
+      "提供完整的北半球星座图",
+      "适用于天文观测和教育"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Docker 奇怪行为解析",
+    "summary": "文章分析了Docker运行中的异常现象，帮助开发者更好地排查容器问题。",
+    "key_points": [
+      "列举Docker异常案例",
+      "提供调试和解决思路"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "AI算力如石油需新市场",
+    "summary": "经济学人认为AI算力已成为关键资源，亟需建立新的市场机制来定价和分配。",
+    "key_points": [
+      "AI算力需求快速增长",
+      "呼吁市场化定价体系"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "LLM推动大规模形式化验证",
+    "summary": "Anthropic展示了大语言模型在软件形式化验证中的应用，使验证规模大幅提升。",
+    "key_points": [
+      "LLM生成形式化证明",
+      "显著扩展验证范围"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/research/formal-verification",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Railpass 火车票平台上线",
+    "summary": "Railpass上线，提供在线预订多线路火车票的便捷服务。",
+    "key_points": [
+      "统一平台购票",
+      "支持多条铁路线路"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://train.samismith.com/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "库什纳手机被黑 揭露秘密交易",
+    "summary": "Vanity Fair披露Jared Kushner手机被黑，曝光其秘密谈判和数百万美元交易细节。",
+    "key_points": [
+      "手机被黑获取信息",
+      "揭示高额交易与谈判"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "De Staat《Freedom》官方MV发布",
+    "summary": "De Staat乐队发布《Freedom》官方音乐视频，展示了独特的视觉特效。",
+    "key_points": [
+      "官方MV上线",
+      "视觉特效由Matties Grooten制作"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "高中生开源3D游戏 Hedra",
+    "summary": "一名高中生独立开发并开源了3D开放世界游戏Hedra，展示了完整的从零实现。",
+    "key_points": [
+      "全手写游戏引擎",
+      "源码在GitHub公开"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "AI与科学公共领域的围闭",
+    "summary": "一篇新发表的 arXiv 论文《AI and the Enclosure of the Scientific Commons》探讨 AI 对科研共享空间的潜在封闭趋势，提醒学界关注技术对公共科研资源的影响。",
+    "key_points": [
+      "分析AI导致科研公共领域围闭的机制",
+      "呼吁维护科学共享的开放性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2610.27251",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Anthropic将Agent Skills捐赠给AAIF",
+    "summary": "Anthropic 宣布将其 Agent Skills 标准以及 Model Context Protocol 捐赠给在 Linux 基金会旗下成立的 Agentic AI Foundation，旨在保持标准的开放、社区驱动和供应商中立。",
+    "key_points": [
+      "Agent Skills 标准捐赠至 AAIF",
+      "Model Context Protocol 也同步转移",
+      "在 Linux 基金会框架下保持开源中立"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "OpenShell：安全私有的自主AI代理运行时",
+    "summary": "NVIDIA 开源项目 OpenShell 提供一个安全、私密的运行时环境，专为大规模自治 AI 代理设计，帮助开发者安全部署多代理系统。",
+    "key_points": [
+      "安全私有的 AI 代理运行时",
+      "支持大规模自治代理部署",
+      "由 NVIDIA 在 GitHub 开源"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/NVIDIA/OpenShell",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Arc浏览器正式告别",
+    "summary": "Arc 浏览器官方宣布停止服务，标志着该产品的正式退出，用户需迁移至其他浏览器。",
+    "key_points": [
+      "Arc 浏览器宣布停运",
+      "用户需寻找替代方案",
+      "行业关注浏览器生态变化"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arc.net/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "GNU Taler在德国准备上线",
+    "summary": "GNU Taler 项目准备在德国开展运营，推动其电子支付系统的本地化应用，标志着该开源支付方案的进一步落地。",
+    "key_points": [
+      "GNU Taler 在德国准备上线",
+      "推进开源电子支付的本地化",
+      "关注合规与支付安全"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.taler.net/en/news/2026-13.html",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "所有AI模型对人类的争议性观点",
+    "summary": "一篇分析指出，各大 AI 模型对人类的评价呈现相似的争议性观点，揭示了模型训练数据或偏见的共性。",
+    "key_points": [
+      "不同模型持相似争议性看法",
+      "可能反映训练数据偏见",
+      "提醒审视模型输出的伦理风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Armin Ronacher：AI时代的技术债",
+    "summary": "Armin Ronacher 在评论中指出，尽管 AI 带来乐趣，但过去三十年累积的糟糕软件正受到‘宇宙的惩罚’，提醒业界关注技术债。",
+    "key_points": [
+      "AI 与糟糕软件的关系被讽刺",
+      "技术债在新环境下被放大",
+      "呼吁提升软件质量"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "在Android上运行完整iOS 16.5固件",
+    "summary": "开源项目 hackios-xnu-kernel 实现了在 Android 设备上运行完整的 iOS 16.5 固件，为跨平台系统实验提供了新可能。",
+    "key_points": [
+      "在 Android 上运行 iOS 16.5 固件",
+      "GitHub 项目提供实现代码",
+      "促进移动系统的跨平台研究"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/oosexgang/hackios-xnu-kernel",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Quad9 将退出法国市场",
+    "summary": "Quad9 宣布其 DNS 解析服务将停止在法国运营，标志着其在欧洲的业务调整。",
+    "key_points": [
+      "Quad9 将停止在法国提供 DNS 解析服务",
+      "可能受监管或商业因素影响"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://quad9.net/news/blog/au-revoir-france/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "实时漏洞追踪平台 pwn.watch",
+    "summary": "pwn.watch 网站上线，实时展示当前被攻击的系统和漏洞，帮助安全从业者快速了解最新攻击趋势。",
+    "key_points": [
+      "提供实时被攻击资产信息",
+      "便于安全监测和响应"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pwn.watch/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "eMudhra 退出全球 SSL/TLS 证书业务",
+    "summary": "eMudhra 宣布停止其全球 SSL/TLS 证书业务，标志着该公司在数字证书市场的撤退。",
+    "key_points": [
+      "停止全球 SSL/TLS 证书发行",
+      "可能受弱密钥和市场竞争影响"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "女子因未开通的 Cash App 账户面临六年监禁",
+    "summary": "一名女子因涉嫌使用未开设的 Cash App 账户被起诉，面临最高六年监禁，引发对支付平台安全和法律责任的关注。",
+    "key_points": [
+      "被指使用他人 Cash App 账户",
+      "最高可能判六年监禁"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "The Last Museum：跨 580 万艺术品的语义搜索",
+    "summary": "The Last Museum 项目提供对来自主要博物馆的 580 万件艺术品进行语义检索的服务，提升艺术作品的发现和研究效率。",
+    "key_points": [
+      "覆盖 580 万件艺术品",
+      "基于语义搜索技术"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lastmuseum.com/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Xbox 将对已购游戏流媒体收取每小时 0.24-0.40 美元费用",
+    "summary": "Xbox 计划对用户通过云流媒体播放已购买的游戏收取每小时 0.24 至 0.40 美元的费用，引发玩家对额外成本的担忧。",
+    "key_points": [
+      "对已购游戏云流媒体收费",
+      "费用为每小时 0.24-0.40 美元"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "作者因泄露 PHP RCE 漏洞信息致歉",
+    "summary": "一位 HN 用户承认在未获授权的情况下披露了涉及 CVE-2026-109618 与 CVE-2026-109619 的 PHP 远程代码执行漏洞，导致协调披露计划受扰。",
+    "key_points": [
+      "泄露 PHP RCE 漏洞信息",
+      "对协调披露造成影响并致歉"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50193416",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-10-22",
+    "summary": "本期早报涵盖 Claude Duet 预览、Codex 登录缓存、PHP 两大漏洞修复、eMudhra 撤销弱密钥证书、LiteLLM 供应链攻击等多项技术动态。",
+    "key_points": [
+      "Claude Duet 开放预览",
+      "PHP 两项严重漏洞获修复",
+      "eMudhra 撤销弱密钥证书"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-22/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "OpenAI发布金融版ChatGPT与新视频/3D基准",
+    "summary": "OpenAI推出面向金融服务的ChatGPT版本，并公布了用于评估流式视频生成和视觉语言模型在3D场景建图中的新基准。此举标志着AI在金融与多模态领域的进一步深化。",
+    "key_points": [
+      "推出金融服务版ChatGPT",
+      "发布流式视频与VLM 3D建图新基准"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-22-zh/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "OpenAI推出金融服务版ChatGPT与新视频/3D基准",
+    "summary": "OpenAI推出金融服务版ChatGPT，并发布评估流式视频生成与VLM 3D场景映射的新基准。",
+    "key_points": [
+      "推出金融服务版ChatGPT",
+      "发布流式视频与VLM 3D建图新基准"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-22/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "GitHub AI编码工具榜三大高星项目登榜",
+    "summary": "DailyDawn报道今日GitHub AI编码工具榜三大高星项目登榜，显示独立开发工具赛道升温。",
+    "key_points": [
+      "ponytail以2079星登顶",
+      "cloudflare安全审计技能库以2012星紧随",
+      "stablyai/orca以1541星登榜"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-22",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "PHP发布安全补丁修复两处RCE漏洞",
+    "summary": "PHP发布安全补丁，修复两处远程代码执行漏洞，强调及时升级的重要性。",
+    "key_points": [
+      "修复两处RCE漏洞",
+      "漏洞已被公开利用",
+      "建议立即升级"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "Battle Drones游戏发布并获得法语分支",
+    "summary": "发布Battle Drones游戏并获得法语分支，游戏设定在1900年代法国的蒸汽朋克世界。",
+    "key_points": [
+      "Battle Drones以Apache 2.0发布",
+      "法语分支改装为Belle Époque背景",
+      "支持移动与浏览器"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/21/panache/",
+    "published": "2026-10-21"
+  },
+  {
+    "title": "DeepSeek发布DeepInfer框架等多项技术更新",
+    "summary": "DeepSeek发布内部推理框架DeepInfer，ChatGPT新增锁定聊天与PIN保护，OpenAI修复账户额度错配并补偿，Google开源TorchTPU，腾讯元宝搜索开放API等多项技术更新。",
+    "key_points": [
+      "DeepSeek发布DeepInfer框架",
+      "ChatGPT新增锁定聊天与PIN保护",
+      "OpenAI修复额度错配并补偿"
+    ],
+    "category": "技术解读",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-21/",
+    "published": "2026-10-21"
+  }
+]

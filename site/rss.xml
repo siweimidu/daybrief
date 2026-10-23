@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Thu, 22 Oct 2026 01:08:06 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 01:08:18 +0000</lastBuildDate>
+  <item>
+    <title>AI基础设施生态加速演进，开源代理运行时与垂直金融落地成焦点</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-23.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-23.html</guid>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-23 · 资讯 30 条
+分类：行业动态 8 · 技术解读 6 · 开源项目 6 · 模型发布 2 · 其他 8
+编者按
+各位读者好。今天是2026年10月23日，当前科技界的核心看点依然集中在人工智能向纵深发展的生态重构与标准建立上。Anthropic将Agent Skills与Model Context Protocol捐赠给Linux基金会旗下的Agentic AI Foundation，标志着AI代理的标准正从企业私有走向全面开源与社区共建，这为未来的多代理协作打下了坚实基础。
+与此同时，硬件与算力层面的创新正在改变商业格局。《经济学人》指出AI算力已成为“新石油”，急需建立全新的市场机制来进行定价与分配；而在具体落地方面，OpenAI推出了面向金融服务的ChatGPT版本，并加码流式视频与3D场景建基准，凸显出大模型正快速向高壁垒的垂直专业领域和复杂多模</description>
+  </item>
   <item>
     <title>Meta被判250亿美元罚款</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-22.html</link>

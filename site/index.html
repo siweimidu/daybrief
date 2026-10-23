@@ -117,7 +117,8 @@ python3 scripts/build_site.py                                        # 本地预
 
   <div class="card">
     <h2>最近更新</h2>
-    <ul class="issue-list"><li><span class="d">2026-10-22</span><a href="https://siweimidu.github.io/daybrief/2026-10-22.html">Meta被判250亿美元罚款</a></li>
+    <ul class="issue-list"><li><span class="d">2026-10-23</span><a href="https://siweimidu.github.io/daybrief/2026-10-23.html">AI基础设施生态加速演进，开源代理运行时与垂直金融落地成焦点</a></li>
+<li><span class="d">2026-10-22</span><a href="https://siweimidu.github.io/daybrief/2026-10-22.html">Meta被判250亿美元罚款</a></li>
 <li><span class="d">2026-10-21</span><a href="https://siweimidu.github.io/daybrief/2026-10-21.html">AI模型加速与安全危机并行</a></li>
 <li><span class="d">2026-10-20</span><a href="https://siweimidu.github.io/daybrief/2026-10-20.html">AI大模型密集蓄力将迎发布潮，智能体与工程安全迎新考验</a></li>
 <li><span class="d">2026-10-19</span><a href="https://siweimidu.github.io/daybrief/2026-10-19.html">DeepSeek搜索API低价上线，混合推理代理引领架构演进</a></li>
@@ -130,87 +131,83 @@ python3 scripts/build_site.py                                        # 本地预
   </div>
 
 <div class="card">
-  <h2>最新一期 · 2026-10-22</h2>
-  <p class="meta">生成时间：2026-10-22 · 资讯 29 条</p>
-  <p class="meta">生成时间：2026-10-22 · 资讯 29 条</p>
-<p><strong>分类</strong>：其他 5 · 开源项目 5 · 行业动态 10 · 技术解读 6 · 模型发布 2 · 投融资 1</p>
+  <h2>最新一期 · 2026-10-23</h2>
+  <p class="meta">生成时间：2026-10-23 · 资讯 30 条</p>
+  <p class="meta">生成时间：2026-10-23 · 资讯 30 条</p>
+<p><strong>分类</strong>：行业动态 8 · 技术解读 6 · 开源项目 6 · 模型发布 2 · 其他 8</p>
 <h2>编者按</h2>
-<p>AI 与安全双轮驱动，监管与技术并行。</p>
-<p>Meta被判250亿美元罚款，凸显数据隐私监管趋严；PHP 8.2.35安全补丁及时修复远程执行漏洞，提醒开发者持续关注语言生态安全；AI Daily报道OpenAI模型登陆Google Cloud，表明大型模型正向多云生态扩散。</p>
-<p>与此同时，eMudhra CA泄露事件暴露根证书链风险，DuckDB 2.0.0 LTS发布带来性能提升，LiteLLM后门警示依赖安全；mitmproxy新增--emudhra参数提升调试功能；Qpack放大攻击提醒HTTP/3服务器需加强协议防护。</p>
-<p>建议企业：及时更新关键语言和框架补丁；审计第三方依赖；强化根证书管理；在多云部署时评估模型安全与合规；对网络协议进行流量监控与防护。</p>
+<p>各位读者好。今天是2026年10月23日，当前科技界的核心看点依然集中在人工智能向纵深发展的生态重构与标准建立上。Anthropic将Agent Skills与Model Context Protocol捐赠给Linux基金会旗下的Agentic AI Foundation，标志着AI代理的标准正从企业私有走向全面开源与社区共建，这为未来的多代理协作打下了坚实基础。</p>
+<p>与此同时，硬件与算力层面的创新正在改变商业格局。《经济学人》指出AI算力已成为“新石油”，急需建立全新的市场机制来进行定价与分配；而在具体落地方面，OpenAI推出了面向金融服务的ChatGPT版本，并加码流式视频与3D场景建基准，凸显出大模型正快速向高壁垒的垂直专业领域和复杂多模态方向渗透。</p>
+<p>开源与安全领域也在今天迎来重要动态。NVIDIA开源了专为大规模自治AI代理设计的安全私有运行时OpenShell，而GitHub上的AI编码工具与开源3D游戏项目持续火热，印证了独立开发者与开源生态的极高活跃度。不过，技术债和供应链安全也敲响了警钟，如PHP近期曝出的RCE漏洞修复及随之引发的披露争议，提醒我们在狂奔的代码洪流中不可忽视底层安全。</p>
+<p>面对算力资源金融化、代理标准开源化以及多模态应用深化的多重浪潮，技术决策者与开发者需要及时调整策略。建议企业在拥抱Agent技术与垂直AI应用的同时，必须把运行时安全、供应链治理和底层技术债的管理提到与业务创新同等重要的位置，以应对快速演进的技术周期。</p>
 <h2>今日要点</h2>
-<h3>1. Meta被判250亿美元罚款</h3>
+<h3>1. Anthropic将Agent Skills与MCP捐赠给AAIF</h3>
 <ul>
-<li>来源：<a href="https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html">CNBC</a></li>
-<li>点评：巨额罚款表明美国监管对数据隐私和平台责任的严厉态度，行业需加强合规治理。</li>
+<li>来源：<a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/">Simon Willison</a></li>
+<li>点评：此举将核心的AI代理标准交由Linux基金会托管，标志着AI代理生态正式迈向开源、开放和多方共建的新阶段。它有助于消除行业内的接口壁垒，加速多代理系统的规模化落地。</li>
 </ul>
-<h3>2. PHP 8.2.35安全更新</h3>
+<h3>2. OpenShell：安全私有的自主AI代理运行时</h3>
 <ul>
-<li>来源：<a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">thephp.foundation</a></li>
-<li>点评：补丁修复多项远程执行漏洞，凸显语言生态安全仍是关键，开发者应及时升级并审计代码。</li>
+<li>来源：<a href="https://github.com/NVIDIA/OpenShell">Hacker News Front Page</a></li>
+<li>点评：NVIDIA开源的OpenShell直击当前自治AI代理在安全性与隐私保护上的痛点。它为大规模部署多代理系统提供了坚实的底层隔离和安全保障，是企业级AI基建的重要补充。</li>
 </ul>
-<h3>3. OpenAI模型登陆Google Cloud</h3>
+<h3>3. OpenAI发布金融版ChatGPT与新视频/3D基准</h3>
 <ul>
-<li>来源：<a href="https://ainewslog.com/blog/ai-daily-2026-10-21-zh/">AI Daily</a></li>
-<li>点评：多云部署提升可用性与成本控制，但也带来跨云安全与合规挑战，企业需制定统一策略。</li>
+<li>来源：<a href="https://ainewslog.com/blog/ai-daily-2026-10-22-zh/">AI Daily</a></li>
+<li>点评：OpenAI持续深耕高附加值的垂直场景，金融版ChatGPT的推出验证了大模型向传统核心行业渗透的加速。同时，新基准的公布也将推动视频生成与3D空间理解技术向更高精度发展。</li>
 </ul>
-<h3>4. eMudhra CA证书泄露</h3>
+<h3>4. AI算力如石油需建立全新市场机制</h3>
 <ul>
-<li>来源：<a href="https://simonwillison.net/2026/Oct/20/emudhra-certificates/">Simon Willison</a></li>
-<li>点评：中间CA私钥泄露威胁根证书链安全，提示企业需定期审计证书链并更新根证书列表。</li>
+<li>来源：<a href="https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market">Hacker News Front Page</a></li>
+<li>点评：经济学人对算力经济属性的精准剖析，反映出AI基础设施正面临严重的资源分配与定价瓶颈。未来算力交易市场的建立，将直接决定中小企业和研究机构获取AI生产要素的成本。</li>
 </ul>
-<h3>5. DuckDB 2.0.0 LTS发布</h3>
+<h3>5. LLM推动大规模形式化验证</h3>
 <ul>
-<li>来源：<a href="https://duckdb.org/2026/10/21/announcing-duckdb-200">DuckDB</a></li>
-<li>点评：新版本性能提升与新特性为数据分析提供更高效率，值得数据团队评估升级。</li>
+<li>来源：<a href="https://www.anthropic.com/research/formal-verification">Hacker News Front Page</a></li>
+<li>点评：Anthropic展示的成果表明，大模型在辅助软件工程进行严密形式化验证方面展现出巨大潜力。这有望从根本上解决复杂软件的可靠性与安全性难题，改变传统代码审计与测试流程。</li>
 </ul>
-<h3>6. LiteLLM 1.107.0后门</h3>
+<h3>6. AI与科学公共领域的围闭趋势引发警惕</h3>
 <ul>
-<li>来源：<a href="https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/">safedep.io</a></li>
-<li>点评：后门植入提醒依赖安全风险，建议使用可信源并定期扫描依赖。</li>
+<li>来源：<a href="https://arxiv.org/abs/2610.27251">Hacker News Front Page</a></li>
+<li>点评：这篇arXiv论文敏锐地指出了商业AI对科学共享空间的封闭风险。平衡学术开源精神与商业AI巨头的垄断倾向，将是未来科技伦理和政策制定的关键议题。</li>
 </ul>
-<h3>7. mitmproxy新增--emudhra参数</h3>
+<h3>7. PHP发布安全补丁修复两处RCE漏洞</h3>
 <ul>
-<li>来源：<a href="https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b">GitHub</a></li>
-<li>点评：新参数提升调试功能，体现开源工具持续迭代，使用者需关注更新以获得更强功能。</li>
+<li>来源：<a href="https://simonwillison.net/2026/Oct/21/php-security-release/">Simon Willison</a></li>
+<li>点评：作为互联网底层基石的PHP曝出高危远程代码执行漏洞，再次敲响了开源供应链安全的警钟。及时升级补丁与规范漏洞披露流程是保障全球Web安全防线的重中之重。</li>
 </ul>
-<h3>8. Qpack放大攻击针对HTTP/3服务器</h3>
+<h3>8. 高中生开源3D游戏 Hedra</h3>
 <ul>
-<li>来源：<a href="https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers">foxio.io</a></li>
-<li>点评：攻击揭示HTTP/3协议潜在风险，运营方需加固协议防护并监控异常流量。</li>
+<li>来源：<a href="https://github.com/maxilevi/project-hedra/tree/pre-ai">Hacker News Front Page</a></li>
+<li>点评：年轻开发者独立完成并开源的3D开放世界游戏，生动展现了新一代开发者强大的工程实现能力与纯粹的开源热情。这类项目为独立游戏开发赛道注入了新鲜活力。</li>
 </ul>
 <h2>其他资讯</h2>
 <ul>
-<li><strong><a href="https://www.graphsaboutreligion.com/p/when-do-we-become-the-person-we-ought">我们何时成为应有的自己？</a></strong>（Hacker News Front Page · 其他）：该文章在 Hacker News 上讨论了个人成长的哲学议题，探讨何时能够实现理想中的自我。此类思考对自我提升和价值观形成具有启发意义。</li>
-<li><strong><a href="https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b">mitmproxy 新增 --emudhra 参数</a></strong>（Hacker News Front Page · 开源项目）：mitmproxy 项目在最新提交中加入了 --emudhra 选项，提升了工具的功能性。此更新对网络调试和安全测试社区具有实用价值。</li>
-<li><strong><a href="https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update">Airbnb 禁止客人洗碗倒垃圾</a></strong>（Hacker News Front Page · 行业动态）：Airbnb 更新了房东规则，明确禁止要求客人进行洗碗和倒垃圾等家务。此举旨在提升住宿体验，减少客人与房东之间的摩擦。</li>
-<li><strong><a href="https://github.com/CrocSwap/integer-mult-bounds/pull/4441">整数乘法常数 K=0.003 已跨越</a></strong>（Hacker News Front Page · 开源项目）：在 CrocSwap 项目的整数乘法边界 PR 中，常数 K 达到 0.003，标志着算法性能的突破。此改进对高效数值计算具有技术意义。</li>
-<li><strong><a href="https://eliastaylor.com/noexploit/">PHP 漏洞暂无简易利用方式</a></strong>（Hacker News Front Page · 技术解读）：作者指出当前已知的 PHP 漏洞缺乏易于利用的攻击手段，降低了短期风险。此信息对安全从业者评估威胁等级有参考价值。</li>
-<li><strong><a href="https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers">Qpack 放大攻击针对 HTTP/3 服务器</a></strong>（Hacker News Front Page · 技术解读）：研究报告揭示了 Qpack 放大攻击能够对 HTTP/3 服务器造成流量放大，潜在危害网络资源。此发现提醒运营方加强协议防护。</li>
-<li><strong><a href="https://blog.railway.com/p/security-disclosure-wednesday-october-21st">Railway 安全披露公告</a></strong>（Hacker News Front Page · 技术解读）：Railway 在官方博客发布了本周的安全披露，列出多项已修复的漏洞并提供细节。此透明度提升了用户对平台安全的信任。</li>
-<li><strong><a href="https://aws.amazon.com/security/security-bulletins/2026-143-aws/">PHP Web 运行时安全漏洞 CVE-2026-109618/109619</a></strong>（Hacker News Front Page · 技术解读）：AWS 安全公告披露了两项影响 PHP Web 运行时的 CVE 漏洞，提供了修复信息和影响范围。及时更新可防止潜在的代码执行风险。</li>
-<li><strong><a href="https://claude.com/product/claude-duet">Claude Duet 新模型发布</a></strong>（Hacker News Front Page · 模型发布）：Anthropic 推出 Claude Duet，对话式 AI 模型，已在 Hacker News 获 306 点热议。</li>
-<li><strong><a href="https://google.github.io/styleguide/rustguide.html">Google Rust 编码规范上线</a></strong>（Hacker News Front Page · 开源项目）：Google 发布官方 Rust 风格指南，帮助开发者统一代码风格，已在 Hacker News 获 194 点赞。</li>
-<li><strong><a href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/">GitLab 19.5.1 安全补丁发布</a></strong>（Hacker News Front Page · 行业动态）：GitLab 发布 19.5.1 关键安全补丁，修复多项漏洞，Hacker News 上获 241 点关注。</li>
-<li><strong><a href="https://simonwillison.net/2026/Oct/21/php-security-release/">PHP 8.x 安全更新紧急发布</a></strong>（Simon Willison · 行业动态）：PHP 基金会发布跨 8.x 版本的安全更新，修补两个远程代码执行漏洞，防止已在网络流传的利用代码。</li>
-<li><strong><a href="https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html">Meta 被判 250 亿美元罚款</a></strong>（Hacker News Front Page · 投融资）：美国新墨西哥州法院裁定 Meta 在 Cambridge Analytica 案中需支付 250 亿美元罚金，Hacker News 关注度高。</li>
-<li><strong><a href="https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware">EA 关闭 BioWare 工作室</a></strong>（Hacker News Front Page · 行业动态）：EA 宣布关闭旗下游戏开发工作室 BioWare，引发行业广泛关注，Hacker News 获 506 点赞。</li>
-<li><strong><a href="https://simonwillison.net/2026/Oct/21/panache/">Panache 法国风格 RTS 开源发布</a></strong>（Simon Willison · 开源项目）：开发者在 Apache 2.0 许可下发布移动端实时策略游戏 Panache，已出现法语分支并加入蒸汽朋克元素。</li>
-<li><strong><a href="https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs">新型塑料污染 &#x27;Plasticorals&#x27; 被发现</a></strong>（Hacker News Front Page · 其他）：研究发现一种名为 Plasticorals 的塑料珊瑚碎屑与塑料融合，威胁脆弱的珊瑚礁生态。</li>
-<li><strong><a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">PHP 8.2.35 安全更新及强化措施</a></strong>（Hacker News Front Page · 技术解读）：PHP 官方发布 8.2.35 安全补丁，修复多项漏洞并加强安全机制，提升平台可靠性。</li>
-<li><strong><a href="https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488">俄勒冈州议员批准资金购买标志性瀑布</a></strong>（Hacker News Front Page · 行业动态）：俄勒冈州立法机构批准拨款，以购买在 Redfin 上挂牌的著名瀑布，涉及公共资产交易。</li>
-<li><strong><a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/">Patch the Planet 项目协调披露关键漏洞</a></strong>（Hacker News Front Page · 技术解读）：Patch the Planet 项目发布全球响应协调计划，帮助安全研究员披露关键漏洞，提升整体网络安全。</li>
-<li><strong><a href="https://duckdb.org/2026/10/21/announcing-duckdb-200">DuckDB 2.0.0 LTS 正式发布（代号 Cinnamon Teal）</a></strong>（Hacker News Front Page · 开源项目）：DuckDB 发布 2.0.0 长期支持版，代号 Cinnamon Teal，带来性能提升和新特性，适用于数据分析。</li>
-<li><strong><a href="https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/">LiteLLM 1.107.0 PyPI 包被植入凭证窃取后门</a></strong>（Hacker News Front Page · 技术解读）：安全研究发现 LiteLLM 1.107.0 在 PyPI 上被篡改，包含凭证窃取器和后门，提醒开发者审查依赖安全。</li>
-<li><strong><a href="https://github.com/php/php-src/releases/tag/php-8.2.35">PHP 8.2.35 正式发布（GitHub）</a></strong>（Hacker News Front Page · 开源项目）：PHP 官方在 GitHub 上发布 8.2.35 版本，包含安全修复和改进，得到社区广泛关注。</li>
-<li><strong><a href="https://daily.juya.uk/issues/2026-10-21/">橘鸦 AI 早报 2026-10-21 精选要闻</a></strong>（橘鸦AI早报 · 行业动态）：本期早报涵盖 DeepInfer 开源框架、ChatGPT PIN 锁定、Codex 用量重置、OpenAI 账户额度修复等多项 AI 动态。</li>
-<li><strong><a href="https://ainewslog.com/blog/ai-daily-2026-10-21-zh/">AI 日报 2026-10-21 要点速览</a></strong>（AI Daily · 行业动态）：日报列出 OpenAI 上线谷歌云、Claude 开发蝎毒蛋白、Meta 与英伟达开源合作、GPT-4 停服等重要消息。</li>
-<li><strong><a href="https://ainewslog.com/blog/ai-daily-2026-10-21/">AI Daily 2026-10-21</a></strong>（AI Daily · 模型发布）：OpenAI 模型将登陆 Google Cloud，Claude 设计蝎子神经毒素结合物，Meta 与 Nvidia 推出开放模型以应对 GPT-4 API 关闭。</li>
-<li><strong><a href="https://dailydawn.dev/zh/2026-10-21">DailyDawn 2026-10-21</a></strong>（DailyDawn 中文 · 开源项目）：Cloudflare/security-audit-skill 仓库获 1712 星，GitHub Actions 集成后单次审计耗时 12 秒；eMudhra CA 泄露事件导致安全关注度飙升。</li>
-<li><strong><a href="https://simonwillison.net/2026/Oct/20/emudhra-certificates/">eMudhra CA 证书泄露</a></strong>（Simon Willison · 行业动态）：eMudhra 8 个中间 CA 私钥泄露，链至主流浏览器根证书，软件需更新根证书列表。</li>
-<li><strong><a href="https://simonwillison.net/2026/Oct/20/battledrones/">Battle Drones 游戏实验</a></strong>（Simon Willison · 其他）：基于音频同步的 RTS 游戏 Battle Drones 由 Claude 生成，支持多人游戏，已实现多版本迭代。</li>
-<li><strong><a href="https://daily.juya.uk/issues/2026-10-20/">2026-10-20 AI 早报</a></strong>（橘鸦AI早报 · 行业动态）：MiniMax 正式发布 M3.1 Flash，美国禁购并移除 DeepSeek，OpenCode 更新 DeepSeek V4.1 Flash，Qoder 免费开放 DeepSeek 新模型。</li>
+<li><strong><a href="https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/">北半球星图发布</a></strong>（Hacker News Front Page · 其他）：发布了北半球星图资源，帮助天文爱好者识别星座和天体。</li>
+<li><strong><a href="https://codeandcake.dev/posts/2026-10-22-docker-is-weird">Docker 奇怪行为解析</a></strong>（Hacker News Front Page · 技术解读）：文章分析了Docker运行中的异常现象，帮助开发者更好地排查容器问题。</li>
+<li><strong><a href="https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market">AI算力如石油需新市场</a></strong>（Hacker News Front Page · 行业动态）：经济学人认为AI算力已成为关键资源，亟需建立新的市场机制来定价和分配。</li>
+<li><strong><a href="https://train.samismith.com/">Railpass 火车票平台上线</a></strong>（Hacker News Front Page · 其他）：Railpass上线，提供在线预订多线路火车票的便捷服务。</li>
+<li><strong><a href="https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations">库什纳手机被黑 揭露秘密交易</a></strong>（Hacker News Front Page · 其他）：Vanity Fair披露Jared Kushner手机被黑，曝光其秘密谈判和数百万美元交易细节。</li>
+<li><strong><a href="https://simonwillison.net/2026/Oct/22/de-staat-freedom/">De Staat《Freedom》官方MV发布</a></strong>（Simon Willison · 其他）：De Staat乐队发布《Freedom》官方音乐视频，展示了独特的视觉特效。</li>
+<li><strong><a href="https://arxiv.org/abs/2610.27251">AI与科学公共领域的围闭</a></strong>（Hacker News Front Page · 技术解读）：一篇新发表的 arXiv 论文《AI and the Enclosure of the Scientific Commons》探讨 AI 对科研共享空间的潜在封闭趋势，提醒学界关注技术对公共科研资源的影响。</li>
+<li><strong><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/">Anthropic将Agent Skills捐赠给AAIF</a></strong>（Simon Willison · 行业动态）：Anthropic 宣布将其 Agent Skills 标准以及 Model Context Protocol 捐赠给在 Linux 基金会旗下成立的 Agentic AI Foundation，旨在保持标准的开放、社区驱动和供应商中立。</li>
+<li><strong><a href="https://arc.net/">Arc浏览器正式告别</a></strong>（Hacker News Front Page · 行业动态）：Arc 浏览器官方宣布停止服务，标志着该产品的正式退出，用户需迁移至其他浏览器。</li>
+<li><strong><a href="https://www.taler.net/en/news/2026-13.html">GNU Taler在德国准备上线</a></strong>（Hacker News Front Page · 行业动态）：GNU Taler 项目准备在德国开展运营，推动其电子支付系统的本地化应用，标志着该开源支付方案的进一步落地。</li>
+<li><strong><a href="https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans">所有AI模型对人类的争议性观点</a></strong>（Hacker News Front Page · 技术解读）：一篇分析指出，各大 AI 模型对人类的评价呈现相似的争议性观点，揭示了模型训练数据或偏见的共性。</li>
+<li><strong><a href="https://simonwillison.net/2026/Oct/22/armin-ronacher/">Armin Ronacher：AI时代的技术债</a></strong>（Simon Willison · 其他）：Armin Ronacher 在评论中指出，尽管 AI 带来乐趣，但过去三十年累积的糟糕软件正受到‘宇宙的惩罚’，提醒业界关注技术债。</li>
+<li><strong><a href="https://github.com/oosexgang/hackios-xnu-kernel">在Android上运行完整iOS 16.5固件</a></strong>（Hacker News Front Page · 开源项目）：开源项目 hackios-xnu-kernel 实现了在 Android 设备上运行完整的 iOS 16.5 固件，为跨平台系统实验提供了新可能。</li>
+<li><strong><a href="https://quad9.net/news/blog/au-revoir-france/">Quad9 将退出法国市场</a></strong>（Hacker News Front Page · 行业动态）：Quad9 宣布其 DNS 解析服务将停止在法国运营，标志着其在欧洲的业务调整。</li>
+<li><strong><a href="https://pwn.watch/">实时漏洞追踪平台 pwn.watch</a></strong>（Hacker News Front Page · 技术解读）：pwn.watch 网站上线，实时展示当前被攻击的系统和漏洞，帮助安全从业者快速了解最新攻击趋势。</li>
+<li><strong><a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business">eMudhra 退出全球 SSL/TLS 证书业务</a></strong>（Hacker News Front Page · 行业动态）：eMudhra 宣布停止其全球 SSL/TLS 证书业务，标志着该公司在数字证书市场的撤退。</li>
+<li><strong><a href="https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html">女子因未开通的 Cash App 账户面临六年监禁</a></strong>（Hacker News Front Page · 其他）：一名女子因涉嫌使用未开设的 Cash App 账户被起诉，面临最高六年监禁，引发对支付平台安全和法律责任的关注。</li>
+<li><strong><a href="https://lastmuseum.com/">The Last Museum：跨 580 万艺术品的语义搜索</a></strong>（Hacker News Front Page · 开源项目）：The Last Museum 项目提供对来自主要博物馆的 580 万件艺术品进行语义检索的服务，提升艺术作品的发现和研究效率。</li>
+<li><strong><a href="https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/">Xbox 将对已购游戏流媒体收取每小时 0.24-0.40 美元费用</a></strong>（Hacker News Front Page · 行业动态）：Xbox 计划对用户通过云流媒体播放已购买的游戏收取每小时 0.24 至 0.40 美元的费用，引发玩家对额外成本的担忧。</li>
+<li><strong><a href="https://news.ycombinator.com/item?id=50193416">作者因泄露 PHP RCE 漏洞信息致歉</a></strong>（Hacker News Front Page · 其他）：一位 HN 用户承认在未获授权的情况下披露了涉及 CVE-2026-109618 与 CVE-2026-109619 的 PHP 远程代码执行漏洞，导致协调披露计划受扰。</li>
+<li><strong><a href="https://daily.juya.uk/issues/2026-10-22/">橘鸦 AI 早报 2026-10-22</a></strong>（橘鸦AI早报 · 行业动态）：本期早报涵盖 Claude Duet 预览、Codex 登录缓存、PHP 两大漏洞修复、eMudhra 撤销弱密钥证书、LiteLLM 供应链攻击等多项技术动态。</li>
+<li><strong><a href="https://ainewslog.com/blog/ai-daily-2026-10-22/">OpenAI推出金融服务版ChatGPT与新视频/3D基准</a></strong>（AI Daily · 模型发布）：OpenAI推出金融服务版ChatGPT，并发布评估流式视频生成与VLM 3D场景映射的新基准。</li>
+<li><strong><a href="https://dailydawn.dev/zh/2026-10-22">GitHub AI编码工具榜三大高星项目登榜</a></strong>（DailyDawn 中文 · 行业动态）：DailyDawn报道今日GitHub AI编码工具榜三大高星项目登榜，显示独立开发工具赛道升温。</li>
+<li><strong><a href="https://simonwillison.net/2026/Oct/21/panache/">Battle Drones游戏发布并获得法语分支</a></strong>（Simon Willison · 开源项目）：发布Battle Drones游戏并获得法语分支，游戏设定在1900年代法国的蒸汽朋克世界。</li>
+<li><strong><a href="https://daily.juya.uk/issues/2026-10-21/">DeepSeek发布DeepInfer框架等多项技术更新</a></strong>（橘鸦AI早报 · 技术解读）：DeepSeek发布内部推理框架DeepInfer，ChatGPT新增锁定聊天与PIN保护，OpenAI修复账户额度错配并补偿，Google开源TorchTPU，腾讯元宝搜索开放API等多项技术更新。</li>
 </ul>
 </div>
 </main>
