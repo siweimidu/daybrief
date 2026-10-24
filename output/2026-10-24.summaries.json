@@ -1,0 +1,362 @@
+[
+  {
+    "title": "http2shell：跨语言远程代码执行漏洞",
+    "summary": "http2shell利用HTTP/2实现对Node、Python等环境的远程代码执行，已公开披露并构成严重安全威胁。",
+    "key_points": [
+      "支持多语言（Node、Python等）",
+      "基于HTTP/2协议的RCE",
+      "已被安全社区报告"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "德国法院指责谷歌航拍影像为间谍行为",
+    "summary": "德国法院认定谷歌的航空影像收集侵犯隐私，称其为间谍行为，引发对数据服务监管的关注。",
+    "key_points": [
+      "法院裁决认定间谍行为",
+      "涉及谷歌全球航拍数据",
+      "隐私权争议升级"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.courthousenews.com/german-court-calls-google-aerial-imagery-spying/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Quick Study：快速将照片转为画布绘画",
+    "summary": "Quick Study使用Sobel边缘检测在网页Canvas上几秒钟绘制照片，实现无需外部库的即时绘画效果。",
+    "key_points": [
+      "基于Sobel边缘检测",
+      "仅使用Canvas和Google Fonts",
+      "几秒完成绘制"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "CVE Tracker：实时漏洞信息聚合平台",
+    "summary": "CVE Tracker提供最新CVE漏洞的实时追踪与检索，帮助安全研究者快速获取漏洞情报。",
+    "key_points": [
+      "实时更新CVE数据",
+      "支持关键词搜索",
+      "聚合社区讨论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://cve.0xosprey.com/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "无源码亦可安全审计",
+    "summary": "本文探讨在缺乏源代码的情况下进行安全分析的方法，强调二进制逆向与行为监控的重要性。",
+    "key_points": [
+      "二进制静态分析技术",
+      "行为监控与沙箱测试",
+      "案例研究展示可行性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://queue.acm.org/doi/10.1145/945131.945155",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "systemd-nspawn容器快速指南",
+    "summary": "文章快速介绍systemd-nspawn的使用方式及其在轻量容器化场景中的优势。",
+    "key_points": [
+      "轻量级容器实现",
+      "与systemd深度集成",
+      "示例步骤详解"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "OpenAI：前沿模型训练环境安全方案",
+    "summary": "OpenAI公开其在大规模模型训练中的安全防护措施，强调访问控制、数据隔离和供应链安全的重要性。",
+    "key_points": [
+      "严格的访问控制",
+      "训练数据与模型隔离",
+      "持续监控与审计"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Corgi：多代理终端复用工具",
+    "summary": "Corgi是一款代理/终端复用器，提供可视化代理状态、快捷切换及多账户统一启动等提升使用体验的功能。",
+    "key_points": [
+      "实时展示代理活动",
+      "F1键快速切换未读代理",
+      "统一启动Codex/Claude等模型"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://corgi.computer/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Rune 1.3 版新增 TypeScript 与 Helix 编辑器等功能",
+    "summary": "Rune 1.3 版本发布，加入 TypeScript 支持、Helix 编辑器、Kitty 图形以及 OSC-7501 等特性，提升开发体验。",
+    "key_points": [
+      "支持 TypeScript",
+      "集成 Helix 编辑器",
+      "新增 Kitty 图形渲染"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://rune.build/blog/rune-1-3-release",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Kimi K3.1 Pro 模型发布，定价与性能概览",
+    "summary": "Moonshot 推出 Kimi K3.1 Pro，提供标准版和高速版，定价与 GPT-6.1 相同，模型权重预计 2026‑11‑04 公布。",
+    "key_points": [
+      "高速版速度提升 2‑3 倍",
+      "定价 $2/百万输入 token，$10/百万输出 token",
+      "全模型权重将在 2026‑11‑04 发布"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Google 计划使用 Gmail 与 Photos 数据投放广告",
+    "summary": "Google 更新隐私政策，可能将用户的 Gmail 与 Google Photos 内容用于广告定位，引发广泛隐私关注。",
+    "key_points": [
+      "可能利用 Gmail 内容投放广告",
+      "可能利用 Google Photos 数据投放广告",
+      "引发隐私争议"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Dessa：首个全双工真实语音模型发布",
+    "summary": "Block.xyz 推出 Dessa，被称为最真实的全双工语音模型，提升实时语音交互的自然度。",
+    "key_points": [
+      "全双工语音模型",
+      "被称为最真实的语音模型",
+      "提升实时交互质量"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://block.xyz/dessa",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "DNS：指纹工具 Finger 的替代方案",
+    "summary": "DNS 项目提出一种替代传统 Finger 的方式，提供更现代化的用户信息查询手段。",
+    "key_points": [
+      "提供 Finger 替代功能",
+      "可能更安全或现代化"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://altchan.org/sh/42",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "把电视改造成带宝可梦主屏的 Game Boy Color",
+    "summary": "作者将电视改装为 Game Boy Color，并将宝可梦城镇设为主屏，展示创意硬件改造。",
+    "key_points": [
+      "电视改装为 Game Boy Color",
+      "主屏显示宝可梦城镇"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://twitter.com/robbietilton/status/2111936458923851923",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "空气净化器可兼作白噪声机",
+    "summary": "Jefftk 讨论空气净化器在产生白噪声方面的效果，提供改善睡眠和专注的双重用途。",
+    "key_points": [
+      "空气净化器产生白噪声",
+      "可用于改善睡眠或专注"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "系统构建者的动画实现指南",
+    "summary": "Brooker 分享针对系统构建者的动画实现技巧，帮助提升软件界面的交互体验。",
+    "key_points": [
+      "提供动画实现技巧",
+      "提升系统构建者界面体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://brooker.co.za/blog/2026/10/23/animations.html",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Kimi发布K3.1 Pro及高速版模型",
+    "summary": "Kimi推出新一代语言模型K3.1 Pro和K3.1 Pro Highspeed，性能提升显著，受到Hacker News社区热议。",
+    "key_points": [
+      "发布两款新模型，分别针对通用和高速场景",
+      "在技术社区获701票高赞，评论数达443条"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "UUIDv7的误解与真实属性",
+    "summary": "文章指出UUIDv7并不具备普遍认知的属性，提醒开发者重新审视其设计与使用场景。",
+    "key_points": [
+      "阐明UUIDv7常见误解",
+      "分析其实际特性及潜在风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alexsci.com/blog/uuidv7-is-weird/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "《Sonic 06》错失的机会回顾",
+    "summary": "作者回顾2025年对《Sonic 06》的评析，指出该作在技术与设计上未能把握的关键机会。",
+    "key_points": [
+      "分析游戏的技术与设计缺陷",
+      "探讨若当初采取不同策略可能的影响"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://isaacmarovitz.com/posts/sonic-06/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "成功破解iPhone的最新进展",
+    "summary": "作者分享了对iPhone的最新破解成果，展示了突破性的攻击方法并引发广泛讨论。",
+    "key_points": [
+      "详细披露破解步骤与技术细节",
+      "在Hacker News获738票，评论数492条"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.calif.io/p/iphone",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "英语拼写改革倡议发布",
+    "summary": "牛津出版社博客提出改革英语拼写的方案，旨在降低学习难度并提升书写一致性。",
+    "key_points": [
+      "提出系统化的拼写改革方案",
+      "呼吁教育与出版界共同推动实施"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.oup.com/2026/10/reforming-english-spelling/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Apple Music出现隐藏的404页面",
+    "summary": "MacRumors报道Apple Music出现意外的404错误页面，引发用户对服务可靠性的关注。",
+    "key_points": [
+      "发现Apple Music的隐藏404错误链接",
+      "引发对平台稳定性的讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://music.apple.com/this-url-doesnt-exist",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "橘鸦AI早报：多项AI新功能与公告",
+    "summary": "本期早报汇总OpenAI Decisions API、Anthropic捐赠、Google Cloud托管Claude等多项行业动态。",
+    "key_points": [
+      "OpenAI推出Decisions API；Anthropic捐赠Agent Skills标准",
+      "Google Cloud新增Claude托管版；Gemini API CLI进入实验预览"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-23/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "AI日报：微信视觉模型与320B MoE智能体",
+    "summary": "AI日报报道微信发布视觉模型，IQuest推出320B MoE智能体，并对Opus4.8进行专家评审。",
+    "key_points": [
+      "微信发布新视觉模型提升图像理解",
+      "IQuest推出规模达320B的MoE智能体"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-23-zh/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "WeChat发布WeVisOne-VL，IQuest推出320B MoE，Opus 4.8击败评审",
+    "summary": "WeChat推出视觉语言模型WeVisOne-VL；IQuest发布320B参数的MoE CLI-agent；Opus 4.8在同行评审中超越人类专家。",
+    "key_points": [
+      "WeChat发布WeVisOne-VL视觉语言模型",
+      "Opus 4.8在同行评审中胜过人类专家"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-23/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "De Staat新MV《FREEDOM》视觉特效由Matties Grooten打造",
+    "summary": "荷兰另类摇滚乐队De Staat发布官方MV《FREEDOM》，视觉特效由Fake it or Leave it的Matties Grooten负责。",
+    "key_points": [
+      "De Staat发布新MV《FREEDOM》",
+      "视觉特效由Matties Grooten完成"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Anthropic捐赠Agent Skills标准给AAIF",
+    "summary": "Anthropic宣布将Agent Skills标准捐赠给由Linux基金会主导的Agentic AI Foundation，并将Model Context Protocol也捐赠给该组织，进一步推动开放、社区驱动的AI技能标准。",
+    "key_points": [
+      "Agent Skills标准捐赠给AAIF",
+      "Model Context Protocol也被捐赠"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Armin Ronacher谈AI与软件安全",
+    "summary": "Armin Ronacher在访谈中指出，尽管AI技术令人兴奋，但过去30年中我们开发了大量不安全的软件，现正面临安全风险的惩罚。",
+    "key_points": [
+      "AI技术兴奋但软件安全问题突出",
+      "过去30年软件安全缺陷导致风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+    "published": "2026-10-22"
+  },
+  {
+    "title": "Claude Duet开放预览，LiteLLM遭供应链攻击",
+    "summary": "Claude Duet进入开放研究预览，提供主动提醒和后台自动化功能；LiteLLM因供应链攻击被下架；此外，Tibo、PHP漏洞修复、eMudhra撤销证书等多项安全事件。",
+    "key_points": [
+      "Claude Duet开放预览，提供主动提醒",
+      "LiteLLM遭供应链攻击并下架"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-22/",
+    "published": "2026-10-22"
+  }
+]

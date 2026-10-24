@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Fri, 23 Oct 2026 01:08:18 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 01:17:34 +0000</lastBuildDate>
+  <item>
+    <title>多模态大模型井喷与AI代理生态加速演进</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-24.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-24.html</guid>
+    <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-24 · 资讯 29 条
+分类：模型发布 5 · 开源项目 5 · 技术解读 11 · 行业动态 5 · 其他 3
+编者按
+今天是2026年10月24日，全球科技界迎来了一波密集的技术发布与安全挑战。从大模型层的持续迭代，到AI代理（Agent）标准化生态的跨越式发展，今天的资讯充分展现了人工智能正从单纯的“对话工具”向深度集成的生产力基础设施演进。在大模型领域，Kimi发布了K3.1 Pro及其高速版，Moonshot展现了其追赶顶尖梯队的强劲势头；与此同时，Block.xyz推出了号称最真实的全双工语音模型Dessa，而微信也交出了WeVisOne-VL视觉模型的答卷，多模态交互正在走向实时化与细腻化。
+除了底层能力的狂飙，AI生态的规范化与开源协作同样迎来了里程碑。Anthropic宣布将Agent Skills标准以及Model Context Proto</description>
+  </item>
   <item>
     <title>AI基础设施生态加速演进，开源代理运行时与垂直金融落地成焦点</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-23.html</link>
