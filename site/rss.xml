@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sat, 24 Oct 2026 01:17:34 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 00:43:30 +0000</lastBuildDate>
+  <item>
+    <title>AWS算力售罄与Kimi K3.1 Pro发布：AI基础设施与大模型双向提速</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-25.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-25.html</guid>
+    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-25 · 资讯 28 条
+分类：行业动态 13 · 技术解读 9 · 开源项目 4 · 模型发布 1 · 其他 1
+编者按
+各位读者好，今天是2026年10月25日。回顾过去24小时的科技圈，AI产业正呈现出两个极具戏剧性却又高度统一的趋势：一方面是算力基础设施的极度紧绷，另一方面是大模型与AI应用在激烈竞争中不断突破边界。
+最引人注目的行业风向来自AWS——其云AI容量已经彻底售罄至2027年，这一信号直接宣告了当前全球算力供需失衡的严峻现实。与此同时，在应用端，月之暗面正式发布了Kimi K3.1 Pro，不仅提供高速版本，更打破常规宣布将于11月4日公开完整模型权重。这种软硬件层面的剧烈碰撞，一方面拉高了整个行业的进入门槛，另一方面也通过开源和生态共建不断反哺开发社区。
+除了巨头博弈，开源和工具链生态同样迎来了井喷。GitHub Trending上Cloud</description>
+  </item>
   <item>
     <title>多模态大模型井喷与AI代理生态加速演进</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-24.html</link>

@@ -1,0 +1,338 @@
+[
+  {
+    "title": "2026年为何使用Gopher？",
+    "summary": "该文章在 Hacker News 上发布，讨论了在 2026 年使用 Gopher 协议的原因，获得 10 分。",
+    "key_points": [
+      "探讨 Gopher 的用途",
+      "获得 10 点支持"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Google 将 Nest 恒温器恢复为普通",
+    "summary": "文章指出 Google 官方将部分 Nest 恒温器功能降级为普通恒温器，已在 Hacker News 获得 22 分。",
+    "key_points": [
+      "Nest 功能被降级",
+      "获得 22 点关注"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.makeuseof.com/google-nest-thermostats-unsupported/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "美国媒体艺术行业失去20万岗位，AI 影响几何",
+    "summary": "文章统计美国媒体、电影和艺术行业失去约 20 万工作岗位，探讨 AI 的贡献，获 64 分。",
+    "key_points": [
+      "20 万岗位流失",
+      "分析 AI 影响"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Argus：免费开源的自主安全运营平台",
+    "summary": "介绍 Argus 项目，一个 MIT 许可的免费开源自主安全运营平台，获 27 分。",
+    "key_points": [
+      "免费开源安全平台",
+      "MIT 许可"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://thomasunise.com/argus",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "我们应更有野心地构建软件",
+    "summary": "文章呼吁在软件开发上保持更高野心，强调重要性，获 113 分。",
+    "key_points": [
+      "倡导更高野心",
+      "获得高赞 113"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://danluu.com/ambitious/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "小型程序与语言",
+    "summary": "文章展示小型程序和语言的概念与实例，获 22 分。",
+    "key_points": [
+      "介绍小程序语言",
+      "获得 22 点"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ratfactor.com/cards/pl-small",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "限制对创造力和学习的重要性",
+    "summary": "文章论述限制如何促进创造力和学习，获 14 分。",
+    "key_points": [
+      "探讨限制的价值",
+      "获得 14 点"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ratfactor.com/cards/limitations",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Show HN：Steal My Bitcoin",
+    "summary": "作者发布一个网站，测试近期 PHP RCE 漏洞的实际利用情况，吸引大量关注，获 373 分。",
+    "key_points": [
+      "展示 PHP RCE 实验",
+      "获得 373 点高赞"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://stealmybitcoin.com/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "AI在非科技行业缺乏回报",
+    "summary": "根据Apollo的报告，除科技行业外，AI应用尚未带来显著收益，凸显行业差异。",
+    "key_points": [
+      "AI收益集中在科技领域",
+      "其他行业尚未见明显回报"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "美国核力量紧急行动信息监听",
+    "summary": "missileer.watch公布了11175 kHz频段的美国核力量紧急行动信息，提供实时情报。",
+    "key_points": [
+      "监测11175 kHz频段",
+      "涉及美国核指令"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://missileer.watch",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "SpeedCrunch 1.1 版本发布",
+    "summary": "SpeedCrunch推出1.1版本，继续提供开源的高精度计算器。",
+    "key_points": [
+      "开源计算器软件",
+      "版本更新至1.1"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.speedcrunch.org/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Goose 编程语言发布",
+    "summary": "Goose语言项目在GitHub页面展示，吸引社区关注。",
+    "key_points": [
+      "新编程语言Goose",
+      "在GitHub上展示"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://aardappel.github.io/goose/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Bbtree：最快的有序映射实现",
+    "summary": "Bbtree项目宣称提供最快的有序映射数据结构。",
+    "key_points": [
+      "高性能有序映射",
+      "声称最快实现"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bbtree.xiangpeng.systems/post/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "圣赫勒拿5便士硬币展示190岁乌龟乔纳森",
+    "summary": "该硬币以约190岁的巨龟乔纳森为图案，体现当地自然遗产。",
+    "key_points": [
+      "硬币图案为乔纳森乌龟",
+      "约190岁"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://de.numista.com/9866",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Roku 开发者仓库迁至 GitLab",
+    "summary": "Roku将其开发者代码库从GitHub搬到GitLab，改变协作平台。",
+    "key_points": [
+      "从GitHub迁移到GitLab",
+      "影响Roku开发者"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.roku.com/developer/gitlab-move",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "神经芯片解码脑区交互",
+    "summary": "EPFL研发的神经芯片能够解码不同脑区之间的交互，为神经科学提供新工具。",
+    "key_points": [
+      "神经芯片解码脑区信号",
+      "提升脑功能研究"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Oai-math-revised：OpenAI数学稿件协作平台",
+    "summary": "推出社区平台帮助修订OpenAI的数学写作，促进公开协作提升质量。",
+    "key_points": [
+      "提供集中式稿件修订入口",
+      "鼓励社区贡献改进数学内容"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "FreeDNS 免费域名解析服务",
+    "summary": "提供完全免费的DNS解析服务，帮助用户快速配置域名。",
+    "key_points": [
+      "零费用使用",
+      "支持多种记录类型"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://freedns.afraid.org/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "GPU-unlock：Nvidia 3000系列FP/BF16指令发射率分析",
+    "summary": "在GitHub发布工具测量Nvidia 3000系列显卡的FP/BF16指令发射速率，为性能调优提供数据。",
+    "key_points": [
+      "评估FP与BF16指令吞吐",
+      "帮助开发者优化GPU计算"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/Zagitta/gpu-unlock",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "《我不懂量子物理》学习资源汇总",
+    "summary": "提供面向非专业人士的量子物理学习材料，帮助大众入门并在Hacker News上获高关注。",
+    "key_points": [
+      "通俗解释量子概念",
+      "在社区获得大量评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Battledrones v14：四玩家地图Compass Rose",
+    "summary": "在Battledrones游戏中新增四玩家在线模式和Compass Rose地图，支持AI自动填补空位。",
+    "key_points": [
+      "支持四玩家对战",
+      "AI自动填补空位"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "橘鸦AI早报 2026-10-24",
+    "summary": "报道月之暗面发布Kimi K3.1 Pro等多项AI硬件与模型更新，涵盖Codex、ZCode、Google Pro等限时免费活动。",
+    "key_points": [
+      "Kimi K3.1 Pro发布",
+      "多模型限时免费活动"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-24/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "AI日报 2026-10-24",
+    "summary": "AWS云容量售罄至2027，微信与IQuest推出视觉及智能体模型，显示AI基础设施需求旺盛。",
+    "key_points": [
+      "AWS AI云容量至2027售罄",
+      "微信、IQuest发布新模型"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-24-zh/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "AI Daily 2026-10-24",
+    "summary": "AWS AI云容量已售罄至2027，微信和IQuest发布新视觉和智能体基础模型，标志行业快速发展。",
+    "key_points": [
+      "AWS AI云容量至2027售罄",
+      "微信、IQuest推出新模型"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-24/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Cloudflare安全审计工具登GitHub Trending，越狱社区需求激增",
+    "summary": "cloudflare/security-audit-skill在GitHub Trending获2716星，越狱爱好者提交iOS内核适配PR，引发对配套安全工具的强烈需求。",
+    "key_points": [
+      "项目获高星并被越狱社区大量适配",
+      "传统iOS安全软件更新慢，用户亟需新工具"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-24",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "Quick Study：秒级将照片转为画布绘画的实验工具",
+    "summary": "Quick Study利用Sobel边缘检测，在几秒内将上传的照片绘制成模拟画笔效果的canvas，无需外部库。",
+    "key_points": [
+      "使用Sobel边缘检测，无额外库依赖",
+      "实现快速照片到绘画的转换"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "Kimi K3.1 Pro发布，提供高速版并计划公开权重",
+    "summary": "Kimi K3.1 Pro已上线Kimi API，定价与GPT-6.1持平，并将于2026年11月4日公开完整模型权重。",
+    "key_points": [
+      "提供2-3倍速的高价高速版",
+      "模型权重将在11月4日公开，定价与GPT-6.1相同"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "published": "2026-10-23"
+  },
+  {
+    "title": "AI平台新功能速递：OpenAI Decisions API、Anthropic捐赠等",
+    "summary": "本期橘鸦AI早报汇总多家AI厂商最新动态，包括OpenAI推出Decisions API、Anthropic捐赠Agent Skills标准以及Google Cloud新增Anthropic托管版Claude等。",
+    "key_points": [
+      "OpenAI发布Decisions API，Anthropic捐赠Agent Skills标准",
+      "Google Cloud新增Anthropic托管Claude，Gemini API CLI实验预览，智谱因模型质量下降致歉"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-23/",
+    "published": "2026-10-23"
+  }
+]
