@@ -4,7 +4,20 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sun, 25 Oct 2026 00:43:30 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 00:54:21 +0000</lastBuildDate>
+  <item>
+    <title>AI 价格大幅下调与模型竞争加速</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-26.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-26.html</guid>
+    <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-26 · 资讯 27 条
+分类：行业动态 3 · 技术解读 3 · 开源项目 2
+编者按
+本日最引人注目的是大型语言模型价格的剧烈下降，OpenAI 与 Anthropic 同时削价至原价的 20%，标志着AI成本进入新低点，行业竞争进入价格战阶段。
+与此同时，Kimi、CapCut、Nanbeige 等多家产品同步发布功能更新或平台接入，OpenAI 28 天计划也在第 20 天全量重置，用量限制的松绑与新功能的叠加显示出AI生态的快速迭代与融合趋势。
+但成本压力并未全线消退，投资者自建算力面临电价高出公共供电 23% 的现实挑战，同时传统卷积神经网络在皮肤癌诊断上再次超越最新 LLM，提醒我们在追逐大模型的同时仍需关注硬件效率与模型适配性。
+建议企业在选型时把握价格下调的窗口期，评估本地部署的电力成本与安全合规（如 Unicode TR‑39），并积极尝试开源</description>
+  </item>
   <item>
     <title>AWS算力售罄与Kimi K3.1 Pro发布：AI基础设施与大模型双向提速</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-25.html</link>

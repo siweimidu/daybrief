@@ -1,0 +1,330 @@
+[
+  {
+    "title": "AI 生态多项更新：Kimi、OpenAI、CapCut、Nanbeige等",
+    "summary": "Kimi.ai 因 K3.1 Pro 限流并重置用量致歉，OpenAI 28 天计划第 20 天全量重置，CapCut 将接入 ChatGPT 并于 11 月开放测试，Nanbeige 开源 33B 模型 Nanbeige4.3。",
+    "key_points": [
+      "Kimi.ai K3.1 Pro 限流并重置使用量",
+      "OpenAI 28 天计划第 20 天全量重置",
+      "CapCut 插件将接入 ChatGPT，11 月开放测试"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-26/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "卢拉在巴西选举中获胜",
+    "summary": "巴西选举最终计票确认卢拉当选，总统职位实现权力交接。",
+    "key_points": [
+      "最终票数统计确认卢拉胜出",
+      "标志巴西政治格局转变"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "巴西官方公布卢拉当选",
+    "summary": "巴西选举官方平台公布结果，确认卢拉赢得总统选举。",
+    "key_points": [
+      "官方选举结果显示卢拉获胜",
+      "提供详细投票数据"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/6258/uf/br/cargo/1/vis/nominal/resultados",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "F‑Zero X 3DS 开发回顾",
+    "summary": "作者在事后报告中分享了 F‑Zero X 在 Nintendo 3DS 上的开发经验与挑战。",
+    "key_points": [
+      "详细的开发后记分析",
+      "揭示移植到 3DS 的技术难点"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "Proton Flock 摄像头分布图",
+    "summary": "Proton 发布了 Flock 系列摄像头的全球分布地图，帮助用户了解覆盖范围。",
+    "key_points": [
+      "提供摄像头位置可视化",
+      "便于用户查找最近的 Flock 设备"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://proton.me/flock-camera-map",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "OpenAI 与 Anthropic 大幅降价",
+    "summary": "OpenAI 与 Anthropic 在数月内将大型语言模型价格削减至原价的 20%，文章探讨背后原因。",
+    "key_points": [
+      "LLM 价格最高降幅达 80%",
+      "分析降价背后的市场与技术因素"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://minimaxir.com/2026/10/cheap-llms/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "塞尔维亚学生运动获胜，武契奇认输",
+    "summary": "塞尔维亚总统武契奇在选举中认输，学生运动实现历史性胜利。",
+    "key_points": [
+      "武契奇承认选举失利",
+      "学生运动取得历史性突破"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "上下文工程现状分析",
+    "summary": "文章系统回顾了上下文工程的概念、技术方法及其在 AI 应用中的最新进展。",
+    "key_points": [
+      "定义并阐述上下文工程",
+      "总结当前技术趋势与挑战"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "动画电影制作全流程揭秘",
+    "summary": "迪士尼动画官网发布制作动画电影的各阶段流程，帮助了解创作背后的技术与艺术。",
+    "key_points": [
+      "概述从概念到成片的主要步骤",
+      "强调团队协作与技术工具的重要性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.disneyanimation.com/process/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "Focused公司的运营原则",
+    "summary": "Focused公司在官网公布其运营原则，展示企业文化与决策框架。",
+    "key_points": [
+      "列出核心价值观与行为准则",
+      "说明对员工与业务的指导作用"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://focused.io/operating-principles",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "Eunice即将发布",
+    "summary": "Armincat博客预告Eunice项目即将上线，引发社区关注。",
+    "key_points": [
+      "暗示新功能或产品特性",
+      "引起大量评论讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://armincat.com/articles/eunice-is-almost-here",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "为何我选择成为程序员",
+    "summary": "作者在个人博客阐述成为程序员的动机与职业意义，分享技术热情。",
+    "key_points": [
+      "个人成长与技术驱动的故事",
+      "对编程职业的正面看法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "罗马战争交互地图",
+    "summary": "一个交互式网页展示罗马帝国主要战役位置，供历史爱好者探索。",
+    "key_points": [
+      "可视化古代战场分布",
+      "提供交互查询功能"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://iosiflazaridis.github.io/battles-of-the-romans/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "多莉·帕顿想象力图书馆计划",
+    "summary": "介绍多莉·帕顿的想象力图书馆项目，旨在通过赠书激励儿童梦想。",
+    "key_points": [
+      "向社区儿童免费提供图书",
+      "鼓励阅读与梦想实现"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://imaginationlibrary.com/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "俄勒冈警方向本地媒体索取2.5亿美元记录费",
+    "summary": "《拦截者》报道俄勒冈警方对一新闻机构索要高额费用以获取警察记录，引发公共记录争议。",
+    "key_points": [
+      "费用高达250万美元",
+      "涉及新闻自由与公共信息获取"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "呼吁抵制审查网络，FOSDEM 2027演讲",
+    "summary": "作者在FOSDEM会议上呼吁维护开放网络，反对审查制度。",
+    "key_points": [
+      "倡导互联网自由",
+      "邀请参与FOSDEM活动"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://talkweb.eu/openweb/4558/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "10年CNN模型胜过前沿LLM用于皮肤癌诊断",
+    "summary": "研究表明，一个训练10年的卷积神经网络在皮肤癌诊断上表现优于最新的大语言模型，凸显传统CNN的价值。",
+    "key_points": [
+      "10年CNN模型表现优异",
+      "超越最新LLM在医学诊断"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lynchlab.net/llm-skin-cancer",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "Unicode安全机制报告TR39",
+    "summary": "Unicode联盟发布第39号技术报告，系统阐述字符安全防护机制，为开发者提供防止Unicode攻击的指导。",
+    "key_points": [
+      "报告阐述安全机制",
+      "提供防御建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://unicode.org/reports/tr39/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "加州大学伯克利数学教授因AI放弃批改作业",
+    "summary": "该教授认为AI已能自动评估作业，认为人工批改已无意义，反映AI在教育评估中的冲击。",
+    "key_points": [
+      "AI可自动评估作业",
+      "教授质疑人工批改价值"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "JetBrains开源项目Thinkrail发布",
+    "summary": "JetBrains在GitHub上推出Thinkrail项目，作为新的开源工具供社区使用。",
+    "key_points": [
+      "JetBrains开源Thinkrail",
+      "代码托管于GitHub"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/JetBrains/thinkrail",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "Dreamhost活跃故障需强制密码重置",
+    "summary": "Dreamhost当前出现安全事件，要求用户立即重置密码以防止潜在泄露。",
+    "key_points": [
+      "Dreamhost安全事件",
+      "要求用户强制密码重置"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.dreamhoststatus.com/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "橘鸦AI早报 2026-10-25",
+    "summary": "本期报道WorkBuddy内测功能、Qoder补给、Claude Code团队成员离职以及英国公布数亿英镑AI投资计划等。",
+    "key_points": [
+      "WorkBuddy内测功能上线",
+      "英国公布数亿英镑AI投资"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-25/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "AI日报 2026-10-25",
+    "summary": "今日AI亮点包括视觉感知统一、320B MoE命令行智能体以及33B模型超越竞品。",
+    "key_points": [
+      "视觉感知统一技术",
+      "320B MoE CLI模型与33B模型领先"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-25-zh/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "AI Daily 2026-10-25",
+    "summary": "报道WeVisOne-VL统一视觉、IQuest-Q1推出320B MoE CLI模型、Nanbeige 33B模型超越Qwen3.8-27B的进展。",
+    "key_points": [
+      "WeVisOne-VL统一视觉",
+      "Nanbeige 33B模型优势"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-25/",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "投资者供电成本高23% 影响大模型部署",
+    "summary": "HackerNews讨论显示，投资者拥有的公用事业电价比公共供电高23%，导致小团队使用云服务部署大模型成本被高估。若直接使用公共供电，RTX 3090全年用电成本可降至320元以内，显著降低部署成本。",
+    "key_points": [
+      "投资者供电电价比公共供电高23%",
+      "云服务部署大模型成本被高估",
+      "直接使用公共供电可将RTX 3090全年用电成本降至320元以内"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-25",
+    "published": "2026-10-25"
+  },
+  {
+    "title": "Battledrones v14 新四人地图 Compass Rose",
+    "summary": "Simon Willison发布Battledrones v14，新增四人在线模式和名为Compass Rose的地图，支持WebSocket多玩家，最多四人可同时对战。",
+    "key_points": [
+      "新增四人在线模式",
+      "Compass Rose地图支持四人对战",
+      "WebSocket网络代码已更新以支持四人"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+    "published": "2026-10-24"
+  },
+  {
+    "title": "橘鸦AI早报 2026-10-24",
+    "summary": "橘鸦AI早报列出多项AI产品更新，包括Kimi K3.1 Pro发布、Codex改进、ZCode限时免费token、Qoder模型延长限免、Google Pro用户反馈Antigravity可用Argon、Cursor新增桌面控制、OpenAI Agents API推出定时任务、MiniMax等。",
+    "key_points": [
+      "Kimi K3.1 Pro发布",
+      "Codex持续改进",
+      "ZCode限时免费token活动"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-24/",
+    "published": "2026-10-24"
+  }
+]
