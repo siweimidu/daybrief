@@ -1,0 +1,353 @@
+[
+  {
+    "title": "OpenAI 发布 GPT‑6.1 Terra，强化电脑操作功能",
+    "summary": "OpenAI 于今日发布 GPT‑6.1 Terra，主打快速视觉推理和电脑操作，提升工作日常任务效率。此举标志着大模型在实际工具使用上的进一步落地。",
+    "key_points": [
+      "引入视觉推理与电脑使用功能",
+      "相较 GPT‑5.6 提升效率与多模态能力"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-27/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "在 64 位 Windows 上运行 16 位 Windows 程序",
+    "summary": "开源项目 winevdm 让 64 位 Windows 系统能够运行 16 位 Windows 1.x‑3.1 程序，解决老软件兼容性问题。为遗留软件提供了现代化运行环境。",
+    "key_points": [
+      "基于 Wine 实现 16 位兼容层",
+      "GitHub 发布并获 Hacker News 关注"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/otya128/winevdm",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "GPT‑6.1 Terra 强化视觉推理与电脑使用",
+    "summary": "Simon Willison 报道 GPT‑6.1 Terra 的技术亮点，强调其在视觉推理、电脑操作和自然语言写作上的综合提升，展示模型在多任务工作流中的潜力。",
+    "key_points": [
+      "结合视觉推理与精确电脑操作",
+      "提升提案撰写、图纸解读、表单填写等任务"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Cloudflare 修复 KV 缓存跨请求泄露漏洞",
+    "summary": "Cloudflare 公布对 KV 缓存跨请求泄露的修复措施，修补导致数据泄露的安全漏洞，保护数百万用户的缓存数据安全。",
+    "key_points": [
+      "发现 KV 缓存跨请求暴露",
+      "发布补丁并建议用户升级"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "检查并移除 ColdFusion 服务器上隐藏的 PHP",
+    "summary": "Gregory Alexander 介绍如何检测 ColdFusion 服务器上是否意外运行 PHP，并提供移除步骤，防止潜在安全风险和资源浪费。",
+    "key_points": [
+      "提供检查 PHP 进程的方法",
+      "给出清除和配置建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "新论文否定指数时间假设（ETH）",
+    "summary": "OpenAI 研究团队发布论文《指数时间假设是错误的》，声称已在理论上推翻该假设，对计算复杂性理论产生深远影响。",
+    "key_points": [
+      "提出反驳 ETH 的新证明",
+      "引发学界广泛讨论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "OpenAI 公布数学、计算机科学与物理三大新发现",
+    "summary": "OpenAI 宣布在数学、计算机科学和物理学领域取得三项突破性发现，并邀请学界审查，展示 AI 在基础科学研究中的推动作用。",
+    "key_points": [
+      "三项新发现分别涉及数学、CS、物理",
+      "开放审查以验证成果"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "EPA 暗中删除网络档案，引发关注",
+    "summary": "Mother Jones 报道 EPA 在未公开的情况下删除其网络档案，可能影响公众获取历史环境数据，涉及政府透明度和信息保存问题。",
+    "key_points": [
+      "EPA 删除在线档案记录",
+      "引发对信息保存政策的质疑"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "ChatGPT频推404媒体解决技术支持",
+    "summary": "因大平台缺少人工客服，用户转向ChatGPT求助，且ChatGPT频繁推荐404 Media解决普通技术问题，凸显AI误导风险。",
+    "key_points": [
+      "用户依赖ChatGPT处理日常技术问题",
+      "ChatGPT指向404 Media可能存在偏向或误导"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Microsoft发布Pylance类型服务器协议文档",
+    "summary": "Microsoft在GitHub上公布了Pylance使用的Type Server Protocol文档，受到Hacker News社区热议。",
+    "key_points": [
+      "官方文档上线，明确协议细节",
+      "获得高关注度（189分，139评论）"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "OpenAI推出GPT‑6.1 Terra模型",
+    "summary": "OpenAI发布了新一代大模型GPT‑6.1 Terra，并在开发者文档中提供API说明，引发社区广泛讨论。",
+    "key_points": [
+      "全新GPT‑6.1 Terra模型面世",
+      "在Hacker News获高票数（497）和大量评论"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "仍能在Windows 11运行的最古老GUI应用",
+    "summary": "一篇博客文章列举了在Windows 11上仍可正常运行的最早期图形界面程序，展示了系统的向后兼容性。",
+    "key_points": [
+      "识别并测试最古老的Windows GUI应用",
+      "强调Windows 11的兼容性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "未来人视角：Johnny为何停不下来抽象",
+    "summary": "作者从未来人的角度探讨程序员Johnny对抽象的执着，引发对抽象思维的思考。",
+    "key_points": [
+      "阐述抽象思维的吸引力",
+      "在Hacker News获得一定关注（115分）"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Nietzschian调试器开源项目发布",
+    "summary": "GitHub上发布了名为Nietzschian的调试器项目，提供新的调试功能并受到社区关注。",
+    "key_points": [
+      "开源调试器工具上线",
+      "在Hacker News获128分和40条评论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "webframe：将网页当程序运行的沙盒工具",
+    "summary": "Jeff Lindsay的webframe项目可在隐藏的无头浏览器中执行网页并捕获日志，使用Go语言和系统浏览器实现沙盒运行。",
+    "key_points": [
+      "网页可像程序一样运行并输出日志",
+      "基于glaze库调用系统浏览器，无需自带引擎"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Hob：本地运行的开源AI聊天桌面应用",
+    "summary": "Hob是一款MIT许可的跨平台桌面应用，使用本地开源模型（如Gemma 4、gpt‑oss）实现私密的AI对话和文件处理。",
+    "key_points": [
+      "在本机运行模型，数据不离线",
+      "自动匹配硬件的最佳开源模型"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/FrigadeHQ/hob",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "CSS‑Tricks 更换所有者",
+    "summary": "CSS‑Tricks 网站宣布已被新公司收购，标志着该知名前端资源平台进入新发展阶段。",
+    "key_points": [
+      "所有权转移",
+      "可能影响内容方向"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "微软提供大规模自愿离职方案",
+    "summary": "微软向约四分之一员工提供大规模自愿离职买断，以降低成本并重组组织结构。",
+    "key_points": [
+      "约25%员工受影响",
+      "旨在削减开支"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "太阳能装机容量超越核能",
+    "summary": "最新数据显示，全球太阳能发电装机容量已超过核能，凸显可再生能源快速增长。",
+    "key_points": [
+      "太阳能装机突破核能",
+      "推动能源转型"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Raschka 推出推理模型视频课程",
+    "summary": "Sebastian Raschka 发布从零开始构建推理模型的视频课程，面向机器学习实践者。",
+    "key_points": [
+      "从零教学推理模型",
+      "适合机器学习爱好者"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "iPad mini 迎来史上最大升级",
+    "summary": "苹果发布全新 iPad mini，配备更大屏幕和性能提升，标志产品线重大更新。",
+    "key_points": [
+      "屏幕更大",
+      "性能提升"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Anthropic 提交 S‑1 招股说明书",
+    "summary": "AI 初创公司 Anthropic 向美国 SEC 提交 S‑1 文件，准备首次公开募股。",
+    "key_points": [
+      "提交 S‑1 文件",
+      "计划 IPO"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "vLLM 工具调用准确性修复",
+    "summary": "UbiCloud 博客介绍了提升 vLLM 框架中工具调用准确性的最新修复方案。",
+    "key_points": [
+      "改进工具调用",
+      "提升模型可靠性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Pharo 14 正式发布",
+    "summary": "Pharo 项目发布第14版，带来多项语言和 IDE 改进，推动开源 Smalltalk 生态。",
+    "key_points": [
+      "第14版新特性",
+      "加强 Smalltalk 生态"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Kimi.ai致歉、OpenAI重置、CapCut接入ChatGPT",
+    "summary": "Kimi.ai 对 K3.1 Pro 进行限流并致歉；OpenAI 在 28 天计划第 20 天完成全量重置；CapCut 将在 11 月开放 ChatGPT 插件测试；OpenCode 披露 DeepSeek 推理机架运行数据；Nanbeige 开源 33B 模型 Nanbeige4.3 33B；Anthropic 建议企业将部分…",
+    "key_points": [
+      "Kimi.ai限流致歉",
+      "OpenAI 28天计划重置",
+      "CapCut ChatGPT插件"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-26/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "OpenAI恢复离线训练与规划基准",
+    "summary": "OpenAI因失控AI风险恢复最强系统离线训练，并推进具身与购物智能体规划基准。",
+    "key_points": [
+      "OpenAI恢复离线训练",
+      "推进具身与购物智能体规划基准"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-26-zh/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "OpenAI恢复离线训练与规划基准",
+    "summary": "OpenAI resumes offline training of its most powerful systems over rogue-AI fears, while new embodied and shopping-agent benchmarks advance planning.",
+    "key_points": [
+      "OpenAI resumes offline training",
+      "New embodied and shopping-agent benchmarks"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-26/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "VoiceStudio 本地音频轻量化工具",
+    "summary": "GitHub Trending 上的 VoiceStudio 获 1592 星，主打本地音频轻量化处理，满足独立创作者需求，计划推出 9 美元 Pro 版。",
+    "key_points": [
+      "VoiceStudio 1592 星",
+      "本地音频轻量化",
+      "需求缺口"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-26",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "Seam Cutter：裁剪图像中间区域工具",
+    "summary": "Seam Cutter 是一款可在图像中水平或垂直裁剪并滑动两侧的工具，方便在截图拼接后裁掉中间不需要的部分。",
+    "key_points": [
+      "可裁剪图像中间",
+      "支持水平/垂直切割",
+      "适用于截图拼接"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+    "published": "2026-10-25"
+  }
+]
