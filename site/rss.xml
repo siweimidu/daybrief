@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Tue, 27 Oct 2026 01:46:08 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 01:56:47 +0000</lastBuildDate>
+  <item>
+    <title>DeepMind Genie 4与OpenAI GPT-6.1 Terra震撼发布</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-28.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-28.html</guid>
+    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-28 · 资讯 29 条
+分类：模型发布 5 · 开源项目 5 · 行业动态 10 · 技术解读 8 · 投融资 1
+编者按
+今天的科技舞台迎来了新一轮的AI爆发期。Google DeepMind正式推出Genie 4世界模型，不仅支持实时场景切换，更将其与Gemini代理深度集成，标志着世界模型向着高互动、全栈代理的方向迈出坚实一步。与此同时，OpenAI发布了GPT-6.1 Terra，在视觉推理和计算机自动化操作上表现惊艳，显示出大模型正快速向具体的落地生产力渗透。
+在模型狂飙突进的同时，硬件与底层生态也迎来了重要更新。苹果在今日推出了搭载M6芯片的全新14英寸MacBook Pro与iMac，大幅提升了端侧能效与计算极限；而在开源和嵌入式领域，GitHub Universe会议徽章上跑起Game Boy Color模拟器、Ghostty 1.4的发布以及诸</description>
+  </item>
   <item>
     <title>OpenAI发布GPT-6.1 Terra，Anthropic正式启动IPO</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-27.html</link>

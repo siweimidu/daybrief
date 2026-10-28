@@ -1,0 +1,355 @@
+[
+  {
+    "title": "Google DeepMind 发布 Genie 4 世界模型预览",
+    "summary": "Google DeepMind 推出 Genie 4 研究预览，支持实时场景切换；同时上线 Cursor Design Mode 的 Annotate 标注功能，并向 Antigravity IDE 用户推送 Gemini 4 Argon。",
+    "key_points": [
+      "Genie 4 可实时改场景",
+      "Cursor 新增 Annotate 标注功能"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-28/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Moxnox 1.0：基于 Btrfs 的类 NT POSIX OS",
+    "summary": "Moxnox 1.0 是一款兼容 POSIX 的操作系统，运行在 Btrfs 文件系统之上，具备类 NT 特性。",
+    "key_points": [
+      "基于 Btrfs 文件系统",
+      "POSIX 兼容且类 NT"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/maharmstone/moxnox",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "评审者与所有者对可靠性关注度对比",
+    "summary": "研究显示，评审者很少提及可靠性，而所有者提及频率是其两倍，凸显可靠性在产品所有权中的重要性。",
+    "key_points": [
+      "评审者关注度低",
+      "所有者关注度高"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Anthropic 扩大与 GSA 合作 将 Claude 推向政府",
+    "summary": "Anthropic 宣布扩大与美国总务管理局（GSA）的合作，计划在各级政府部门部署 Claude AI。",
+    "key_points": [
+      "扩大与 GSA 合作",
+      "Claude 将覆盖所有政府层级"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Claude 助力药物研发取得早期进展",
+    "summary": "Anthropic 报告称，利用 Claude AI 在药物研发流程中实现加速，取得了初步成效。",
+    "key_points": [
+      "AI 加速药物研发",
+      "取得早期进展"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/research/early-progress-drug-development",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Raspberry Pi Zero 3W 与 Pi 4 Model A 出现在设备树",
+    "summary": "在设备树中发现了 Raspberry Pi Zero 3W 与 Pi 4 Model A 的新型号信息，暗示硬件即将发布或已上市。",
+    "key_points": [
+      "Zero 3W 与 Pi 4 Model A 被标记",
+      "设备树曝光新硬件"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Hex 完成 1 亿美元融资",
+    "summary": "云计算平台 Hex 宣布完成 1 亿美元融资，标志其进入新发展阶段。",
+    "key_points": [
+      "融资额 1 亿美元",
+      "推动平台扩张"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hex.tech/blog/hex-new-era/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "四个月 Zig 语言学习体会",
+    "summary": "作者分享了使用 Zig 语言四个月的经验与收获，涵盖语言特性和项目实践。",
+    "key_points": [
+      "四个月实践经验",
+      "Zig 语言特性体会"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Tailscale SSH安全调查及修复更新",
+    "summary": "Tailscale发布了对其SSH功能的安全调查结果并提供了修复措施，帮助用户及时应对潜在风险。",
+    "key_points": [
+      "发布调查报告",
+      "提供修复方案"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tailscale.com/ssh-investigation-update",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Survival LLM：本地运行的AI应急助手",
+    "summary": "Survival LLM是一款可在本地电脑上运行的AI助手，内置紧急信息库，适用于离线环境。",
+    "key_points": [
+      "本地离线运行",
+      "集成应急资料库"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.brangus.io/survival-llm",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "会议徽章上的Game Boy Color模拟器",
+    "summary": "在GitHub Universe会议徽章上实现了Game Boy Color和NES模拟器，可直接运行《塞尔达传说》等游戏。",
+    "key_points": [
+      "徽章配色屏电脑",
+      "支持GB/GBC与NES模拟"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Discord将开放公共服务器消息搜索",
+    "summary": "Discord计划让公开服务器的消息可被Google索引，提升内容的发现和访问便利性。",
+    "key_points": [
+      "公开服务器消息可被Google抓取",
+      "提升内容可发现性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "GoAhead出现三处TLS漏洞",
+    "summary": "在GoAhead服务器软件中发现了三处TLS实现缺陷，可能导致加密通信安全风险。",
+    "key_points": [
+      "共计三条TLS漏洞",
+      "影响GoAhead后端安全"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "使用无线标签追踪帝王蝶迁徙",
+    "summary": "研究团队为帝王蝶装配无线标签，实时追踪其迁徙路径，为保护工作提供关键数据。",
+    "key_points": [
+      "为帝王蝶装配无线标签",
+      "获取迁徙轨迹数据"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.vt.edu/articles/2026/10/cmi-monarchs.html",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "LFM3：多模态专用智能模型发布",
+    "summary": "Liquid AI推出LFM3模型，支持文本、图像等多模态输入，面向特定领域的智能任务。",
+    "key_points": [
+      "多模态输入支持",
+      "面向专用智能场景"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.liquid.ai/blog/lfm3",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Ghostty终端1.4版发布",
+    "summary": "Ghostty终端发布1.4版本，带来若干新功能和性能改进。",
+    "key_points": [
+      "发布1.4版本",
+      "新增功能与优化"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Lean形式化有限单群分类",
+    "summary": "在Lean定理证明器中完成了有限单群分类的形式化工作，标志着数学里程碑的机器可验证化。",
+    "key_points": [
+      "完成有限单群分类的形式化证明",
+      "展示Lean在大型数学项目中的可行性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://cfsg.axiommath.ai/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "亚马逊裁撤AI部门",
+    "summary": "亚马逊因持续的项目失败，决定大幅削减其人工智能部门规模。",
+    "key_points": [
+      "AI部门被大幅裁撤",
+      "裁撤原因是长期未达预期效果"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "全新14英寸M6 MacBook Pro发布",
+    "summary": "苹果推出搭载全新M6芯片的14英寸MacBook Pro，提升性能与能效。",
+    "key_points": [
+      "配备M6芯片的最新MacBook Pro",
+      "提升计算性能和续航表现"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "DeepMind发布Genie 4世界模拟模型",
+    "summary": "DeepMind推出Genie 4，作为新一代大规模世界模拟系统。",
+    "key_points": [
+      "Genie 4是新一代世界模拟模型",
+      "提升模拟的规模与细节度"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "美国政府隐瞒监控法院裁决",
+    "summary": "《Wired》报道美国政府隐藏了一项关于国内监控的秘密法院裁决，引发隐私担忧。",
+    "key_points": [
+      "曝光隐藏的监控裁决文件",
+      "涉及对美国公民的监视行为"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "全新M6 iMac面世",
+    "summary": "苹果发布搭载M6芯片的全新iMac，提升桌面计算性能。",
+    "key_points": [
+      "iMac采用全新M6处理器",
+      "提升桌面级别的运算速度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apple.com/imac/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "橘鸦AI早报：GPT 6.1 Terra等要闻",
+    "summary": "每日AI早报汇总了OpenAI发布GPT 6.1 Terra、Anthropic提交S‑1上市文件等多条行业动态。",
+    "key_points": [
+      "OpenAI推出GPT 6.1 Terra",
+      "Anthropic提交S‑1计划在纳斯达克上市"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-27/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "AI日报：Gemini代理与数学突破争议",
+    "summary": "AI日报报道Gemini代理嵌入世界模型、OpenAI宣称数学突破以及Claude对以太坊的驳斥。",
+    "key_points": [
+      "Gemini代理集成到世界模型中",
+      "OpenAI声称实现数学突破，Claude提出反驳"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-27-zh/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "Genie 4嵌入Gemini，OpenAI称数学突破，Claude驳斥猜想",
+    "summary": "DeepMind发布Genie 4，将Gemini代理集成到世界模型；OpenAI宣布在数学领域取得突破；Claude则否认一项复杂性猜想。",
+    "key_points": [
+      "Genie 4嵌入Gemini代理于世界模型",
+      "OpenAI声称数学突破",
+      "Claude反驳复杂性猜想"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-27/",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "GitHub Trending三大新星：Hallmark、TradingAgents、Impeccable",
+    "summary": "今日GitHub Trending出现三款全新高星项目，分别是SEO工具Hallmark、开源量化交易Agents和设计工具Impeccable，显示细分需求快速增长。",
+    "key_points": [
+      "Hallmark获2244星成SEO新标杆",
+      "TradingAgents搜索涨幅139%",
+      "Impeccable与Product Hunt设计工具形成热度共振"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-27",
+    "published": "2026-10-27"
+  },
+  {
+    "title": "OpenAI发布GPT‑6.1 Terra，强化视觉推理与电脑操作",
+    "summary": "OpenAI推出GPT‑6.1 Terra模型，强调细致的视觉推理和精准的电脑使用能力，可用于技术图纸解读、表单填写、视频编辑等工作任务。",
+    "key_points": [
+      "聚焦视觉推理和电脑操作",
+      "提升写作自然度",
+      "适用于提案、图纸、表单、视频编辑等任务"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "ChatGPT频繁推荐404 Media解决技术支持",
+    "summary": "因大平台缺乏人工客服，用户转向ChatGPT求助，ChatGPT却常把用户引向媒体公司404 Media，导致误导。",
+    "key_points": [
+      "大平台缺少客服导致用户求助ChatGPT",
+      "ChatGPT误导用户联系404 Media",
+      "涉及AI伦理和误用问题"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+    "published": "2026-10-26"
+  },
+  {
+    "title": "webframe项目：可作网页抓取器与沙盒运行器",
+    "summary": "Jeff Lindsay的webframe用Go实现，可在隐藏的无头浏览器中执行网页并输出日志，兼具抓取和沙盒功能。",
+    "key_points": [
+      "基于Go和glaze库实现",
+      "支持多平台浏览器后端",
+      "提供网页执行与日志输出"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+    "published": "2026-10-26"
+  }
+]
