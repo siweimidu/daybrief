@@ -1,0 +1,357 @@
+[
+  {
+    "title": "MicroZig 采用严格禁用 LLM/AI 政策",
+    "summary": "MicroZig 项目宣布在代码库中全面禁止使用大型语言模型和人工智能工具，以确保代码安全和可审计性。此举在开发者社区引发关注。",
+    "key_points": [
+      "禁止使用 LLM/AI",
+      "强调代码安全和审计"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Qwenputer：在 Qwen3.5 中实现确定性 RISC-V CPU",
+    "summary": "研究者展示了在 Qwen3.5 大语言模型内部实现一个可运行的确定性 RISC-V 处理器，证明模型可执行硬件指令模拟。此实验展示了大模型的计算潜力。",
+    "key_points": [
+      "在大模型内部实现 CPU",
+      "确定性运行",
+      "展示模型计算能力"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://divagr.com/blog/qwenputer",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "GitLab 安全事件：尝试利用 CVE-2026-97229",
+    "summary": "GitLab 遭遇一次利用 CVE-2026-97229 的攻击尝试，安全团队已发布通报并完成修复，提醒用户及时更新。",
+    "key_points": [
+      "CVE-2026-97229 被尝试利用",
+      "GitLab 发布安全通报并修复"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "首款搭载 Android XR 的有线 XR 眼镜发布",
+    "summary": "Xreal Aura 作为首款使用 Android XR 平台的有线混合现实眼镜面世，标志着 Android 在 XR 硬件领域的首次实现。",
+    "key_points": [
+      "首款 Android XR 硬件",
+      "有线 XR 眼镜",
+      "推动 XR 生态发展"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "StackOverflow 每月提问不足千条",
+    "summary": "数据显示 StackOverflow 最近一个月的提问数量跌破千条，反映社区活跃度出现下降趋势。",
+    "key_points": [
+      "提问量跌破千条",
+      "可能影响社区活跃度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Ted Sanders 论 LLM 性能多维度因素",
+    "summary": "Ted Sanders 讨论 LLM 性能受模型规模等因素影响，指出更大的模型通常更好但成本更高。",
+    "key_points": [
+      "模型规模决定性能",
+      "更大模型更可靠但更贵"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Formlabs Studio 1 699 美元树脂打印机发布",
+    "summary": "Formlabs 推出基础版 Studio 1 树脂 3D 打印机，售价 699 美元，面向入门用户。",
+    "key_points": [
+      "售价 699 美元",
+      "针对入门市场"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "健康近况更新",
+    "summary": "作者在博客中分享近期健康状况的更新。",
+    "key_points": [
+      "个人健康信息分享"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://furbo.org/2026/10/28/a-health-update/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Nango招聘多岗位包括工程、营销等",
+    "summary": "Nango（YC W23）在招聘工程、前端、营销和开发者关系等职位，面向扩张团队。",
+    "key_points": [
+      "提供多个技术与市场岗位",
+      "面向扩张阶段的招聘需求"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nango.dev/careers",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "9位AES密钥案例分析",
+    "summary": "一篇探讨9位AES密钥的技术文章，引发社区关注。",
+    "key_points": [
+      "分析异常的9位密钥实现",
+      "讨论安全性影响"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "泄露网站公开数万名DHS雇员数据",
+    "summary": "泄露网站公布了成千上万美国国土安全部雇员的个人信息，引发安全担忧。",
+    "key_points": [
+      "大量DHS员工数据被曝光",
+      "涉及隐私与国家安全风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "层次网络的可扩展性研究",
+    "summary": "Cartesia发布关于层次网络可扩展性的技术博客，探讨从令牌到字节的转换。",
+    "key_points": [
+      "讨论层次网络的扩展方法",
+      "提供从令牌到字节的实现细节"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "蜘蛛丝胶液：自然最坚韧材料",
+    "summary": "研究揭示蜘蛛将丝胶液转化为极其坚韧的材料，展示自然材料的潜力。",
+    "key_points": [
+      "蜘蛛丝胶液的形成机制",
+      "自然材料的高强度特性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "指纹脚本被指用于生物武器研发",
+    "summary": "一篇文章指出某指纹识别脚本可能被用于生物武器的开发，引发伦理争议。",
+    "key_points": [
+      "指纹脚本的潜在滥用",
+      "涉及生物武器伦理风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nullpt.rs/fingerprinting-bioweapons",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "MacBook Pro配备PROLED XDR显示屏与触控",
+    "summary": "Apple发布新款MacBook Pro，搭载PROLED XDR显示屏和触控功能，提升显示与交互体验。",
+    "key_points": [
+      "采用PROLED XDR技术",
+      "新增触控功能"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "SlideBySide：无需共享屏幕的协同演示工具",
+    "summary": "Show HN项目SlideBySide允许多人协作演示幻灯片，避免屏幕共享并提供同步控制。",
+    "key_points": [
+      "多人协作演示",
+      "无需屏幕共享的同步控制"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://slidebyside.com/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Gemini 4 Carbon 模型发布",
+    "summary": "Google 在官方博客发布了 Gemini 4 Carbon 模型，链接在 Hacker News 热议。",
+    "key_points": [
+      "模型正式上线",
+      "在 Hacker News 获高关注"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "GitHub Octoverse 2026 报告要点",
+    "summary": "GitHub Octoverse 2026 报告显示，2026 年合并 PR 月均 2.2 亿次，提交月均 73.8 亿次，仓库创建率翻倍。",
+    "key_points": [
+      "合并 PR 月均 220 M",
+      "提交月均 7.38 B",
+      "新仓库月均 30.3 M"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Dayjob：AI 在税务任务中的评估",
+    "summary": "SurgeHQ 在 Hacker News 上分享了 Dayjob 项目，对 50 项专业税务任务中的 AI 代理进行评估。",
+    "key_points": [
+      "评估 50 项税务任务",
+      "关注 AI 代理表现"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://surgehq.ai/blog/dayjob-tax",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "CNC 石材雕刻案例分享",
+    "summary": "文章介绍了使用 CNC 技术对石材进行精细雕刻的实现方式。",
+    "key_points": [
+      "CNC 加工技术",
+      "石材雕刻应用"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://carmelitegothic.com/cnc-stone-carving/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "AlpineBSD 项目概览",
+    "summary": "提供 AlpineBSD 官方 Wiki 的入口链接，供用户了解该 BSD 系统。",
+    "key_points": [
+      "官方 Wiki 链接",
+      "AlpineBSD 介绍"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://wiki.alpinebsd.org",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Cursor 发布 Agent SDK",
+    "summary": "Cursor 在博客中发布了 Agent SDK，帮助开发者快速构建 AI 代理。",
+    "key_points": [
+      "Agent SDK 上线",
+      "支持 AI 代理开发"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://cursor.com/blog/agent-sdk",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "游戏开发的 Vibe 编码拐点",
+    "summary": "作者认为 2026 年十月是 Vibe 游戏编码的关键转折点，AI 编码代理已可日常支撑游戏开发。",
+    "key_points": [
+      "Vibe 编码拐点",
+      "AI 代理可靠性提升"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "Terk Terkowitz 关于 AI 工具的观点",
+    "summary": "Terk Terkowitz 强调若工作未受益于现有 AI 工具，应记录原因并与团队沟通，展示工程师的判断力。",
+    "key_points": [
+      "记录 AI 无效原因",
+      "展示工程师判断力"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "DeepMind发布Genie 4模型预览",
+    "summary": "Google DeepMind发布Genie 4世界模型研究预览，支持实时场景修改；Cursor Design Mode新增Annotate标注功能，Google向Antigravity IDE用户推送Gemini 4 Argon，蚂蚁百灵开源Ling 3.1 flash 1019及基座模型，微软发布MAI Image 2.7 P…",
+    "key_points": [
+      "DeepMind发布Genie 4模型预览，支持实时场景改动",
+      "Cursor Design Mode新增Annotate标注功能",
+      "Google向Antigravity IDE用户推送Gemini 4 Argon"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-28/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "AI日报：多尺度策略优化与多模态递归自改进",
+    "summary": "多尺度策略优化提升长程智能体训练效果，三位一体框架推动多模态递归自改进，视频基准测代码生成技术得到应用。",
+    "key_points": [
+      "多尺度策略优化提升长程智能体训练",
+      "三位一体框架促多模态递归自改进",
+      "视频基准测代码生成技术应用"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-28-zh/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "AI Daily：多尺度策略优化与多模态递归自改进",
+    "summary": "多尺度策略优化提升长程智能体训练，Trinity框架实现多模态递归自改进，VibeVideoBench基准测试。",
+    "key_points": [
+      "多尺度策略优化提升长程智能体训练",
+      "Trinity框架实现多模态递归自改进",
+      "VibeVideoBench基准测试"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-28/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "DailyDawn：AI设计质量工具热度飙升",
+    "summary": "DailyDawn报道今日AI设计质量工具热度飙升，Nutlope/hallmark等工具获得高星级，GitHub Trending与Product Hunt同步出现AI设计质量校验类工具，满足单人开发者和小团队需求，订阅成本低于人工校验成本。",
+    "key_points": [
+      "Nutlope/hallmark等AI设计质量工具获得高星级",
+      "GitHub Trending与Product Hunt同步出现AI设计质量校验工具",
+      "订阅成本低于人工校验成本，满足单人开发者和小团队需求"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-28",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "GitHub Universe徽章装载Game Boy Color模拟器",
+    "summary": "在GitHub Universe会议上，开发者将Game Boy Color模拟器部署到会议徽章上，支持运行《塞尔达传说：林克的觉醒》等游戏，徽章可翻转使用。",
+    "key_points": [
+      "会议徽章装载Game Boy Color模拟器",
+      "支持运行《塞尔达传说：林克的觉醒》",
+      "徽章可翻转使用"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+    "published": "2026-10-27"
+  }
+]
