@@ -1,0 +1,394 @@
+[
+  {
+    "title": "OpenAI Pro 用量翻倍，Google 停止 Jules",
+    "summary": "OpenAI 将 Pro 各档与 Business Premium 用量翻倍，同时 Google 宣布异步编程 agent Jules 将于近期关停。",
+    "key_points": [
+      "OpenAI 提升 Pro 与 Business Premium 用量上限",
+      "Google 停止 Jules 异步编程 agent"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-30/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Herdr 发布原生客户端应用",
+    "summary": "Herdr 在 GitHub 上开源发布了原生客户端应用，已在 Hacker News 前页获关注。",
+    "key_points": [
+      "在 GitHub 开源发布原生 app",
+      "Hacker News 获得 8 分关注"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/herdrdev/herdr-app",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Cormac McCarthy 图书馆上线",
+    "summary": "全新上线的 Cormac McCarthy 图书馆网站提供作者作品与研究资源，已在 Hacker News 报道并获 10 分。",
+    "key_points": [
+      "提供作者作品与研究资料",
+      "Hacker News 报道获 10 分"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://cormacmccarthy.lib.utk.edu/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "将 DOOM 变为 Transformer 的实验项目",
+    "summary": "开发者利用 DOOM 游戏机制实现了名为 DOOMFORMER 的 Transformer 框架，可完成 MNIST 手写数字分类等任务。",
+    "key_points": [
+      "基于 DOOM 机制实现 Transformer 框架",
+      "支持 MNIST 分类等功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/mottopanikeiku/doomformer",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "ChatGPT 订阅计划获 API 积分福利",
+    "summary": "OpenAI 为 $100、$200、$500 订阅用户提供等额 API 积分，可在组织中使用，政策与 Anthropic 同步。",
+    "key_points": [
+      "订阅用户可获等额 API 积分",
+      "与 Anthropic 的福利政策保持一致"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "《红猪》与国家、战争的学术分析",
+    "summary": "该期刊文章探讨《红猪》中的猪、国家与战争主题，发表在动画研究期刊上。",
+    "key_points": [
+      "分析《红猪》中的政治隐喻",
+      "发表在动画研究期刊"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://journal.animationstudies.org/article/id/66/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "《汤姆·索亚》150周年纪念评述",
+    "summary": "文章回顾《汤姆·索亚》出版150周年的文化影响，发表于克莱蒙特书评。",
+    "key_points": [
+      "评述《汤姆·索亚》150 年影响",
+      "发表在克莱蒙特书评"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://claremontreviewofbooks.com/the-great-american-rascal/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "厄尔尼诺导致加州海岸潮汐异常",
+    "summary": "受厄尔尼诺影响，加州海岸出现异常高潮，预计将创下年度最高潮位。",
+    "key_points": [
+      "厄尔尼诺引发海岸洪水",
+      "预计创下年度最高潮位"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://gizmodo.com/el-nino-is-already-flooding-californias-coasts-and-the-years-highest-tides-havent-arrived-2000832574",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "AI 代理群在《我的世界》和《Mindustry》中的实验",
+    "summary": "研究者在《我的世界》和《Mindustry》两款游戏中部署了大规模 AI 代理群，展示了多智能体协作的潜力。此实验对游戏 AI 与通用智能研究具有重要意义。",
+    "key_points": [
+      "在游戏环境中运行大规模 AI 代理群",
+      "验证多智能体协作与策略学习"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://labs.ycombinator.com/projects/games/index.html",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "黑客窃取 Binance 56亿美元",
+    "summary": "黑客攻击 Binance，导致约56亿美元资产被盗，引发加密行业安全担忧。此事件凸显交易所防护和监管的紧迫性。",
+    "key_points": [
+      "56亿美元被盗",
+      "加密交易所安全风险暴露"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Sylphide OS：面向微控制器的通用操作系统",
+    "summary": "Sylphide OS 是一款针对微控制器的通用操作系统，旨在提供类 PC 的开发体验。它的开源发布为嵌入式开发者提供新选择。",
+    "key_points": [
+      "针对微控制器的通用 OS",
+      "开源项目促进嵌入式开发"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://projects.freehackers.org/sylphide-os/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "ElementaryUI：在浏览器中运行 Swift",
+    "summary": "ElementaryUI 让 Swift 代码直接在浏览器中执行，提供了 Web 环境下的 Swift 开发体验。此项目降低了跨平台开发门槛。",
+    "key_points": [
+      "Swift 代码浏览器运行",
+      "提升跨平台开发便利性"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://elementary.codes",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "微型世界模型在 Raspberry Pi Pico 2 W 上运行游戏",
+    "summary": "开发者实现了一个极小的世界模型，可在 Raspberry Pi Pico 2 W 上运行游戏，展示了低功耗硬件的潜力。对边缘计算和嵌入式游戏有启示。",
+    "key_points": [
+      "在 Pico 2 W 上运行游戏模型",
+      "展示低功耗硬件的计算能力"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/SheepSeb/tinyworldformer",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "演员 Patrick Stewart 去世",
+    "summary": "著名演员 Patrick Stewart 于2026年10月去世，享年90岁。其在《星际迷航》等作品中的贡献深受影迷敬仰。",
+    "key_points": [
+      "Patrick Stewart 去世",
+      "其在影视界的影响深远"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Auto Dismiss：快速关闭 macOS 本地网络授权弹窗",
+    "summary": "该 Swift 小工具可在0.25秒内自动关闭 macOS 的本地网络授权弹窗，并提供通知，提升用户体验。适用于不希望频繁授权的用户。",
+    "key_points": [
+      "0.25秒自动关闭弹窗",
+      "提供关闭通知提升体验"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/johncassil/dontallow",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "IgE 过敏抑制剂：Claude 驱动的抗体设计",
+    "summary": "研究团队利用 Claude AI 设计抗体，开发出针对 IgE 的过敏抑制剂，展示了生成式 AI 在生物医药中的应用前景。",
+    "key_points": [
+      "Claude AI 辅助抗体设计",
+      "针对 IgE 的过敏治疗潜力"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://divergencelabs.com/publications/ige-preprint.pdf",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Nvidia高管与涉嫌中国间谍关系密切",
+    "summary": "有报道称一名涉嫌中国间谍与Nvidia创始人黄仁勋关系密切，引发对公司安全的关注。",
+    "key_points": [
+      "涉嫌间谍身份",
+      "与黄仁勋关系密切",
+      "可能影响Nvidia的商业与安全"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "使用自主模型打造多人游戏世界",
+    "summary": "Jacob Sansbury 介绍了Spawn项目，利用大型语言模型让玩家通过提示实时生成城堡、龙等，展示前沿代理工程的可能性。",
+    "key_points": [
+      "Spawn是多人游戏环境",
+      "玩家通过提示与AI代理交互",
+      "展示了代理工程的前沿应用"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "16colo.rs：ANSI/ASCII艺术档案",
+    "summary": "该站点收集并展示ANSI/ASCII艺术作品，供爱好者浏览和分享。",
+    "key_points": [
+      "提供ANSI/ASCII艺术收藏",
+      "开放访问供社区使用",
+      "在黑客新闻上受关注"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://16colo.rs/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Simantic：AI代理的固件仿真平台",
+    "summary": "Simantic提供仿真层，让工程师和AI代理在无需硬件的情况下测试固件，创始团队来自Neuralink、Tesla等。",
+    "key_points": [
+      "仿真固件无需硬件",
+      "支持AI代理测试固件",
+      "团队背景包括Neuralink和Tesla"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50291116",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "H.264 编码技术揭秘",
+    "summary": "文章深入解释了H.264视频压缩的原理，展示其在视频传输中的重要性。",
+    "key_points": [
+      "解析H.264工作原理",
+      "展示其在视频行业的影响",
+      "强调技术的广泛应用"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sidbala.com/h-264-is-magic/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Zombie stats：AI引用数字的来源",
+    "summary": "Trakkr研究揭示AI在生成统计数据时常引用的虚假或“僵尸”统计来源，提醒使用者审慎核实。",
+    "key_points": [
+      "揭露AI引用的虚假统计",
+      "提供来源追踪方法",
+      "强调数据验证的重要性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://trakkr.ai/trakkr-research/zombie-stats",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "LLM Voice概念解析",
+    "summary": "Martin Fowler阐述了“LLM Voice”概念，探讨大语言模型在生成语音交互时的设计与挑战。",
+    "key_points": [
+      "介绍LLM Voice概念",
+      "讨论语音交互设计问题",
+      "提供实现思考"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Ben Hylak关于产品即代理的观点",
+    "summary": "Ben Hylak主张产品应像无头MCP，直接供给AI代理使用，用户无需关注底层实现，仅关注界面体验。",
+    "key_points": [
+      "产品应作为无头模块供AI使用",
+      "强调用户体验优先",
+      "引用Ben Hylak的观点"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Google发布Gemini 4 Carbon模型",
+    "summary": "Google 首次向部分用户开放 Gemini 4 Carbon，标志着其安全模型的正式发布；OpenAI 为 ChatGPT Pro 与 Business 订阅者提供 API 额度，进一步推动企业级 AI 应用。",
+    "key_points": [
+      "Gemini 4 Carbon 部分用户开放",
+      "OpenAI 为 Pro/Business 用户发放 API 额度"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-29/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "谷歌推出Gemini 4，Guidewire拟收购AI初创",
+    "summary": "谷歌推出安全型 Gemini 4 模型，提升 AI 领域的安全防护；Guidewire 计划以 21 亿美元收购 AI 承保初创公司 Hyperexponential，显示行业对 AI 风险管理的重视。",
+    "key_points": [
+      "Gemini 4 安全模型发布",
+      "Guidewire 以 21 亿美元收购 AI 初创"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-29-zh/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Google发布Gemini 4 Carbon，Guidewire收购AI初创",
+    "summary": "Google 公布专注网络安全的 Gemini 4 Carbon；Guidewire 同意以高达 2.1 亿美元收购 AI 承保初创 Hyperexponential，进一步巩固其在保险科技领域的布局。",
+    "key_points": [
+      "Gemini 4 Carbon 网络安全聚焦",
+      "Guidewire 以 2.1 亿美元收购 Hyperexponential"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-29/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "GitHub AI IDE项目热度与Gemini 4 Carbon关注度",
+    "summary": "GitHub Trending 上三款 AI IDE 项目累计获得 3217 星，TypeScript 栈可直接拼接复用；Qwen3.8-27B 16GB 部署搜索量激增 127%，显示本地轻量大模型需求快速增长。",
+    "key_points": [
+      "GitHub AI IDE 项目热度",
+      "Qwen3.8-27B 16GB 部署搜索量激增"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-29",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "LLM性能与模型规模关系解读",
+    "summary": "LLM 的性能高度多维，模型规模是决定性能、成本和知识召回的关键因素；版本号不仅代表发布顺序，也暗示模型在性能层面的递进。",
+    "key_points": [
+      "模型规模决定性能与成本",
+      "版本号代表发布顺序与性能递进"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "GitHub Octoverse 2026：PR与提交量激增",
+    "summary": "GitHub Octoverse 2026 报告显示，合并 PR 量在一年内翻三倍至每月 220 万；提交量和新仓库创建率同样大幅增长，凸显代理式工程对平台活跃度的巨大影响。",
+    "key_points": [
+      "PR 与提交量翻三倍",
+      "新仓库创建率翻倍，代理式工程影响显著"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "2026年10月：游戏开发的转折点",
+    "summary": "2026 年 10 月成为游戏开发的转折点，Opus 5.5 等模型的显著提升使得基于 AI 的游戏编码成为可行的日常工具；这一趋势预示着游戏行业将迎来新的技术变革。",
+    "key_points": [
+      "Opus 5.5 等模型提升游戏编码",
+      "游戏开发迎来 AI 驱动的新转折点"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+    "published": "2026-10-28"
+  },
+  {
+    "title": "AI工具局限性需记录与沟通",
+    "summary": "Terk Terkowitz 强调，当 AI 工具无法提升工作效率时，应将其视为发现而非失败，并记录、分享与管理层沟通；这体现了在 AI 时代对工程师判断力的期望。",
+    "key_points": [
+      "AI 工具局限性需记录与沟通",
+      "工程师需展示判断力以应对 AI 时代"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+    "published": "2026-10-28"
+  }
+]
