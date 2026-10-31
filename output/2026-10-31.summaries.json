@@ -1,0 +1,370 @@
+[
+  {
+    "title": "Anthropic 更新 Claude 订阅并取消 Ultra 限制",
+    "summary": "Anthropic 调整 Claude 订阅方案，逐步取消已验证 Ultra 账户的五小时限制，并为 Claude Code 加入游戏重制限制；OpenCode Go 为 DeepSeek V4.1 Flash 提供每月 100 美元额度，Cursor 报告恶意扩展。此举影响开发者使用成本和安全。",
+    "key_points": [
+      "Claude 订阅更名并放宽 Ultra 限制",
+      "OpenCode Go 为 DeepSeek V4.1 Flash 提供额度",
+      "Cursor 发现恶意 Claude Code 扩展"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-31/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "致敬帕特里克·斯图尔特的《星际迷航》剧集猜谜游戏",
+    "summary": "在 Hacker News 上推出一个致敬帕特里克·斯图尔特的《星际迷航：下一代》剧集猜谜游戏，供粉丝互动并纪念演员。",
+    "key_points": [
+      "项目链接 tng.episodle.com",
+      "在 HN 获得 49 分和 15 条评论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tng.episodle.com/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "NES 模拟器嵌入 Qwen 模型权重的开源项目",
+    "summary": "Drew Breunig 将 NES 6502 CPU 仿真嵌入 Qwen3.5-4B 权重，实现可在模型内部运行 NES ROM，如《超级马里奥兄弟》，展示模型内部计算的可能性。",
+    "key_points": [
+      "基于 qwenputer 思路实现 NES 仿真",
+      "可在 Qwen 中慢速运行 NES ROM",
+      "提供 Opus 5.5 提示用于构建系统"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Linode 安全事件通报",
+    "summary": "Linode 在状态页面公布安全事件详情，Hacker News 上引发广泛讨论，提醒用户关注云服务安全。",
+    "key_points": [
+      "事件状态页面链接",
+      "获 145 分和 75 条评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://status.linode.com/incidents/nt58zhx3pmgm",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "sanstun：Rust 实现的无 IO、并行友好 WireGuard",
+    "summary": "Firezone 发布 sanstun 项目，提供基于 sans-IO 的并行友好 WireGuard 实现，适用于 Rust 环境的高效网络安全。",
+    "key_points": [
+      "项目在 Firezone 博客介绍",
+      "获 59 分和 14 条评论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.firezone.dev/blog/introducing-sanstun",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "AO3 维护中，暂时不可访问",
+    "summary": "Archive of Our Own 因计划性维护下线，状态页面提供进度说明，Hacker News 用户关注度高。",
+    "key_points": [
+      "维护状态页面链接",
+      "获 92 分和 22 条评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.otwstatus.org",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "帕特里克·斯图尔特通过皮卡尔船长阐释人生价值",
+    "summary": "波士顿环球报文章回顾斯图尔特在《星际迷航：下一代》中通过让-卢克·皮卡尔船长展现的人格力量，受到社区热议。",
+    "key_points": [
+      "文章链接",
+      "获 207 分和 123 条评论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "发现儒勒·凡尔纳失落手稿的报道",
+    "summary": "Blue Continuum 报道在巴黎发现儒勒·凡尔纳的失落小说，引发文学爱好者关注。",
+    "key_points": [
+      "报道链接",
+      "获 81 分和 16 条评论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blue-continuum.com/verne-paris",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "冰层消融揭露石器时代遗迹",
+    "summary": "随着最古老的冰层融化，考古学家在冰层下发现石器时代遗物，凸显气候变暖对文化遗产的影响。",
+    "key_points": [
+      "冰层融化暴露古代遗址",
+      "气候变化威胁考古保存"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Infinite Mac：重温BeOS",
+    "summary": "文章回顾BeOS在Mac平台的实现，探讨其设计理念对现代操作系统的启示。",
+    "key_points": [
+      "BeOS在Mac上的移植案例",
+      "操作系统设计思路的历史价值"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "纽约偷窃指南",
+    "summary": "作者提供在纽约街头防范与观察扒手的实用技巧，提醒游客注意安全。",
+    "key_points": [
+      "常见扒手作案手法",
+      "防范措施与警觉要点"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.newyorker.com/magazine/2026/11/02/a-pickpockets-guide-to-new-york",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Bunny CDN安全事件通报",
+    "summary": "Bunny CDN报告一次安全事故，影响部分服务可用性，提醒用户关注安全防护。",
+    "key_points": [
+      "事故导致服务中断",
+      "官方已启动恢复与调查"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "我最爱的PowerMac是任天堂Wii",
+    "summary": "作者分享将Wii硬件改装为PowerMac的创意项目，展示跨平台硬件改造的可能性。",
+    "key_points": [
+      "Wii改装为PowerMac的步骤",
+      "硬件改造的创新与挑战"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Show HN：1GB Qwen权重实现任天堂模拟器",
+    "summary": "开源项目nesformer使用约1GB的Qwen模型权重，实现可运行的任天堂游戏模拟器。",
+    "key_points": [
+      "仅1GB模型即可运行NES",
+      "展示大模型在游戏模拟中的应用"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/dbreunig/nesformer",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "AI并未取代SRE，反而削弱其技能",
+    "summary": "文章指出AI工具在运维中更多是降低SRE的技术深度，而非完全替代，呼吁保持专业能力。",
+    "key_points": [
+      "AI导致SRE技能下降",
+      "强调持续学习的重要性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Florilegium：LaTeX中的程序化花卉绘制",
+    "summary": "开源项目Florilegium提供在LaTeX文档中生成程序化花卉图形的工具，提升排版美感。",
+    "key_points": [
+      "LaTeX绘制程序化花卉",
+      "简化文档美化流程"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/kevinraymond/florilegium",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "联邦代码锻造平台",
+    "summary": "推出了一个联邦式代码锻造平台，支持跨组织的分布式代码托管与协作，提升开源项目的协同效率。",
+    "key_points": [
+      "实现跨组织代码共享",
+      "获得社区高关注度"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tangled.org/blog/forge/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Sketch Stadium AI 画猜游戏",
+    "summary": "展示了 AI 代理在 Sketch Stadium 中轮流绘图和猜词的 Pictionary 游戏，验证了多代理交互与推送通知的可行性。",
+    "key_points": [
+      "代理订阅游戏事件",
+      "绘画与猜词轮流进行，观赏性强"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sketch.wakeshift.ai/games/q5ucru",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Northflank 平台遭受安全泄露",
+    "summary": "Northflank 出现安全泄露事件，引发对云开发平台安全性的广泛关注。",
+    "key_points": [
+      "数据泄露事件",
+      "社区讨论热烈，影响用户信任"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://status.northflank.com",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Cisco 为工程师提供无限 AI 令牌改写遗留代码",
+    "summary": "Cisco 允许工程师使用无限 AI 令牌重写遗留代码，以提升开发效率并加速现代化进程。",
+    "key_points": [
+      "无限 AI 令牌",
+      "用于改写遗留代码"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Binance 63亿美元被盗，仅用20分钟",
+    "summary": "一次快速的攻击在 20 分钟内导致 Binance 损失 63 亿美元，凸显加密交易所的安全风险。",
+    "key_points": [
+      "损失 63亿美元",
+      "攻击仅用 20 分钟完成"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "Azure 跨租户安全漏洞导致五起完整妥协",
+    "summary": "发现 Azure 中五起跨租户完整妥协案例，暴露了多租户隔离的薄弱环节。",
+    "key_points": [
+      "五起跨租户妥协",
+      "揭示 Azure 安全弱点"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "橘鸦AI早报：OpenAI 用量翻倍等要闻",
+    "summary": "OpenAI 将 Pro 与 Business Premium 用量翻倍，Claude Code 恢复 ultrathink 功能，Google 停止 Jules 并推出 Plugin Marketplace，Herdr Labs 开源 herdr。",
+    "key_points": [
+      "OpenAI 用量翻倍",
+      "Google 推出 Plugin Marketplace"
+    ],
+    "category": "其他",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-30/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "AI日报：多模态统一、Gemma 4、A-RSI 零数据自改进",
+    "summary": "报道多模态解析统一进展、Google 卫星运行 Gemma 4，以及 A‑RSI 实现零数据自我改进的最新成果。",
+    "key_points": [
+      "多模态解析统一",
+      "Gemma 4 与 A‑RSI 零数据改进"
+    ],
+    "category": "其他",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-30-zh/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "AI Daily 2026-10-30 重点",
+    "summary": "Youtu-Parsing-Omni 推出统一多模态解析；谷歌在卫星上运行 Gemma 4；A-RSI 实现零数据自我提升，展示 AI 在边缘与自适应学习方面的新突破。",
+    "key_points": [
+      "Youtu-Parsing-Omni 统一多模态解析",
+      "谷歌 Gemma 4 在卫星上运行",
+      "A-RSI 零数据自我提升"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-30/",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "DailyDawn 2026-10-30 重大事件",
+    "summary": "今日三大热点：Binance 56亿美元被盗事件引发行业震荡；Patrick Stewart 死讯帖登顶 HackerNews；DoorDash 收购 Instacart 改写本地配送格局，显示传统互联网规则失效。",
+    "key_points": [
+      "Binance 56亿美元被盗",
+      "Patrick Stewart 死讯帖热度最高",
+      "DoorDash 收购 Instacart 改变配送赛道"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-30",
+    "published": "2026-10-30"
+  },
+  {
+    "title": "ChatGPT 订阅获 API 额度",
+    "summary": "Anthropic 与 OpenAI 均推出与订阅等额的 API 额度，$100、$200、$500 级别用户可获得相同额度的 API 额度，降低使用成本。",
+    "key_points": [
+      "Anthropic Max/Team 订阅获 API 额度",
+      "OpenAI 同步推出相同优惠",
+      "$100/$200/$500 级别可获额度"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Spawn：AI 驱动的多人游戏世界",
+    "summary": "作者描述 Spawn 项目，利用前沿模型与代理工程打造可通过提示修改游戏世界的多人游戏环境，玩家可即时生成城堡、龙等元素，展示 AI 在游戏创作中的潜力。",
+    "key_points": [
+      "Spawn 使用前沿模型与代理工程",
+      "玩家可通过提示即时生成游戏元素",
+      "展示 AI 在多人游戏创作中的应用"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "Ben Hylak 观点：产品应无头 MCP",
+    "summary": "Ben Hylak 强调产品应以无头多模型协议（MCP）为核心，交给代理处理，用户只关注 UI，体现其产品独特性。",
+    "key_points": [
+      "产品采用无头 MCP",
+      "交给代理处理后端",
+      "用户关注 UI，提升体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+    "published": "2026-10-29"
+  },
+  {
+    "title": "2026-10-29 AI 重要动态",
+    "summary": "Google 首次公开 Gemini 4 Carbon 并向部分用户开放，OpenAI 向 ChatGPT Pro/Business 用户发放 API 额度，ChatGPT 的 Chat 与 Work 整合功能上线，Google AI Mode 广告扩展至 10 国。",
+    "key_points": [
+      "Google Gemini 4 Carbon 首次公开",
+      "OpenAI 向 Pro/Business 用户发放 API 额度",
+      "ChatGPT Chat 与 Work 整合上线"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-29/",
+    "published": "2026-10-29"
+  }
+]

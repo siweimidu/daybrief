@@ -4,7 +4,20 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Fri, 30 Oct 2026 02:18:40 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 01:57:12 +0000</lastBuildDate>
+  <item>
+    <title>AI大模型全面加码API生态，开源创新重构软硬件边界</title>
+    <link>https://siweimidu.github.io/daybrief/2026-10-31.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-31.html</guid>
+    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-10-31 · 资讯 30 条
+分类：行业动态 14 · 开源项目 6 · 技术解读 5 · 其他 5
+编者按
+今天的科技头条被大模型生态的深度演进与网络安全风波交织占据。从Anthropic调整订阅方案到OpenAI向高级用户赠送海量API额度，大厂正在通过‘订阅+API’的双轮驱动模式，进一步降低开发者门槛，争夺AI应用的控制权。
+在开源与跨界创新领域，技术极客们的脑洞令人惊叹。将NES 6502 CPU仿真直接嵌入Qwen模型权重的开源项目，以及利用AI驱动的多人游戏世界Spawn，都在向我们展示大模型内部计算与多代理交互的无限可能，传统软硬件的边界正在被大模型重新定义。
+与此同时，行业安全警钟长鸣。从Cloud服务商到加密交易所接连曝出安全事件和漏洞，提醒我们在拥抱AI与云原生效率的同时，基础设施的安全防线不容有一丝松懈。
+面对快速演进的技术浪潮，开发者不应盲目</description>
+  </item>
   <item>
     <title>Google Gemini 4 与多模态 Agents 引领行业大变局</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-30.html</link>
