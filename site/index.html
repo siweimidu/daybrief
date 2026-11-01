@@ -117,7 +117,8 @@ python3 scripts/build_site.py                                        # 本地预
 
   <div class="card">
     <h2>最近更新</h2>
-    <ul class="issue-list"><li><span class="d">2026-10-31</span><a href="https://siweimidu.github.io/daybrief/2026-10-31.html">AI大模型全面加码API生态，开源创新重构软硬件边界</a></li>
+    <ul class="issue-list"><li><span class="d">2026-11-01</span><a href="https://siweimidu.github.io/daybrief/2026-11-01.html">AI大模型安全隐患凸显，端侧与多模态协作迎新突破</a></li>
+<li><span class="d">2026-10-31</span><a href="https://siweimidu.github.io/daybrief/2026-10-31.html">AI大模型全面加码API生态，开源创新重构软硬件边界</a></li>
 <li><span class="d">2026-10-30</span><a href="https://siweimidu.github.io/daybrief/2026-10-30.html">Google Gemini 4 与多模态 Agents 引领行业大变局</a></li>
 <li><span class="d">2026-10-29</span><a href="https://siweimidu.github.io/daybrief/2026-10-29.html">AI模型竞速与内嵌计算成今日焦点</a></li>
 <li><span class="d">2026-10-28</span><a href="https://siweimidu.github.io/daybrief/2026-10-28.html">DeepMind Genie 4与OpenAI GPT-6.1 Terra震撼发布</a></li>
@@ -139,80 +140,79 @@ python3 scripts/build_site.py                                        # 本地预
   </div>
 
 <div class="card">
-  <h2>最新一期 · 2026-10-31</h2>
-  <p class="meta">生成时间：2026-10-31 · 资讯 30 条</p>
-  <p class="meta">生成时间：2026-10-31 · 资讯 30 条</p>
-<p><strong>分类</strong>：行业动态 14 · 开源项目 6 · 技术解读 5 · 其他 5</p>
+  <h2>最新一期 · 2026-11-01</h2>
+  <p class="meta">生成时间：2026-11-01 · 资讯 28 条</p>
+  <p class="meta">生成时间：2026-11-01 · 资讯 28 条</p>
+<p><strong>分类</strong>：行业动态 5 · 技术解读 8 · 开源项目 9 · 其他 6</p>
 <h2>编者按</h2>
-<p>今天的科技头条被大模型生态的深度演进与网络安全风波交织占据。从Anthropic调整订阅方案到OpenAI向高级用户赠送海量API额度，大厂正在通过‘订阅+API’的双轮驱动模式，进一步降低开发者门槛，争夺AI应用的控制权。</p>
-<p>在开源与跨界创新领域，技术极客们的脑洞令人惊叹。将NES 6502 CPU仿真直接嵌入Qwen模型权重的开源项目，以及利用AI驱动的多人游戏世界Spawn，都在向我们展示大模型内部计算与多代理交互的无限可能，传统软硬件的边界正在被大模型重新定义。</p>
-<p>与此同时，行业安全警钟长鸣。从Cloud服务商到加密交易所接连曝出安全事件和漏洞，提醒我们在拥抱AI与云原生效率的同时，基础设施的安全防线不容有一丝松懈。</p>
-<p>面对快速演进的技术浪潮，开发者不应盲目追逐工具的红利，而应深入理解底层架构，警惕AI带来的一定程度上的技能削弱。建议团队在引入生成式AI重构遗留代码或提升生产力的同时，必须建立严格的安全审计与核心能力保留机制。</p>
+<p>各位读者好，今天是2026年11月1日。回顾过去24小时的科技圈，大模型生态在迎来爆发式创新的同时，安全漏洞与基础设施的隐患也集中暴露，给我们敲响了警钟。</p>
+<p>在安全与行业动态方面，Parameter Labs 披露了 ChatGPT 在 HTML 预览中的严重沙箱漏洞，结合 Linux 内核高危漏洞的曝光，凸显出随着 AI 与底层系统深度交织，复杂攻击链正在对传统安全防御体系构成严峻挑战。与此同时，Anthropic 颁布针对大模型训练的限制令，显示出头部厂商对技术滥用与安全边界的管控正在走向严苛。</p>
+<p>然而，技术演进的脚步并未放慢。模型与开源领域展现出了惊人的创造力：Memdoor 团队利用多模型协作在 LiveCodeBench Hard 基准上实现超越，而将 NES 模拟器直接嵌入 Qwen 模型权重等脑洞大开的项目，则不断拓宽着端侧智能与模型表达能力的边界。</p>
+<p>面对日益复杂的AI生态，一方面开发者需要高度警惕沙箱隔离、账户权限及供应链带来的安全风险，避免盲目集成未验证的第三方组件；另一方面，应积极拥抱多模态智能体与开源协同工具，探索降本增效的垂直场景落地。唯有在安全与创新之间找到平衡，才能行稳致远。</p>
 <h2>今日要点</h2>
-<h3>1. NES 模拟器嵌入 Qwen 模型权重的开源项目</h3>
+<h3>1. Parameter Labs 揭露 ChatGPT HTML 预览漏洞</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/">Simon Willison</a></li>
+<li>点评：研究人员发现 ChatGPT 在 HTML 预览中的沙箱缺陷，通过 MathLive 库引发了复杂的攻击链。这警示我们，随着 AI 交互界面日益复杂，前端沙箱隔离与输入验证将成为安全防护的重中之重。</li>
+</ul>
+<h3>2. Memdoor 团队 5 个 Qwen3.8-27B 模型在 LiveCodeBench Hard 超越 Fable 5</h3>
+<ul>
+<li>来源：<a href="https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve">Hacker News Front Page</a></li>
+<li>点评：该项目展示了多个中型开源模型通过团队协作，能够在硬核编程基准上击败更强大的单体模型。多模型协同正在成为突破单模性能瓶颈的有效路径。</li>
+</ul>
+<h3>3. OpenAI 与 DeepSeek 多项新功能与模型发布</h3>
+<ul>
+<li>来源：<a href="https://daily.juya.uk/issues/2026-11-01/">橘鸦AI早报</a></li>
+<li>点评：OpenAI 调整了额度共享并发布生命科学模型，DeepSeek 则持续加码开源生态。头部厂商在产品精细化运营与垂直领域深耕上的动作频频，正加速行业分工。</li>
+</ul>
+<h3>4. NES《魂斗罗》移植至 WebAssembly 并支持联机</h3>
+<ul>
+<li>来源：<a href="https://epoyraz.github.io/nes-contra-us/">Hacker News Front Page</a></li>
+<li>点评：开发者通过将经典游戏转译并编译为 WebAssembly，实现了浏览器内的流畅联机。这不仅是一次极客的怀旧狂欢，也验证了现代 Web 技术在复杂工作负载迁移上的成熟度。</li>
+</ul>
+<h3>5. TCP 使用后释放漏洞 CVE-2026-98432</h3>
+<ul>
+<li>来源：<a href="https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf">Hacker News Front Page</a></li>
+<li>点评：Linux IPv4 TCP 栈爆出 CVSS 高达 9.8 的严重漏洞，影响深远。底层基础设施的安全漏洞再次提醒业界，系统运维与内核升级不容丝毫懈怠。</li>
+</ul>
+<h3>6. BootGPT：引导扇区语言模型</h3>
+<ul>
+<li>来源：<a href="https://github.com/kerlenton/bootgpt">Hacker News Front Page</a></li>
+<li>点评：该项目将字符级神经网络极限压缩至 510 字节的 MBR 中，在引导扇区即可生成日志。这种极致的轻量化探索展示了神经网络在极度受限环境下的可能性。</li>
+</ul>
+<h3>7. AI 日报发布全模态解析器与JEPA假设验证</h3>
+<ul>
+<li>来源：<a href="https://ainewslog.com/blog/ai-daily-2026-10-31-zh/">AI Daily</a></li>
+<li>点评：统一全模态解析器的发布与 JEPA 假设的验证，标志着多模态感知与世界模型研究正在取得实质性进展。底层架构的演进将为未来的通用人工智能打下坚实基础。</li>
+</ul>
+<h3>8. nesformer：将NES模拟器嵌入Qwen3.5-4B权重</h3>
 <ul>
 <li>来源：<a href="https://simonwillison.net/2026/Oct/30/nesformer/">Simon Willison</a></li>
-<li>点评：该项目将经典NES模拟器成功嵌入Qwen模型权重中，展示了模型内部计算运行程序的惊人潜力。这种将传统架构与大模型深度融合的尝试，为未来AI处理复杂逻辑打开了全新的想象空间。</li>
-</ul>
-<h3>2. Anthropic 更新 Claude 订阅并取消 Ultra 限制</h3>
-<ul>
-<li>来源：<a href="https://daily.juya.uk/issues/2026-10-31/">橘鸦AI早报</a></li>
-<li>点评：Anthropic 调整订阅策略并逐步取消验证账户的五小时限制，反映出算力供给与用户体验之间的动态平衡正在优化。此举将进一步缓解高频用户的焦虑，提升开发者黏性。</li>
-</ul>
-<h3>3. ChatGPT 订阅获 API 额度</h3>
-<ul>
-<li>来源：<a href="https://simonwillison.net/2026/Oct/29/api-credits/">Simon Willison</a></li>
-<li>点评：OpenAI 与 Anthropic 纷纷推出与订阅等额的 API 额度，大幅降低了开发者和企业的试错成本。这意味着大模型厂商正从单纯的C端订阅竞争，全面转向构建更深厚的开发者生态。</li>
-</ul>
-<h3>4. AI并未取代SRE，反而削弱其技能</h3>
-<ul>
-<li>来源：<a href="https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling">Hacker News Front Page</a></li>
-<li>点评：文章切中要害地指出了当前运维领域过度依赖AI工具的隐患。它并没有完全替代岗位，却在潜移默化中削弱了工程师排查底层故障的核心技能，敲响了技术深度退化的警钟。</li>
-</ul>
-<h3>5. Cisco 为工程师提供无限 AI 令牌改写遗留代码</h3>
-<ul>
-<li>来源：<a href="https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/">Hacker News Front Page</a></li>
-<li>点评：思科通过提供无限AI令牌加速遗留代码现代化，展现了企业级AI应用的激进策略。这不仅重塑了软件工程的效率，也将深刻改变初级工程师的岗位职责和成长路径。</li>
-</ul>
-<h3>6. Spawn：AI 驱动的多人游戏世界</h3>
-<ul>
-<li>来源：<a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Simon Willison</a></li>
-<li>点评：该项目利用前沿模型与代理工程实现提示词即时生成游戏世界，将AI生成能力推向了实时互动的新高度。它预示着未来游戏开发和虚拟现实交互将迎来颠覆式变革。</li>
-</ul>
-<h3>7. AI日报：多模态统一、Gemma 4、A-RSI 零数据自改进</h3>
-<ul>
-<li>来源：<a href="https://ainewslog.com/blog/ai-daily-2026-10-30-zh/">AI Daily</a></li>
-<li>点评：多模态解析统一与零数据自我改进技术的突破，标志着模型正在向更自主、更具泛化能力的方向演进。谷歌在卫星上运行Gemma 4更是拓展了边缘AI的应用边界。</li>
-</ul>
-<h3>8. Binance 63亿美元被盗，仅用20分钟</h3>
-<ul>
-<li>来源：<a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/">Hacker News Front Page</a></li>
-<li>点评：超大规模的极速盗窃事件再次给整个数字资产与高并发系统敲响了极端安全警示。在技术狂飙突进的同时，系统的安全冗余和应急响应机制必须保持最高戒备。</li>
+<li>点评：开发者成功将游戏模拟器直接嵌入大模型权重内部，实现了模型内直接运行 ROM。这种颠覆性的权重编码方式开拓了模型功能扩展的新思路。</li>
 </ul>
 <h2>其他资讯</h2>
 <ul>
-<li><strong><a href="https://tng.episodle.com/">致敬帕特里克·斯图尔特的《星际迷航》剧集猜谜游戏</a></strong>（Hacker News Front Page · 其他）：在 Hacker News 上推出一个致敬帕特里克·斯图尔特的《星际迷航：下一代》剧集猜谜游戏，供粉丝互动并纪念演员。</li>
-<li><strong><a href="https://status.linode.com/incidents/nt58zhx3pmgm">Linode 安全事件通报</a></strong>（Hacker News Front Page · 行业动态）：Linode 在状态页面公布安全事件详情，Hacker News 上引发广泛讨论，提醒用户关注云服务安全。</li>
-<li><strong><a href="https://www.firezone.dev/blog/introducing-sanstun">sanstun：Rust 实现的无 IO、并行友好 WireGuard</a></strong>（Hacker News Front Page · 开源项目）：Firezone 发布 sanstun 项目，提供基于 sans-IO 的并行友好 WireGuard 实现，适用于 Rust 环境的高效网络安全。</li>
-<li><strong><a href="https://www.otwstatus.org">AO3 维护中，暂时不可访问</a></strong>（Hacker News Front Page · 行业动态）：Archive of Our Own 因计划性维护下线，状态页面提供进度说明，Hacker News 用户关注度高。</li>
-<li><strong><a href="https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/">帕特里克·斯图尔特通过皮卡尔船长阐释人生价值</a></strong>（Hacker News Front Page · 其他）：波士顿环球报文章回顾斯图尔特在《星际迷航：下一代》中通过让-卢克·皮卡尔船长展现的人格力量，受到社区热议。</li>
-<li><strong><a href="https://blue-continuum.com/verne-paris">发现儒勒·凡尔纳失落手稿的报道</a></strong>（Hacker News Front Page · 其他）：Blue Continuum 报道在巴黎发现儒勒·凡尔纳的失落小说，引发文学爱好者关注。</li>
-<li><strong><a href="https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921">冰层消融揭露石器时代遗迹</a></strong>（Hacker News Front Page · 行业动态）：随着最古老的冰层融化，考古学家在冰层下发现石器时代遗物，凸显气候变暖对文化遗产的影响。</li>
-<li><strong><a href="https://blog.persistent.info/2026/10/infinite-mac-beos.html">Infinite Mac：重温BeOS</a></strong>（Hacker News Front Page · 技术解读）：文章回顾BeOS在Mac平台的实现，探讨其设计理念对现代操作系统的启示。</li>
-<li><strong><a href="https://www.newyorker.com/magazine/2026/11/02/a-pickpockets-guide-to-new-york">纽约偷窃指南</a></strong>（Hacker News Front Page · 其他）：作者提供在纽约街头防范与观察扒手的实用技巧，提醒游客注意安全。</li>
-<li><strong><a href="https://status.bunny.net/incidents/p6gf1by9kr7m">Bunny CDN安全事件通报</a></strong>（Hacker News Front Page · 行业动态）：Bunny CDN报告一次安全事故，影响部分服务可用性，提醒用户关注安全防护。</li>
-<li><strong><a href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/">我最爱的PowerMac是任天堂Wii</a></strong>（Hacker News Front Page · 技术解读）：作者分享将Wii硬件改装为PowerMac的创意项目，展示跨平台硬件改造的可能性。</li>
-<li><strong><a href="https://github.com/dbreunig/nesformer">Show HN：1GB Qwen权重实现任天堂模拟器</a></strong>（Hacker News Front Page · 开源项目）：开源项目nesformer使用约1GB的Qwen模型权重，实现可运行的任天堂游戏模拟器。</li>
-<li><strong><a href="https://github.com/kevinraymond/florilegium">Florilegium：LaTeX中的程序化花卉绘制</a></strong>（Hacker News Front Page · 开源项目）：开源项目Florilegium提供在LaTeX文档中生成程序化花卉图形的工具，提升排版美感。</li>
-<li><strong><a href="https://tangled.org/blog/forge/">联邦代码锻造平台</a></strong>（Hacker News Front Page · 开源项目）：推出了一个联邦式代码锻造平台，支持跨组织的分布式代码托管与协作，提升开源项目的协同效率。</li>
-<li><strong><a href="https://sketch.wakeshift.ai/games/q5ucru">Sketch Stadium AI 画猜游戏</a></strong>（Hacker News Front Page · 开源项目）：展示了 AI 代理在 Sketch Stadium 中轮流绘图和猜词的 Pictionary 游戏，验证了多代理交互与推送通知的可行性。</li>
-<li><strong><a href="https://status.northflank.com">Northflank 平台遭受安全泄露</a></strong>（Hacker News Front Page · 行业动态）：Northflank 出现安全泄露事件，引发对云开发平台安全性的广泛关注。</li>
-<li><strong><a href="https://www.binarysecurity.no/posts/2026/10/one-root-case">Azure 跨租户安全漏洞导致五起完整妥协</a></strong>（Hacker News Front Page · 行业动态）：发现 Azure 中五起跨租户完整妥协案例，暴露了多租户隔离的薄弱环节。</li>
-<li><strong><a href="https://daily.juya.uk/issues/2026-10-30/">橘鸦AI早报：OpenAI 用量翻倍等要闻</a></strong>（橘鸦AI早报 · 其他）：OpenAI 将 Pro 与 Business Premium 用量翻倍，Claude Code 恢复 ultrathink 功能，Google 停止 Jules 并推出 Plugin Marketplace，Herdr Labs 开源 herdr。</li>
-<li><strong><a href="https://ainewslog.com/blog/ai-daily-2026-10-30/">AI Daily 2026-10-30 重点</a></strong>（AI Daily · 技术解读）：Youtu-Parsing-Omni 推出统一多模态解析；谷歌在卫星上运行 Gemma 4；A-RSI 实现零数据自我提升，展示 AI 在边缘与自适应学习方面的新突破。</li>
-<li><strong><a href="https://dailydawn.dev/zh/2026-10-30">DailyDawn 2026-10-30 重大事件</a></strong>（DailyDawn 中文 · 行业动态）：今日三大热点：Binance 56亿美元被盗事件引发行业震荡；Patrick Stewart 死讯帖登顶 HackerNews；DoorDash 收购 Instacart 改写本地配送格局，显示传统互联网规则失效。</li>
-<li><strong><a href="https://simonwillison.net/2026/Oct/29/ben-hylak/">Ben Hylak 观点：产品应无头 MCP</a></strong>（Simon Willison · 技术解读）：Ben Hylak 强调产品应以无头多模型协议（MCP）为核心，交给代理处理，用户只关注 UI，体现其产品独特性。</li>
-<li><strong><a href="https://daily.juya.uk/issues/2026-10-29/">2026-10-29 AI 重要动态</a></strong>（橘鸦AI早报 · 行业动态）：Google 首次公开 Gemini 4 Carbon 并向部分用户开放，OpenAI 向 ChatGPT Pro/Business 用户发放 API 额度，ChatGPT 的 Chat 与 Work 整合功能上线，Google AI Mode 广告扩展至 10 国。</li>
+<li><strong><a href="https://spectrum.ieee.org/early-electric-vehicles">早期电动汽车曾面向女性市场的历史回顾</a></strong>（Hacker News Front Page · 其他）：文章回顾早期电动汽车的历史，探讨其曾被定位为女性专用的市场策略。</li>
+<li><strong><a href="https://uvdn7.github.io/altoids-project/">Altoids Project 开源项目概览</a></strong>（Hacker News Front Page · 开源项目）：Altoids Project 是一个在 GitHub 上托管的项目，具体内容可通过访问链接了解。</li>
+<li><strong><a href="https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/">意大利农夫在阁楼发现未知种子并种植，结果惊人</a></strong>（Hacker News Front Page · 其他）：一位意大利农夫在阁楼里发现不明种子并种植，最终收获的作物呈现出类似圣经记载的特征，引发对种子来源的猜测。</li>
+<li><strong><a href="https://simonwillison.net/2026/Oct/31/datasette-llm/">datasette-llm 0.1a9 更新：自动使用默认 LLM 模型</a></strong>（Simon Willison · 开源项目）：datasette-llm 插件在 0.1a9 版本中新增自动读取默认 LLM 模型的功能，用户无需手动指定模型即可使用 Datasette Agent。</li>
+<li><strong><a href="https://blog.keyvan.net/p/ai-text-watermarking-and-quality">AI 文本水印对质量的影响分析</a></strong>（Hacker News Front Page · 技术解读）：文章探讨在 AI 生成文本中嵌入水印的技术，并评估水印对文本质量的潜在损失。</li>
+<li><strong><a href="https://www.pgdp.net/c/">分布式校对平台 Distributed Proofreaders</a></strong>（Hacker News Front Page · 开源项目）：在 Hacker News 上出现关于 Distributed Proofreaders 的讨论，关注其分布式文本校对功能。</li>
+<li><strong><a href="https://learnfromx.com/research/anime-word-coverage-vs-lines-understood">动漫词汇覆盖率与台词理解度研究</a></strong>（Hacker News Front Page · 技术解读）：研究显示，掌握 86% 的单词只能理解约 38% 的动漫台词，揭示语言学习的挑战。</li>
+<li><strong><a href="https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate">《毕业生》观后感与生存之道</a></strong>（Hacker News Front Page · 其他）：《纽约客》发表文章探讨电影《毕业生》对当代观众的影响及其生存启示。</li>
+<li><strong><a href="https://karpathy.bearblog.dev/hacker-tube/">HackerTube：基于 HN 推荐的视频平台</a></strong>（Hacker News Front Page · 开源项目）：项目构建了一个 YouTube 风格界面，收录自 2007 年起 39,834 条 HN 评论的 6,454 部视频。</li>
+<li><strong><a href="https://twitter.com/jiahaoshao1/status/2116475922190922088">Anthropic 禁止涉及大型模型训练的用户行为</a></strong>（Hacker News Front Page · 行业动态）：Anthropic 宣布对任何涉及训练更大模型的用户进行封禁，显示其对模型安全的严格控制。</li>
+<li><strong><a href="https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html">学者的职责</a></strong>（Hacker News Front Page · 其他）：文章探讨学者在当代社会中的责任与使命，呼吁坚持学术诚信。</li>
+<li><strong><a href="https://pivotlake.io/blog/its-the-memory-latency-stupid/">内存延迟是性能瓶颈</a></strong>（Hacker News Front Page · 技术解读）：文章指出内存访问延迟是当前系统性能的主要限制因素，强调需要在硬件和软件层面降低延迟。</li>
+<li><strong><a href="https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale">诺德豪斯逝世</a></strong>（Hacker News Front Page · 其他）：诺贝尔经济学奖得主、气候经济学先驱William Nordhaus于2026年10月去世。</li>
+<li><strong><a href="https://jepsen.io/analyses/particledb-1.1.4">ParticleDB 1.1.4 Jepsen 测评</a></strong>（Hacker News Front Page · 技术解读）：Jepsen发布了对ParticleDB 1.1.4版本的可靠性测试报告。</li>
+<li><strong><a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">我们如何接管 ChatGPT 账户</a></strong>（Hacker News Front Page · 技术解读）：研究团队披露了利用OpenAI系统漏洞批量接管ChatGPT账户的方法。</li>
+<li><strong><a href="https://piefed.world/post/1503394">Molly Signal 分支三月未更新且有漏洞</a></strong>（Hacker News Front Page · 开源项目）：Molly作为Signal的分支已三个月未更新，当前存在安全漏洞。</li>
+<li><strong><a href="https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament">塞尔维亚选出全球最聪明议会</a></strong>（Hacker News Front Page · 其他）：最新选举中，塞尔维亚议会成员的平均智商被评为全球最高。</li>
+<li><strong><a href="https://daily.juya.uk/issues/2026-10-31/">橘鸦AI早报 2026-10-31</a></strong>（橘鸦AI早报 · 行业动态）：本期早报报道Anthropic更名Claude订阅、OpenCode Go提供DeepSeek额度、Cursor扩展市场出现恶意版本等AI行业动态。</li>
+<li><strong><a href="https://ainewslog.com/blog/ai-daily-2026-10-31-zh/">AI日报发布全模态解析器与JEPA假设验证</a></strong>（AI Daily · 技术解读）：AI日报公布了统一全模态解析器的发布，验证了JEPA柏拉图假设，并公开了Claude智能体技能库，标志着多模态AI与智能体技术的进一步成熟。</li>
+<li><strong><a href="https://ainewslog.com/blog/ai-daily-2026-10-31/">AI Daily发布全模态解析器与JEPA假设验证</a></strong>（AI Daily · 技术解读）：Youtu-Parsing-Omni发布了统一全模态解析器，研究人员验证了JEPAs的柏拉图表示假设，Anthropic也发布了相关内容。</li>
+<li><strong><a href="https://dailydawn.dev/zh/2026-10-31">DailyDawn报道开源自适应教育工具热潮</a></strong>（DailyDawn 中文 · 行业动态）：DailyDawn指出，开源自适应学习工具DeepTutor和HKUDS在GitHub上获得高星级，吸引了职业技能培训工作室关注，成本大幅下降。</li>
 </ul>
 </div>
 </main>

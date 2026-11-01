@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sat, 31 Oct 2026 01:57:12 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 01:43:41 +0000</lastBuildDate>
+  <item>
+    <title>AI大模型安全隐患凸显，端侧与多模态协作迎新突破</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-01.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-01.html</guid>
+    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-01 · 资讯 28 条
+分类：行业动态 5 · 技术解读 8 · 开源项目 9 · 其他 6
+编者按
+各位读者好，今天是2026年11月1日。回顾过去24小时的科技圈，大模型生态在迎来爆发式创新的同时，安全漏洞与基础设施的隐患也集中暴露，给我们敲响了警钟。
+在安全与行业动态方面，Parameter Labs 披露了 ChatGPT 在 HTML 预览中的严重沙箱漏洞，结合 Linux 内核高危漏洞的曝光，凸显出随着 AI 与底层系统深度交织，复杂攻击链正在对传统安全防御体系构成严峻挑战。与此同时，Anthropic 颁布针对大模型训练的限制令，显示出头部厂商对技术滥用与安全边界的管控正在走向严苛。
+然而，技术演进的脚步并未放慢。模型与开源领域展现出了惊人的创造力：Memdoor 团队利用多模型协作在 LiveCodeBench Hard 基准上实现超越，而将 N</description>
+  </item>
   <item>
     <title>AI大模型全面加码API生态，开源创新重构软硬件边界</title>
     <link>https://siweimidu.github.io/daybrief/2026-10-31.html</link>

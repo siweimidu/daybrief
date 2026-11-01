@@ -1,0 +1,344 @@
+[
+  {
+    "title": "OpenAI 与 DeepSeek 多项新功能与模型发布",
+    "summary": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享额度，推出多账号切换、支付卡限制说明，并发布面向获批机构的生命科学模型；DeepSeek 开源 Super agent 架构原型。",
+    "key_points": [
+      "ChatGPT 与 Codex 共享使用额度",
+      "新增多账号切换功能",
+      "发布面向机构的生命科学模型"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-01/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "Parameter Labs 揭露 ChatGPT HTML 预览漏洞",
+    "summary": "Parameter Labs 发现 ChatGPT 在 HTML 预览（原 Canvas）中的沙箱漏洞，利用 MathLive 库的缺陷实现复杂攻击链，可能导致未授权访问 OpenAI API 和私密数据。",
+    "key_points": [
+      "漏洞位于 HTML 预览的 sandbox iframe",
+      "利用 MathLive JavaScript 库的缺陷",
+      "攻击链可窃取 API 密钥或用户数据"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "早期电动汽车曾面向女性市场的历史回顾",
+    "summary": "文章回顾早期电动汽车的历史，探讨其曾被定位为女性专用的市场策略。",
+    "key_points": [
+      "早期电动汽车的市场定位",
+      "针对女性的营销策略"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://spectrum.ieee.org/early-electric-vehicles",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "Altoids Project 开源项目概览",
+    "summary": "Altoids Project 是一个在 GitHub 上托管的项目，具体内容可通过访问链接了解。",
+    "key_points": [
+      "项目托管于 GitHub",
+      "需自行查看项目详情"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://uvdn7.github.io/altoids-project/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "Memdoor 团队 5 个 Qwen3.8-27B 模型在 LiveCodeBench Hard 超越 Fable 5",
+    "summary": "Memdoor 项目使用 5 个 Qwen3.8-27B 模型组成的团队，在 LiveCodeBench Hard 基准上击败了 Fable 5，展示了大模型协作的潜力。",
+    "key_points": [
+      "采用 5 个 Qwen3.8-27B 模型",
+      "在 LiveCodeBench Hard 基准上超越 Fable 5",
+      "展示模型团队协作提升代码生成能力"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "意大利农夫在阁楼发现未知种子并种植，结果惊人",
+    "summary": "一位意大利农夫在阁楼里发现不明种子并种植，最终收获的作物呈现出类似圣经记载的特征，引发对种子来源的猜测。",
+    "key_points": [
+      "在阁楼发现未知种子",
+      "种植后出现奇特作物",
+      "引发关于种子来源的讨论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "datasette-llm 0.1a9 更新：自动使用默认 LLM 模型",
+    "summary": "datasette-llm 插件在 0.1a9 版本中新增自动读取默认 LLM 模型的功能，用户无需手动指定模型即可使用 Datasette Agent。",
+    "key_points": [
+      "自动获取默认模型",
+      "简化 Datasette Agent 使用流程",
+      "提供 uvx 命令示例"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "AI 文本水印对质量的影响分析",
+    "summary": "文章探讨在 AI 生成文本中嵌入水印的技术，并评估水印对文本质量的潜在损失。",
+    "key_points": [
+      "介绍 AI 文本水印技术",
+      "分析水印导致的质量下降",
+      "讨论权衡与改进方向"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "分布式校对平台 Distributed Proofreaders",
+    "summary": "在 Hacker News 上出现关于 Distributed Proofreaders 的讨论，关注其分布式文本校对功能。",
+    "key_points": [
+      "平台支持协作校对",
+      "提升文本质量的效率"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pgdp.net/c/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "动漫词汇覆盖率与台词理解度研究",
+    "summary": "研究显示，掌握 86% 的单词只能理解约 38% 的动漫台词，揭示语言学习的挑战。",
+    "key_points": [
+      "高词汇覆盖率仍不足以理解剧情",
+      "提示学习者需关注上下文"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "《毕业生》观后感与生存之道",
+    "summary": "《纽约客》发表文章探讨电影《毕业生》对当代观众的影响及其生存启示。",
+    "key_points": [
+      "分析影片主题",
+      "提供现代视角的解读"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "HackerTube：基于 HN 推荐的视频平台",
+    "summary": "项目构建了一个 YouTube 风格界面，收录自 2007 年起 39,834 条 HN 评论的 6,454 部视频。",
+    "key_points": [
+      "利用 HN 评论生成视频库",
+      "提供开源观看平台"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://karpathy.bearblog.dev/hacker-tube/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "Anthropic 禁止涉及大型模型训练的用户行为",
+    "summary": "Anthropic 宣布对任何涉及训练更大模型的用户进行封禁，显示其对模型安全的严格控制。",
+    "key_points": [
+      "限制用户训练更大模型",
+      "强化模型安全政策"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "NES《魂斗罗》移植至 WebAssembly 并支持联机",
+    "summary": "开发者将 1987 年 NES 版《魂斗罗》先转译为 C 再编译为 WebAssembly，实现浏览器运行及在线双人合作。",
+    "key_points": [
+      "逐指令翻译至 C",
+      "加入 Web 联机功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://epoyraz.github.io/nes-contra-us/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "TCP 使用后释放漏洞 CVE-2026-98432",
+    "summary": "报告披露 Linux IPv4 TCP 栈的 Use-After-Free 漏洞，CVSS 评分 9.8，危害严重。",
+    "key_points": [
+      "漏洞导致内存错误",
+      "高危安全风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "学者的职责",
+    "summary": "文章探讨学者在当代社会中的责任与使命，呼吁坚持学术诚信。",
+    "key_points": [
+      "阐述学者角色",
+      "强调诚信与责任"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "内存延迟是性能瓶颈",
+    "summary": "文章指出内存访问延迟是当前系统性能的主要限制因素，强调需要在硬件和软件层面降低延迟。",
+    "key_points": [
+      "内存延迟主导性能瓶颈",
+      "降低延迟对提升整体算力至关重要"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "诺德豪斯逝世",
+    "summary": "诺贝尔经济学奖得主、气候经济学先驱William Nordhaus于2026年10月去世。",
+    "key_points": [
+      "诺德豪斯融合经济学与气候变化研究",
+      "其逝世标志着气候经济学领域的重要人物离世"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "ParticleDB 1.1.4 Jepsen 测评",
+    "summary": "Jepsen发布了对ParticleDB 1.1.4版本的可靠性测试报告。",
+    "key_points": [
+      "对ParticleDB进行一致性与分区容错测试",
+      "报告揭示了该版本在极端条件下的行为表现"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jepsen.io/analyses/particledb-1.1.4",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "BootGPT：引导扇区语言模型",
+    "summary": "开源项目BootGPT将一个字符级神经网络压缩至510字节的MBR，引导扇区即可生成Linux启动日志。",
+    "key_points": [
+      "完整推理引擎仅占510字节",
+      "模型基于dmesg日志训练，实现无限循环的启动信息输出"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/kerlenton/bootgpt",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "我们如何接管 ChatGPT 账户",
+    "summary": "研究团队披露了利用OpenAI系统漏洞批量接管ChatGPT账户的方法。",
+    "key_points": [
+      "发现OpenAI账户管理的安全缺口",
+      "详细说明了攻击流程及其潜在影响"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "Molly Signal 分支三月未更新且有漏洞",
+    "summary": "Molly作为Signal的分支已三个月未更新，当前存在安全漏洞。",
+    "key_points": [
+      "长期缺乏维护导致安全风险",
+      "用户应谨慎使用或转向官方Signal"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://piefed.world/post/1503394",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "塞尔维亚选出全球最聪明议会",
+    "summary": "最新选举中，塞尔维亚议会成员的平均智商被评为全球最高。",
+    "key_points": [
+      "议员平均智商最高的国家是塞尔维亚",
+      "此结果引发对政治决策能力的讨论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "橘鸦AI早报 2026-10-31",
+    "summary": "本期早报报道Anthropic更名Claude订阅、OpenCode Go提供DeepSeek额度、Cursor扩展市场出现恶意版本等AI行业动态。",
+    "key_points": [
+      "Anthropic调整Claude订阅方案",
+      "Cursor扩展市场出现恶意Claude Code版本"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-10-31/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "AI日报发布全模态解析器与JEPA假设验证",
+    "summary": "AI日报公布了统一全模态解析器的发布，验证了JEPA柏拉图假设，并公开了Claude智能体技能库，标志着多模态AI与智能体技术的进一步成熟。",
+    "key_points": [
+      "发布统一全模态解析器",
+      "验证JEPA柏拉图假设并公开Claude技能库"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-31-zh/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "AI Daily发布全模态解析器与JEPA假设验证",
+    "summary": "Youtu-Parsing-Omni发布了统一全模态解析器，研究人员验证了JEPAs的柏拉图表示假设，Anthropic也发布了相关内容。",
+    "key_points": [
+      "Youtu-Parsing-Omni发布全模态解析器",
+      "验证JEPAs柏拉图表示假设"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-10-31/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "DailyDawn报道开源自适应教育工具热潮",
+    "summary": "DailyDawn指出，开源自适应学习工具DeepTutor和HKUDS在GitHub上获得高星级，吸引了职业技能培训工作室关注，成本大幅下降。",
+    "key_points": [
+      "DeepTutor、HKUDS在GitHub获得高星级",
+      "职业技能培训工作室采用开源工具降低成本"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-10-31",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "nesformer：将NES模拟器嵌入Qwen3.5-4B权重",
+    "summary": "Drew Breunig将NES 6502 CPU模拟器嵌入Qwen3.5-4B模型权重，用户可在Qwen内部运行Super Mario Bros等NES ROM。",
+    "key_points": [
+      "NES模拟器嵌入Qwen3.5-4B",
+      "可在模型内部运行NES ROM"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+    "published": "2026-10-30"
+  }
+]
