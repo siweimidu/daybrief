@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sun, 01 Nov 2026 01:43:41 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 02:00:15 +0000</lastBuildDate>
+  <item>
+    <title>AI财务回报遇冷与安全漏洞频发：大模型技术落地的反思与重构</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-02.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-02.html</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-02 · 资讯 29 条
+分类：技术解读 13 · 开源项目 5 · 行业动态 4 · 其他 7
+编者按
+各位读者好，今天是 2026 年 11 月 2 日。近期科技界最值得关注的趋势，是对人工智能商业化回报的理性回归。过去几年狂飙突进的 AI 投资热潮，正面临来自经济学家和企业财务部门的严厉审视。Apollo 经济学家的最新研究指出，绝大多数企业在部署 AI 后并未看到可观的财务收益，这给盲目跟风的企业敲响了警钟。
+与此同时，大模型在安全与信任层面的隐患也正在集中爆发。从 Parameter Labs 披露的 ChatGPT Canvas/HTML 预览漏洞（黑客可借此攻破账户并获取用户数据），到大语言模型对软件文档和系统可信度的潜在侵蚀，技术边界的扩张正伴随着攻击面的急剧扩大。安全性已不再是锦上添花的特性，而是决定 AI 系统生死存亡的底线。
+在底层技术与开源</description>
+  </item>
   <item>
     <title>AI大模型安全隐患凸显，端侧与多模态协作迎新突破</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-01.html</link>

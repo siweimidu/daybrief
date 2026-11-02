@@ -1,0 +1,362 @@
+[
+  {
+    "title": "2026-11-02",
+    "summary": "",
+    "key_points": [],
+    "category": "其他",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-02/",
+    "published": "2026-11-02"
+  },
+  {
+    "title": "遇到依赖错误？先删 uv.lock",
+    "summary": "在 Python 3.15 环境下，uv.lock 可能锁定尚无对应 wheel 的依赖，删除该文件可解决冲突。",
+    "key_points": [
+      "uv.lock 可能锁定不兼容的依赖版本",
+      "库项目不应包含 uv.lock",
+      "删除 uv.lock 可解除版本锁定"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://occupysaas.com/",
+    "published": "2026-11-02"
+  },
+  {
+    "title": "遇到依赖错误？先删 uv.lock",
+    "summary": "在 Python 3.15 环境下，uv.lock 可能锁定尚无对应 wheel 的依赖，删除该文件可解决冲突。",
+    "key_points": [
+      "uv.lock 可能锁定不兼容的依赖版本",
+      "库项目不应包含 uv.lock",
+      "删除 uv.lock 可解除版本锁定"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "AI 对多数公司无财务回报",
+    "summary": "Apollo 经济学家指出，大多数企业使用 AI 并未带来可观的财务收益，投资回报率低。",
+    "key_points": [
+      "调查显示多数公司未见 AI 财务收益",
+      "AI 投资回报率普遍偏低",
+      "呼吁企业重新评估 AI 战略"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "求推荐隐私友好电视",
+    "summary": "Hacker News 用户询问 60‑80 英寸、4K、60 Hz、仅作 Apple TV 显示的隐私保护电视推荐。",
+    "key_points": [
+      "需求大屏 4K 60Hz",
+      "强调电视不收集隐私数据",
+      "愿意为隐私付费溢价"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50328896",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "数学已变革，需相应行动",
+    "summary": "陶哲轩在博客中论述数学研究方式的演进，呼吁学界采用新工具和方法。",
+    "key_points": [
+      "数学研究方式正在改变",
+      "倡导使用新技术和方法",
+      "强调社区适应新环境的重要性"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "Patrick Stewart 论权力与自由",
+    "summary": "Vox 文章分析 Patrick Stewart 通过《星际迷航》中的 Jean‑Luc Picard 角色，阐释好人如何正确使用权力以及自由主义价值。",
+    "key_points": [
+      "Stewart 角色体现权力的正义使用",
+      "关联自由主义政治理念",
+      "探讨流行文化中的价值观传播"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "LLM 时代文档可信度受侵蚀",
+    "summary": "引用 Kyle Kingsbury 的观点，指出大语言模型削弱了软件文档和系统的可信度，维护者需采取措施确保质量并向用户证明。",
+    "key_points": [
+      "LLM 可伪造文档信号导致信任危机",
+      "维护者需确保软件和文档的正确性",
+      "需要向用户展示质量保证措施"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "Frontier航空公司可能遭受数据泄露",
+    "summary": "Reddit用户发布警示称Frontier Airlines可能出现邮件诈骗导致数据泄露，提醒乘客警惕。",
+    "key_points": [
+      "可能的邮件诈骗",
+      "涉及Frontier Airlines的用户数据"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "首尔Viosys启动稀土免费白光发射器量产",
+    "summary": "Seoul Viosys开始生产不含稀土的白光发光器件，推动更环保的照明技术。",
+    "key_points": [
+      "稀土免费白光发射器",
+      "进入量产阶段"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "HackerBooks：HN提及书籍的聚合平台",
+    "summary": "HackerBooks收录约16500本在Hacker News评论中被提及的书籍，提供链接和数据下载，由Claude生成。",
+    "key_points": [
+      "收录16500本书",
+      "链接到原评论",
+      "数据可下载"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hackerbooks.org",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "联想‘加密’指纹USB实为未加密SD卡",
+    "summary": "Reddit揭露联想标称加密的指纹USB驱动器内部仅是普通SD卡，缺乏真正加密，提醒用户安全风险。",
+    "key_points": [
+      "内部为未加密SD卡",
+      "声称的指纹加密不实"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "Novellas with Groff：使用Groff写短篇小说",
+    "summary": "作者在博客分享使用Groff排版短篇小说的经验与技巧。",
+    "key_points": [
+      "Groff排版短篇小说",
+      "博客分享实践"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "利用JEPAs验证并改进柏拉图表征假设",
+    "summary": "该论文提出使用JEPAs方法对柏拉图表征假设进行验证和改进，推动理论模型的发展。",
+    "key_points": [
+      "提出JEPAs方法",
+      "验证柏拉图表征假设"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2610.39302",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "OmniDiff：Rust实现的超快内容感知Git差异工具",
+    "summary": "OmniDiff基于对开源仓库实际差异的研究，支持多种文件类型，能在2023 ThinkPad上快速比较大文件，已开源。",
+    "key_points": [
+      "支持代码、配置、图像等多种类型",
+      "在大型文件上100ms内完成差异",
+      "基于Rust的开源AGPLv3项目"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/ivankovic/omnidiff",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "使用特殊Unicode字符的域名技巧（2018）",
+    "summary": "文章列举了利用不常见Unicode字符进行域名变形的案例，展示了域名黑客的创意与风险。",
+    "key_points": [
+      "展示异常Unicode字符的域名变形",
+      "说明潜在的安全与品牌风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "JavaScript 框架的 AI 成本",
+    "summary": "文章讨论不同 JavaScript 框架在 AI 开发中的成本差异，帮助开发者评估技术选型。",
+    "key_points": [
+      "框架 AI 成本比较",
+      "对技术选型的影响"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "2026-11-01 AI 早报",
+    "summary": "OpenAI 12 月起 ChatGPT 与 Codex 共享额度，DeepSeek 探讨 Super agent 架构并开源原型，ChatGPT 推出多账号切换等。",
+    "key_points": [
+      "ChatGPT 与 Codex 共享额度",
+      "DeepSeek Super agent 架构开源",
+      "ChatGPT 多账号切换"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-01/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "AI 日报 2026-11-01",
+    "summary": "JEPA 跨模态表示获验证，实时无限世界生成与证书引导扩散 VLM 提效。",
+    "key_points": [
+      "JEPA 跨模态表示验证",
+      "实时无限世界生成",
+      "证书引导扩散 VLM 提效"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-01-zh/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "AI Daily 2026-11-01",
+    "summary": "JEPAs 验证的柏拉图式跨模态表示，L3G-World 实时无限世界生成，证书引导路由提升效率。",
+    "key_points": [
+      "JEPAs 跨模态表示验证",
+      "L3G-World 实时无限世界生成",
+      "证书引导路由提升效率"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-01/",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "DailyDawn 2026-11-01",
+    "summary": "thedotmack/claude-mem 获 1723 星，支持 8 款编码 Agent 跨会话持久化上下文，开发者转向本地可控 AI 工具。",
+    "key_points": [
+      "claude-mem 获 1723 星",
+      "跨会话持久化上下文",
+      "开发者转向本地 AI 工具"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-01",
+    "published": "2026-11-01"
+  },
+  {
+    "title": "如何攻破 ChatGPT 账户",
+    "summary": "Parameter Labs 发现 ChatGPT Canvas/HTML 预览实现的漏洞，利用复杂攻击链获取用户数据。",
+    "key_points": [
+      "发现 Canvas/HTML 预览漏洞",
+      "复杂攻击链获取数据",
+      "强调 HTML 沙箱安全"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "意大利农夫在阁楼发现未知种子并种植",
+    "summary": "农夫种植未知种子，结果产生了具有圣经意义的植物。",
+    "key_points": [
+      "发现未知种子",
+      "种植后产生圣经意义植物",
+      "引发科学关注"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "datasette-llm 0.1a9 发布",
+    "summary": "新版本自动使用默认 LLM 模型，简化 Datasette Agent 配置。",
+    "key_points": [
+      "自动使用默认 LLM 模型",
+      "简化配置流程"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "化学饥饿现象探讨",
+    "summary": "该文章于2021年发布，讨论化学饥饿的相关谜团，登上2026年10月31日的 Hacker News 头版，获得11分和2条评论。",
+    "key_points": [
+      "主题：化学饥饿的谜团",
+      "热度：11 点，2 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://slimemoldtimemold.com/2021/07/07/a-chemical-hunger-part-i-mysteries/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "电网停电时双向充电技术",
+    "summary": "文章介绍了在电网停电期间实现双向充电的方案，出现在2026年10月31日的 Hacker News 头版，获得85分和125条评论。",
+    "key_points": [
+      "主题：停电期间的双向充电",
+      "热度：85 点，125 条评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "HackerTube：基于HN推荐的视频平台",
+    "summary": "该项目构建了一个 YouTube 风格的界面，收录了6454个视频，数据来源于自2007年以来的39,834 条 Hacker News 评论，获2295分和540条评论。",
+    "key_points": [
+      "项目：基于HN评论的视频聚合平台",
+      "热度：2295 点，540 条评论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://karpathy.bearblog.dev/hacker-tube/",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "尤利希的雌狼历史回顾",
+    "summary": "文章回顾了尤利希地区的雌狼历史，出现在2026年10月31日的 Hacker News 头版，获得14分和2条评论。",
+    "key_points": [
+      "主题：尤利希雌狼的历史",
+      "热度：14 点，2 条评论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
+    "published": "2026-10-31"
+  },
+  {
+    "title": "电力系统同步导致的一分钟频率扰动",
+    "summary": "该研究分析了电力系统同步引起的一分钟频率扰动，发表于Nature，登上2026年10月31日的 Hacker News 头版，获得122分和41条评论。",
+    "key_points": [
+      "主题：同步引发的频率扰动",
+      "热度：122 点，41 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.nature.com/articles/s41560-026-02144-0",
+    "published": "2026-10-31"
+  }
+]
