@@ -4,7 +4,27 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Mon, 02 Nov 2026 02:00:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 03:48:41 +0000</lastBuildDate>
+  <item>
+    <title>AI与硬件双轮驱动 2026 关键议题</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-03.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-03.html</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-03 · 资讯 29 条
+分类：开源项目 6 · 其他 3 · 行业动态 7 · 技术解读 8 · 投融资 1 · 模型发布|开源项目 2
+编者按
+AI模型规模与硬件并进，开源5G与GPU硬件更新推动边缘计算。
+结合开源5G RAN平台评估、V100 SXM2引脚参考、Astra权重编程等，说明硬件与模型协同进化。
+同时行业风险显现，英特尔股价暴跌、WorkOS安全漏洞提醒AI与安全交叉风险。
+建议：企业关注硬件兼容与安全评估，研发团队跟进开源硬件与模型更新，制定多元化风险管理。
+今日要点
+1. 开源5G RAN平台性能与能力双视角分析
+
+来源：Hacker News Front Page
+点评：该论文提供了对开源5G无线接入网平台的系统评估，为运营商在成本与性能之间做出决策提供依据。它也表明开源硬件正逐步取代传统专有解决方案。
+
+2. Hacker Times：</description>
+  </item>
   <item>
     <title>AI财务回报遇冷与安全漏洞频发：大模型技术落地的反思与重构</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-02.html</link>
