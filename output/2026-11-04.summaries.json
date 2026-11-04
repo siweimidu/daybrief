@@ -1,0 +1,353 @@
+[
+  {
+    "title": "火星巨峡仍在构造活动",
+    "summary": "火星上的巨型峡谷今日仍显示构造活动，表明火星内部仍有活跃的地质过程，提升对火星演化的理解。",
+    "key_points": [
+      "观测到峡谷活动迹象",
+      "暗示火星内部仍有热能"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "AI 早报：Anthropic 开源 FlashProve 等多项新进展",
+    "summary": "Anthropic 发布开源 FlashProve 用于验证模型来源，ChatGPT Side Chats 功能延长保存，隐身模型 Crouton Alpha 上线并提供免费一周等多项 AI 动态。",
+    "key_points": [
+      "FlashProve 开源验证模型来源",
+      "ChatGPT Side Chats 永久保存",
+      "Crouton Alpha 免费一周上线"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-04/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "C++26 标准被否决，语言前景何去何从",
+    "summary": "C++26 标准提案未获通过，业界讨论语言未来发展路径。",
+    "key_points": [
+      "C++26 提案被否决",
+      "讨论语言演进策略"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "PostgreSQL 内部结构深度解析",
+    "summary": "该站点提供 PostgreSQL 内部实现细节的系统性介绍，帮助开发者理解数据库工作原理。",
+    "key_points": [
+      "详细讲解存储引擎",
+      "解释查询执行流程"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.interdb.jp/pg/index.html",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "生成式 AI 基础小册子：直观数学入门",
+    "summary": "该论文提供生成式 AI 的数学原理简明介绍，帮助读者快速掌握核心概念。",
+    "key_points": [
+      "直观解释生成式模型数学",
+      "适合入门者阅读"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2605.29713",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Safari 27.3 引入自适应暗模式",
+    "summary": "Safari 浏览器在 27.3 版推出自适应暗模式，可根据页面内容自动切换，提高阅读舒适度。",
+    "key_points": [
+      "自动检测页面亮度切换暗模式",
+      "改善用户阅读体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "美国科技巨头 AI 隐性债务六个月暴涨 90%至 3.2 万亿美元",
+    "summary": "报道显示美国大型科技公司在 AI 领域的未披露债务在半年内激增 90%，累计达 3.2 万亿美元，凸显行业风险。",
+    "key_points": [
+      "AI 相关债务激增90%",
+      "总额达3.2万亿美元",
+      "暗示潜在财务风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Kairos：开源实时风控与欺诈决策平台",
+    "summary": "Kairos 是一个开源平台，提供替代商业风控工具的实时欺诈检测，解决标注数据不足和欺诈手段快速变化的问题。",
+    "key_points": [
+      "使用 System One 决策模型",
+      "支持传统模型如 XGBoost",
+      "开源免费"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/finic-ai/kairos",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Pratt 解析被视为黑盒",
+    "summary": "文章指出 Pratt 解析的实现细节常被隐藏，导致使用者难以理解其内部工作原理，强调了透明化的重要性。",
+    "key_points": [
+      "Pratt 解析实现细节缺乏公开",
+      "呼吁提升解析器的可解释性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Flipper One 众筹预售开启",
+    "summary": "Flipper One 正式启动 Kickstarter 众筹并开放预订，吸引硬件爱好者关注。",
+    "key_points": [
+      "开启 Kickstarter 众筹",
+      "开放预订渠道"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://flipper.net/pages/flipper-one",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "ATS 编程入门指南",
+    "summary": "本文提供了 ATS 语言的基础编程介绍，帮助读者快速上手函数式与依赖类型编程。",
+    "key_points": [
+      "ATS 语言基础概念",
+      "示例代码与实践指南"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "2026 年 10 月我的 AI 使用方式",
+    "summary": "作者分享了在 2026 年 10 月使用 AI 工具的实践经验，涵盖工作流和工具选择。",
+    "key_points": [
+      "AI 工具在日常工作中的应用",
+      "提升效率的具体方法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Qwen 3.8 27B 能在笔记本上解释模型权重",
+    "summary": "作者展示了在个人笔记本上运行 Qwen 3.8 27B 模型并解析其权重的可行性，体现了大模型本地化的进展。",
+    "key_points": [
+      "在笔记本上运行 27B 模型",
+      "实现模型权重的解释"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Postman 自动安装 AI 插件并泄露 API 数据",
+    "summary": "Postman 被发现悄悄安装 AI 插件，尝试收集并共享所有 API 数据，引发安全与隐私担忧。",
+    "key_points": [
+      "自动安装 AI 插件",
+      "未经授权共享 API 数据"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Ashby 招聘工程经理",
+    "summary": "招聘平台 Ashby 正在招聘工程经理职位，面向有经验的技术管理者。",
+    "key_points": [
+      "招聘工程经理职位",
+      "面向有经验的技术领袖"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ashbyhq.com/careers?ashby_jid=695b1ce6-c375-4fad-94ef-61b50a3fbd28&utm_source=hn",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Stringman：800美元开源全尺度抓取机器人",
+    "summary": "Stringman 是一款售价约 800 美元的开源房间尺度抓取机器人，提供完整硬件与软件方案。",
+    "key_points": [
+      "价格约 800 美元",
+      "全开源硬件与软件"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://neufangled.com/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Mac在任意规模的使用",
+    "summary": "文章讨论在不同规模环境中使用Mac的方案，强调其灵活性和对开发者工作流的重要性。",
+    "key_points": [
+      "在大规模部署中使用Mac的可行性",
+      "提升跨平台开发体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://namespace.so/blog/mac-at-any-scale",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "缺乏后训练数据共享平台",
+    "summary": "文章指出目前没有统一的后训练数据共享资源，限制了模型微调和研究的进展。",
+    "key_points": [
+      "现有数据共享空白",
+      "对模型研发的制约"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "用YouTube视频逐句练习日语口语",
+    "summary": "该项目利用真实YouTube视频逐句练习日语，帮助学习者提升口语水平。",
+    "key_points": [
+      "使用真实视频素材",
+      "按行评分辅助学习"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jivx.com/yt",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "微软修复Windows 11右键菜单问题",
+    "summary": "在PC收入下降的背景下，微软更新了Windows 11的右键菜单以改善用户体验。",
+    "key_points": [
+      "右键菜单功能改进",
+      "PC收入下滑背景"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "澄清Astra读写权重提升Qwen的误导",
+    "summary": "作者指出关于Astra能够读写模型权重以改进Qwen的说法不实，提醒社区审慎对待。",
+    "key_points": [
+      "该说法具有误导性",
+      "真实的模型权重操作情况"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://honnibal.dev/blog/astra-read-write-misleading",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "发现泄露精确位置的声音",
+    "summary": "研究展示利用视频背景噪音和多普勒效应结合ADS‑B数据，可定位视频拍摄地点，凸显隐私风险。",
+    "key_points": [
+      "通过微弱噪音定位视频位置",
+      "提醒隐私安全风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "10月赞助商专属通讯",
+    "summary": "Simon Willison发布10月赞助商专属新闻通讯，包含游戏开发、LLM新功能等前沿信息，鼓励赞助获取。",
+    "key_points": [
+      "提供行业前沿内容",
+      "付费赞助可提前阅读"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "橘鸦AI早报 2026-11-03",
+    "summary": "早报报道GPT‑6 Astra直接改写模型权重、OpenAI自研Git后端Pando投产降低延迟以及多家企业发布新AI产品。",
+    "key_points": [
+      "GPT‑6 Astra权重改写技术",
+      "OpenAI Pando降低延迟"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-03/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Colibri纯C跑MoE",
+    "summary": "Colibri 以纯C实现本地前沿 MoE 模型，Karpathy 的 48 美元 nanochat 能训练 GPT‑2 级 LLM，Qwen 计划未来版本开源。",
+    "key_points": [
+      "Colibri 纯C实现本地 MoE",
+      "Qwen 未来版本开源"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-03-zh/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "AI日报 2026-11-03",
+    "summary": "Colibri 在纯C环境下支持本地前沿 MoE 模型，Karpathy 的 48 美元 nanochat 可训练 GPT‑2 级 LLM，Qwen 承诺未来版本开源。",
+    "key_points": [
+      "Colibri 纯C本地 MoE",
+      "Karpathy 48美元 nanochat 训练 GPT‑2 级 LLM"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-03/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "DailyDawn 2026-11-03",
+    "summary": "DailyDawn 报道今日三大 AI Agent 工具热度，vercel‑labs/agent‑desktop 获 2275 星，三款工具构成完整本地自动化链路，降低独立开发者自动化门槛。",
+    "key_points": [
+      "vercel‑labs/agent‑desktop 2275 星",
+      "三款 AI Agent 工具构成完整本地自动化链路"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-03",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "llm 0.37 发布",
+    "summary": "llm 0.37 新版本加入 gpt‑6.1‑sol、gpt‑6.1‑terra，新增 OpenAI 兼容端点配置命令，默认模型改为更便宜的 gpt‑6‑luna，并改进嵌入支持不同二进制内容类型。",
+    "key_points": [
+      "新增 gpt‑6.1‑sol、gpt‑6.1‑terra",
+      "默认模型改为 gpt‑6‑luna 并支持多内容类型嵌入"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/2/llm/",
+    "published": "2026-11-02"
+  },
+  {
+    "title": "美国人口普查局与超级智能",
+    "summary": "Simon Willison 重新分析美国人口普查局 AI 采用率数据，发现其因违反 2025 年行政命令 14434（超级智能）而被排除，提示企业 AI 采用趋势放缓。",
+    "key_points": [
+      "美国人口普查局 AI 采用率下降",
+      "违反行政命令 14434 导致数据被排除"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+    "published": "2026-11-02"
+  }
+]
