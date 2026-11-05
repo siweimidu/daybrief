@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Wed, 04 Nov 2026 02:51:18 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 02:59:36 +0000</lastBuildDate>
+  <item>
+    <title>OpenAI连发两款重磅更新，AMD与英特尔x86格局迎历史性拐点</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-05.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-05.html</guid>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-05 · 资讯 32 条
+分类：模型发布 6 · 行业动态 8 · 技术解读 7 · 开源项目 8 · 投融资 2 · 其他 3
+编者按
+今天的科技前沿呈现出软硬件齐头并进的罕见爆发力。一方面，AI大模型在多模态生成、开源生态以及推理可验证性上持续突破，以OpenAI、Anthropic及Moonshot AI为代表的头部玩家不断拉高技术天花板；另一方面，传统芯片与基础设施领域正在经历深刻的结构性洗牌，算力自主化与硬件并购潮暗流涌动。
+在模型层，OpenAI连落两子，不仅推出支持GIF生成、速度提升50%的Images 2.6，还通过收购Pierre Computer加速硬件与终端布局，展现出极强的生态野心。与此同时，Moonshot AI开源Kimi K3.1 Pro，加上Ricursive发布的Ripple-65B等开源成果，表明大模型在编码和复杂推理上的开源</description>
+  </item>
   <item>
     <title>AI本地化突破与行业债务激增</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-04.html</link>

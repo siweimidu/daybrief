@@ -1,0 +1,392 @@
+[
+  {
+    "title": "OpenAI发布Images 2.6并支持GIF生成",
+    "summary": "OpenAI推出Images 2.6，新增动画GIF生成功能并提升生成速度50%。此举提升了视觉内容创作的灵活性和效率。",
+    "key_points": [
+      "支持动画GIF生成，速度提升50%",
+      "同日腾讯发布混元Hy4正式版，业界关注多家大模型动态"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-05/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Starfall项目提供低成本常规微重力访问",
+    "summary": "SpaceX在Starfall计划中提供经济实惠的微重力实验服务，降低科研门槛。该项目在Hacker News引发热议。",
+    "key_points": [
+      "Starfall让微重力实验更易获取",
+      "受到业界关注，Hacker News得高票与评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.spacex.com/starfall",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "OpenAI推出Images 2.6图像模型",
+    "summary": "OpenAI正式发布Images 2.6模型，获得Hacker News社区高票支持。",
+    "key_points": [
+      "Images 2.6在Hacker News获135分",
+      "模型提升生成质量与速度，受开发者关注"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/introducing-images-2-6/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "OpenAI发布‘A thousand fewer paths to root’研究",
+    "summary": "OpenAI发布题为“A thousand fewer paths to root”的技术博客，探讨简化路径的方案，受到社区热议。",
+    "key_points": [
+      "提出减少路径的创新思路",
+      "在Hacker News获153分并引发大量讨论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Xbox 360 Hypervisor漏洞利用 第三篇",
+    "summary": "博客继续深入分析Xbox 360 Hypervisor的安全漏洞，聚焦更新带来的改进。",
+    "key_points": [
+      "第三篇聚焦更新后的安全改进",
+      "面向安全研究者提供实战技巧"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://icode4.coffee/?p=1746",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "XSLT技术逐渐被淘汰",
+    "summary": "作者宣布XSLT技术正走向衰落，引发开发者对其未来的讨论。",
+    "key_points": [
+      "宣告XSLT即将退出主流",
+      "引起社区对替代技术的关注"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://dbushell.com/2026/11/03/xslt-rip/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "白宫网络检测到住宅代理流量",
+    "summary": "安全研究发现白宫网络中出现住宅代理流量，提示潜在的安全风险。该信息在Hacker News上获得大量关注。",
+    "key_points": [
+      "白宫网络使用住宅代理",
+      "在Hacker News获715分，引发安全讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Gauge开源CLI助力文档自动改进",
+    "summary": "Gauge项目开源CLI工具，可递归改进文档并支持本地执行，无需账号即可使用。",
+    "key_points": [
+      "提供文档自动改进的循环流程",
+      "支持本地后端，降低使用门槛"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/gauge-sh/gauge-cli",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Qualcomm发布Cloud AI 100 Ultra加速卡",
+    "summary": "Qualcomm推出150W、128GB、548GB/s带宽的云端AI加速卡，提升大模型推理性能，帮助数据中心高效运行AI工作负载。",
+    "key_points": [
+      "150W功耗，128GB内存",
+      "548GB/s内存带宽，面向云端AI"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "LED灯不吸引昆虫的研究发现",
+    "summary": "研究表明LED灯不会像传统灯光那样吸引昆虫，对灯光设计和生态影响具有重要意义。",
+    "key_points": [
+      "LED光谱对昆虫吸引力低",
+      "有助于减少光污染对生态"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Ripple-65B模型预览实现编码SOTA",
+    "summary": "Ripple-65B在通用编码任务上达到美国公开赛级别的最先进水平，展示了大模型在代理式编码中的潜力。",
+    "key_points": [
+      "65B参数模型",
+      "在Agentic Coding上达SOTA"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ricursive.com/ripple",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "DOS版《Wing Commander》联机逆向实现",
+    "summary": "经过十年逆向工程，作者实现了在DOS环境下的《Wing Commander》多人合作模式，展示了老游戏的技术复活。",
+    "key_points": [
+      "十年逆向工作",
+      "实现DOS联机功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://fireflyk64.github.io/wcmulti/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Conductor被Meta收购",
+    "summary": "SEO与内容平台Conductor宣布加入Meta，标志着Meta在内容技术领域的布局扩展。",
+    "key_points": [
+      "Conductor加入Meta",
+      "加强Meta内容生态"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.conductor.build/announcement",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Go语言推出全新JSON API",
+    "summary": "Go官方发布新版JSON库（jsonv2），提供更简洁高效的JSON编码解码接口，提升开发者体验。",
+    "key_points": [
+      "全新JSON API",
+      "改进性能与易用性"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://go.dev/blog/jsonv2",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Kino AI推出AI视频编辑平台",
+    "summary": "Kino AI发布基于AI的媒体管理与视频编辑工具，支持团队协作和自动化剪辑，面向创意工作流。",
+    "key_points": [
+      "AI驱动视频编辑",
+      "团队协作与资产管理"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50368804",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "大模型可证明推理研究进展",
+    "summary": "Anthropic发布关于大语言模型可证明推理的研究，探索模型推理的可靠性与可验证性。",
+    "key_points": [
+      "可证明推理方法",
+      "提升LLM可靠性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/research/provable-inference",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "英国高街困境：小店能否拯救？",
+    "summary": "英国高街店铺多为烟店、美甲店和慈善店，面临客流下降。文章探讨这些业态能否帮助街区复兴。",
+    "key_points": [
+      "店铺类型以低价服务为主",
+      "讨论街区复兴的可能性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theguardian.com/business/2026/nov/04/what-can-save-the-british-high-street-rotherham",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "AMD预计Q4首次销量超Intel",
+    "summary": "AMD预计在2026年第四季度首次超过Intel的CPU销量，预计收入将超出Intel的预期。",
+    "key_points": [
+      "AMD销量有望领跑",
+      "对芯片市场格局影响大"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "Kimi K3.1 Pro模型权重发布",
+    "summary": "Moonshot AI在HuggingFace发布了Kimi K3.1 Pro模型的权重，供开发者下载使用。",
+    "key_points": [
+      "提供最新模型权重",
+      "促进AI研发"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "datasette-llm 0.1a10 修复模型限制Bug",
+    "summary": "datasette-llm 0.1a10 版本修复了演示站点中模型列表未正确受配置限制的错误。",
+    "key_points": [
+      "修复模型配置限制Bug",
+      "提升演示站点可靠性"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "OpenAI收购Pierre Computer公司",
+    "summary": "OpenAI宣布收购Pierre Computer公司，扩展其硬件能力。",
+    "key_points": [
+      "OpenAI进行硬件并购",
+      "可能加强AI算力布局"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/openai-to-acquire-pierre/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "塑料免费咖啡胶囊与机器潮流",
+    "summary": "CNN报道塑料免费咖啡胶囊及相应机器的兴起，旨在减少一次性塑料废弃。",
+    "key_points": [
+      "推出无塑料咖啡胶囊",
+      "推动环保消费"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cnn.com/2026/11/02/food/coffee-machine-plastic-free",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "橘鸦AI早报：Anthropic开源等多条资讯",
+    "summary": "橘鸦AI早报汇总多条AI动态，包括Anthropic开源FlashProve、ChatGPT Side Chats永久保存等。",
+    "key_points": [
+      "Anthropic开源FlashProve",
+      "ChatGPT Side Chats功能更新"
+    ],
+    "category": "其他",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-04/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "datasette-apps 0.3a0 新增应用托管功能",
+    "summary": "datasette-apps 0.3a0 版新增在Datasette中托管和编辑自定义HTML应用的功能，并改进与Agent的集成。",
+    "key_points": [
+      "支持自定义HTML应用托管",
+      "Agent聊天中可标签化管理应用"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "AI日报 2026-11-04",
+    "summary": "发布65B稠密模型，Qwen精度提升10–15%，35B智能体基座同日发布。",
+    "key_points": [
+      "65B稠密模型发布",
+      "Qwen模型精度提升10–15%",
+      "35B智能体基座发布"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-04-zh/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "AI Daily 2026-11-04",
+    "summary": "Ricursive发布65B开放权重稠密模型，Unsloth提升Qwen3.8-Flash-Next精度10–15%，Axion发布35B全开源智能体模型。",
+    "key_points": [
+      "65B开放权重稠密模型",
+      "Qwen3.8-Flash-Next精度提升10–15%",
+      "35B全开源智能体模型"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-04/",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "DailyDawn 2026-11-04",
+    "summary": "vercel-labs/agent-desktop登GitHub Trending榜单，获得3791星，形成桌面AI自动化生态闭环。",
+    "key_points": [
+      "vercel-labs/agent-desktop登顶",
+      "桌面AI自动化生态闭环形成",
+      "用户转向开箱即用方案"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-04",
+    "published": "2026-11-04"
+  },
+  {
+    "title": "datasette-agent 0.5a0",
+    "summary": "Datasette Agent 0.5a0发布，新增panel功能，可在Datasette页面旁边聊天并修改数据库应用。",
+    "key_points": [
+      "panel功能新增",
+      "与Datasette页面集成",
+      "可实时修改数据库应用"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "llm 0.37.1",
+    "summary": "llm 0.37.1发布，包含Bug修复，贡献者包括Steven Huang等。",
+    "key_points": [
+      "Bug修复",
+      "多位贡献者参与"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/llm/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "Qwen 3.8 27B 解释模型权重",
+    "summary": "论文《Sparks of Weight-Space Programming》指出前沿模型可读写权重，作者在本地测试Qwen 3.8 27B实现权重解释。",
+    "key_points": [
+      "前沿模型可读写权重",
+      "Qwen 3.8 27B实现权重解释"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "泄露定位声音",
+    "summary": "Colsto演示如何利用视频背景噪音中的飞机声，结合ADS-B数据精确定位视频来源。",
+    "key_points": [
+      "利用飞机声定位",
+      "结合ADS-B数据",
+      "隐私泄露风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+    "published": "2026-11-03"
+  },
+  {
+    "title": "赞助者专属十月简报",
+    "summary": "发布十月赞助者专属简报，内容涵盖游戏开发、LLM发行、API订阅等。",
+    "key_points": [
+      "十月简报内容多样",
+      "LLM发行与API订阅",
+      "赞助者可提前获取"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+    "published": "2026-11-03"
+  }
+]
