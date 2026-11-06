@@ -1,0 +1,332 @@
+[
+  {
+    "title": "2026-11-06",
+    "summary": "",
+    "key_points": [],
+    "category": "其他",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-06/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Thinking Machines发布Inkling 2 Small模型",
+    "summary": "Inkling 2 Small在评测中得31分，计划下周开放权重，展示其在小模型领域的性能提升。",
+    "key_points": [
+      "得分31分",
+      "计划下周开放权重",
+      "提升小模型性能"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/matthewmrichter/mooftcp",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Thinking Machines发布Inkling 2 Small模型",
+    "summary": "Inkling 2 Small在评测中得31分，计划下周开放权重，展示其在小模型领域的性能提升。",
+    "key_points": [
+      "得分31分",
+      "计划下周开放权重",
+      "提升小模型性能"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "巴西信用担保基金数据泄露影响个人信息",
+    "summary": "巴西信用担保基金发生数据泄露，涉及个人身份信息和付款数据，引发安全与监管关注。",
+    "key_points": [
+      "泄露个人身份信息",
+      "涉及付款数据",
+      "引发监管关注"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.fgc.org.br/comunicado",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "马克·库班指责Facebook投放AI换脸诈骗广告",
+    "summary": "马克·库班透露Facebook明知投放AI深度伪造诈骗广告，导致约160亿美元欺诈收入，引发舆论热议。",
+    "key_points": [
+      "Facebook明知投放AI换脸广告",
+      "估计产生160亿美元欺诈收入",
+      "引发行业争议"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Claude Code泄露用户邮箱至访问网站",
+    "summary": "Anthropic的Claude Code在使用时会将用户的电子邮件地址发送给访问的网站，导致隐私安全担忧。",
+    "key_points": [
+      "Claude Code自动发送邮箱",
+      "泄露用户隐私",
+      "引起安全讨论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/anthropics/claude-code/issues/107757",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "MS Paint远程代码执行漏洞CVE‑2026‑83844",
+    "summary": "CVE‑2026‑83844披露MS Paint存在远程代码执行漏洞，攻击者可能利用该漏洞执行任意代码。",
+    "key_points": [
+      "MS Paint存在远程代码执行漏洞",
+      "CVE‑2026‑83844已公开",
+      "攻击者可执行任意代码"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "腾讯发布Hy4开源AI模型",
+    "summary": "腾讯推出Hy4模型，加入全球领先开源AI模型行列，标志其在AI开源生态的布局。",
+    "key_points": [
+      "Hy4加入全球开源AI模型",
+      "腾讯强化AI开源布局",
+      "提供高性能模型"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Kagi发布“Search for everyone”搜索功能",
+    "summary": "Kagi在其平台上推出名为“Search for everyone”的新搜索功能，提升了搜索的可访问性和覆盖范围。",
+    "key_points": [
+      "推出新搜索功能",
+      "提升用户搜索体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://kagi.com/changelog#11820",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Salon宣布停运",
+    "summary": "Salon媒体平台发布告别声明，宣布将停止运营，对数字媒体行业产生影响。",
+    "key_points": [
+      "发布停运声明",
+      "影响数字媒体生态"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Pangram推出Image 1.0",
+    "summary": "Pangram正式发布图像处理工具Image 1.0，面向开发者提供新一代图像服务。",
+    "key_points": [
+      "发布Image 1.0版本",
+      "面向开发者的图像服务"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "匈牙利公开60万前特工档案",
+    "summary": "匈牙利政府公开共产时代文件，披露约60,000名前情报特工信息，具有重要历史价值。",
+    "key_points": [
+      "公开共产时代档案",
+      "揭露约6万前特工"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Hackintosh项目借AI技术复兴",
+    "summary": "在AI技术的加持下，Hackintosh项目重新启动，展示了在非官方硬件上运行macOS的可能性。",
+    "key_points": [
+      "项目复兴",
+      "结合AI技术实现macOS兼容"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Paul Ford论浏览器价值",
+    "summary": "引用Paul Ford的话指出，网页浏览器作为强大应用平台，其使用成本正日益降低。",
+    "key_points": [
+      "浏览器是强大应用平台",
+      "使用成本持续下降"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Rivet开源项目：基于S3的代理编排器",
+    "summary": "Rivet是一个开源的高密度、可扩展的代理编排系统，使用S3作为持久化存储，提供类似Cloudflare Durable Objects的功能。",
+    "key_points": [
+      "开源高密度代理编排器",
+      "使用S3持久化存储"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/rivet-dev/rivet",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Bild AI招聘创始产品工程师",
+    "summary": "YC孵化的Bild AI公司对外发布招聘信息，寻找创始级产品工程师加入团队。",
+    "key_points": [
+      "发布招聘信息",
+      "寻找创始产品工程师"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ycombinator.com/companies/bild-ai/jobs",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Window Sweaters 项目热度攀升",
+    "summary": "GitHub 上的 Window Sweaters 项目在 Hacker News 前页获 261 点赞和 82 条评论，显示出社区对该项目的浓厚兴趣。",
+    "key_points": [
+      "获得 261 点赞",
+      "评论数达 82 条"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/saragordic/window-sweaters",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "双耳人工耳蜗使用者的心理物理学研究",
+    "summary": "作者分享了作为双耳人工耳蜗使用者的心理物理实验，文章在 Hacker News 获 166 点赞并引发 75 条讨论，凸显该领域的关注度。",
+    "key_points": [
+      "双耳人工耳蜗用户视角",
+      "获得 166 点赞"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Stacks 项目在 Lean 中形式化",
+    "summary": "Stacks Project 被正式在 Lean 定理证明器中形式化，相关帖子在 Hacker News 获 71 点赞，标志着数学库与形式化工具的融合。",
+    "key_points": [
+      "在 Lean 中形式化",
+      "获得 71 点赞"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://axiommath.ai/research/the-stacks-project-formalized/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Motorola Signature 27 支持 GrapheneOS",
+    "summary": "Motorola 推出 Signature 27 手机并宣布兼容 GrapheneOS，相关讨论在 Hacker News 获 407 点赞和 307 条评论，显示出安全手机的市场热度。",
+    "key_points": [
+      "支持 GrapheneOS",
+      "获得 407 点赞"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://motorolanews.com/motorola-signature-27-2/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Alpine Linux 发布 OpenSSH 密码认证绕过漏洞通告",
+    "summary": "Alpine Linux 发布安全通告，披露 OpenSSH‑server 存在密码认证绕过漏洞，帖子在 Hacker News 获 598 点赞，引起广泛关注。",
+    "key_points": [
+      "密码认证绕过漏洞",
+      "获得 598 点赞"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "Servo 9 月更新：圆角矩形等新特性",
+    "summary": "Servo 项目在 9 月发布更新，加入圆角矩形等功能，相关博客在 Hacker News 获 194 点赞，体现浏览器引擎的持续进化。",
+    "key_points": [
+      "新增圆角矩形等特性",
+      "获得 194 点赞"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "AI 早报：OpenAI Images 2.6 与腾讯混元 Hy4 发布",
+    "summary": "橘鸦 AI 早报报道 OpenAI 推出支持动画 GIF 的 Images 2.6，腾讯发布混元 Hy4 正式版，并提及内部安全项目变动等多条行业动态。",
+    "key_points": [
+      "OpenAI Images 2.6 支持 GIF",
+      "腾讯混元 Hy4 正式版"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-05/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "AI 日报：300B 智能体 RL 配方与 Qwen 加速解码",
+    "summary": "AI Daily 报道开源 300B 智能体的强化学习配方、物理基准以及 Qwen 更快的投机解码技术，推动 AI 训练与推理效率提升。",
+    "key_points": [
+      "300B 智能体 RL 配方开源",
+      "Qwen 解码加速"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-05-zh/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "AI Daily 2026-11-05",
+    "summary": "发布了300B规模的agentic RL配方、真实物理代理基准以及Qwen更快的推测式解码技术，推动AI训练、评估与推理进步。",
+    "key_points": [
+      "300B agentic RL配方公开",
+      "真实物理代理基准发布",
+      "Qwen加速推测式解码技术"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-05/",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "DailyDawn 2026-11-05",
+    "summary": "GitHub Trending的Scrapling项目以2005星获得关注，内置17种反爬规则并能绕过90% Cloudflare 校验；V2EX爬虫工具讨论获得179票；beacon.sh AI编码代理内存工具与Scrapling实现全链路结构化输出。",
+    "key_points": [
+      "Scrapling 2005星，内置17种反爬规则",
+      "V2EX爬虫工具讨论获得179票",
+      "beacon.sh 与Scrapling实现全链路结构化输出"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-05",
+    "published": "2026-11-05"
+  },
+  {
+    "title": "datasette-llm 0.1a10",
+    "summary": "datasette-llm 0.1a10 发布，修复了 agent.datasette.io 演示站点中未正确限制可用 LLM 模型的 bug。",
+    "key_points": [
+      "修复 agent.datasette.io 演示站点 LLM 模型限制 bug",
+      "版本号 0.1a10"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+    "published": "2026-11-04"
+  }
+]

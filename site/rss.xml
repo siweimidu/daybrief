@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Thu, 05 Nov 2026 02:59:36 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 03:00:09 +0000</lastBuildDate>
+  <item>
+    <title>腾讯发布开源大模型Hy4，AI小模型与智能体技术加速演进</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-06.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-06.html</guid>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-06 · 资讯 27 条
+分类：模型发布 4 · 行业动态 8 · 技术解读 9 · 开源项目 4 · 其他 2
+编者按
+各位科技爱好者，今天是2026年11月6日。今天的科技圈呈现出大模型开源生态持续繁荣与AI安全治理挑战并存的复杂态势。腾讯正式发布Hy4开源AI模型，标志着中国科技巨头在全球开源生态中的布局进一步深化，而Thinking Machines等团队对小模型（如Inkling 2 Small）的持续探索，则表明轻量化与高性能正成为端侧AI落地的重要突破口。
+在AI应用与基础设施层面，开源社区与学术界不断突破。AI Daily报道的300B规模智能体强化学习配方与Qwen的加速解码技术，正在系统性地提升AI的训练效率与推理性能。同时，像基于S3的代理编排器Rivet等开源项目的涌现，也极大地降低了开发者构建复杂AI应用的门槛，推动AI工程化走向成熟。
+</description>
+  </item>
   <item>
     <title>OpenAI连发两款重磅更新，AMD与英特尔x86格局迎历史性拐点</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-05.html</link>
