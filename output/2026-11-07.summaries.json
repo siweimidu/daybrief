@@ -1,0 +1,339 @@
+[
+  {
+    "title": "Qwen新旗舰模型等多项AI更新",
+    "summary": "Qwen发布海报预热新一代旗舰模型，阿里推出MNN Pocket 0.3B，Qoder CN推出匿名模型Qoduck免费活动，Google Antigravity重置额度并上线语音及远程任务功能，TRAE账号升级为豆包飞书账号并保留数据权益。",
+    "key_points": [
+      "Qwen预热新旗舰模型",
+      "阿里发布MNN Pocket 0.3B",
+      "Google Antigravity新增语音和远程任务功能"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-07/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "参观Unitree工厂 对西方机器人更看好",
+    "summary": "作者实地参观了Unitree的工厂，对其制造能力和技术进展表示认可，并因此对西方机器人产业的前景更为乐观。",
+    "key_points": [
+      "实地考察Unitree工厂",
+      "对西方机器人产业持乐观态度",
+      "观察制造与技术细节"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://josef.cn/blog/unitree",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "RealPage租金定价案结案 返还近360M美元",
+    "summary": "RealPage的租金定价案件最终结案，约360万美元的赔偿金将返还给受影响的租户，此案对租赁行业的定价监管产生重要影响。",
+    "key_points": [
+      "RealPage租金定价案结案",
+      "约360万美元赔偿返还租户",
+      "对租赁行业监管的警示意义"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Libghostty 1.0 正式发布",
+    "summary": "开源项目Libghostty发布了1.0版本，提供高性能终端仿真库，受到社区广泛关注。",
+    "key_points": [
+      "Libghostty 1.0版本发布",
+      "提供终端仿真功能",
+      "获得社区高赞"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mitchellh.com/writing/libghostty-1-0",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "OpenAI全组织开放外呼SIP功能",
+    "summary": "OpenAI在其API文档中宣布，所有组织均可使用Outbound SIP呼叫功能，提升语音通话集成能力。",
+    "key_points": [
+      "Outbound SIP呼叫对所有组织开放",
+      "支持语音通话集成",
+      "官方文档更新说明"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://developers.openai.com/api/docs/guides/voice-sip",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "钠离子电池成本逼近LFP实现成本平价",
+    "summary": "最新报告显示，钠离子电池的成本已接近磷酸铁锂（LFP），并已有约70 GWh的供应协议，标志着其在储能市场的竞争力提升。",
+    "key_points": [
+      "钠离子电池成本接近LFP",
+      "已签署约70 GWh供应协议",
+      "推动储能行业成本下降"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "ChatGPT连接器间数据悄传 引发安全讨论",
+    "summary": "社区发现ChatGPT在不同连接器之间悄悄传递数据，引发安全跟进讨论，并提出需通过身份验证以防滥用。",
+    "key_points": [
+      "ChatGPT在连接器间悄悄传递数据",
+      "社区安全跟进讨论",
+      "呼吁增加身份验证机制"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "2026版88x31 GIF贴纸实验",
+    "summary": "一个在线实验展示了适用于2026年的88x31像素GIF贴纸，供开发者和设计师使用。",
+    "key_points": [
+      "发布2026年版88x31 GIF贴纸",
+      "提供在线实验平台",
+      "面向开发者和设计师"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://a90.com/experiments/88x31/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "AI研究加速的显著趋势",
+    "summary": "该文章在Hacker News上获211分，讨论AI技术正显著加速AI研究的进展，强调其重要性。",
+    "key_points": [
+      "AI技术推动研究速度提升",
+      "对行业创新产生深远影响"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "谷歌收购Crusoe在怀俄明的数据中心",
+    "summary": "在Hacker News上获41分，报道谷歌收购了Crusoe位于怀俄明东南部的数据中心场址，标志着其在能源高效计算设施的布局。",
+    "key_points": [
+      "谷歌扩展数据中心资产",
+      "提升能源利用效率"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Jev与Opus合作实现4倍成本降低",
+    "summary": "该文章在Hacker News上获344分，介绍一种Jev工具可向Opus请求帮助，使其准确率在成本降低四倍的情况下保持。",
+    "key_points": [
+      "Jev提升Opus准确率",
+      "成本降低四倍"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Firecracker虚拟机逃逸研究（第二部分）",
+    "summary": "在Hacker News上获179分，深入分析Firecracker VM的逃逸技术细节，提供安全防护建议。",
+    "key_points": [
+      "揭示逃逸漏洞细节",
+      "提供防御方案"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pwn.ai/blog/firecracker-escape",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "GitHub全新Git存储架构",
+    "summary": "该文章在Hacker News上获70分，阐述GitHub推出的内部Git存储新架构，旨在提升性能和可扩展性。",
+    "key_points": [
+      "新架构提升存储效率",
+      "支持更大规模项目"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "餐饮外送支付信息被窃取案例",
+    "summary": "在Hacker News上获98分，报道一起针对餐饮外送平台的支付信息窃取诈骗活动，提醒用户防范。",
+    "key_points": [
+      "支付信息被盗取",
+      "需加强平台安全"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Replit使用微型VM重构沙箱引擎",
+    "summary": "该文章在Hacker News上获69分，介绍Replit采用微型虚拟机重建沙箱引擎，以提升隔离性和性能。",
+    "key_points": [
+      "微型VM提升沙箱安全",
+      "提升执行效率"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "40C3 halfnarp提交演讲偏好",
+    "summary": "在Hacker News上获46分，提醒参与者在half narp平台提交演讲偏好，以帮助会议排程。",
+    "key_points": [
+      "收集演讲偏好",
+      "优化日程安排"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://halfnarp.events.ccc.de",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Memorilla：LLM潜在语义记忆模型",
+    "summary": "论文提出 Memorilla，一种用于大语言模型的潜在语义记忆机制，旨在提升模型的长期记忆和推理能力。",
+    "key_points": [
+      "引入潜在语义记忆结构",
+      "针对 LLM 的记忆效率提升"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2610.21375",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Size-It-Up：创新尺寸变换游戏",
+    "summary": "推出了一款名为 Size-It-Up 的网页游戏，提供独特的尺寸变换玩法。",
+    "key_points": [
+      "基于 magnitudle 平台发布",
+      "在 Hacker News 获得 72 分"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://magnitudle.com/size-it-up",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Devvm.dev：为每个项目提供独立 VM",
+    "summary": "Devvm.dev 提供为每个项目单独的虚拟机服务，简化开发环境管理。",
+    "key_points": [
+      "每个项目独立 VM",
+      "在 Hacker News 获得 121 分"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://devvm.dev/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Nilay Patel 批评 AI 产品成本与价值",
+    "summary": "文章转述 Nilay Patel 对 AI 产品高成本、低收益的批评，反映业界对 AI 费用和实际效用的担忧。",
+    "key_points": [
+      "AI 产品成本高且收益有限",
+      "数据中心噪音与安全风险被提及"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "UpCodes 招聘 SDR 销售 AI 合规软件",
+    "summary": "UpCodes（YC S17）发布招聘信息，招聘 SDR 推广其 AI 合规软件，显示合规市场需求。",
+    "key_points": [
+      "在 Hacker News 发布招聘",
+      "聚焦 AI 合规软件销售"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://up.codes/careers?utm_source=HN",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Anthropic IPO 估值或降至 1.1 万亿美元",
+    "summary": "报道显示 Anthropic IPO 投资者的估值预期可能下调至 1.1 万亿美元，凸显 AI 领域估值争议。",
+    "key_points": [
+      "估值预期下降至 1.1 万亿美元",
+      "市场对 AI IPO 关注度高"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "橘鸦 AI 早报：多家模型发布更新",
+    "summary": "橘鸦 AI 早报列出多家机构发布新模型和更新，包括 Google Gemini Omni 1.2 Flash、OpenAI GPT‑6 Cyber 等，展示 AI 模型快速迭代。",
+    "key_points": [
+      "Google Gemini Omni 1.2 Flash",
+      "OpenAI GPT‑6 Cyber 网络安全模型",
+      "蚂蚁百灵 Ling 3.2 flash 等"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-06/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "AI 日报：微软流式语音等最新动态",
+    "summary": "AI 日报报道微软推出流式语音、Claude 解读粒子 3D 结构、OpenAI 称 Astra 编程能力弱，概括当日 AI 关键动态。",
+    "key_points": [
+      "微软流式语音技术发布",
+      "Claude 解析粒子 3D 结构",
+      "OpenAI 对 Astra 编程评价"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-06-zh/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "微软发布VibeVoice ASR，Claude破解Vault粒子",
+    "summary": "微软推出VibeVoice流式语音识别系统；Claude模型首次解析Vault粒子三维结构；OpenAI披露Astra模型在安全性测试中表现不佳。",
+    "key_points": [
+      "微软发布VibeVoice流式ASR",
+      "Claude破解Vault粒子3D结构",
+      "OpenAI报告Astra安全性不足"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-06/",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "sshole项目高分，国内自托管大模型需求激增",
+    "summary": "sshole项目在HackerNews获得高分，验证AMD平台SSH延迟低18%；国内开发者社区自托管大模型教程量环比上涨47%，用户普遍倾向本地部署，导致小团队将70%推理流量转向自托管，AMD与sshole工具的成本优势进一步推动此趋势。",
+    "key_points": [
+      "sshole项目高分验证低延迟",
+      "自托管大模型教程量大幅增长",
+      "用户偏好本地部署导致API流量下降"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-06",
+    "published": "2026-11-06"
+  },
+  {
+    "title": "Paul Ford：浏览器强大，成本持续下降",
+    "summary": "Paul Ford指出，现代浏览器已成为极其强大的应用平台，且获取其功能的成本正日益降低，为开发者提供了更高效的工具。",
+    "key_points": [
+      "浏览器功能强大",
+      "成本持续下降",
+      "为开发者提供更高效工具"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+    "published": "2026-11-05"
+  }
+]

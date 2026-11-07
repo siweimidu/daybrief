@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Fri, 06 Nov 2026 03:00:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 02:30:08 +0000</lastBuildDate>
+  <item>
+    <title>AI大模型迭代加速与基础设施演进：从端侧创新到巨头资本博弈</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-07.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-07.html</guid>
+    <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-07 · 资讯 27 条
+分类：模型发布 3 · 行业动态 8 · 开源项目 3 · 技术解读 10 · 投融资 2 · 其他 1
+编者按
+各位科技界的朋友，今天是2026年11月7日。回顾今日的科技前沿，大模型技术的演进正在加速从纯粹的云端军备竞赛转向端侧落地与成本优化的深水区。无论是Qwen新旗舰的预热、阿里MNN Pocket的轻量化探索，还是钠离子电池成本逼近LFP带来的硬件成本平价，都标志着行业正在寻找更具经济效益的落地范式。
+在基础设施与工程实践层面，今天的多条资讯呈现出了强烈的务实色彩。Replit使用微型VM重构沙箱引擎、GitHub推出全新Git存储架构，以及Firecracker虚拟机逃逸的深度研究，都在提醒我们，当AI应用深入生产环境，底层安全与隔离性已成为不容妥协的生命线。与此同时，微软发布VibeVoice流式语音识别、OpenAI开放O</description>
+  </item>
   <item>
     <title>腾讯发布开源大模型Hy4，AI小模型与智能体技术加速演进</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-06.html</link>
