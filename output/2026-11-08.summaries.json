@@ -1,0 +1,319 @@
+[
+  {
+    "title": "Datasette：停止向 Firefox 发送 link: rel=next 头",
+    "summary": "Datasette 在 HTML 页面返回 link: rel=next HTTP 头，导致 Firefox 自动预取下一页数据，产生不必要的流量，影响用户体验。",
+    "key_points": [
+      "Datasette 表页返回 link: <...>; rel=\"next\" 头部",
+      "Firefox 网络面板显示对下一页的预取请求",
+      "只有极少数访客会点击下一页，导致资源浪费"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Commodore PET：全球首台个人电脑",
+    "summary": "文章回顾 Commodore PET 作为世界上第一批面向大众的个人计算机的历史意义与技术特征。",
+    "key_points": [
+      "PET 是首批面向普通用户的个人计算机",
+      "介绍其硬件设计与市场影响"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "GitHub 新 Pull Request 概览页面公开预览",
+    "summary": "GitHub 推出全新 Pull Request 概览页面，进入公开预览阶段，为开发者提供更直观的代码审阅体验。",
+    "key_points": [
+      "新页面整合 PR 的整体信息与状态",
+      "当前处于公开预览，用户可自行试用"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "IRA Velinsky：Commodore 的工业设计师",
+    "summary": "文章介绍 IRA Velinsky 对 Commodore 产品的工业设计贡献及其设计理念。",
+    "key_points": [
+      "Velinsky 为 Commodore 设计多款产品外观",
+      "阐述其设计风格对品牌形象的影响"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "用四个 2 表示任意整数的技巧",
+    "summary": "该篇文章展示如何仅使用四个数字 2 通过运算表达任意整数，是一道有趣的数学技巧。",
+    "key_points": [
+      "仅使用四个 2 与常见运算符",
+      "提供构造所有整数的示例方法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Blink Rhythm：离线桌面护眼助手",
+    "summary": "一款离线桌面应用，帮助长时间使用电脑的用户保持正常眨眼频率，防止干眼并提升舒适度。",
+    "key_points": [
+      "实时监测并提醒用户眨眼",
+      "基于 AI 与开源库实现",
+      "针对软件工程师等高强度视觉工作者设计"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://eyesrhythm.com/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Shadow of the Sun：2021 年回顾",
+    "summary": "文章回顾 2021 年发布的《Shadow of the Sun》项目/作品，受到社区关注。",
+    "key_points": [
+      "链接指向 2021 年的内容",
+      "在 Hacker News 上获得一定讨论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Where Were We：基于 EXIF 的旅行照片游戏",
+    "summary": "开发了一款网页游戏，用户上传旅行照片，系统读取 EXIF 位置信息并生成猜测地点的游戏，作为周年礼物送给妻子。",
+    "key_points": [
+      "利用照片 EXIF 获取拍摄地点和时间",
+      "将位置信息转化为可分享的猜图游戏"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://wherewerewe.app/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Claude Code功能泄露1,122个GitHub密码",
+    "summary": "Claude Code的“Don't Ask Again”功能导致公开的1,122个GitHub文件中泄露密码，凸显AI编码助手的安全风险。",
+    "key_points": [
+      "泄露了超过千个文件的密码",
+      "提醒开发者审查AI工具的安全行为"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "10美元OpenStick自建家庭实验室配置",
+    "summary": "作者展示了在仅10美元的OpenStick硬件上运行的完整 homelab 环境，体现低成本实验平台的可行性。",
+    "key_points": [
+      "使用OpenStick搭建多服务环境",
+      "成本仅约10美元"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.bosscher.ch/posts/openstick/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "微软研究AI Frontiers团队解散",
+    "summary": "微软研究院宣布终止其AI Frontiers小组，标志着公司在前沿AI研究组织结构的重大调整。",
+    "key_points": [
+      "AI Frontiers小组被关闭",
+      "可能影响微软的AI研究方向"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hunch.net/?p=13764006",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "GeoWorks：90年代Windows竞争者回顾",
+    "summary": "文章回顾了GeoWorks作为1990年代微软Windows的竞争者的历史与技术特点。",
+    "key_points": [
+      "GeoWorks是早期图形操作系统",
+      "与Windows争夺市场份额"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "五本值得记忆的编程书籍推荐",
+    "summary": "列出并简要介绍了五本在编程领域具有影响力的经典书籍，适合程序员阅读收藏。",
+    "key_points": [
+      "精选五本编程经典书籍",
+      "每本书都有独特的学习价值"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://prog21.dadgum.com/19.html",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Coldframe：模拟超市冰箱的开源蜜罐",
+    "summary": "Coldframe是一个仅用Python标准库实现的蜜罐，伪装成超市冰箱控制器以捕获攻击行为。",
+    "key_points": [
+      "单文件Python实现",
+      "模拟真实冰箱接口并被Shodan识别"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/hedgerow-dev/coldframe",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "MaxxBench深度学习评分的真实性探讨",
+    "summary": "MaxxBench宣称提供DeepSWE评分，文章质疑其评分的真实性与评估方法的可靠性。",
+    "key_points": [
+      "DeepSWE评分受质疑",
+      "探讨评分背后的评估标准"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Apple灰名单：iPhone不再纠正特定词汇",
+    "summary": "Apple在iPhone上实施灰名单，限制拼写纠正对某些词语的帮助，引发对言论审查的关注。",
+    "key_points": [
+      "iPhone不再纠正被列入灰名单的词",
+      "涉及言论自由与技术审查议题"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "生命等待的时长",
+    "summary": "探讨生命在等待中的时长及其意义。",
+    "key_points": [
+      "讨论生命等待的概念",
+      "分析其重要性"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "所有已公开的处理器晶圆图集",
+    "summary": "收集并公开了所有已拍摄并分享的处理器晶圆图片，供研究与参考。",
+    "key_points": [
+      "汇总各厂商晶圆图像",
+      "提供可下载数据集"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sheets.works/data-viz/cpu-dies",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "特里·普拉切特研究",
+    "summary": "对特里·普拉切特的作品或生平进行研究的文章。",
+    "key_points": [
+      "探讨其写作风格",
+      "分析影响"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.sussi.dk/terry-pratchetts-study",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Retro Song Bird：即插即听Game Boy原声",
+    "summary": "该项目允许将任意Game Boy卡带接入，即可播放其音乐原声。",
+    "key_points": [
+      "支持所有Game Boy卡带",
+      "实时播放音轨"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.retrosongbird.com/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "8美元的Linux电脑（2022）",
+    "summary": "介绍一款成本仅8美元的Linux单板电脑，展示其硬件与使用方式。",
+    "key_points": [
+      "成本极低",
+      "运行Linux系统"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "橘鸦AI早报 2026-11-07",
+    "summary": "汇总当天AI领域的多项动态，包括Qwen新模型预热、阿里MNN Pocket 0.3B发布、Google Antigravity更新等。",
+    "key_points": [
+      "Qwen发布新旗舰模型预热海报",
+      "阿里发布MNN Pocket 0.3B",
+      "Google Antigravity重置额度并上线语音模式"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-07/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "AI日报 2026-11-07",
+    "summary": "报道NVIDIA发布智能体语境本体、VFlash加速视觉规划以及SLA扩展空间语言行动模型等技术进展。",
+    "key_points": [
+      "NVIDIA推出智能体语境本体",
+      "VFlash提升视觉规划速度",
+      "SLA扩展空间语言行动模型"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-07-zh/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "AI Daily 2026-11-07",
+    "summary": "概述NVIDIA发布自动本体框架、VFlash加速视觉规划以及SLA扩展空间语言行动模型的最新进展。",
+    "key_points": [
+      "NVIDIA发布自动本体框架",
+      "VFlash加速视觉规划",
+      "SLA扩展空间语言行动模型"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-07/",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "NVIDIA Auto-ontology开源框架突破小模型推理瓶颈",
+    "summary": "NVIDIA发布的auto-ontology语义图推理框架在GitHub Trending上获得2015星，能够将小模型场景下的图推理冗余开销削减62%，并与beacon.sh联动后进一步降低37%上下文占用，为7B级小模型开发者提供性能提升。",
+    "key_points": [
+      "自动化语义图框架将小模型推理开销削减62%",
+      "与beacon.sh联动后上下文占用降低37%"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-07",
+    "published": "2026-11-07"
+  },
+  {
+    "title": "Nilay Patel批评AI产品成本与价值不匹配",
+    "summary": "Nilay Patel指出当前AI产品的成本过高，收益不明显，企业在此类产品上的投入远大于回报，甚至连日常设备也面临安全风险，整体而言AI技术尚未达到实用价值。",
+    "key_points": [
+      "AI产品成本高，收益不匹配",
+      "企业投入大于产出，安全风险突出"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+    "published": "2026-11-06"
+  }
+]

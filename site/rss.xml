@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sat, 07 Nov 2026 02:30:08 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 01:58:54 +0000</lastBuildDate>
+  <item>
+    <title>AI安全风险与组织震荡并存：从代码助手泄密到小模型开源突破</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-08.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-08.html</guid>
+    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-08 · 资讯 26 条
+分类：行业动态 10 · 开源项目 6 · 技术解读 6 · 其他 4
+编者按
+今天的科技与AI领域呈现出安全防线与组织变革的双重焦虑。一方面，AI编码助手的便利性正暴露出严峻的安全隐患，Claude Code功能失误导致的千余个GitHub密码泄露事件，为盲目信赖AI自动化的开发者敲响了警钟。
+与此同时，科技巨头的组织架构也在经历剧烈震荡。微软研究院选择解散其AI Frontiers团队，折射出大厂在面对高昂投入与不确定回报时的战略收缩。正如评论家所指出的，当前许多AI产品的实际价值与高昂成本之间仍存在巨大鸿沟，市场正从早期的狂热走向冷静审视。
+然而，开源社区依然展现出强劲的创新生命力。NVIDIA推出的Auto-ontology开源框架成功突破了小模型推理瓶颈，将图推理冗余开销大幅削减，证明了通过技术优化降低成本、提升效率的可行路径。</description>
+  </item>
   <item>
     <title>AI大模型迭代加速与基础设施演进：从端侧创新到巨头资本博弈</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-07.html</link>
