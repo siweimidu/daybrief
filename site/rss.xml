@@ -4,7 +4,20 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sun, 08 Nov 2026 01:58:54 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 02:16:31 +0000</lastBuildDate>
+  <item>
+    <title>AI 价格分层与治理危机并行，低算力模型突破成焦点</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-09.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-09.html</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-09 · 资讯 20 条
+分类：行业动态 4 · 开源项目 1 · 模型发布 2 · 技术解读 1
+编者按
+本日AI生态呈现三大趋势：商业定价细分、公司治理风波以及在资源受限环境下的大模型落地。
+在定价方面，OpenAI征询Pro 50档位显示平台正尝试多层次收费；WorkBuddy因未及时公告返还积分差额而被迫返积分，凸显SaaS透明度的重要性。与此同时，Nvidia董事会对黄仁勋展开调查，标志着AI巨头的治理风险升温。
+开源社区则交出亮眼成绩：Llama-modchip让284B参数的DeepSeek在仅64GB RAM、无GPU的机器上运行，突破了算力瓶颈；Anthropic开源Claude Agent Skills，进一步推动模型可编程化；Drex Max v1.1宣称多模态SOTA，展示了竞争激烈的创新氛围。
+安全层面，DailyDawn报道的三款Git</description>
+  </item>
   <item>
     <title>AI安全风险与组织震荡并存：从代码助手泄密到小模型开源突破</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-08.html</link>

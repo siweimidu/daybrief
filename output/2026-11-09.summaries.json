@@ -1,0 +1,252 @@
+[
+  {
+    "title": "多家AI公司动态：WorkBuddy返积分、OpenAI征询Pro 50、黄仁勋道歉等",
+    "summary": "多条AI行业新闻：WorkBuddy因未及时公告恢复原价返还积分差额；OpenAI员工征询用户是否增设Pro 50档位；NVIDIA创始人黄仁勋公开道歉承认对妻子不忠；GPT 6.1 Sol 连续三次参与活体小鼠脑手术，定位误差减半。",
+    "key_points": [
+      "WorkBuddy返还积分差额",
+      "OpenAI考虑新增Pro 50档位",
+      "黄仁勋公开道歉承认不忠"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-09/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "社区征集：你在做什么？",
+    "summary": "在 Hacker News 上发起的 Ask HN 讨论，邀请用户分享近期的项目和兴趣。此类互动有助于社区成员相互启发与合作。",
+    "key_points": [
+      "邀请用户分享当前工作或好奇点",
+      "产生大量评论（472条）"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50417407",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "Nvidia董事会调查黄仁勋",
+    "summary": "Nvidia 董事会对公司创始人兼 CEO 黄仁勋展开调查，引发业界关注。此事可能影响公司治理和市场预期。",
+    "key_points": [
+      "董事会对黄仁勋进行调查",
+      "在 Hacker News 获得高热度（384 点）"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "SpaceX星舰第15次飞行计划回收助推器与飞船",
+    "summary": "SpaceX 计划于 11 月 13 日执行 Starship 第 15 次飞行，目标同时捕获助推器和飞船。成功回收将提升可重复使用技术的成熟度。",
+    "key_points": [
+      "11/13 发射 Starship Flight 15",
+      "目标同时回收助推器和飞船"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.spacex.com/launches/starship-flight-15",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "《网络已足够》——Paul Ford 论网络价值",
+    "summary": "Paul Ford 撰写的文章《The Web Is More Than Enough》探讨了 Web 本身的能力与价值，强调无需额外平台即可实现丰富体验。",
+    "key_points": [
+      "阐述 Web 的内在足够性",
+      "强调无需额外平台的可能性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "如何抵御 AI 脑力疲劳",
+    "summary": "作者分享了对抗 AI 信息过载的个人方法，帮助读者在面对大量 AI 内容时保持思考清晰。",
+    "key_points": [
+      "提供抗击 AI 信息过载的技巧",
+      "在 Hacker News 获得较高关注（155 点）"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "Outlook.com 静默拒收无 DMARC 域名邮件",
+    "summary": "Outlook.com 开始悄然拒收未配置 DMARC 的邮件，提升收件箱的安全性与防伪能力。",
+    "key_points": [
+      "拒收缺少 DMARC 的邮件",
+      "加强邮件安全防护"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "Dux：免费开源 Wayland 桌面壳",
+    "summary": "Dux 是一款免费、开源的 Wayland 桌面壳，内置文件管理器并支持主题定制，面向 Linux 桌面用户。",
+    "key_points": [
+      "提供文件管理和主题功能",
+      "适用于 Wayland 环境的开源项目"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://duxlabs.dev/",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "玩转 STM32MP2 开发板",
+    "summary": "作者在博客中记录了对 STM32MP2 开发板的实验过程，分享了硬件使用心得与实践经验。",
+    "key_points": [
+      "分享 STM32MP2 的使用经验",
+      "面向嵌入式开发者的技术实践"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://serd.es/2026/11/08/playing-with-stm32mp2.html",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "在 Linux 上用 CP/M 模拟器玩 Zork 1",
+    "summary": "作者展示了在 Linux 环境下通过 CP/M 模拟器运行经典文字冒险游戏 Zork 1，凸显复古系统的可移植性。",
+    "key_points": [
+      "使用 CP/M 模拟器",
+      "在 Linux 上运行 Zork 1",
+      "展示复古游戏兼容性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://kevinboone.me/cpmzork.html",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "高盛撤回 Claude Code 在银行业务中的使用",
+    "summary": "高盛决定不再让银行家和交易员使用 Anthropic 的 Claude Code，反映出对内部 AI 工具的审慎态度。",
+    "key_points": [
+      "高盛撤回 Claude Code",
+      "影响银行内部 AI 使用",
+      "体现监管或安全顾虑"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "Windows 版网络监控工具 Packethound",
+    "summary": "Packethound 提供类似 Little Snitch 的实时网络连接监控功能，帮助 Windows 用户查看并控制应用的网络行为。",
+    "key_points": [
+      "类 Little Snitch 的功能",
+      "适用于 Windows 系统",
+      "实时网络监控"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://packethound.app/",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "我不认同 Deno 的安全模型",
+    "summary": "作者批评 Deno 的安全模型，指出其限制和潜在问题，并呼吁进行改进。",
+    "key_points": [
+      "对 Deno 安全模型不满",
+      "分析具体限制",
+      "提出改进建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://goldstein.lol/posts/deno-security/",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "写作作为思考工具",
+    "summary": "文章论述写作如何帮助思考，提升认知结构和创意能力。",
+    "key_points": [
+      "写作促进思考",
+      "增强认知与创意",
+      "提供实践技巧"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "Llama-modchip：在 64GB 内存无 GPU 环境运行 284B DeepSeek",
+    "summary": "开源项目 Llama-modchip 让 284B 参数的 DeepSeek 模型在仅 64GB RAM、无 GPU 的机器上运行，展示了高效推理技术。",
+    "key_points": [
+      "284B DeepSeek 模型",
+      "仅 64GB RAM",
+      "无需 GPU"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/synchopate/llama-modchip",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-11-08",
+    "summary": "报道 OpenAI 智能体 dots 支持验证码登录、OpenCode 推出可控制真实浏览器的 AI agent 等多项最新 AI 动态。",
+    "key_points": [
+      "OpenAI dots 支持验证码登录",
+      "OpenCode Browse AI agent",
+      "Cua 与 Scale AI 桌面任务基准"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-08/",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "AI 日报 2026-11-08",
+    "summary": "报道 Claude 技能库开源、蚂蚁灵发 560B 多模态 MoE、DrexMax 宣称 SOTA 等最新 AI 进展。",
+    "key_points": [
+      "Claude 技能库开源",
+      "蚂蚁灵发 560B 多模态 MoE",
+      "DrexMax 声称 SOTA"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-08-zh/",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "AI Daily 2026-11-08",
+    "summary": "Anthropic 开源 Claude Agent Skills，Ant Ling 推出 560B 多模态 MoE，Drex Max v1.1 声称多模态 SOTA。",
+    "key_points": [
+      "Claude Agent Skills 开源",
+      "Ant Ling 560B MoE 1M 上下文",
+      "Drex Max v1.1 多模态 SOTA"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/ai-daily-2026-11-08/",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "DailyDawn 2026-11-08",
+    "summary": "DailyDawn 报道今日 GitHub Trending 上榜三款安全工具，云flare/security-audit-skill 获 2085 星，强调零依赖原生 JS 运行时，暗示独立开发者对轻量安全能力需求激增。",
+    "key_points": [
+      "cloudflare/security-audit-skill 2085 星",
+      "三款安全工具同日登榜，新增星标占比>55%"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-08",
+    "published": "2026-11-08"
+  },
+  {
+    "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pag",
+    "summary": "Datasette 在 HTML 页面中发送 link: rel=next HTTP 头导致 Firefox 预取下一页，造成不必要的数据请求，作者建议移除该头。",
+    "key_points": [
+      "Datasette 发送 link: rel=next 头导致预取",
+      "建议不再向 Firefox 发送该头以减少无用请求"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+    "published": "2026-11-07"
+  }
+]
