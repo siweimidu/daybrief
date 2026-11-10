@@ -1,0 +1,345 @@
+[
+  {
+    "title": "CoreWeave债券收益率突破16%",
+    "summary": "CoreWeave发行的债券收益率超过16%，反映AI行业信用压力上升，可能提升融资成本。",
+    "key_points": [
+      "收益率超过16%",
+      "AI信用紧张导致债券利率上升"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Anthropic等多家AI公司发布新模型与服务",
+    "summary": "Anthropic推出Fable 5.2和Mythos 5.2并提供限时优惠，字节跳动发布Seedream 5.5，阿里云提升Token配额并将Pro月费降至312元，OpenAI dot新增多电脑连接功能。",
+    "key_points": [
+      "Fable 5.2和Mythos 5.2发布并有优惠”“Seedream 5.5发布”“阿里云Token Plan个人版额度上调，Pro月费降至312元”“Op"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-10/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "追踪神秘哔声的来源",
+    "summary": "作者分享了定位电脑或设备中未知哔声来源的步骤和工具，帮助读者排查硬件问题。",
+    "key_points": [
+      "描述定位哔声的过程",
+      "提供实用排查方法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "糟糕的公钥技巧",
+    "summary": "文章展示了几种不安全的公钥使用方式，提醒开发者避免这些漏洞。",
+    "key_points": [
+      "列举不安全的公钥操作",
+      "解释潜在风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://maurycyz.com/projects/badcert/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "AI Daily：融资、模型开源与监管新平台",
+    "summary": "本期报道Nominal完成2.4亿美元C轮融资估值30亿美元，美团开放LongCat‑2.5模型权重并采用MIT许可，网信办推出生成式AI统一备案系统。",
+    "key_points": [
+      "Nominal 2.4亿美元C轮融资，估值30亿美元”“美团发布LongCat‑2.5模型并采用MIT许可”“网信办上线AI备案系统”，"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/grok-daily-2026-11-10-en/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "AI 日报：Nominal融资、LongCat模型开源、AI备案系统上线",
+    "summary": "Nominal完成2.4亿美元C轮融资估值30亿美元，美团开放LongCat‑2.5模型权重MIT许可，网信办推出生成式AI等四类技术备案一站式平台。",
+    "key_points": [
+      "Nominal 2.4亿美元C轮融资”“美团发布LongCat‑2.5模型，MIT许可”“网信办推出AI统一备案系统”，"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/grok-daily-2026-11-10-zh/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "llm-anthropic 0.31加入Fable 5.2模型",
+    "summary": "Simon Willison发布llm‑anthropic 0.31版本，集成Anthropic的Fable 5.2和Mythos 5.2模型，并提供使用示例和不同推理层级的对比。",
+    "key_points": [
+      "新版llm‑anthropic 0.31发布”“支持Fable 5.2和Mythos 5.2”“示例展示不同推理层级效果"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Fable 5.2轻松击败我侄子的梦中游戏",
+    "summary": "作者使用Anthropic的Fable 5.2模型生成游戏创意，结果远超其侄子设想，展示模型强大的创意生成能力。",
+    "key_points": [
+      "使用Fable 5.2生成游戏创意”“效果超出预期”“体现模型高水平创意能力"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Exact 跨平台 UI 框架发布",
+    "summary": "Expo 推出名为 Exact 的跨平台用户界面框架，旨在简化多平台应用开发。",
+    "key_points": [
+      "支持多平台 UI 渲染",
+      "基于 Expo 生态"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/expo/exact",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Google 发布 TPU 8tx 与 8i Max",
+    "summary": "Google 在官方博客中介绍了最新的 TPU 8tx 与 8i Max 加速器，提升 AI 计算性能。",
+    "key_points": [
+      "新一代 TPU 硬件",
+      "提升算力与效率"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Claude Fable 5.2 人工分析得分 65 创新高",
+    "summary": "Claude Fable 5.2 在 Artificial Analysis 基准上取得 65 分，创下最高记录。",
+    "key_points": [
+      "得分 65 为最高",
+      "展示模型性能提升"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "USPS 提供官方邮编边界多边形",
+    "summary": "美国邮政局上线官方 ZIP Code 边界多边形数据，便于开发者精准定位。",
+    "key_points": [
+      "官方边界多边形",
+      "支持 GIS 与应用开发"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://postalpro.usps.com/zcb",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "美国 312 城市停车应用手续费中位数 $0.35",
+    "summary": "研究显示美国 312 城市的停车应用平均每次收取 0.35 美元手续费，反映用户成本。",
+    "key_points": [
+      "中位数 0.35 美元",
+      "覆盖 312 城市"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://parkgraph.com/parking-app-fees",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "CUI：C 语言原生 UI 组件库",
+    "summary": "CUI 项目提供针对 C 语言的原生 UI 组件，帮助开发者构建界面。",
+    "key_points": [
+      "原生 UI 组件",
+      "适用于 C 语言"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://yappologistic.github.io/CUI/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Someone Was Here：Mac 使用者监控应用",
+    "summary": "开发者发布 macOS 应用 'Someone Was Here'，利用 Apple Vision 本地人脸识别记录未授权使用者并推送提醒。",
+    "key_points": [
+      "本地人脸识别",
+      "实时远程提醒"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://someonewashere.app/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "E-means：十倍加速的聚类算法",
+    "summary": "E-means 方法在聚类任务中以仅 1/10 迭代次数超越传统 k-means，提升效率。",
+    "key_points": [
+      "迭代次数仅为 k-means 的 10%",
+      "聚类效果更佳"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://e-means.github.io/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "MeowDisplay：iPhone 反向镜像控制",
+    "summary": "MeowDisplay 是 OpenDisplay 的分支，允许 iPhone 通过反向镜像控制 Mac，聚焦手机交互、流媒体和安全层。",
+    "key_points": [
+      "基于 OpenDisplay 的屏幕捕获与虚拟显示",
+      "改进了手机优先的交互与安全"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://meowdisplay.app/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "首枚300mm SiC 功率晶圆",
+    "summary": "英飞凌发布首枚 300mm SiC 功率晶圆，提升功率电子器件的尺寸与性能。",
+    "key_points": [
+      "300mm 尺寸突破",
+      "适用于高功率应用"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.infineon.com/press-release/2026/infpr202611-028",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Gemini 将个人 Drive 文件转给人工标注",
+    "summary": "Google Gemini 将用户的 Drive 文件和邮件路由给人工标注者，以改进模型训练。",
+    "key_points": [
+      "个人数据被转交给人工标注",
+      "用于提升 Gemini 的理解能力"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/thisisme6598/gemini_files/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Claude Fable 5.2 与 Mythos 5.2 发布",
+    "summary": "Anthropic 推出 Claude Fable 5.2 与 Mythos 5.2 两款新模型，扩展其对话与推理能力。",
+    "key_points": [
+      "Fable 5.2 强化对话",
+      "Mythos 5.2 提升推理"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Muse Ember：最小高效模型",
+    "summary": "Meta 研究团队发布 Muse Ember，尺寸最小、能效最高的模型。",
+    "key_points": [
+      "尺寸极小",
+      "高能效"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://research.meta.ai/blog/muse-ember",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "卫星轨迹与照片查询工具",
+    "summary": "该工具可在浏览器中快速查询过去七天内经过任意地点的卫星轨迹，并拉取 Sentinel‑2 / Landsat 等真实影像。",
+    "key_points": [
+      "实时卫星轨迹查询",
+      "自动获取真实影像"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.watched.earth",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Y/N 招募增长负责人",
+    "summary": "Y/N（YC S23）正在招聘增长负责人，负责推广其超人类 AI 故事讲述平台。",
+    "key_points": [
+      "招聘增长负责人",
+      "推广 AI 故事讲述"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ycombinator.com/companies/yn/jobs/TjDn3YZ-founding-growth-marketer",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "加拿大实时铁路支付系统上线",
+    "summary": "Payments Canada 推出 Real‑Time Rail（RTR）支付系统，提供 24/7 的实时支付基础设施。",
+    "key_points": [
+      "24/7 实时支付",
+      "提升加拿大支付网络"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Web足够强大：Three.js海葵彩蛋与Claude转译",
+    "summary": "作者受Paul Ford文章启发，用Three.js制作海葵主题的Faberge Egg，并让Claude把代码迁移到Vanilla JS，展示AI在前端开发中的代码转换能力。",
+    "key_points": [
+      "使用Three.js实现海葵主题的交互模型",
+      "Claude成功将Three.js代码转为Vanilla JS，体现AI代码迁移潜力"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "AI生成的PR描述过于详尽的隐忧",
+    "summary": "作者指出Claude Code、Codex等AI工具生成的PR描述极其完整，信息量大导致审查效率下降，需考虑隐藏或简化。",
+    "key_points": [
+      "AI写的PR描述准确且信息丰富",
+      "过多细节可能影响代码审查流程"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "AI行业每日要闻概览",
+    "summary": "汇总当日多条AI行业动态，包括WorkBuddy积分返还、OpenAI新增Pro 50档、NVIDIA创始人道歉、DeepSeek插件、GPT 6.1参与小鼠手术以及Anthropic 34亿美元收购等。",
+    "key_points": [
+      "多家AI公司发布新政策或产品",
+      "重大融资与技术应用新闻交织"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-09/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "DailyDawn：AI编码工具热度与隐私风险",
+    "summary": "报道近期Hacker News高热度帖子，如Mac未公开的家族成员分类器、浏览器游戏移植、微软AI团队解散等，反映AI编码工具信任下降和隐私泄露风险。",
+    "key_points": [
+      "多条HN高热度AI相关帖子聚焦隐私与安全",
+      "开发者对AI编码工具的信任度出现历史低位"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-09",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "SQLite parse_number扩展：C 与 Rust 对比",
+    "summary": "作者探索使用C或Rust实现SQLite自定义函数parse_number，将带货币符号、百分号等的字符串转为数值，并比较两种实现的难易程度。",
+    "key_points": [
+      "设计parse_number函数处理多种数值格式",
+      "对比C实现与Rust实现的差异与难点"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+    "published": "2026-11-08"
+  }
+]
