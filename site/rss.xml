@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Tue, 10 Nov 2026 04:26:56 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 02:27:19 +0000</lastBuildDate>
+  <item>
+    <title>多模态与超轻量模型井喷，AI安全与架构创新成焦点</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-11.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-11.html</guid>
+    <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-11 · 资讯 32 条
+分类：模型发布 4 · 技术解读 13 · 行业动态 9 · 投融资 3 · 开源项目 2 · 其他 1
+编者按
+各位科技爱好者，今天是2026年11月11日。回顾近期全球AI领域，大模型在轻量化、多模态性能以及垂直场景应用上迎来了新一轮的集中爆发。从谷歌、Anthropic到Meta，各大巨头纷纷加码高效能、低功耗模型，标志着行业正从单纯追求参数规模转向追求实用性与成本效益的平衡点。
+在模型发布端，谷歌推出Gemini 4 Carbon，MiniMax开源H3 Image，而Meta则带来了号称史上最小最省电的Muse Ember，直指边缘设备与复杂长文本解析。与此同时，Anthropic的Fable 5.2与Mythos 5.2在编程与科学评测上表现亮眼，通过精细的提示词工程甚至能展现出对代码所有权的理解，极大地拓宽了AI辅助工程的边</description>
+  </item>
   <item>
     <title>债券收益率飙升，Anthropic新模型引领</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-10.html</link>

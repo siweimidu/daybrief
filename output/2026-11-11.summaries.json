@@ -1,0 +1,395 @@
+[
+  {
+    "title": "多家AI公司发布新模型与工具",
+    "summary": "谷歌开放 Gemini 4 Carbon 大模型，MiniMax 推出 H3 Image 并开源权重，Anthropic 发布 Claude 系列新工具并提供免费完整重置，OpenAI 允许第三方工具使用 ChatGPT Business 订阅。",
+    "key_points": [
+      "谷歌开放 Gemini 4 Carbon",
+      "MiniMax 开源 H3 Image 权重",
+      "Anthropic 推出 Claude Whiteboards/Sheets/Data 并免费重置"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-11/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "旧式游戏编程技巧回顾",
+    "summary": "该博客回顾了2013年发布的经典游戏编程技巧，受到 Hacker News 关注。",
+    "key_points": [
+      "分享旧时代的游戏编程技巧",
+      "在 Hacker News 获得讨论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "大语言模型玩 TIS-100",
+    "summary": "项目展示了大语言模型在 Zachtronics 经典游戏 TIS-100 中的应用，引发 Hacker News 讨论。",
+    "key_points": [
+      "使用 LLM 解谜式编程游戏",
+      "展示模型推理与代码生成能力"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tis-100.wincon.dev/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AI 成信息入口，受众仍抗拒其生成新闻",
+    "summary": "Nieman Lab 报道指出，AI 已成为信息获取的入口，但受众仍不希望 AI 主导新闻制作。",
+    "key_points": [
+      "AI 被视为信息获取渠道",
+      "受众对 AI 生成新闻持保留态度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AI Daily 2026-11-11要闻",
+    "summary": "AI Daily 汇总了9条资讯和3个 GitHub 项目，重点包括 OpenAI 推出可在 35 秒内停止模型输出的 Control Room、澳大利亚计划设立 AI 安全监管机构，以及 Zyphra 开源实时语音合成模型 ZONOS3‑Mini。",
+    "key_points": [
+      "OpenAI 发布 Control Room 可快速停止模型输出",
+      "澳大利亚拟设立 AI 安全监管机构",
+      "Zyphra 开源 ZONOS3‑Mini 实时语音合成模型"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/grok-daily-2026-11-11-en/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AI 日报 2026-11-11要点",
+    "summary": "AI 日报列出9条资讯和3个 GitHub 项目，重点是 OpenAI 的 Control Room 功能、澳大利亚拟立法设立 AI 安全监管机构，以及 Zyphra 开源可在手机和浏览器实时运行的 ZONOS3‑Mini 语音合成模型。",
+    "key_points": [
+      "OpenAI 的 Control Room 能在 35 秒内停止输出",
+      "澳大利亚计划立法设立 AI 安全监管机构",
+      "Zyphra 开源 ZONOS3‑Mini 支持手机和浏览器实时运行"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/grok-daily-2026-11-11-zh/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "DDR3+ 接口启动时需调优的 DRAM 接口与 PHY 解析",
+    "summary": "该文档解释了 DDR3 及以上内存接口在系统启动时为何必须进行 PHY 调优，以确保可靠的 DRAM 通信。",
+    "key_points": [
+      "阐述 DRAM 接口工作原理",
+      "说明启动时 PHY 调优的重要性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Glasswing 7 个月更新：发现平淡引维护者不满",
+    "summary": "VulnCheck 报道 Anthropic 的 Glasswing 项目在 7 个月后更新，尽管发现有限，却让维护者感到工作量激增。",
+    "key_points": [
+      "7 个月后发布新报告",
+      "发现有限但维护工作量大"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "筹集3000万美元重塑CPU",
+    "summary": "一家初创公司宣布获得3000万美元融资，计划重新设计CPU架构，此举可能推动处理器性能和能效的突破。",
+    "key_points": [
+      "获得3000万美元融资",
+      "目标是重新设计CPU"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tendrils.co/blog/2026-11-10/30m-raised",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "陶哲轩六大数学要点",
+    "summary": "陶哲轩发布一篇文章，概述六个数学基础概念，帮助读者把握核心数学思想。",
+    "key_points": [
+      "列出六大数学要点",
+      "作者为著名数学家陶哲轩"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "《谢尔曼反托拉斯法案》概览",
+    "summary": "美国政府于1890年通过的《谢尔曼反托拉斯法案》被视为现代反垄断立法的基石。",
+    "key_points": [
+      "通过于1890年",
+      "奠定反垄断法律框架"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "llm-gemini 0.36 版本发布",
+    "summary": "Google发布llm-gemini 0.36版本，提供三种计算强度的“鹈鹕”模式，并公布首发定价为每百万输入2美元、输出10美元。",
+    "key_points": [
+      "发布0.36版本",
+      "首发定价2美元/百万输入，10美元/百万输出"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Scion复出 将在美售卖轻型卡车",
+    "summary": "丰田旗下的Scion品牌宣布复活，并计划在美国市场推出符合日本轻型卡车标准的kei卡车。",
+    "key_points": [
+      "Scion品牌复活",
+      "在美国销售kei卡车"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "研究历史：学习巴比伦数学的重要性",
+    "summary": "一篇文章探讨研究历史的口味，强调学习巴比伦数学对理解古代数学发展的重要性。",
+    "key_points": [
+      "讨论巴比伦数学的价值",
+      "强调历史研究的意义"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://resobscura.substack.com/p/research-taste-in-history-the-importance",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "推理的目标是什么？",
+    "summary": "作者将推理比作路径寻找，探讨其背后的目标及在人工智能中的意义。",
+    "key_points": [
+      "将推理类比为路径寻找",
+      "分析推理的目标"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "用户指纹识别程度的综合研究",
+    "summary": "一项全面研究评估了用户在网络环境中的指纹可识别程度，揭示了隐私风险。",
+    "key_points": [
+      "评估用户指纹可识别性",
+      "指出潜在隐私风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://fingerprinting.study/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Starlink Mini 2 卫星宽带新产品",
+    "summary": "Starlink 推出 Mini 2 版卫星宽带服务，受到 Hacker News 社区热议，获 254 点赞。",
+    "key_points": [
+      "Starlink Mini 2 正式发布",
+      "在 Hacker News 获 254 点赞，260 条评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://starlink.com/mini-2",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Synaptics 专利阻止 DisplayLink 驱动开发",
+    "summary": "Synaptics 的专利声明可能导致对 DisplayLink 驱动的开发工作受阻，引发技术社区关注。",
+    "key_points": [
+      "Synaptics 申请专利",
+      "可能影响 DisplayLink 驱动开发",
+      "在 Hacker News 获 302 点赞，166 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Show HN：将旧 JavaScript 迁移至现代 Web 原语",
+    "summary": "项目展示如何用现代浏览器原语取代旧的 JavaScript 实现，提高代码效率，已在 Hacker News 获关注。",
+    "key_points": [
+      "使用 CSS.highlights、showModal() 等原生特性",
+      "Chrome 正在为编码代理补充平台原语知识",
+      "在 Hacker News 获点赞"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/GoogleChrome/modern-web-guidance",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Val Town 宣布停止运营",
+    "summary": "Val Town 官方博客宣布平台将逐步关闭，引起社区讨论。",
+    "key_points": [
+      "Val Town 正式宣布停运",
+      "在 Hacker News 获 313 点赞，82 条评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.val.town/winding-down",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "AMD Zen 6 系列处理器发布概览",
+    "summary": "AMD 介绍其新一代 Zen 6 处理器家族，针对高性能计算需求进行优化。",
+    "key_points": [
+      "Zen 6 系列定位高性能",
+      "文章在 Hacker News 获 187 点赞，70 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+    "published": "2026-11-10"
+  },
+  {
+    "title": ".name 域名继续保留政策",
+    "summary": ".name 顶级域名的保留政策得到延续，相关讨论在 Hacker News 热烈。",
+    "key_points": [
+      ".name 域名未被终止",
+      "在 Hacker News 获 694 点赞，160 条评论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://neil.fraser.name/news/2026/11/10/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "智能家居设备应脱离互联网独立运行",
+    "summary": "文章主张智能家居设备在无网络情况下仍能正常工作，强调本地化控制的重要性。",
+    "key_points": [
+      "强调离线运行的必要性",
+      "在 Hacker News 获 727 点赞，257 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://docodethatmatters.com/home-automation-overnight-success/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Show HN：等距视角的西班牙瓦伦西亚模拟",
+    "summary": "项目展示以等距视角呈现西班牙瓦伦西亚的模拟城市，吸引社区关注。",
+    "key_points": [
+      "等距视角呈现瓦伦西亚",
+      "在 Hacker News 获 199 点赞，50 条评论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tinyvalencia.com/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Muse Ember：Meta AI 最小最省电模型",
+    "summary": "Meta AI 推出 Muse Ember，定位为最小、最节能的模型，适合复杂推理与长文档解析，价格与 GPT-6 Luna、Claude Haiku 5.5 同级，远低于 Claude Fable 5.2。",
+    "key_points": [
+      "最小化模型尺寸与能耗",
+      "适用于复杂推理与长文档解析",
+      "价格与 GPT-6 Luna、Claude Haiku 5.5 同级"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Claude Fable 5.2 代码所有权提示",
+    "summary": "Anthropic 发现 Fable 5.2 在小型编码任务中会根据提示判断代码所有权，若提示代码为其自身，可促使模型改进结构并合并重复代码。",
+    "key_points": [
+      "提示代码所有权影响模型行为",
+      "模型会在提示为自身时改进结构并合并重复代码"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Claude Fable 5.2 3D 动画实验",
+    "summary": "作者使用 Fable 5.2 生成三维动画，让 Yonkers 变成机甲并在曼哈顿周围展示，验证模型的 3D 建模与动画能力。",
+    "key_points": [
+      "Fable 5.2 能生成三维动画",
+      "验证模型在地图数据上的应用"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "Anthropic 与字节跳动 AI 产品更新",
+    "summary": "Anthropic 推出 Fable 5.2 与 Mythos 5.2，提供编程与科学评测提升；字节跳动发布 Seedream 5.5，改图百轮不走样；阿里云 Token Plan 个人版额度上调，OpenAI dot 支持多台电脑。",
+    "key_points": [
+      "Anthropic 发布 Fable 5.2 / Mythos 5.2",
+      "字节跳动 Seedream 5.5 改图百轮不走样",
+      "阿里云 Token Plan 额度上调"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-10/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "AI Daily 2026-11-10 重要新闻",
+    "summary": "AI Daily 汇总 9 条新闻，包括 Nominal 获 2.4 亿美元 C 轮融资、Meituan 发布 LongCat-2.5 权重、网信办上线生成式 AI 备案系统。",
+    "key_points": [
+      "Nominal 获 2.4 亿美元融资",
+      "美团发布 LongCat-2.5 权重",
+      "网信办上线生成式 AI 备案系统"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/grok-daily-2026-11-10-en/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "AI 日报 2026-11-10 重要资讯",
+    "summary": "与英文版相同，报道 9 条资讯，重点包括 Nominal 融资、Meituan LongCat-2.5、网信办备案系统。",
+    "key_points": [
+      "Nominal 获 2.4 亿美元融资",
+      "美团发布 LongCat-2.5 权重",
+      "网信办上线生成式 AI 备案系统"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://ainewslog.com/blog/grok-daily-2026-11-10-zh/",
+    "published": "2026-11-10"
+  },
+  {
+    "title": "llm-anthropic 0.31 发布",
+    "summary": "发布 llm-anthropic 0.31，加入 Anthropic Fable 5.2 与 Mythos 5.2 模型支持，可通过 CLI 生成 SVG 等内容。",
+    "key_points": [
+      "新增 Fable 5.2 与 Mythos 5.2 支持",
+      "可通过 llm 工具调用模型生成 SVG"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "published": "2026-11-09"
+  },
+  {
+    "title": "Claude 帮助定位神秘蜂鸣源",
+    "summary": "作者让 Claude Code 构建 Beep Locator，利用多设备定位房间内的蜂鸣源，展示模型在软件开发与定位任务中的实用性。",
+    "key_points": [
+      "Claude Code 构建 Beep Locator",
+      "利用多设备定位蜂鸣源"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "published": "2026-11-09"
+  }
+]
