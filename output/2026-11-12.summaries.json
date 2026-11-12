@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Google等发布多项AI模型与工具",
+    "summary": "Google推出Gemini Decisions 1模型，阿里发布Qwen4预览版，百度发布ERNIE 5.5 Flash预览，DeepMind发布AlphaGenome 2等多项新技术。",
+    "key_points": [
+      "Google推出Gemini Decisions 1模型",
+      "百度发布ERNIE 5.5 Flash预览版"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-12/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "阿里预告Qwen4，百度发布ERNIE 5.5 Flash",
+    "summary": "Alibaba公开Qwen4‑Max旗舰模型预览，百度同步发布ERNIE 5.5 Flash预览版并计划在11月25日开放权重。",
+    "key_points": [
+      "阿里Qwen4‑Max预览开放",
+      "百度ERNIE 5.5 Flash权重将于11月25日发布"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-12-en/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "AI日报：阿里预告Qwen4，MiniMax开放H3-Image权重",
+    "summary": "AI日报报道阿里宣布Qwen4旗舰版预览，MiniMax发布H3-Image模型权重，支持直接生成1600万像素图像。",
+    "key_points": [
+      "阿里预告Qwen4旗舰版",
+      "MiniMax开放H3-Image权重"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-12-zh/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Google发布Gemini Decisions 1 API",
+    "summary": "Google推出Gemini Decisions 1决策模型API，支持文本、图像、音频多模态，定价为每百万输入代币0.10美元，输出免费。",
+    "key_points": [
+      "Gemini Decisions 1支持多模态",
+      "定价为每百万输入代币0.10美元，输出免费"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AWS官方本地模拟器aws-emulator发布",
+    "summary": "AWS发布官方本地模拟器aws-emulator，使用Rust实现，可在Docker环境下本地测试多项AWS服务，免除付费API密钥。",
+    "key_points": [
+      "aws-emulator可本地模拟AWS多服务",
+      "使用Rust实现，需Docker运行"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "Simon Willison推出工具标签浏览功能",
+    "summary": "Simon Willison在其工具站点新增标签云，利用tree-sitter分析JavaScript API，实现按标签快速浏览244个及以上的工具。",
+    "key_points": [
+      "新增标签云浏览工具集合",
+      "使用tree-sitter分析JavaScript API"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "llm 0.37.2发布，修复安全漏洞",
+    "summary": "llm项目发布0.37.2版本，修复两项安全漏洞防止OpenAI API密钥泄露，并新增openai endpoint add命令管理模型配置。",
+    "key_points": [
+      "修复GHSA安全漏洞防止API密钥泄露",
+      "新增openai endpoint add命令"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/llm/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "Anthropic发布IPO路演视频，披露计算平台",
+    "summary": "Anthropic在IPO路演视频中透露Claude模型在AWS Trainium、Google TPU、NVIDIA GPU和AMD GPU四大芯片上训练与服务，展示其计算策略。",
+    "key_points": [
+      "路演视频披露使用四大芯片平台",
+      "展示Claude的训练与部署策略"
+    ],
+    "category": "投融资",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "2026-11-11",
+    "summary": "",
+    "key_points": [],
+    "category": "其他",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-11/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AI日报：OpenAI Control Room 35秒止研",
+    "summary": "AI日报报道 OpenAI 的 Control Room 能在 35 秒内快速停止模型输出，帮助研究者更好地控制生成内容。",
+    "key_points": [
+      "35 秒快速终止模型输出",
+      "用于研究模型输出控制",
+      "加强 AI 安全治理"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-11-en/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AI日报：OpenAI Control Room 35秒止研",
+    "summary": "AI日报报道 OpenAI 的 Control Room 能在 35 秒内快速停止模型输出，帮助研究者更好地控制生成内容。",
+    "key_points": [
+      "35 秒快速终止模型输出",
+      "用于研究模型输出控制",
+      "加强 AI 安全治理"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-11-zh/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "USPS 官方 ZIP Code 边界数据开放 打破商业垄断",
+    "summary": "美国邮政局免费发布 ZIP Code 边界多边形数据，削弱原付费服务商的商业壁垒，开发者可零成本接入精准地理围栏。",
+    "key_points": [
+      "USPS 免费发布 ZIP Code 边界多边形数据",
+      "打破商业数据垄断，降低开发成本",
+      "原付费服务商可能失去80%用户"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-11",
+    "published": "2026-11-11"
+  }
+]

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>多模态大模型井喷与开源生态迎新：Qwen4与Gemini同台竞技 · AI 日报</title>
+<meta name="description" content="AI 日报：每天自动聚合 5 个信息源，用大模型提炼要点与编者按，北京时间 07:00 发布。">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f9;color:#1f2933;line-height:1.75;
+ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',sans-serif}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header.site{background:#111827;color:#fff;padding:14px 0}
+header.site .wrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+header.site .brand{font-weight:700;font-size:17px;color:#fff}
+header.site nav a{color:#cbd5e1;font-size:14px;margin-right:14px}
+header.site nav a:hover{color:#fff}
+.hero{background:#fff;border-bottom:1px solid #e5e7eb;padding:32px 0 26px}
+.hero h1{margin:0 0 10px;font-size:26px}
+.hero p.lead{margin:0 0 16px;color:#4b5563;font-size:15px}
+.badges span{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;
+ padding:3px 10px;font-size:12px;margin:0 6px 6px 0}
+main{padding:26px 0 60px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:22px 24px;margin-bottom:18px}
+.card h2{margin:0 0 12px;font-size:19px;border-bottom:1px solid #eef0f3;padding-bottom:8px}
+.card h3{margin:18px 0 6px;font-size:16px}
+.card p{margin:8px 0}
+.card ul,.card ol{margin:8px 0;padding-left:22px}
+.card li{margin:5px 0}
+pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow-x:auto;font-size:13px}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.meta{color:#6b7280;font-size:13px;margin:0 0 14px}
+.tagline{color:#374151;background:#f3f4f6;border-left:3px solid #9ca3af;
+ padding:8px 12px;border-radius:0 6px 6px 0;margin:10px 0}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.toc a{background:#f3f4f6;border-radius:6px;padding:5px 10px;font-size:13px}
+.issue-list{list-style:none;padding:0;margin:0}
+.issue-list li{padding:9px 0;border-bottom:1px dashed #e5e7eb;display:flex;gap:10px}
+.issue-list li:last-child{border-bottom:none}
+.issue-list .d{color:#6b7280;font-size:13px;min-width:92px}
+footer.site{border-top:1px solid #e5e7eb;background:#fff;padding:18px 0;color:#6b7280;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border:1px solid #e5e7eb;padding:7px 10px;text-align:left}
+th{background:#f9fafb}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <span class="brand">🤖 AI 日报</span>
+  <nav><a href="https://siweimidu.github.io/daybrief/">首页</a><a href="https://siweimidu.github.io/daybrief/archive.html">全部归档</a><a href="https://github.com/siweimidu/daybrief" style="color:#fff">源码</a></nav>
+</div></header>
+<main class="wrap"><div class="card"><h1>多模态大模型井喷与开源生态迎新：Qwen4与Gemini同台竞技</h1><p class="meta">生成时间：2026-11-12 · 资讯 12 条</p><p class="meta">生成时间：2026-11-12 · 资讯 12 条</p>
+<p><strong>分类</strong>：行业动态 2 · 模型发布 3 · 开源项目 3 · 投融资 1 · 技术解读 2 · 其他 1</p>
+<h2>编者按</h2>
+<p>各位读者好，今天是2026年11月12日。今天的科技圈迎来了大模型发布的高潮，Google、阿里、百度等国内外巨头密集推出重磅模型与技术预览，大模型正在从单纯的对话能力向高阶决策、多模态全息生成以及细分领域深度渗透，标志着AI产业进入了全新的深水区。</p>
+<p>在模型竞争层面，Google推出了聚焦决策能力的Gemini Decisions 1，而国内阿里和百度则分别预告了Qwen4旗舰版与发布ERNIE 5.5 Flash，MiniMax也同步放出了H3-Image权重。这种“前有巨头压阵、后有开源追赶”的态势，极大加速了AI基础设施的平权，让开发者和企业拥有了更多高性价比的技术选择。</p>
+<p>除了模型本身的军备竞赛，开发者生态和巨头战略也在发生微妙而深刻的变化。Anthropic在IPO路演中罕见披露其同时依赖四大芯片巨头的计算平台策略，而AWS则发布了备受期待的本地模拟器aws-emulator，这些都表明行业正在从疯狂的算力军备转向精细化运营与工程落地。</p>
+<p>面对今日密集的行业更迭，我们建议广大开发者和技术团队：一方面需密切关注多模态与决策类API的降本增效机遇，评估将其引入核心业务的性价比；另一方面应善用如本地模拟器等开源工具，降低开发成本，在瞬息万变的AI浪潮中保持技术敏捷性。</p>
+<h2>今日要点</h2>
+<h3>1. Google等发布多项AI模型与工具</h3>
+<ul>
+<li>来源：<a href="https://daily.juya.uk/issues/2026-11-12/">橘鸦AI早报</a></li>
+<li>点评：Google与国内大厂在同一天密集发布多款模型预览，凸显出行业竞争的白热化。这不仅加速了前沿AI技术的迭代速度，也为企业和开发者提供了更丰富的技术栈选择。</li>
+</ul>
+<h3>2. 阿里预告Qwen4，百度发布ERNIE 5.5 Flash</h3>
+<ul>
+<li>来源：<a href="https://www.ainewslog.com/blog/grok-daily-2026-11-12-en/">AI Daily</a></li>
+<li>点评：国产大模型持续向旗舰级与高效能两个方向并行突破。Qwen4的预告与百度ERNIE 5.5 Flash的开源计划，将进一步推动国内AI应用成本的下降。</li>
+</ul>
+<h3>3. AI日报：阿里预告Qwen4，MiniMax开放H3-Image权重</h3>
+<ul>
+<li>来源：<a href="https://www.ainewslog.com/blog/grok-daily-2026-11-12-zh/">AI Daily</a></li>
+<li>点评：MiniMax开放H3-Image权重并支持1600万像素图像直出，展示了多模态生成在分辨率和画质上的新突破。开源权重的释放将极大地刺激创意设计类应用的发展。</li>
+</ul>
+<h3>4. Google发布Gemini Decisions 1 API</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api/">Simon Willison</a></li>
+<li>点评：Google推出专门的决策模型API，并且采用极具杀伤力的定价策略，标志着大模型正在从“聊天工具”向“复杂业务决策系统”实质性跨越。</li>
+</ul>
+<h3>5. AWS官方本地模拟器aws-emulator发布</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Nov/11/aws-emulator/">Simon Willison</a></li>
+<li>点评：AWS推出基于Rust的官方本地模拟器，极大地便利了开发者在离线或无付费API密钥环境下的测试工作。这体现了云计算巨头在开发者体验上的持续优化与务实转向。</li>
+</ul>
+<h3>6. llm 0.37.2发布，修复安全漏洞</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Nov/11/llm/">Simon Willison</a></li>
+<li>点评：该版本的发布及时修复了潜在的API密钥泄露风险，并增强了多模型配置管理能力。随着AI工具链的普及，工具自身的安全性与凭证管理已成为不可忽视的环节。</li>
+</ul>
+<h3>7. Anthropic发布IPO路演视频，披露计算平台</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/">Simon Willison</a></li>
+<li>点评：Anthropic在IPO关键节点公开其跨四大芯片厂商的计算策略，展示了其供应链的多元化与抗风险能力。这也反映出头部AI厂商正在摆脱对单一硬件生态的绝对依赖。</li>
+</ul>
+<h3>8. USPS 官方 ZIP Code 边界数据开放 打破商业垄断</h3>
+<ul>
+<li>来源：<a href="https://dailydawn.dev/zh/2026-11-11">DailyDawn 中文</a></li>
+<li>点评：美国邮政局免费开放核心地理边界数据，直接打破了商业公司的多年垄断。此举为位置服务与地理围栏开发者带来了零成本的利好，是公共数据开源的又一里程碑。</li>
+</ul>
+<h2>其他资讯</h2>
+<ul>
+<li><strong><a href="https://simonwillison.net/2026/Nov/11/tools-tags/">Simon Willison推出工具标签浏览功能</a></strong>（Simon Willison · 开源项目）：Simon Willison在其工具站点新增标签云，利用tree-sitter分析JavaScript API，实现按标签快速浏览244个及以上的工具。</li>
+<li><strong><a href="https://daily.juya.uk/issues/2026-11-11/">2026-11-11</a></strong>（橘鸦AI早报 · 其他）：</li>
+<li><strong><a href="https://www.ainewslog.com/blog/grok-daily-2026-11-11-en/">AI日报：OpenAI Control Room 35秒止研</a></strong>（AI Daily · 技术解读）：AI日报报道 OpenAI 的 Control Room 能在 35 秒内快速停止模型输出，帮助研究者更好地控制生成内容。</li>
+<li><strong><a href="https://www.ainewslog.com/blog/grok-daily-2026-11-11-zh/">AI日报：OpenAI Control Room 35秒止研</a></strong>（AI Daily · 技术解读）：AI日报报道 OpenAI 的 Control Room 能在 35 秒内快速停止模型输出，帮助研究者更好地控制生成内容。</li>
+</ul></div></main>
+<footer class="site"><div class="wrap">
+  由 <a href="https://github.com/siweimidu/daybrief">siweimidu/daybrief</a> 自动生成 · 每天北京时间 07:00 更新 ·
+  <a href="https://siweimidu.github.io/daybrief/rss.xml">RSS</a> · <a href="https://siweimidu.github.io/daybrief/archive.html">归档</a>
+</div></footer>
+</body>
+</html>
