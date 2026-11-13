@@ -1,0 +1,393 @@
+[
+  {
+    "title": "非洲太阳能革命快速扩张",
+    "summary": "非洲的太阳能装机规模迅速增长，规模庞大，推动能源转型与经济发展。",
+    "key_points": [
+      "太阳能装机规模快速扩大",
+      "加速能源结构转型"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "英伟达员工请愿恢复黄仁勋",
+    "summary": "英伟达员工发起请愿，要求黄仁勋重新担任CEO，反映对公司治理的担忧。",
+    "key_points": [
+      "员工请愿恢复黄仁勋",
+      "凸显对公司领导的关注"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "AI 与科技每日要闻",
+    "summary": "本期报道包括Google推出Gemini 4 Hydrogen和Antigravity Orchestrator、Jensen Huang辞任英伟达CEO、ChatGPT更新支持自定义指令等多项科技动态。",
+    "key_points": [
+      "Google发布Gemini 4 Hydrogen",
+      "Google Antigravity推出Orchestrator选项",
+      "Jensen Huang辞任英伟达CEO"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-13/",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "AI日报：Nvidia董事会欲罢免黄仁勋，股价大跌",
+    "summary": "华尔街日报报道英伟达董事会计划罢免黄仁勋，导致盘后股价下跌约8%；同时百度推出模型代币交易平台。",
+    "key_points": [
+      "英伟达董事会准备罢免黄仁勋",
+      "盘后股价跌约8%",
+      "百度推出模型代币交易平台"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-13-en/",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "AI日报：Nvidia罢免风波与昆仑芯片路线图",
+    "summary": "报道英伟达董事会准备罢免黄仁勋并导致股价下跌约8%，百度推出模型代币平台，昆仑芯片公布M100已上市、M300明年推出的路线图。",
+    "key_points": [
+      "英伟达董事会准备罢免黄仁勋",
+      "股价盘后跌约8%",
+      "百度推出模型代币交易平台"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-13-zh/",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "为 swift-nio-ssh 添加 RSA 支持",
+    "summary": "作者为兼容旧版 EC2 实例，实现了 RSA .pem 密钥的 SSH 支持，并发布了包含最新安全建议的 fork。",
+    "key_points": [
+      "实现 RSA .pem 密钥支持",
+      "提供包含安全更新的 fork"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lograker.app/blog/swift-nio-ssh-rsa-support",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Edge0-145B：本地电脑上的前沿 AI 能力",
+    "summary": "Edge0 推出 145B 大模型，用户可在个人电脑上运行，实现前沿 AI 功能。",
+    "key_points": [
+      "Edge0-145B 大模型可本地运行",
+      "提供前沿 AI 能力"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Gemini 4 Hydrogen 低价发布 (llm-gemini 0.37)",
+    "summary": "Google 发布 Gemini 4 Hydrogen，定价最低，每百万输入 $1.5，输出 $0.075，总成本 $7.5。",
+    "key_points": [
+      "Gemini 4 Hydrogen 定价最低",
+      "输入费用 $1.5/百万，输出费用 $0.075/百万"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "中国前沿AI模型使用受限GPU痕迹",
+    "summary": "报道指出，中国最新的前沿AI模型中检测到使用受出口管制的GPU硬件的特征，暗示技术依赖与合规风险。此发现对国内AI研发与国际贸易政策具有重要提示。",
+    "key_points": [
+      "模型中出现受限GPU的指纹",
+      "凸显合规与供应链风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://unemploymentlabs.com/checkpoint-forensics",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Apple发布Foundation Models框架",
+    "summary": "Apple在开发者网站推出了Foundation Models框架，旨在帮助开发者更便捷地集成大模型能力。该框架标志着Apple在AI基础设施布局上的新进展。",
+    "key_points": [
+      "提供统一的大模型接入接口",
+      "加强Apple生态的AI能力"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://developer.apple.com/foundation-models-framework/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "AI导致Apple应用审查成开发者噩梦",
+    "summary": "文章披露，AI技术的引入使得Apple的应用审查流程变得更加严格和不可预测，给合成音乐等开发者带来巨大挑战。此事反映了AI监管在平台生态中的冲突。",
+    "key_points": [
+      "AI提升审查复杂度",
+      "影响合成音乐开发者发布"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Conductor项目回归公告",
+    "summary": "在Twitter上宣布，之前暂停的Conductor项目已重新启动，团队计划继续推进相关研发工作。此消息对关注该项目的社区成员具有直接意义。",
+    "key_points": [
+      "Conductor项目恢复运营",
+      "团队将继续开发"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://twitter.com/charlieholtz/status/2120973052024598620",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "前Nvidia CEO黄与员工关系曝光",
+    "summary": "路透社报道，前Nvidia CEO黄与公司另一名员工存在不当关系，引发对公司内部治理的关注。此事可能对公司声誉和管理层信任产生影响。",
+    "key_points": [
+      "黄与员工的关系被曝光",
+      "涉及公司治理与声誉风险"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "新矮行星候选者发现，轨道约280年",
+    "summary": "史密森尼杂志报道，天文学家在冥王星之外发现一颗可能的矮行星候选体，其公转周期约为280年。该发现为太阳系边缘天体研究提供新线索。",
+    "key_points": [
+      "发现远离冥王星的天体",
+      "轨道周期约280年"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Google Gemini 4 Hydrogen与Orchestrator",
+    "summary": "Google Antigravity博客介绍了Gemini 4的Hydrogen模型及其Orchestrator系统，展示了在多模态AI协同方面的最新进展。此技术有望提升AI任务编排效率。",
+    "key_points": [
+      "发布Gemini 4 Hydrogen模型",
+      "引入Orchestrator任务编排"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Rust 1.100正式发布",
+    "summary": "Rust官方博客宣布Rust 1.100正式发布，带来多项性能改进和语言特性升级，进一步巩固其在系统编程领域的领先地位。",
+    "key_points": [
+      "Rust 1.100版本上线",
+      "包含性能与特性提升"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "PostgreSQL 22年老漏洞导致RCE",
+    "summary": "研究者将一个存在22年的类型混淆原语利用为远程代码执行，形成CVE-2026-6460。此漏洞影响广泛使用的PostgreSQL数据库，安全风险高。",
+    "key_points": [
+      "旧类型混淆原语被改造为RCE",
+      "漏洞编号CVE-2026-6460，影响多个版本"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Microsoft 365 服务大规模降级",
+    "summary": "微软 365 在多平台出现服务降级，导致数百万用户访问受阻。该事件在 Hacker News 引发大量讨论，显示云服务可靠性仍是关键问题。",
+    "key_points": [
+      "多渠道报告微软365异常",
+      "影响范围广，用户投诉数百条"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://status.cloud.microsoft/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "AgentRun：开源自我改进托管代理平台",
+    "summary": "GREP.AI 开源 AgentRun，提供自我改进的托管代理、网页工作流、多沙箱环境等功能，并支持多种大模型。项目面向企业和开发者，可自行部署。",
+    "key_points": [
+      "支持自我改进、网页驱动工作流",
+      "兼容Pi、Claude、Codex等模型，可自托管"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Google Gemini 4 Hydrogen 模型发布",
+    "summary": "Google 推出 Gemini 4 Hydrogen，作为 Gemini 系列的最新模型，提升多模态能力和推理性能。该模型面向研发和企业应用，标志着 AI 竞争的新阶段。",
+    "key_points": [
+      "新一代 Gemini 系列模型",
+      "强化多模态与推理效率"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Kapso：企业数据迭代学习开源引擎",
+    "summary": "Leeroo 团队开源 Kapso，提供实验运行、最佳方案部署及持续学习的闭环系统，帮助企业快速迭代数据分析与模型。",
+    "key_points": [
+      "自动实验、部署与学习闭环",
+      "面向企业数据工作流的迭代优化"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50471281",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "自制应用替代刺绣机订阅服务",
+    "summary": "作者为一台300美元的刺绣机开发了开源应用，摆脱原厂强制订阅限制，提升用户自主使用体验。",
+    "key_points": [
+      "原机需付费订阅",
+      "自行开发开源App实现本地控制"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/simpsoka/zigzag",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "在旧设备上运行大模型的技术实现",
+    "summary": "项目 smolmaxxing 通过模型压缩与高效推理，使大型语言模型能够在资源受限的老旧设备上运行，拓宽 LLM 的使用场景。",
+    "key_points": [
+      "模型压缩与轻量化推理技术",
+      "实现LLM在低配硬件上的可用性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/hyperionaidev/smolmaxxing/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Quake 4 未完成扩展由玩家完成并可玩",
+    "summary": "玩家社区完成了原本被放弃的 Quake 4 扩展内容，并发布可在 Windows x64 上运行的完整版本，恢复了该经典游戏的未完内容。",
+    "key_points": [
+      "Modders 完成废弃扩展",
+      "提供可下载的 Windows x64 可玩版本"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Google Gemini Decisions 1发布",
+    "summary": "Google推出Gemini Decisions 1决策模型，阿里预告Qwen4即将发布，百度ERNIE 5.5 Flash预览版已上线，DeepMind发布AlphaGenome 2，上海创智学院开源Nex N2.6。",
+    "key_points": [
+      "Gemini Decisions 1决策模型发布",
+      "阿里Qwen4即将推出",
+      "百度ERNIE 5.5 Flash预览"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-12/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "阿里预告Qwen4及Qwen4-Max预览",
+    "summary": "阿里预告Qwen4并开放旗舰Qwen4-Max预览，百度ERNIE 5.5 Flash预览版已上线，MiniMax开放H3-Image权重。",
+    "key_points": [
+      "阿里Qwen4预告",
+      "Qwen4-Max预览",
+      "MiniMax H3-Image权重"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-12-en/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "阿里预告Qwen4，旗舰Qwen4-Max预览",
+    "summary": "阿里预告Qwen4，旗舰Qwen4-Max先以预览版开放试用；百度发布ERNIE 5.5 Flash预览版；MiniMax开放H3-Image权重。",
+    "key_points": [
+      "阿里Qwen4预告",
+      "Qwen4-Max预览",
+      "MiniMax H3-Image权重"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-12-zh/",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "DailyDawn 2026-11-12技术热点",
+    "summary": "Meta/astryx在GitHub Trending获得2776星，Agent适配节省70%前端开发时间；addyosmani/agent-skills 787星；beacon.sh在Product Hunt获得508票。",
+    "key_points": [
+      "Meta/astryx GitHub Trending",
+      "Agent适配节省时间",
+      "beacon.sh Product Hunt热度"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-12",
+    "published": "2026-11-12"
+  },
+  {
+    "title": "Gemini Decisions 1 API发布",
+    "summary": "Google发布Gemini Decisions 1 API，支持多模态决策，价格与GPT-6 Luna相同，输出免费。",
+    "key_points": [
+      "多模态决策支持",
+      "价格与GPT-6 Luna相同"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "AWS官方本地模拟器发布",
+    "summary": "AWS发布官方本地模拟器，可在本地运行多种服务测试，无需付费API密钥，使用Docker在macOS/Windows上运行。",
+    "key_points": [
+      "官方本地模拟器",
+      "无需付费API密钥"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "Simon Willison工具库标签浏览",
+    "summary": "Simon Willison发布工具库标签浏览功能，使用tree-sitter分析JavaScript API，生成标签云。",
+    "key_points": [
+      "工具库标签浏览",
+      "tree-sitter分析"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+    "published": "2026-11-11"
+  },
+  {
+    "title": "llm 0.37.2安全更新",
+    "summary": "llm 0.37.2发布，修复安全问题，新增extra-openai-models.yaml支持多供应商OpenAI兼容端点。",
+    "key_points": [
+      "安全问题修复",
+      "多供应商OpenAI兼容端点"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/11/llm/",
+    "published": "2026-11-11"
+  }
+]
