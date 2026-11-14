@@ -1,0 +1,64 @@
+{
+  "subject": "英伟达董事会动向引发行业震荡",
+  "editorial": "第一段：AI行业正处于治理与安全双重升级的关键期，董事会决策、监管指令与技术创新交织，形成新的竞争与合规格局。\n第二段：Nvidia董事会成员在黄光耀争议前抛售近10亿美元股票，随后董事会准备罢免黄仁勋，显示内部信息与治理风险正被市场放大，股价与供应链将随之波动。\n第三段：OpenAI推出两款安全智能体，标志着AI安全技术从概念走向实战，企业若想在安全合规上抢占先机，需评估并部署类似自动化补丁与渗透测试工具。\n第四段：FAA发布全美地面停飞指令，导致航空业与相关物流链骤停，FreeBSD与bhyve实时迁移功能的上线则为云服务提供了更高可用性，提示企业在灾备与弹性方面需同步升级。\n第五段：建议关注Nvidia治理动态，评估其对行业生态的影响；加大对AI安全产品的投入，构建自动化补丁与渗透测试链；同时利用实时迁移技术提升业务连续性，确保在突发事件中保持竞争力。",
+  "highlights": [
+    {
+      "title": "Nvidia董事会成员在黄光耀丑闻前抛售近10亿美元股票",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "analysis": "董事会内部交易暴露信息不对称风险，市场对公司治理的信任度将受到冲击，投资者需警惕后续股价波动。"
+    },
+    {
+      "title": "AI Daily 2026-11-13: WSJ: Nvidia's board is preparing to oust Jensen Huang",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-13-en/",
+      "analysis": "董事会计划罢免CEO显示公司内部治理结构正在重塑，可能导致战略方向与技术路线的重大调整。"
+    },
+    {
+      "title": "OpenAI 推出两款安全智能体",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-14-en/",
+      "analysis": "自动化安全工具的落地为企业提供了降低漏洞风险的可操作方案，预示AI安全将成为核心竞争力之一。"
+    },
+    {
+      "title": "FAA 发布全美地面停飞指令",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "analysis": "全国性停飞突显航空安全监管的严峻性，对航空物流与相关行业造成冲击，企业需评估供应链韧性。"
+    },
+    {
+      "title": "FreeBSD 与 bhyve 将支持实时迁移",
+      "source_name": "FreeBSD 与 bhyve 将支持实时迁移",
+      "source_url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+      "analysis": "实时迁移技术提升虚拟化环境的可用性，为云服务提供更高的业务连续性，值得企业在灾备规划中优先考虑。"
+    },
+    {
+      "title": "发现驱动衰老且不引发炎症的蛋白质",
+      "source_name": "Nature",
+      "source_url": "https://www.nature.com/articles/d41586-026-03638-3",
+      "analysis": "新型蛋白质为抗衰老研究提供了非炎症路径，可能催生下一代健康干预技术。"
+    },
+    {
+      "title": "datasette-cluster-map 0.19 发布",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "analysis": "插件更新提升数据可视化与聚类效率，为数据分析师提供更强工具，推动数据驱动决策的落地。"
+    },
+    {
+      "title": "DailyDawn · 2026-11-13",
+      "source_name": "DailyDawn 中文",
+      "source_url": "https://dailydawn.dev/zh/2026-11-13",
+      "analysis": "报道聚焦Anthropic IPO与Nvidia人事变动，反映行业对大模型商业化与治理议题的高度关注。"
+    }
+  ],
+  "categories": {
+    "投融资": 1,
+    "其他": 12,
+    "行业动态": 9,
+    "技术解读": 4,
+    "模型发布": 2,
+    "开源项目": 2
+  },
+  "generated_at": "2026-11-14T02:50:46.833839+00:00",
+  "source_count": 30
+}
