@@ -1,0 +1,395 @@
+[
+  {
+    "title": "AI 多项产品更新与安全警示",
+    "summary": "Grok Bot 多项优化使订阅用量增长约7%，Claude Code 推出桌面版并支持主题定制，Google 取消300美元赠金对 Gemini 的覆盖，Cloudflare 开源 Kitesurf 浏览器，Anthropic 发布安全评测建议，FBI 发出安全警示，展示 AI 生态快速迭代与监管需求。",
+    "key_points": [
+      "Grok Bot 优化导致订阅用量 +7%",
+      "Claude Code 桌面版支持 mods 主题",
+      "Google 赠金不再覆盖 Gemini 调用"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-15/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Cursor 安全事件：密钥泄露与 Claude Code 扩展被篡改",
+    "summary": "Cursor 公开其安全事件起因于向 Fireworks 发放的密钥被滥用，导致 Claude Code 扩展在市场缓存中被篡改约 11 小时，凸显 AI 工具供应链的安全风险。",
+    "key_points": [
+      "向 Fireworks 发放的密钥被利用",
+      "Claude Code 扩展被篡改约 11 小时",
+      "暴露 AI 供应链安全漏洞"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-15-en/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Cursor 安全事件与 Anthropic 高层对话",
+    "summary": "在披露 Cursor 安全事件细节的同时，Anthropic 联合创始人 Amodei 与摩根大通 CEO Dimon 讨论算力成本，指出算力是公司最大的经营难题。",
+    "key_points": [
+      "Cursor 安全事件细节：密钥泄露、扩展被篡改",
+      "Amodei 与 Dimon 讨论算力成本",
+      "算力被视为 Anthropic 最大的经营难题"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-15-zh/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette-llm 0.1a11 支持 OpenAI 兼容端点",
+    "summary": "datasette-llm 插件升级至 0.1a11，新增对 OpenAI 兼容接口的支持，允许在本地模型（如 LM Studio、Ollama、llama.cpp）上配置使用，提升 Datasette 与 LLM 的集成灵活性。",
+    "key_points": [
+      "新增 OpenAI 兼容端点支持",
+      "可配置本地模型如 LM Studio、Ollama、llama.cpp",
+      "提供 uvx 示例运行方式"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "L3Harris 对 11 月 13 日停飞事件的声明",
+    "summary": "L3Harris 发布官方声明，回应 11 月 13 日的地面停飞事件，阐明公司立场并说明后续措施，对航空防务供应链产生影响。",
+    "key_points": [
+      "发布针对停飞事件的官方声明",
+      "解释公司立场与后续行动",
+      "涉及航空防务行业的供应链影响"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "Nvidia 通过循环融资维持 GPU 高价",
+    "summary": "调查揭示 Nvidia 利用循环融资交易人为抬高 GPU 价格，此定价策略影响市场竞争格局并增加用户成本。",
+    "key_points": [
+      "使用循环融资手段",
+      "人为抬高 GPU 价格",
+      "对市场竞争和消费者成本的影响"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "沃兹尼亚克在构建 Apple 1 前如何编写 BASIC",
+    "summary": "回顾沃兹尼亚克在硬件完成前先用交叉编译或模拟方式编写 Apple 1 的 BASIC 程序，展示早期计算机软硬件协同开发的流程。",
+    "key_points": [
+      "先行编写 Apple 1 BASIC 代码",
+      "使用交叉编译或模拟环境",
+      "体现早期软硬件协同开发方式"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://retrocomputing.stackexchange.com/questions/17957",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "SpaceX 成功捕获 Starship 结束第15次飞行",
+    "summary": "SpaceX 在第15次 Starship 任务中成功完成回收捕获，标志其可重复使用技术的进一步成熟，有助于降低航天发射成本。",
+    "key_points": [
+      "第15次 Starship 飞行任务",
+      "成功捕获并回收",
+      "推动航天可重复使用技术进步"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.spacex.com/launches/starship-flight-15",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "LinkedIn 与 Monster 清除千余假招聘信息",
+    "summary": "LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条虚假招聘广告，提升平台可信度，保护求职者安全。",
+    "key_points": [
+      "下架 1000+ 假招聘",
+      "CBC 调查推动行动"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "软件职位族谱：职称全解析",
+    "summary": "文章绘制软件行业职位的层级关系图，帮助求职者和招聘方理解职称演变趋势。",
+    "key_points": [
+      "展示职位层级结构",
+      "解释职称演变趋势"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "Lovable 应用泄露护照信息及 20 万私信",
+    "summary": "研究发现 Lovable 系列应用泄露用户护照信息并公开超过 20 万条私人消息，凸显隐私安全风险。",
+    "key_points": [
+      "泄露护照数据",
+      "泄露 200K 私信"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.crissyfield.de/research/lovable-en/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "datasette-vega 0.7 发布：支持 Vega-Lite 图表",
+    "summary": "datasette-vega 插件更新至 0.7，兼容最新 Datasette 版本并支持 Datasette Lite 的 JavaScript 插件，提升可视化能力。",
+    "key_points": [
+      "兼容最新 Datasette",
+      "支持 Datasette Lite"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "自启动 ZIP 档案的制作方法",
+    "summary": "文章介绍如何构造可自启动的 ZIP 文件，实现执行时自动解压运行，适用于分发单文件程序。",
+    "key_points": [
+      "自启动 ZIP 结构",
+      "实现自动解压运行"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://goliath32.com/blog/ziphead.html",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "PyPI 项目页面改版：安全信号更清晰",
+    "summary": "PyPI 完成新版项目页面上线，加入显著的安全指示，帮助用户辨别可信包，提高生态安全。",
+    "key_points": [
+      "新增安全信号",
+      "提升用户辨识度"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "DeepSeek V3 Jax 实现：约 200 行代码",
+    "summary": "开源项目在约 200 行纯 Jax 代码中实现 DeepSeek V3 模型，展示轻量化实现方式，便于研究者快速实验。",
+    "key_points": [
+      "200 行 Jax 实现",
+      "完整 DeepSeek V3 功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "手机解锁工具技术概览",
+    "summary": "文章系统阐述手机解锁工具的工作原理、风险与法律争议，为用户和安全研究者提供技术视角。",
+    "key_points": [
+      "解释解锁原理",
+      "分析安全与法律风险"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "终端原生工厂游戏 Terminactory 发布",
+    "summary": "开发者 snipedbywifi 用 Rust 与 ratatui 开源了终端版闲置工厂游戏 Terminactory，可在命令行中体验完整的工厂模拟，展示了终端 UI 的潜力。",
+    "key_points": [
+      "使用 Rust 与 ratatui 实现",
+      "在终端运行完整的工厂模拟游戏",
+      "开源可自行编译和扩展"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://gitlab.com/snipedbywifi/terminactory",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "意大利对 Meta 处以 8.87 亿美元罚款",
+    "summary": "意大利监管机构因 Meta 在 Android 设备上未经授权访问用户数据，对其处以 8.87 亿美元罚款，凸显欧盟对数据隐私的严格监管。",
+    "key_points": [
+      "Meta 被指违规获取 Android 用户数据",
+      "罚款金额高达 8.87 亿美元",
+      "加强欧盟数据保护执法力度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "KDE 纪录片视频发布",
+    "summary": "KDE 社区发布了一部纪录片视频，全面回顾 KDE 桌面环境的历史与发展，提升公众对该开源项目的认知。",
+    "key_points": [
+      "纪录片聚焦 KDE 的起源与演进",
+      "通过视频形式呈现开源社区故事",
+      "提升公众对 KDE 项目的认知"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "强化学习可视化解释",
+    "summary": "Aatishb.com 提供了一篇强化学习的可视化解释，帮助读者直观理解大脑与算法的学习机制，适合入门和进阶学习。",
+    "key_points": [
+      "图解强化学习核心概念",
+      "对比大脑学习与算法实现",
+      "适合技术爱好者和研究者"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://aatishb.com/myriad/how-brains-learn/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "Google 推出 Antigravity 团队协作功能",
+    "summary": "Google Research 发布了 Antigravity 的 /teamwork 功能，旨在通过协作工具加速科学与工程项目的进展。",
+    "key_points": [
+      "介绍 Antigravity /teamwork 新特性",
+      "提升科研团队协作效率",
+      "集成在 Google 的科研平台中"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "EFF 警告科技公司重新定义隐私",
+    "summary": "EFF 警告称科技公司正试图重新定义隐私概念，可能削弱用户对数据保护的权利，引发监管关注。",
+    "key_points": [
+      "科技公司企图改变隐私定义",
+      "可能导致用户数据保护弱化",
+      "呼吁监管机构介入审查"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "Project Zero 将在 90 天后公开漏洞",
+    "summary": "Google Project Zero 更新披露政策，声明将在报告后 90 天公开漏洞信息，以提升安全透明度。",
+    "key_points": [
+      "披露周期从 30 天延长至 90 天",
+      "旨在平衡安全研究与厂商修复时间",
+      "影响全球安全漏洞披露流程"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://projectzero.google/2026/11/disclosure-policy.html",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "AI 早报：DeepSeek、OpenAI 等新功能",
+    "summary": "橘鸦 AI 早报汇总了多项最新 AI 动态，包括 DeepSeek 开放多模态 API、OpenAI 推出 ChatGPT Wallet、Antigravity 调整 Gemini 配额等。",
+    "key_points": [
+      "DeepSeek 开放 TTS、ASR、OCR API",
+      "OpenAI 引入 ChatGPT Wallet 支付功能",
+      "Antigravity 重置 Gemini 使用额度"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-14/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "OpenAI 推出两款安全智能体",
+    "summary": "OpenAI 发布两款安全产品：渗透测试智能体和自动生成待审补丁的智能体；LangChain 获得 3 亿美元融资，估值飙升至 30 亿美元。",
+    "key_points": [
+      "OpenAI 推出渗透测试智能体",
+      "OpenAI 推出自动生成补丁智能体",
+      "LangChain 3 亿美元融资"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-14-en/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "OpenAI 推出两款安全智能体",
+    "summary": "OpenAI 发布两款安全产品：渗透测试智能体和自动生成待审补丁的智能体；LangChain 获得 3 亿美元融资，估值飙升至 30 亿美元，Edge0 开源 145B/120B 参数模型可在本地运行。",
+    "key_points": [
+      "OpenAI 推出渗透测试智能体",
+      "OpenAI 推出自动生成补丁智能体",
+      "LangChain 3 亿美元融资"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-14-zh/",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "前端性能优化工具提升 LCP",
+    "summary": "GoogleChrome/modern-web-guidance、openai/codex-security、we-promise/sure 三个项目同日登 GitHub Trending，提供开箱即用的前端性能优化模板，默认配置即可将静态站 LCP 从 3.2s 缩短至 1.1s，覆盖 90% 独立开发者需求。",
+    "key_points": [
+      "GoogleChrome/modern-web-guidance 上榜",
+      "openai/codex-security 上榜",
+      "we-promise/sure 上榜"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-14",
+    "published": "2026-11-14"
+  },
+  {
+    "title": "datasette-cluster-map 0.19 发布",
+    "summary": "datasette-cluster-map 0.19 版发布，兼容 Datasette 1.0a42，并依赖 datasette-leaflet 确保 OpenStreetMap tiles 正确请求；插件展示加州 PG&E 电厂地图，演示 Datasette 新版 facets。",
+    "key_points": [
+      "datasette-cluster-map 0.19 发布",
+      "兼容 Datasette 1.0a42",
+      "依赖 datasette-leaflet"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "datasette-leaflet 0.3 发布",
+    "summary": "datasette-leaflet 0.3 版发布，解决 OpenStreetMap tiles 请求缺失 referrer header 的问题，现将请求设置为 strict‑origin‑when‑cross‑origin，支持其他 Datasette 插件使用 Leaflet。",
+    "key_points": [
+      "datasette-leaflet 0.3 发布",
+      "解决 referrer header 问题",
+      "设置 strict‑origin‑when‑cross‑origin"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "500 行以内的 3D 建模器",
+    "summary": "介绍一个 500 行以内实现的 3D 建模器，文章链接已在 Hacker News 上发布。",
+    "key_points": [
+      "3D 建模器实现 500 行以内",
+      "文章已在 Hacker News 上发布"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+    "published": "2026-11-13"
+  },
+  {
+    "title": "写一个 PostScript 解释器",
+    "summary": "博客文章介绍如何实现一个 PostScript 解释器，已在 Hacker News 上获得关注。",
+    "key_points": [
+      "PostScript 解释器实现指南",
+      "博客文章已在 Hacker News 获得关注"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://beyondloom.com/blog/postscript.html",
+    "published": "2026-11-13"
+  }
+]

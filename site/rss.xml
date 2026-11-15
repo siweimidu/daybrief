@@ -4,7 +4,21 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sat, 14 Nov 2026 02:50:46 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 02:19:11 +0000</lastBuildDate>
+  <item>
+    <title>OpenAI 推出两款安全智能体，行业关注</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-15.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-15.html</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-15 · 资讯 31 条
+分类：行业动态 12 · 开源项目 7 · 技术解读 10 · 投融资 1 · 其他 1
+编者按
+OpenAI 推出两款安全智能体，行业关注
+AI 安全与供应链风险成为焦点，Cursor 密钥泄露事件让行业警醒，OpenAI 的安全智能体正试图填补这一空白。
+在同一天，Anthropic 高层与摩根大通 CEO 讨论算力成本，凸显算力与安全并重的双重挑战；与此同时，DeepSeek V3 的 Jax 实现展示了轻量化模型的可行性，Nvidia 的循环融资策略则提醒我们硬件成本仍是制约因素。
+行业动态与技术解读交织，OpenAI 的安全智能体与 Cursor 的安全事件形成鲜明对比，提示企业在追求 AI 创新时必须同步强化安全防护。
+建议：企业应立即开展供应链安全审计，优先部署安全智能体或类似工具，监控开源组件更新，并评估 GPU 采购策略</description>
+  </item>
   <item>
     <title>英伟达董事会动向引发行业震荡</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-14.html</link>
@@ -376,16 +390,5 @@ AI 大模型开源正进入规模化阶段，Meta 816B 的本地化发布标志�
 
 来源：AI Daily
 点评：Meta 将 816</description>
-  </item>
-  <item>
-    <title>Meta开源Muse Spark大模型与Anthropic高增长引领AI新格局</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-16.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-16.html</guid>
-    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-16 · 资讯 29 条
-分类：行业动态 8 · 技术解读 9 · 开源项目 5 · 模型发布 4 · 投融资 2 · 其他 3
-编者按
-各位科技爱好者，今天是2026年10月16日。今日科技圈的核心焦点无疑集中在生成式AI领域的密集爆发与商业化实质性突破上。从大模型架构的开源狂欢到资本市场的强劲表现，AI技术正以超乎想象的速度渗透至科学研究、软件工程和终端应用的每一个角落，标志着行业正从纯粹的“军备竞赛”全面过渡到“生态深耕与效率变现”的成熟阶段。
-在模型层，Meta开源的Muse Spark Open 816B大模型无疑是今日最具分量的重磅炸弹。作为被称为美国首个顶级开源权重的模型，它与Krea 3等图像编辑模型的密集发布，正在彻底打破商业巨头对高端AI算力与算法的垄断。与此同时，Anthropic向投资者披露的季度收入激增至16.8亿美元，且保持良好的算力产</description>
   </item>
 </channel></rss>
