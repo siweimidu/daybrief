@@ -1,0 +1,62 @@
+{
+  "subject": "AI 影响就业与安全，云与航天双重挑战",
+  "editorial": "AI 正在重塑劳动力市场，招聘需求骤降至 12 年最低，显示出技术替代与人才再培训的双重挑战。\n与此同时，浏览器扩展与云平台的安全缺口持续暴露，uBlock XSS 与 Microsoft 365 故障分别导致数据泄露与物理伤害，提醒企业必须将安全纳入系统设计。\n在基础设施层面，Tor 项目快速发布 DDoS 防御补丁，展示开源社区的韧性；但 Vulcan 火箭返航失败则警示高成本航天项目的技术风险。\nAI 生态也在快速演进，华为云推出 openPangu 2.1 Pro 与多模态模型，Cursor 安全事件则凸显 AI 插件供应链的脆弱性。\n建议企业加强 AI 治理与安全审计，完善灾难恢复与监控，积极参与开源社区以提升整体韧性。",
+  "highlights": [
+    {
+      "title": "AI占半工作岗位导致招聘信息降至12年低点",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://www.hntrends.com/2026/november.html",
+      "analysis": "AI已占据约50%的工作岗位，导致招聘需求骤降至12年最低水平，表明劳动力市场正经历结构性转型。企业需提前规划人才再培训与AI赋能策略。"
+    },
+    {
+      "title": "韩国税务师状元使用AI作弊引关注",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-16-en/",
+      "analysis": "最高分者通过微型摄像头将考题发送给AI，暴露了考试安全漏洞。此事件促使监管机构重新评估AI在高考场景中的使用边界。"
+    },
+    {
+      "title": "uBlock Origin 网站驱动元素选择器导致通用XSS",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://iter.ca/post/ubo-uxss/",
+      "analysis": "浏览器扩展的元素选择器被利用触发通用XSS，提醒开发者在扩展设计中必须严格审计DOM操作。用户应及时更新至安全版本。"
+    },
+    {
+      "title": "Microsoft 365 故障致 15 名酒店客人氯气中毒",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "analysis": "云服务故障导致酒店自动化系统失控，释放氯气造成15人中毒。此案例凸显企业云平台与物理设施联动的安全风险，需完善灾难恢复与监控。"
+    },
+    {
+      "title": "Vulcan 火箭返航试飞失利",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+      "analysis": "返航试飞失败导致40颗亚马逊低轨卫星损失，暴露商业发射的高成本与技术挑战。行业需加大对可靠性测试与保险机制的投入。"
+    },
+    {
+      "title": "Tor 项目快速发布 DDoS 防御补丁",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "analysis": "Tor 在持续 DDoS 攻击下迅速发布防御补丁，展示了开源网络匿名服务的快速响应能力。用户可通过更新保持匿名与安全。"
+    },
+    {
+      "title": "华为云发布 openPangu 2.1 Pro 等多项 AI 动态",
+      "source_name": "橘鸦AI早报",
+      "source_url": "https://daily.juya.uk/issues/2026-11-16/",
+      "analysis": "华为云推出 openPangu 2.1 Pro 与多模态 MoE 模型，进一步丰富国产 AI 生态。企业可利用这些模型加速 AI 产品落地。"
+    },
+    {
+      "title": "Cursor 安全事件调查",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-15-en/",
+      "analysis": "Cursor 扩展被篡改导致安全漏洞，源于 Fireworks 密钥泄露。此事件强调 AI 插件安全审计与供应链防护的重要性。"
+    }
+  ],
+  "categories": {
+    "技术解读": 6,
+    "行业动态": 15,
+    "开源项目": 8,
+    "其他": 2
+  },
+  "generated_at": "2026-11-16T02:31:11.174318+00:00",
+  "source_count": 32
+}

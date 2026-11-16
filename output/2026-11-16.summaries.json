@@ -1,0 +1,402 @@
+[
+  {
+    "title": "uBlock Origin 网站驱动元素选择器导致通用 XSS",
+    "summary": "uBlock Origin 的元素选择器功能被网站利用，可触发通用跨站脚本（XSS），暴露浏览器扩展安全风险。",
+    "key_points": [
+      "元素选择器可被注入恶意代码",
+      "导致通用 XSS 漏洞",
+      "影响 uBlock Origin 用户安全"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://iter.ca/post/ubo-uxss/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "AI 占半工作岗位导致招聘信息降至 12 年低点",
+    "summary": "AI 已占据约 50% 工作岗位，招聘需求下降至近 12 年最低水平，反映就业市场受 AI 影响。",
+    "key_points": [
+      "AI 已占全部工作岗位约 50%",
+      "招聘信息降至 12 年低点",
+      "就业市场受 AI 冲击"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.hntrends.com/2026/november.html",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Coles 遭网络安全事件",
+    "summary": "澳大利亚零售巨头 Coles 报告一起网络安全事件，可能涉及客户数据，凸显零售业信息安全挑战。",
+    "key_points": [
+      "Coles 发生网络安全事件",
+      "可能影响客户数据",
+      "提醒零售业加强防护"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.colesgroup.com.au/updates/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Tor 项目快速发布 DDoS 防御补丁",
+    "summary": "Tor 项目在持续的 DDoS 攻击下，发布快速响应的防御修复，提升网络匿名服务的可用性和安全性。",
+    "key_points": [
+      "持续 DDoS 攻击",
+      "发布快速防御补丁",
+      "提升 Tor 可用性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "华为云发布 openPangu 2.1 Pro 等多项 AI 动态",
+    "summary": "华为云上线 openPangu 2.1 Pro 模型，Agnes AI 开源 187.8B 多模态 MoE 模型，OpenCode Go 支持微信支付，OpenAI 启 science blog，传闻 Jensen Huang 可能重返 NVIDIA CEO。",
+    "key_points": [
+      "华为云推出 openPangu 2.1 Pro",
+      "Agnes AI 开源 187.8B MoE 模型",
+      "OpenCode Go 支付功能"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-16/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "韩国税务师状元使用 AI 作弊引关注",
+    "summary": "韩国税务师考试最高分者仅错 1 题，承认使用微型摄像头将考题发送给 AI，引发对 AI 作弊的讨论。",
+    "key_points": [
+      "最高分仅错 1 题",
+      "使用摄像头将题目发给 AI",
+      "引发 AI 作弊争议"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-16-en/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "韩税务师状元承认 AI 作弊并引发政策讨论",
+    "summary": "韩国税务师状元使用微型摄像头将考题发给 AI，青瓦台召开会议研究对策，且黄仁勋离职后仍参与 NVIDIA 接班人挑选，引发业界关注。",
+    "key_points": [
+      "税务师状元使用 AI 作弊",
+      "青瓦台研究对策",
+      "黄仁勋仍参与接班人挑选"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-16-zh/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "datasette-maplibre 0.1a0 发布，结合 MapLibre 与 OpenFreeMap",
+    "summary": "新发布的 Datasette 插件 datasette‑maplibre 0.1a0 将 MapLibre GL 与 OpenFreeMap 整合，提供免费矢量地图服务，代码主要通过 Claude AI 辅助生成。",
+    "key_points": [
+      "首次使用 MapLibre GL 与 OpenFreeMap",
+      "提供免费矢量地图插件",
+      "使用 Claude AI 辅助开发"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Nvidia 未来发展展望",
+    "summary": "文章讨论了Nvidia在AI芯片和算力竞争中的下一步布局，强调其技术路线和市场策略的重要性。",
+    "key_points": [
+      "AI芯片竞争加剧",
+      "Nvidia的技术与市场策略"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Mini.nvim 正式上架 Tangled",
+    "summary": "Mini.nvim 插件已在 Tangled 平台发布，提升 Neovim 用户的功能扩展选择。",
+    "key_points": [
+      "Mini.nvim 上线 Tangled",
+      "提升 Neovim 插件生态"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tangled.org/nvim-mini.org/mini.nvim",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette 1.0a43 版本发布",
+    "summary": "datasette 1.0a43 引入流式输出支持并修复安全漏洞，推动 1.0 里程碑进度至 53%。",
+    "key_points": [
+      "新增 Response.stream() 流式输出",
+      "安全修复及 GitHub advisory"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette 0.65.6 安全修补",
+    "summary": "datasette 0.65.6 回溯修复了数据库路由泄露的安全问题，防止未授权下载。",
+    "key_points": [
+      "修复路由泄露漏洞",
+      "提升数据库访问安全"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "保存 Salon 30 年新闻档案",
+    "summary": "Internet Archive 项目致力于保存 Salon 过去三十年的新闻内容，确保数字媒体的长期可访问性。",
+    "key_points": [
+      "Archive 保存 Salon 内容",
+      "保障数字新闻长期可用"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "《The Last Complication》手表解谜游戏",
+    "summary": "一款受 Zachtronics 启发的手表制造解谜游戏上线，玩家需通过机械逻辑完成关卡。",
+    "key_points": [
+      "Zachtronics 风格解谜",
+      "手表制造主题"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lastcomplication.com/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "旧 Bitly 链接被劫持事件",
+    "summary": "旧的 Bitly 短链被黑客劫持用于恶意重定向，引发对链接安全的关注。",
+    "key_points": [
+      "Bitly 短链被劫持",
+      "提醒链接安全风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Vulcan 火箭返航试飞失利",
+    "summary": "Vulcan 火箭在返航试飞中失败，导致 40 颗亚马逊低轨卫星损失，影响其商业发射计划。",
+    "key_points": [
+      "Vulcan 发射失败",
+      "40 颗亚马逊卫星损失"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "基于种子生成地形的 WebGL 飞行模拟器",
+    "summary": "推出一款在浏览器中运行的飞行模拟器，使用种子生成的程序化地形，展示了 WebGL 在实时渲染和程序化内容方面的潜力。",
+    "key_points": [
+      "使用 WebGL 实现实时渲染",
+      "通过种子生成程序化地形",
+      "可直接在网页上体验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://baron.by.dai.studio/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "手写体字体化项目",
+    "summary": "将手写笔迹转换为可用字体，提供在线生成工具，让个人手写风格可在数字文档中使用。",
+    "key_points": [
+      "将手写转为字体文件",
+      "支持在线生成",
+      "提升个性化文档排版"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ductus.sorenblank.com",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Protomaps：自托管地图瓦片更便宜更简易",
+    "summary": "Protomaps 项目让用户能够低成本、简便地自行托管地图瓦片，降低对第三方地图服务的依赖，提升数据隐私。",
+    "key_points": [
+      "低成本自托管地图瓦片",
+      "简化部署流程",
+      "开源工具链"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bruceroettgers.eu/blog/protomaps/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Eclipse Mosquitto：开源 MQTT 代理",
+    "summary": "Mosquitto 是 Eclipse 基金会维护的轻量级开源 MQTT 代理服务器，在物联网通信中提供可靠、低资源占用的消息传递。",
+    "key_points": [
+      "轻量级 MQTT 代理",
+      "跨平台支持",
+      "活跃社区维护"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/eclipse-mosquitto/mosquitto",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Microsoft 365 故障致 15 名酒店客人氯气中毒",
+    "summary": "Microsoft 365 系统故障导致酒店自动化系统失控，释放氯气，致 15 人中毒，凸显企业云服务故障对实体设施安全的潜在风险。",
+    "key_points": [
+      "Microsoft 365 故障",
+      "酒店系统失控释放氯气",
+      "15 人受伤"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "简短视频：厄尔尼诺运作原理",
+    "summary": "发布一段简短视频，解释厄尔尼诺现象的形成机制，帮助公众快速了解气候变化关键因素。",
+    "key_points": [
+      "视频形式科普",
+      "解释海洋与大气相互作用",
+      "提升气候认知"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "乌鸦决策速度超人类",
+    "summary": "研究发现乌鸦在某些决策任务上比人类更快，揭示鸟类认知能力，推动神经科学研究。",
+    "key_points": [
+      "乌鸦决策速度快",
+      "实验对比人类",
+      "提升对动物认知的认识"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Clice 1.0 发布：现代 C++ 工具",
+    "summary": "Clice 1.0 正式发布，提供面向现代 C++ 的开发工具，帮助开发者更高效地使用 C++20/23 特性。",
+    "key_points": [
+      "支持现代 C++ 标准",
+      "提供代码分析与重构",
+      "提升开发效率"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ykiko.me/en/articles/2105384023094834022/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Emacs 变身浏览器",
+    "summary": "Emacs 被用作浏览器，作者展示了如何在 Emacs 内部浏览网页并处理链接。该文章说明了 Emacs 的可扩展性和轻量化特性。",
+    "key_points": [
+      "Emacs 可作为浏览器使用",
+      "展示了 Emacs 的可扩展性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://joshblais.com/blog/emacs-as-my-browser/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Turbo Pascal 比较小物件清单",
+    "summary": "文章列举了比 Turbo Pascal 更小的事物，提供了幽默且对比式的列表。它让读者对 Turbo Pascal 的体积有更直观的认识。",
+    "key_points": [
+      "列举比 Turbo Pascal 更小的事物",
+      "提供幽默对比列表"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://prog21.dadgum.com/116.html",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette-apps 0.4a0 发布",
+    "summary": "datasette-apps 0.4a0 版本新增 URL 片段链接支持，应用可通过 #fragment 读取并使用。该功能让不同应用之间可相互链接并共享数据。",
+    "key_points": [
+      "新增 URL 片段链接支持",
+      "实现应用间互联与数据共享"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette-agent 0.6a0 发布",
+    "summary": "datasette-agent 0.6a0 版本在 Datasette 首页加入代理提示，并支持 hash-mention 的表格和查询。此更新提升了用户与数据交互的便利性。",
+    "key_points": [
+      "在首页加入代理提示",
+      "支持 hash-mention 的表格和查询"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Grok Bot 优化、Claude Code mods 等",
+    "summary": "AI 早报报道 Grok Bot 多项优化导致订阅用量提升约7%，Claude Code 桌面版推出 mods 自定义主题，Google 300美元赠金不再覆盖 Gemini 调用费用，Cloudflare 开源 Kitesurf 浏览器等行业动态。",
+    "key_points": [
+      "Grok Bot 优化提升订阅用量",
+      "Claude Code mods、Google 赠金变更、Cloudflare Kitesurf 浏览器等"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-15/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Cursor 安全事件调查与行业动态",
+    "summary": "AI Daily 2026-11-15 关注 Cursor 安全事件，指出攻击始于 Fireworks 的密钥，Claude Code 扩展被篡改并停留在市场缓存约11小时。文中还提及 Amodei 与 JPMorgan 的对话。",
+    "key_points": [
+      "Cursor 安全事件源于 Fireworks 密钥",
+      "Claude Code 扩展被篡改停留 11 小时"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-15-en/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "Cursor 安全事件调查（中文）",
+    "summary": "AI 日报 2026-11-15 详细说明 Cursor 安全事件调查，攻击始于 Fireworks 的密钥，Claude Code 扩展被篡改。还报道了 Amodei 与 JPMorgan 的对话及其他行业信息。",
+    "key_points": [
+      "Cursor 安全事件调查细节",
+      "Amodei 与 JPMorgan 对话报道"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-15-zh/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "DailyDawn 2026-11-15 关注热点",
+    "summary": "DailyDawn 2026-11-15 报道 GitHub Trending 中 GoogleChrome/modern-web-guidance-src 获得 1231 票，提供生产级 Web 开发规范；HuggingFace Qwen3.8-27B 量化版本热度超过 29000，显示本地部署需求激增。",
+    "key_points": [
+      "GoogleChrome/modern-web-guidance-src 热门趋势",
+      "HuggingFace Qwen3.8-27B 量化版本热度高，需求激增"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-15",
+    "published": "2026-11-15"
+  }
+]
