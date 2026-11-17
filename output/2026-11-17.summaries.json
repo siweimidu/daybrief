@@ -1,0 +1,389 @@
+[
+  {
+    "title": "应用请求完整磁盘访问或系统保护覆盖",
+    "summary": "Apple发布指南，说明当应用请求完整磁盘访问或系统保护覆盖时的处理方式，帮助用户安全管理权限。",
+    "key_points": [
+      "解释Full Disk Access的含义和风险",
+      "在系统设置中授权或拒绝的步骤",
+      "对系统安全的影响"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://support.apple.com/en-us/149699",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Mem 宣布关闭服务",
+    "summary": "笔记类 AI 平台 Mem 在官方博客宣布即将关闭，用户需在截止日前迁移数据。",
+    "key_points": [
+      "关闭公告来源于官方博客",
+      "未说明具体关闭日期",
+      "对现有用户的数据迁移提出要求"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://get.mem.ai/blog/mem-is-shutting-down",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "无需凭证运行代码代理的方案",
+    "summary": "作者在博客中分享了使用 Lend 技术在不向代码代理泄露凭证的前提下运行它们的实践方法。",
+    "key_points": [
+      "利用 Lend 实现凭证隔离",
+      "保持代理功能完整",
+      "提升安全性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.antonio.cx/running-agents-with-lend",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "AI 模型与工具最新发布汇总",
+    "summary": "今日 AI 行业发布多款新模型和工具，重点包括阿里 Qwen4‑Max、腾讯 Hy4 flash、Antigravity 改进等。",
+    "key_points": [
+      "阿里 Qwen4‑Max 参数 2.4T，成本降 58%",
+      "腾讯混元 Hy4 flash 宣称性价比最高",
+      "OpenAI 启动嵌入式评估，引入外部安全审查"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-17/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "五角大楼连续第九次审计未通过",
+    "summary": "尽管财务组织有所进展，五角大楼仍连续第九次未通过审计，暴露出持续的财务管理问题。",
+    "key_points": [
+      "第九次审计仍未通过",
+      "财务组织有改进但不足以合格",
+      "可能影响国防预算透明度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "3dfx 第一代显卡颜色偏淡原因",
+    "summary": "在推特讨论中，技术爱好者分析了 3dfx 早期显卡输出颜色偏淡的可能硬件和设计因素。",
+    "key_points": [
+      "颜色输出偏淡的表现",
+      "可能的硬件设计限制",
+      "对比现代显卡的色彩表现"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "阿里发布 Qwen4‑Max：2.4T 参数、百万上下文",
+    "summary": "Alibaba 正式推出 Qwen4‑Max，拥有 2.4 万亿参数、1 M 上下文窗口，单任务成本降低 62%，但未开放模型权重。",
+    "key_points": [
+      "参数规模 2.4 万亿",
+      "上下文长度 1 M，成本下降 62%",
+      "权重未开源"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-17-en/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "阿里发布 Qwen4‑Max：2.4 万亿参数、百万上下文",
+    "summary": "同样的发布在中文 AI 日报中出现，强调 Qwen4‑Max 参数规模、上下文长度以及成本下降，但仍未公开权重。",
+    "key_points": [
+      "2.4 万亿参数的规模",
+      "百万级上下文窗口",
+      "单任务成本下降约六成，权重未公开"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-17-zh/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "llm 0.37.3 版本发布与 SQLite 修复",
+    "summary": "llm 0.37.3 进行 bug 修复，解决 Homebrew 包自带 SQLite 3.54.1 导致的日志错误。该修复确保在新版 SQLite 中日志功能正常。",
+    "key_points": [
+      "修复 Homebrew 包的 SQLite 兼容问题",
+      "恢复 LLM 日志功能"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/16/llm/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Sutra-OS：自托管本体平台",
+    "summary": "Sutra-OS 是一个开源的自托管本体（ontology）平台，代码托管在 GitHub。该项目在 Hacker News 上获得关注。",
+    "key_points": [
+      "提供本体管理的自托管解决方案",
+      "在 HN 上获 44 点赞和 21 条评论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/0nelight/sutra-os",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Optimizely 被攻陷，向 Zoom 与 GitLab 发送恶意软件",
+    "summary": "报告称 Optimizely 被入侵，向 Zoom 和 GitLab 等平台分发恶意软件，影响多个大型品牌。",
+    "key_points": [
+      "Optimizely 供应链被利用",
+      "导致 Zoom、GitLab 等服务被植入恶意代码"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Windows 11 采集开发者工具使用数据",
+    "summary": "Windows 11 会收集用户使用的编码代理和开发工具信息，用于遥测。此行为在社区引发隐私关注。",
+    "key_points": [
+      "记录编码代理和 IDE 使用情况",
+      "可能影响开发者隐私"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "2012 安全入门指南：Ptacek 版",
+    "summary": "Krebs on Security 发表《How to Break into Security, Ptacek Edition》，提供进入安全行业的经验与建议。",
+    "key_points": [
+      "分享安全职业路径",
+      "基于 Ptacek 的实战经验"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "United Airlines 大规模系统故障",
+    "summary": "United Airlines 宣布其系统出现广泛故障，导致航班运营受影响。",
+    "key_points": [
+      "航空公司系统全面中断",
+      "影响大量航班和乘客"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Spamhaus 11 月邮件发送新要求",
+    "summary": "Spamhaus 发布了 11 月的邮件发送者指南，更新了合规要求。",
+    "key_points": [
+      "更新发送者合规标准",
+      "针对垃圾邮件防护措施"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.spamhaus.org/sender-guidelines/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "BugMeNot 服务关闭",
+    "summary": "长期提供共享登录信息的站点 BugMeNot 已正式关闭。",
+    "key_points": [
+      "停止提供共享账号服务",
+      "用户需寻找替代方案"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.bugmenot.com/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "OpenCode 浏览器",
+    "summary": "OpenCode推出浏览工具，帮助开发者快速检索和浏览开源代码。",
+    "key_points": [
+      "提供代码搜索与浏览功能",
+      "适用于多语言项目"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://opencode.ai/product/browse",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Three.js AAA级照明管线",
+    "summary": "作者分享如何在Three.js中实现与AAA游戏引擎相当的照明效果。",
+    "key_points": [
+      "采用高级光照技术",
+      "提升渲染质量"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Comcast光纤Wi‑Fi被指虚假广告",
+    "summary": "AT&T起诉Comcast，称其将有线网络误称为光纤Wi‑Fi，构成虚假广告。",
+    "key_points": [
+      "Comcast使用有线技术",
+      "诉讼涉及广告真实性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "卡内基梅隆公开CS课程",
+    "summary": "卡内基梅隆大学将计算机科学课程上传至YouTube，免费供全球学习。",
+    "key_points": [
+      "课程覆盖基础与进阶",
+      "通过YouTube免费获取"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cs.cmu.edu/learn/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Axonnic手臂袖子",
+    "summary": "Axonnic推出前臂袖子，可读取肌电信号解码手指动作并估算力度，用于机器人训练。",
+    "key_points": [
+      "EMG读取手指动作",
+      "用于生成机器人训练数据"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50522776",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "化学其实是几何",
+    "summary": "文章将化学概念与几何联系，阐述分子结构的几何特性。",
+    "key_points": [
+      "分子结构可视化为几何形状",
+      "解释化学反应的几何基础"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "Rust改变了我",
+    "summary": "作者分享Rust语言如何改变其开发思维和实践。",
+    "key_points": [
+      "提升代码安全性",
+      "改变错误处理方式"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "摩根大通技术故障导致银行延迟",
+    "summary": "JPMorgan Chase技术问题导致美国银行在线服务延迟，影响数百万客户。",
+    "key_points": [
+      "交易系统中断",
+      "影响多家银行"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "华为云发布 openPangu 2.1 Pro 等多项AI进展",
+    "summary": "华为云上线 openPangu 2.1 Pro 模型，Agnes AI 开源 187.8B 多模态 MoE 模型，OpenCode Go 支持微信支付，OpenAI 开设 science blog 解读 Standard Model，传闻 Jensen Huang 可能重返 NVIDIA CEO。",
+    "key_points": [
+      "openPangu 2.1 Pro 模型上线",
+      "Agnes AI 187.8B 多模态 MoE 开源",
+      "OpenCode Go 支付方式升级"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-16/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "韩国税务师状元使用AI作弊引发关注",
+    "summary": "韩国最高税务师考试得分者仅错1题，承认使用微型摄像头将考题发送给AI，引发对AI作弊的讨论，政府办公室召开会议应对，报道还提及 Jensen Huang 可能重返 NVIDIA。",
+    "key_points": [
+      "仅错1题的高分考生",
+      "使用微型摄像头传题给AI",
+      "政府召开对策会议"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-16-en/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "AI日报：韩国税务师状元承认AI作弊",
+    "summary": "韩国税务师考试状元仅错1题，公开使用微型摄像头把考题发给AI，引发对AI在考试中使用的监管关注，青瓦台亦召开会议研讨对策。",
+    "key_points": [
+      "状元仅错1题",
+      "使用微型摄像头发送考题",
+      "青瓦台召开对策会议"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-16-zh/",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "前端开源项目热度飙升，Qwen模型下载破2万",
+    "summary": "GitHub Trending 今日出现 modern-web-guidance-src 获 1219 星、DevTools MCP 717 星，显示前端规范需求强劲；Qwen3.8‑27B 下载量突破 2 万，凸显大模型开源热度；HackerNews AI 代码开源倡议获 1124 票，推动自托管模型需求。",
+    "key_points": [
+      "modern-web-guidance-src 1219 星",
+      "DevTools MCP 717 星",
+      "Qwen3.8‑27B 下载突破 2 万"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-16",
+    "published": "2026-11-16"
+  },
+  {
+    "title": "datasette‑maplibre 0.1a0 发布，结合 MapLibre 与 OpenFreeMap",
+    "summary": "Simon Willison 发布首个新 datasette 地理插件 datasette‑maplibre 0.1a0，使用 MapLibre GL 与 OpenFreeMap 实现向量地图展示，主要通过 Claude Fable 5.2 生成代码。",
+    "key_points": [
+      "首个新地理插件 datasette‑maplibre 0.1a0",
+      "使用 MapLibre GL 与 OpenFreeMap",
+      "代码由 Claude Fable 5.2 生成"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette 1.0a43 加入流式输出与安全修复",
+    "summary": "datasette 1.0a43 引入 Response.stream() 实现 TSV/CSV 导出流式处理，提升大规模数据导出效率，并修复私有查询泄露等安全问题，部分修复已发布 GitHub advisory。",
+    "key_points": [
+      "新增 Response.stream() 流式 API",
+      "TSV/CSV 导出使用流式处理",
+      "修复私有查询泄露安全漏洞"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette/",
+    "published": "2026-11-15"
+  },
+  {
+    "title": "datasette 0.65.6 修复路由下载安全漏洞",
+    "summary": "该版本回溯 1.0a43 的安全修复，解决通过自定义路由下载数据库文件的权限绕过问题，防止未授权用户获取数据库内容。",
+    "key_points": [
+      "回溯安全修复",
+      "修复 add_database 路由下载漏洞",
+      "防止未授权访问数据库"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+    "published": "2026-11-15"
+  }
+]
