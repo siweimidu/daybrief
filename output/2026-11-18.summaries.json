@@ -1,0 +1,390 @@
+[
+  {
+    "title": "GoGoGrandparent招聘前端工程师",
+    "summary": "GoGoGrandparent 在 Y Combinator S16 旗下发布前端 JavaScript/TypeScript 工程师职位招聘信息。",
+    "key_points": [
+      "招聘职位：前端 JavaScript/TypeScript 工程师",
+      "公司背景：YC S16 加速器"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ycombinator.com/companies/gogograndparent/jobs/05woouL-front-end-javascript-typescript-engineer",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "橘鸦AI早报：多模型发布与配额更新",
+    "summary": "橘鸦AI早报报道 OpenAI 推出 GPT 6.2 Astra 与 Sol，微软 Ignite 公布七款新模型等多项模型发布与配额调整。",
+    "key_points": [
+      "OpenAI GPT 6.2 Astra 与 Sol 面向复杂任务和日常工作",
+      "微软 Ignite 推出七款新模型",
+      "Gemini Tasks 在六国免费开放"
+    ],
+    "category": "模型发布",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-18/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Cerebras 推出分离式推理架构",
+    "summary": "Cerebras 宣布其分离式推理（Disaggregated Inference）平台，旨在提升大模型推理效率。",
+    "key_points": [
+      "分离式推理将计算与存储解耦",
+      "提升推理吞吐与成本效益"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "IRS 登录需使用 ID.me 条款",
+    "summary": "IRS 要求用户在登录时接受 ID.me 的使用条款，引发对隐私与安全的关注。",
+    "key_points": [
+      "IRS 登录流程加入 ID.me 条款验证",
+      "涉及用户隐私与安全合规"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Google AI 回答导致搜索流量下降40%",
+    "summary": "Google 的 AI 直接回答功能使搜索流量下降约40%，对搜索生态和广告收入产生冲击。",
+    "key_points": [
+      "AI 直接回答削减用户点击搜索结果",
+      "流量下降40% 对广告收入影响显著"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://revscope.co/blog/search-seo-geo-2026/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "OpenAI 电脑操作智能体助力医疗文档处理",
+    "summary": "OpenAI 的电脑使用智能体在 CVS 医疗系统中帮助在一个周末清除数月积压的文档。",
+    "key_points": [
+      "电脑操作智能体用于医疗文档自动化",
+      "CVS 一周内清除数月积压"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-18-en/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "OpenAI 让 AI 替医护“点鼠标”：电脑操作智能体进入医疗",
+    "summary": "OpenAI 的电脑使用智能体在 CVS 医疗系统中帮助在一个周末清除数月积压的文档。",
+    "key_points": [
+      "电脑操作智能体用于医疗文档自动化",
+      "CVS 一周内清除数月积压"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-18-zh/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Archive Team 将归档 Apple 支持社区",
+    "summary": "Archive Team 宣布将在 2026 年 11 月 20 日前归档 Apple Support Community，以保存历史讨论。",
+    "key_points": [
+      "项目目标保存 Apple 支持社区内容",
+      "归档截止日期 2026-11-20"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Microsoft ONNX Runtime 从 GitHub 移除",
+    "summary": "Microsoft 官方将 ONNX Runtime 项目从 GitHub 删除，引发社区关注，此举可能影响使用该运行时的开发者和生态系统。",
+    "key_points": [
+      "ONNX Runtime 项目已不再公开托管",
+      "获得 166 点赞和 39 条评论的讨论"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/microsoft/onnxruntime",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "为编码代理设计外部沙盒",
+    "summary": "Simon Willison 探讨将代码执行放入独立沙盒的方案，以降低本地模型误操作或提示注入的风险。",
+    "key_points": [
+      "代码在专用沙盒中运行，代理在外部",
+      "与 Prime Radiant 合作开发"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "OpenAI 发布 GPT‑6.2 Astra 与 Sol",
+    "summary": "OpenAI 推出两款新模型：高性能的 Astra 与高效通用的 Sol，已在 API 中提供，价格比前代更低。",
+    "key_points": [
+      "Astra 定位最难项目，Sol 用于日常工作",
+      "输入 $8/MTok，输出 $40/MTok，较前代降价 20%"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "潜在格子语言模型 (Latent Lattice LM)",
+    "summary": "一篇新研究介绍了潜在格子语言模型的概念，已在 Hacker News 上获得关注。",
+    "key_points": [
+      "文章链接与讨论页面均在 Hacker News",
+      "获得 33 点赞和 4 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://shivamduggal4.github.io/latent-lattice-language-models/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Quad9 退出法国市场的警示",
+    "summary": "Cloudflare 博客报道 Quad9 退出法国，指出此举可能预示 DNS 安全服务在欧洲面临挑战。",
+    "key_points": [
+      "文章在 Hacker News 获 350 点赞",
+      "引发 107 条评论的行业讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "哈佛研究：AI 编码代理把瓶颈转向代码审查",
+    "summary": "哈佛研究发现，AI 编码代理提升了代码生成速度，但新的瓶颈出现在代码审查阶段。",
+    "key_points": [
+      "AI 加速编码，审查成为新瓶颈",
+      "在 Hacker News 获 81 点赞和 125 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Java4Shell：OpenJDK Base64 处理导致 RCE",
+    "summary": "公开的安全研究揭示 OpenJDK 在处理 Base64 时存在远程代码执行漏洞，已引起广泛关注。",
+    "key_points": [
+      "漏洞涉及 Base64 解析导致 RCE",
+      "在 Hacker News 获 615 点赞和 162 条评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://calif.io/java4shell/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "腾讯发布 Hy4 Flash 大模型",
+    "summary": "腾讯推出 Hy4 Flash 模型，详情在其研究页面公布，受到 Hacker News 社区关注。",
+    "key_points": [
+      "模型名称 Hy4 Flash",
+      "在 Hacker News 获 72 点赞和 11 条评论"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://hy.tencent.ai/research/hy4-flash",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Web Browser Engineering 2021 在线教材",
+    "summary": "发布了《Web Browser Engineering》在线教材，系统介绍浏览器内部实现。",
+    "key_points": [
+      "覆盖浏览器架构与实现细节",
+      "适合开发者和研究者学习"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://browser.engineering/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "jQuery 4.1.0 正式发布",
+    "summary": "jQuery 官方发布 4.1.0 版本，继续维护该流行 JavaScript 库。",
+    "key_points": [
+      "版本号提升至 4.1.0",
+      "在 Hacker News 获得 268 点热度"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "低轨核弹爆炸效应研究",
+    "summary": "arXiv 上发布关于低地球轨道核弹爆炸影响的研究，探讨其物理后果。",
+    "key_points": [
+      "聚焦低轨核爆的环境影响",
+      "在 Hacker News 获得 86 点"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2611.09827",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "350年前奥勒·勒默测定光速",
+    "summary": "回顾奥勒·勒默在 350 年前通过木星卫星观测确定光速的历史事件。",
+    "key_points": [
+      "首次量化光速",
+      "标志性科学里程碑"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "StarSling：自改进 AI CI 平台",
+    "summary": "StarSling 提供基于 AI 代理的自改进 CI，使用高速 Zen 5 机器和无限并发。",
+    "key_points": [
+      "AI 代理自动生成 PR 提升测试",
+      "每个 CI 作业独立沙箱"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://starsling.dev",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Solid 2.0 正式发布",
+    "summary": "SolidJS 官方推出 2.0 版本，带来长期支持的更新。",
+    "key_points": [
+      "Solid 2.0 为长期维护版",
+      "在 Hacker News 获得 247 点"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Phrack 第73期发布",
+    "summary": "黑客杂志 Phrack 发布第73期，继续提供安全技术文章。",
+    "key_points": [
+      "第73期内容上线",
+      "在 Hacker News 获得 303 点"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://phrack.org/issues/73/introduction_md",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "MAI Code 2 与 Code 2 Flash 发布",
+    "summary": "微软推出 MAI Code 2 与 Code 2 Flash 两款 AI 编码模型，提升代码生成能力。",
+    "key_points": [
+      "两款新模型面向开发者",
+      "在 Hacker News 获得 308 点"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "并非所有场景都需 LLM",
+    "summary": "文章讨论在某些场景下不需要使用大型语言模型，而是可以采用决策模型。",
+    "key_points": [
+      "讨论LLM替代方案",
+      "关注成本与效果"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://newsletter.posthog.com/p/decision-models",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "Datasette Lite：浏览器中运行完整 Python 应用",
+    "summary": "Datasette Lite 通过 WebAssembly 和 Pyodide 将 Datasette Python 应用移植到浏览器，支持服务工作者，几乎与服务器端版本无差异，可直接浏览 SQLite、JSON、CSV 或 SQL 脚本，并可加载指定版本或 GitHub 分支。",
+    "key_points": [
+      "在浏览器运行 Datasette",
+      "支持服务工作者",
+      "可加载不同版本/分支"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "引用 Go 语言箴言",
+    "summary": "文章引用 Go 语言的箴言：‘少量复制比少量依赖更好’。",
+    "key_points": [
+      "讨论 Go 语言的依赖管理",
+      "强调复制代码的优点"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "阿里发布 Qwen4 Max、腾讯混元 Hy4 Flash 等 AI 进展",
+    "summary": "橘鸦 AI 早报报道，阿里发布 Qwen4 Max 成本下降 58%，腾讯混元推出 Hy4 Flash 最高性价比，Antigravity 上下文窗口翻倍，OpenAI 开始嵌入式评估，字节跳动 Seedance 2.5 4K API 全面开放，上海 AI 实验室开源书生 S2.1 Flash，Tibo 报告 Codex 容量错误。",
+    "key_points": [
+      "Qwen4 Max 成本下降 58%",
+      "多家企业发布新模型/API"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-17/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "阿里正式发布 Qwen4-Max：2.4 万亿参数、百万上下文",
+    "summary": "AI Daily 报道阿里正式发布 Qwen4-Max，拥有 2.4 万亿参数、百万级上下文，单任务成本降低 62%，但权重不开放；Anthropic S-1 宣布已达安全门槛。",
+    "key_points": [
+      "Qwen4-Max 参数与成本",
+      "Anthropic S-1 安全门槛"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-17-en/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "阿里发布 Qwen4-Max：2.4 万亿参数、百万上下文",
+    "summary": "AI 日报报道阿里发布 Qwen4-Max，参数 2.4 万亿、上下文百万级，单任务成本降低 60%，权重不开放；Anthropic 在招股书中确认安全门槛；美国拟评选多家 AI 企业。",
+    "key_points": [
+      "Qwen4-Max 参数与成本",
+      "Anthropic 安全门槛",
+      "美国评选 AI 企业"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-17-zh/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "DailyDawn 2026-11-17：GitHub Trending 与 HuggingFace Qwen3.8-27B 热度",
+    "summary": "DailyDawn 报道 GitHub Trending 项目 univer 与 ag-ui-protocol 获高星，HuggingFace Qwen3.8-27B 下载量突破 3 万次，开源 AI 编码工具热度上升，72% 开发者转向全开源方案。",
+    "key_points": [
+      "univer 项目 1828 星",
+      "Qwen3.8-27B 下载量 3 万",
+      "开源工具热度提升"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-17",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "llm 0.37.3 版本更新",
+    "summary": "llm 0.37.3 发布，修复 Homebrew 最新 SQLite 3.54.1 版本导致的日志代码错误。",
+    "key_points": [
+      "修复 SQLite 3.54.1 兼容性问题",
+      "解决日志代码错误"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/16/llm/",
+    "published": "2026-11-16"
+  }
+]
