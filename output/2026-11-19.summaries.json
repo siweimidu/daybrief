@@ -1,0 +1,389 @@
+[
+  {
+    "title": "AI不会让你致富",
+    "summary": "文章指出，尽管AI热潮汹涌，但它并不能直接让普通人快速致富，提醒人们理性看待技术红利。",
+    "key_points": [
+      "AI热潮不等同财富",
+      "需理性评估技术价值"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "FailTrace：本地复现GitHub Actions失败",
+    "summary": "FailTrace工具可通过提供的URL在本地重现GitHub Actions的失败运行，帮助开发者快速定位问题。",
+    "key_points": [
+      "根据URL本地复现",
+      "加速CI调试"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/Ri4dH/failtrace",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "在浏览器中玩Unreal Tournament 2004",
+    "summary": "项目将经典游戏Unreal Tournament 2004移植至网页，用户无需安装即可在线体验。",
+    "key_points": [
+      "浏览器移植",
+      "保留原版玩法"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ut2004.dev/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "基于前置标记预测的LLM逆向重建",
+    "summary": "论文提出利用前置标记预测技术对大语言模型进行逆向推断，以重建原始提示词。",
+    "key_points": [
+      "前置标记预测",
+      "提示词重建"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://arxiv.org/abs/2607.29378",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "橘鸦AI早报：Gemini 4 Neon等多项更新",
+    "summary": "每日简报列出Google发布Gemini 4 Neon、Project Genie新版、DeepSeek计费调整、Antigravity Pro试用、OpenCode优惠、Perplexity新API等信息。",
+    "key_points": [
+      "Gemini 4 Neon发布",
+      "DeepSeek计费变更",
+      "OpenCode优惠"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-19/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Gemini 4 Neon或成Opus 5.5竞争对手",
+    "summary": "文章评测Gemini 4 Neon的性能，认为其有望与OpenAI的Opus 5.5模型竞争。",
+    "key_points": [
+      "Gemini 4 Neon性能评测",
+      "对标Opus 5.5"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "AI Daily：微软将Office套装嵌入Copilot",
+    "summary": "AI Daily报道微软把Word、Excel、PowerPoint整合进Copilot，并推出持续运行的Autopilot智能体；同时Google搜索升级为Gemini 4 Hydrogen。",
+    "key_points": [
+      "Office集成Copilot",
+      "Autopilot智能体",
+      "Google搜索Gemini 4 Hydrogen"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-19-en/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "AI日报：微软把Office装进Copilot",
+    "summary": "中文版本的AI日报同样聚焦微软将Word、Excel、PPT嵌入Copilot并称其为新工作操作系统，同时提及Google搜索的Gemini 4更新。",
+    "key_points": [
+      "Office嵌入Copilot",
+      "新工作操作系统概念",
+      "Google Gemini 4更新"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-19-zh/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "呼吁有能力且有责任感的技术人才",
+    "summary": "文章在 Hacker News 获得 294 点，强调企业和社区需要既聪明又在乎社会的技术人才。",
+    "key_points": [
+      "强调人才的智能与责任感",
+      "指出人才对行业发展的重要性"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Ruby 正则和字符串转换多漏洞披露",
+    "summary": "Ruby 官方公布正则表达式和字符串大小写转换存在多项安全漏洞，提醒用户及时升级。",
+    "key_points": [
+      "涉及正则和字符串函数的安全缺陷",
+      "官方发布修复建议"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Palo Alto 以45亿美元收购 Applied Compute",
+    "summary": "Palo Alto Networks 宣布以 45 亿美元收购 Applied Compute，旨在加强其安全开放平台。",
+    "key_points": [
+      "收购金额45亿美元",
+      "提升安全开放平台能力"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Anthropic 为 IPO 定价",
+    "summary": "Anthropic 公布首次公开募股的发行价格，引发市场关注其在 AI 领域的定位。",
+    "key_points": [
+      "公布 IPO 发行价",
+      "提升公司在 AI 市场的曝光度"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "LLM 辅助逆向工程技术分享",
+    "summary": "文章探讨使用大语言模型辅助逆向工程的方法，展示其在安全分析中的潜力。",
+    "key_points": [
+      "介绍 LLM 在逆向工程中的应用",
+      "展示提升分析效率的案例"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Google 推出 Gemini 4 Neon 模型",
+    "summary": "Google 发布 Gemini 4 Neon，大幅提升多模态模型性能，受到 Hacker News 社区热议。",
+    "key_points": [
+      "新模型 Gemini 4 Neon",
+      "在多模态任务上表现提升"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Radix Ark 发布 DaisyRose-27B 模型",
+    "summary": "Radix Ark 在其博客中介绍 DaisyRose-27B 大模型，吸引了技术社区的关注。",
+    "key_points": [
+      "发布 DaisyRose-27B 大模型",
+      "强调模型规模和性能"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.radixark.com/blog/daisyrose-27b",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Google DeepMind 推出 Genie 4",
+    "summary": "Google DeepMind 宣布 Genie 4 正式可用，标志其在生成式 AI 领域的最新进展。",
+    "key_points": [
+      "Genie 4 正式上线",
+      "提升生成式 AI 能力"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "OpenAI模型助力芯片设计进步",
+    "summary": "OpenAI发布的模型被用于加速芯片设计流程，提升设计效率。此举展示了大模型在硬件研发中的实际应用价值。",
+    "key_points": [
+      "模型用于芯片设计",
+      "提升设计效率"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Maritime：AI代理专属云平台",
+    "summary": "Maritime推出面向生产级AI代理的托管云服务，提供自定义环境和生命周期管理。旨在解决AI代理基础设施的核心痛点。",
+    "key_points": [
+      "提供AI代理云平台",
+      "支持环境定制和生命周期管理"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50549188",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "datasette-arrows 0.1a0 插件发布",
+    "summary": "Datasette插件datasette-arrows 0.1a0发布，利用Apache Arrow实现流式导出。该插件展示了插件机制在大规模数据导出中的新可能。",
+    "key_points": [
+      "实现Apache Arrow流式导出",
+      "扩展Datasette插件功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "交互式展示：拆解Voyager 1记忆芯片",
+    "summary": "一个交互网站让用户可视化查看Voyager 1的各部件，包括单个记忆芯片和金唱片说明。通过该项目提升公众对深空探测的认知。",
+    "key_points": [
+      "可视化Voyager 1位置和部件",
+      "展示核电池和金唱片细节"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://rshekhar.com/voyager/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "微软发布七款高性价比新模型",
+    "summary": "微软在Ignite 2026大会上宣布推出七款新AI模型，强调在可扩展性和性价比上的优势。此举旨在满足企业对高效AI算力的需求。",
+    "key_points": [
+      "七款新模型发布",
+      "聚焦可扩展性和成本效益"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "ExitPath：开源退出Slack等平台工具",
+    "summary": "ExitPath提供开源方案，帮助用户从Slack、Notion和Microsoft 365等平台导出数据并迁移。该项目降低了平台锁定风险。",
+    "key_points": [
+      "支持从多平台导出数据",
+      "开源降低迁移成本"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://exitpath-ruddy.vercel.app/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "AI改写curl代码并修复200个漏洞",
+    "summary": "AI代理在三周内将185k行C代码转为340k行Rust，并提交300余次代码，修复约200个bug和安全漏洞，提升了curl项目的质量。",
+    "key_points": [
+      "将C代码转为Rust",
+      "修复约200个漏洞"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "AI代理在审计中提问优于KPMG会计",
+    "summary": "欧洲商业杂志报道，AI代理在审计试验中提出的问题质量超过KPMG会计师，显示AI在专业审计领域的潜在优势。",
+    "key_points": [
+      "AI提问质量高于会计师",
+      "展示AI在审计中的潜力"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "德意志银行内部观察",
+    "summary": "《Inside Deutsche Bank》在 Hacker News 获得 577 分，评论 195 条，聚焦德意志银行内部运营与挑战。",
+    "key_points": [
+      "在 Hacker News 获得 577 分",
+      "评论数 195 条"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.inside-db.com/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "PSF 年终筹款启动",
+    "summary": "Python 软件基金会启动年终筹款，呼吁受益于 Python 的公司捐款以支持 PyPI、核心开发者冲刺与社区活动。",
+    "key_points": [
+      "PSF 运营 PyPI 并赞助核心开发者冲刺",
+      "筹款面向受益于 Python 的企业"
+    ],
+    "category": "投融资",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "OpenAI GPT6.2 与多方模型更新",
+    "summary": "OpenAI 发布 GPT‑6.2 Astra 与 Sol，微软 Ignite 公布七款新模型，Gemini Tasks 在六国免费开放，Antigravity 重置配额。",
+    "key_points": [
+      "OpenAI 推出 GPT‑6.2 Astra 与 Sol",
+      "微软 Ignite 公布七款新模型"
+    ],
+    "category": "技术解读",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-18/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "OpenAI 电脑操作智能体助医疗",
+    "summary": "OpenAI 推出电脑使用代理，CVS 在一周内清理数月文件积压；DeepSeek 免费应用开始限制使用。",
+    "key_points": [
+      "OpenAI 电脑使用代理在医疗场景应用",
+      "CVS 一周内清理文件积压"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-18-en/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "OpenAI 电脑操作智能体进医护",
+    "summary": "OpenAI 的电脑操作智能体在医疗领域得到应用，CVS 通过该技术清理文件积压；DeepSeek 免费版开始限额。",
+    "key_points": [
+      "OpenAI 电脑操作智能体在医疗场景应用",
+      "DeepSeek 免费版开始限额"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-18-zh/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "Java4Shell 漏洞与 Qwen3.8 关注",
+    "summary": "Java4Shell 漏洞在 HackerNews 获 755 票，公开 OpenJDK Base64 RCE 细节；Qwen3.8 相关工具搜索量激增。",
+    "key_points": [
+      "Java4Shell 漏洞曝光并公开 RCE 细节",
+      "Qwen3.8 相关工具搜索量激增"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-18",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "外部沙盒提升编码代理安全",
+    "summary": "探索外部沙盒模式，代理代码在专用沙盒内执行，代理本身位于沙盒外，提升本地模型安全性。",
+    "key_points": [
+      "引入外部沙盒模式",
+      "代码在专用沙盒内执行"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+    "published": "2026-11-17"
+  },
+  {
+    "title": "GPT‑6.2 Astra 与 Sol 发布",
+    "summary": "OpenAI 推出 GPT‑6.2 Astra（高端模型）和 GPT‑6.2 Sol（高效模型），并公布相对前代的定价。",
+    "key_points": [
+      "发布 GPT‑6.2 Astra 与 Sol",
+      "定价为前代 80%"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "published": "2026-11-17"
+  }
+]
