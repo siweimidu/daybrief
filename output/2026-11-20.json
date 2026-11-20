@@ -1,0 +1,64 @@
+{
+  "subject": "Palo Alto以45亿美元收购Applied Compute",
+  "editorial": "AI安全与监管已成为行业焦点，近期多起安全事件凸显风险。\nToken诈骗泛滥与OpenSSL、Nginx等关键组件漏洞暴露，企业需提升安全防护。\n与此同时，Gemini 4 Neon登顶模型指数，PostgreSQL 19发布新功能，Microsoft Copilot集成Office，显示AI与数据库技术深度融合。\nOnlook开源代码画布工具的问世，进一步推动设计与开发协同创新。\n建议企业在加速AI落地的同时，强化安全审计、合规监管，并积极参与开源生态。",
+  "highlights": [
+    {
+      "title": "Palo Alto以45亿美元收购Applied Compute",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-20-en/",
+      "analysis": "这笔交易标志着网络安全与AI技术的深度融合，表明企业正通过AI加速威胁检测与响应。"
+    },
+    {
+      "title": "OpenSSL EVP_EncodeBlock 缓冲区溢出漏洞 (CVE-2026-121481)",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://github.com/openssl/openssl/pull/33652",
+      "analysis": "该漏洞影响广泛，CVSS 9.8 的高危评分提醒所有使用 OpenSSL 的系统需尽快打补丁。"
+    },
+    {
+      "title": "Token 诈骗泛滥，危害严重",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "analysis": "免费 AI 代币被滥用，凸显平台安全与商业模式的脆弱性，提醒运营方加强身份验证与合规。"
+    },
+    {
+      "title": "Gemini 4 Neon 成为模型工程指数榜首",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://git-aarvin.github.io/mei/",
+      "analysis": "Gemini 4 Neon 的领先表现表明大模型性能与工程指标正同步提升，推动行业向更高效模型迈进。"
+    },
+    {
+      "title": "PostgreSQL 19 正式发布",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "analysis": "新增 WAIT FOR LSN 等功能提升了数据库一致性与性能，适合 AI 与大数据场景。"
+    },
+    {
+      "title": "微软Copilot集成Office",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-19-en/",
+      "analysis": "将 Copilot 与 Word、Excel、PPT 深度集成，标志着办公软件正向 AI 驱动的工作操作系统转型。"
+    },
+    {
+      "title": "Nginx RCE 漏洞迅速扩散",
+      "source_name": "DailyDawn 中文",
+      "source_url": "https://dailydawn.dev/zh/2026-11-19",
+      "analysis": "未认证 RCE 让攻击者可直接获取服务器权限，已导致大量站点被植入挖矿脚本，需立即修补。"
+    },
+    {
+      "title": "Onlook：为设计师打造的开源代码画布工具",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://github.com/onlook-dev/onlook/",
+      "analysis": "该工具让设计师可在真实代码上直接绘制，推动设计与开发协同效率提升，值得关注。"
+    }
+  ],
+  "categories": {
+    "投融资": 1,
+    "开源项目": 1,
+    "安全漏洞": 2,
+    "行业动态": 2,
+    "模型发布": 1,
+    "技术解读": 1
+  },
+  "generated_at": "2026-11-20T03:49:07.403863+00:00",
+  "source_count": 32
+}

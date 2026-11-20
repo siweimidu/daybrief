@@ -4,7 +4,26 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Thu, 19 Nov 2026 03:56:21 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 03:49:07 +0000</lastBuildDate>
+  <item>
+    <title>Palo Alto以45亿美元收购Applied Compute</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-20.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-20.html</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-20 · 资讯 32 条
+分类：投融资 1 · 开源项目 1 · 安全漏洞 2 · 行业动态 2 · 模型发布 1 · 技术解读 1
+编者按
+AI安全与监管已成为行业焦点，近期多起安全事件凸显风险。
+Token诈骗泛滥与OpenSSL、Nginx等关键组件漏洞暴露，企业需提升安全防护。
+与此同时，Gemini 4 Neon登顶模型指数，PostgreSQL 19发布新功能，Microsoft Copilot集成Office，显示AI与数据库技术深度融合。
+Onlook开源代码画布工具的问世，进一步推动设计与开发协同创新。
+建议企业在加速AI落地的同时，强化安全审计、合规监管，并积极参与开源生态。
+今日要点
+1. Palo Alto以45亿美元收购Applied Compute
+
+来源：AI Daily
+点评：这笔交易标志着网络安全与AI技术的深度融合，表明企业正通</description>
+  </item>
   <item>
     <title>微软Ignite与Google大模型双雄对决，AI代理落地全面提速</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-19.html</link>
@@ -379,17 +398,5 @@ AI 与安全双轮驱动，监管与技术并行。
 Meta被判250亿美元罚款，凸显数据隐私监管趋严；PHP 8.2.35安全补丁及时修复远程执行漏洞，提醒开发者持续关注语言生态安全；AI Daily报道OpenAI模型登陆Google Cloud，表明大型模型正向多云生态扩散。
 与此同时，eMudhra CA泄露事件暴露根证书链风险，DuckDB 2.0.0 LTS发布带来性能提升，LiteLLM后门警示依赖安全；mitmproxy新增--emudhra参数提升调试功能；Qpack放大攻击提醒HTTP/3服务器需加强协议防护。
 建议企业：及时更新关键语言和框架补丁；审计第三方依赖；强化根证书管理；在多云部署时评估模型安全与合规；对网络</description>
-  </item>
-  <item>
-    <title>AI模型加速与安全危机并行</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-21.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-21.html</guid>
-    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-21 · 资讯 27 条
-编者按
-本日最值得关注的趋势是AI模型与底层硬件加速的同步开放，同时供应链安全危机频发，形成技术与风险并行的格局。
-从Microagi的具身AGI研发到Google开源的TorchTPU，再到Mistral的Voxtral 3模型，AI算力与多模态能力正以指数级速度提升；与此同时，eMudhra中级CA私钥泄露、300+ Tor出口节点被移除以及Facebook链接付费政策等事件暴露出数字信任链与平台治理的脆弱。
-这些动态表明，技术加速带来竞争优势的同时，也在放大安全与合规风险。硬件层面的开放（如TPU）降低了进入门槛，但同样让恶意方更易获取高效算力；证书泄露则直接威胁到浏览器、操作系统的信任根基。
-建议企业在追逐最新模型与加速器的同时，强化供应链审计与密钥管理，关注监管政策变化（如DeepSeek禁购），并在产品设计中预留安全冗余，以在</description>
   </item>
 </channel></rss>

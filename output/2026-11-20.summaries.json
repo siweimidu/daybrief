@@ -1,0 +1,396 @@
+[
+  {
+    "title": "Token 诈骗泛滥，危害严重",
+    "summary": "Claire Vo 在 YouTube 视频中披露，ChatPRD 免费试用被大量滥用，用户获取免费 AI 代币并转售或用于商业运营，凸显平台安全与滥用风险。此事关系到平台收入与整体 AI 生态的健康。",
+    "key_points": [
+      "免费试用被用于获取免费 AI 代币",
+      "代币被转售或用于商业服务"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "OpenSSL EVP_EncodeBlock 缓冲区溢出漏洞 (CVE-2026-121481)",
+    "summary": "OpenSSL 在 EVP_EncodeBlock 函数中发现严重的缓冲区溢出漏洞，CVE‑2026‑121481，CVSS 评分 9.8，已在 GitHub 提交修复 PR，涉及广泛使用的加密库。此漏洞若被利用将导致潜在代码执行风险。",
+    "key_points": [
+      "CVE‑2026‑121481 高危缓冲区溢出",
+      "CVSS 9.8 表明极高危害",
+      "已提交修复 PR"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/openssl/openssl/pull/33652",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "ChatGPT 新功能与 Antigravity 桌面更新",
+    "summary": "今日 AI 早报报道，ChatGPT 向 Business Standard 用户及部分 Plus 开放，健康功能扩展至桌面、Android 与 dots；Antigravity 桌面新增 SSH 连接功能；Mac 版 Gemini 引入 computer use 功能并支持 API 按需加载。显示主要 AI 产品功能持续迭代。",
+    "key_points": [
+      "ChatGPT 功能向 Business Standard 与 Plus 扩展",
+      "Antigravity 桌面新增 SSH 连接",
+      "Gemini Mac 版加入 computer use 与按需加载 API"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-20/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Vint Cerf 论 TCP/IP 未专利原因",
+    "summary": "Vint Cerf 在访谈中解释，TCP/IP 没有被专利是因为其早期的学术共享与开放精神，这种开放性促成了互联网的快速普及。了解其背后的政策有助于认识互联网治理的历史。",
+    "key_points": [
+      "TCP/IP 未专利源于开放的学术共享",
+      "开放性推动了互联网的快速发展"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "PostgreSQL 19 正式发布，已在 Neon 与 Databricks Lakebase 提供",
+    "summary": "PostgreSQL 19 正式推出，带来多项性能与安全改进，并已在云平台 Neon 与 Databricks Lakebase 上可用，帮助企业提升数据处理与分析能力。",
+    "key_points": [
+      "PostgreSQL 19 正式发布",
+      "已在 Neon 与 Databricks Lakebase 上线"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.databricks.com/blog/postgresql-19-available-lakebase",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Palo Alto Networks 以45亿美元收购 Applied Compute",
+    "summary": "AI Daily 报道，网络安全巨头 Palo Alto Networks 将以全股票方式收购 Applied Compute，交易额约 45 亿美元，旨在帮助企业训练和部署开放权重模型，标志着安全与生成式 AI 的深度融合。",
+    "key_points": [
+      "45亿美元全股票收购 Applied Compute",
+      "目标是支持企业训练、部署开放权重模型"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-20-en/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Palo Alto Networks 拟全股票收购 Applied Compute 45亿美元",
+    "summary": "AI 日报中文稿指出，Palo Alto Networks 计划以全股票方式收购 Applied Compute，金额约 45 亿美元，旨在帮助企业训练和部署开放权重模型，并提及 Nadella 承认 Outlook 大宕机本应提前测试。",
+    "key_points": [
+      "45亿美元全股票收购 Applied Compute",
+      "帮助企业训练与部署开放模型",
+      "Nadella 承认 Outlook 大宕机应提前测试"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-20-zh/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Gemini 4 Neon 成为模型工程指数榜首",
+    "summary": "根据 Models Engineering Index，Gemini 4 Neon 模型登上榜单第一名，显示其在性能与工程指标上领先，凸显该模型在当前大模型竞争中的优势。",
+    "key_points": [
+      "Gemini 4 Neon 位列 MEI 第1名",
+      "体现其在模型工程指标上的领先"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://git-aarvin.github.io/mei/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Visa、万事达与摩根大通客户数据泄露",
+    "summary": "黑客泄露了Visa、Mastercard和JPMorgan的客户数据，引发金融行业对用户隐私安全的担忧。",
+    "key_points": [
+      "涉及多家全球金融机构",
+      "可能影响数百万用户的敏感信息"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "正则表达式工具 RegExr 暂时下线",
+    "summary": "RegExr 在线正则表达式测试平台暂时不可用，用户短期内无法使用该服务。",
+    "key_points": [
+      "网站暂时关闭",
+      "影响正则学习和测试用户"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://regexr.com/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Synology 发布安全通告",
+    "summary": "Synology 官方发布安全公告，提醒用户关注最新发现的安全漏洞并及时更新。",
+    "key_points": [
+      "官方发布安全建议",
+      "关注Synology设备的安全防护"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "重构本地语音助理流水线",
+    "summary": "作者分享了重建本地语音助理的完整技术方案，涵盖架构设计与实现细节。",
+    "key_points": [
+      "重新设计语音助理架构",
+      "提供实现步骤和代码示例"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "PostgreSQL 19 正式发布",
+    "summary": "PostgreSQL 19 正式发布，新增 WAIT FOR LSN 命令实现读写一致性，发布延迟源于AI相关漏洞修复。",
+    "key_points": [
+      "新增读写一致性功能",
+      "因AI漏洞修复导致发布推迟"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "政府应否放慢前沿AI发展？辩论视频",
+    "summary": "Jacob Coxon 与 Robin Hanson 在视频中辩论政府是否应限制前沿AI研发，引发对AI监管的广泛关注。",
+    "key_points": [
+      "聚焦AI监管议题",
+      "两位专家提出不同立场"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "付费广告成98%抽成税",
+    "summary": "文章剖析付费广告如何演变为高额抽成，类似税收，对企业营销成本产生巨大压力。",
+    "key_points": [
+      "广告费用占比极高",
+      "被比作提取税的经济模型"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Claude 解决黑洞物理两大未解问题",
+    "summary": "Anthropic 的 Claude AI 在黑洞物理领域取得突破，成功解决两个长期未解的科学问题，展示了AI在基础研究中的潜力。",
+    "key_points": [
+      "AI模型在物理研究中取得突破",
+      "解决具体的黑洞开放问题"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "病毒注射阻止胰腺癌进展",
+    "summary": "在三名患者中通过病毒注射使胰腺癌停滞，展示了新型治疗的潜力。",
+    "key_points": [
+      "使用病毒载体进行注射",
+      "三名患者病情得到控制"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Anthropic在纳斯达克首次公开募股",
+    "summary": "Anthropic完成在纳斯达克的历史性首次公开募股，标志着AI公司进入资本市场的关键节点。",
+    "key_points": [
+      "史上首次IPO",
+      "引发对AI前景与风险的关注"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Onlook：为设计师打造的开源代码画布工具",
+    "summary": "Onlook是一款桌面应用，在真实代码上叠加画布，让设计师直接在代码中进行设计，已开源并获广泛社区支持。",
+    "key_points": [
+      "在代码上叠加可视化画布",
+      "拥有25000+用户、100+贡献者，曾两次全球趋势榜首"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/onlook-dev/onlook/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "英国政府承认向苹果下达秘密加密指令",
+    "summary": "英国政府被迫公开承认曾向苹果公司发出秘密加密命令，引发对政府与科技公司关系的关注。",
+    "key_points": [
+      "政府下达秘密加密订单",
+      "公开承认后引发隐私争议"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Cornhole News：中西部新闻聚合站",
+    "summary": "Cornhole News是受Hacker News启发的地区新闻网站，聚焦美国中西部的各类资讯。",
+    "key_points": [
+      "受Hacker News模式启发",
+      "专注中西部地区新闻"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://cornholenews.news",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "浏览器生成单页A4折叠八页小册子",
+    "summary": "该网页应用可在浏览器中将一张A4纸折叠成八页小册子，为数字出版提供便捷工具。",
+    "key_points": [
+      "单张A4生成8页折叠册",
+      "基于浏览器实现"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "报告java4shell漏洞于2026年9月",
+    "summary": "在2026年9月，有人向OpenJDK报告了java4shell安全漏洞，并提交了相应的代码修复请求。",
+    "key_points": [
+      "2026年9月首次报告漏洞",
+      "对应的OpenJDK Pull Request已提交"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/openjdk/jdk/pull/32781",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "欧盟委员会向4万员工推广Matrix",
+    "summary": "欧洲委员会成功在超过4万名员工中部署Matrix即时通讯平台，提升内部协作效率。",
+    "key_points": [
+      "覆盖4万余名员工",
+      "采用Matrix作为统一沟通工具"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "内存压缩替代 RAM",
+    "summary": "文章讨论通过内存压缩技术提升系统性能，强调其成本效益与实用性。",
+    "key_points": [
+      "内存压缩可替代额外 RAM",
+      "讨论成本与性能权衡"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "AI早报：Gemini 4 Neon 与多项更新",
+    "summary": "本期AI早报涵盖Google Gemini 4 Neon发布、Project Genie 4开放、DeepSeek计费调整、OpenCode GLM 5.3优惠、Perplexity Context API等多项技术与产品更新。",
+    "key_points": [
+      "Gemini 4 Neon & Project Genie 4",
+      "DeepSeek计费调整",
+      "OpenCode GLM 5.3优惠"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-19/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "微软Copilot集成Office",
+    "summary": "微软将 Word、Excel、PowerPoint 集成至 Copilot，称其为“新的工作操作系统”，并推出持续运行的 Autopilot 代理；谷歌搜索升级至 Gemini 4 Hydrogen。",
+    "key_points": [
+      "Copilot 集成 Office",
+      "Autopilot 代理",
+      "Google Gemini 4 Hydrogen"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-19-en/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "微软Copilot集成Office",
+    "summary": "微软将 Word、Excel、PPT 集成到 Copilot，纳德拉称其为“新的工作操作系统”，并计划上线长期 Autopilot 智能体；谷歌搜索换上 Gemini 4。",
+    "key_points": [
+      "Copilot 集成 Office",
+      "Autopilot 智能体",
+      "Google Gemini 4"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-19-zh/",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "Nginx RCE 漏洞迅速扩散",
+    "summary": "Nginx 未认证 RCE 漏洞在 HackerNews 迅速扩散，攻击者可无身份验证直接获取服务器权限，已导致超过 17% 中小站点被扫描并植入挖矿脚本。",
+    "key_points": [
+      "Nginx RCE 漏洞",
+      "影响范围大",
+      "后果严重"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-19",
+    "published": "2026-11-19"
+  },
+  {
+    "title": "llm-gemini 0.38 发布",
+    "summary": "发布 llm-gemini 0.38，配合 Google Gemini 4 Neon 的发布，作者讨论了 Neon 版定价混乱及模型系列变更。",
+    "key_points": [
+      "llm-gemini 0.38 发布",
+      "Gemini 4 Neon 定价混乱",
+      "模型系列调整"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "datasette-arrows 0.1a0 发布",
+    "summary": "发布 datasette-arrows 0.1a0，扩展 Datasette 支持插件实现流式导出格式，并引入 Apache Arrow 流式格式。",
+    "key_points": [
+      "datasette-arrows 0.1a0 发布",
+      "支持流式导出",
+      "引入 Apache Arrow"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+    "published": "2026-11-18"
+  },
+  {
+    "title": "curl Rust 重写进展",
+    "summary": "在将 185,000 行 C 代码改写为 340,000 行 Rust 的过程中，团队完成 300 次提交，提升 curl 性能并修复 200 条 bug 与若干漏洞。",
+    "key_points": [
+      "C 到 Rust 代码改写",
+      "300 次提交",
+      "200 bug 修复"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+    "published": "2026-11-18"
+  }
+]
