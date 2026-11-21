@@ -1,0 +1,383 @@
+[
+  {
+    "title": "Clojure：拓展编程思维的语言",
+    "summary": "文章介绍 Clojure 语言的函数式特性，指出它能改变程序员的思考方式，提升编程认知。",
+    "key_points": [
+      "函数式编程特性",
+      "改变思维方式"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "多项式积分与 Galois 群 S_p",
+    "summary": "文章研究多项式的积分问题，并揭示其与 Galois 群 S_p 的关联，提供新的数学视角。",
+    "key_points": [
+      "积分方法",
+      "Galois 群关联"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://m-slee.netlify.app/posts/integrals-galois-polynomials",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "橘鸦AI早报 2026-11-21要点",
+    "summary": "橘鸦 AI 早报报道数学家与 Claude 合作证明黎曼猜想、Thinking Machines 开源 Inkling 2 Mini 等多条行业动态。",
+    "key_points": [
+      "Claude 合作证明黎曼猜想",
+      "Inkling 2 Mini 开源"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-21/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "对抗深度伪造的视觉记录信任危机",
+    "summary": "文章指出当前对视觉记录的信任因深度伪造技术下降，并探讨未来可能恢复信任的方法。",
+    "key_points": [
+      "视觉记录可信度下降",
+      "技术恢复信任的可能性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Tencent 开源 770B 参数模型 Hy4",
+    "summary": "腾讯发布 7700 亿参数的旗舰模型 Hy4，具备图像、视频理解及电脑操作能力，并向公众开放。",
+    "key_points": [
+      "770B 参数规模",
+      "多模态与电脑操作能力"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-21-en/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "腾讯开源 Hy4 7700 亿参数模型",
+    "summary": "腾讯将 Hy4 模型权重开源至 Hugging Face，强调其多模态和电脑操作功能，推动行业发展。",
+    "key_points": [
+      "权重已上 Hugging Face",
+      "多模态与电脑操作"
+    ],
+    "category": "模型发布",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-21-zh/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "关于黎曼猜想的讨论",
+    "summary": "在 Hacker News 上关于黎曼猜想的讨论获得 159 分高票，吸引 148 条评论，显示社区高度关注。",
+    "key_points": [
+      "高票 159 分",
+      "148 条评论"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://borretti.me/article/re-riemann",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "重大网络攻击疑由富裕组织支持",
+    "summary": "报道一起严重网络攻击事件，怀疑背后有富裕运营者支持，凸显网络安全风险。",
+    "key_points": [
+      "攻击规模严重",
+      "背后富裕运营者"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Brian May 为赫拉小行星增添新维度",
+    "summary": "ESA 的赫拉小行星任务公布了由吉他手兼天文学爱好者 Brian May 参与的最新研究成果，提升了对该小行星的了解。该研究有助于改进小行星防御技术。",
+    "key_points": [
+      "Brian May 参与赫拉任务研究",
+      "提供小行星结构新数据",
+      "对防御技术有潜在价值"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "NINLIVE：Nine Inch Nails 演出档案",
+    "summary": "NINLIVE 网站上线，收录并提供 Nine Inch Nails 乐队的现场演出音频和视频，供粉丝免费访问。",
+    "key_points": [
+      "建立完整现场档案",
+      "免费在线访问",
+      "聚合粉丝资源"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ninlive.com/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "饥饿管家效应：LLM 隐蔽商业动机",
+    "summary": "研究揭示大型语言模型可能被商业激励所驱动，导致信息偏差，提醒业界关注模型的 epistemic 刚性。",
+    "key_points": [
+      "发现模型潜在商业偏向",
+      "强调学术严谨性",
+      "呼吁透明度提升"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "美国 SEC 调查 Nvidia 会计问题",
+    "summary": "SEC 正在审查 Nvidia 的财务报告，聚焦可能的会计违规，可能影响其市场估值。",
+    "key_points": [
+      "SEC 启动调查",
+      "关注会计合规性",
+      "可能影响股价"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "OpenComputer：开源云编码代理",
+    "summary": "OpenComputer 项目提供可在自有云上部署的开源编码代理，支持快速会话启动并实现会话持久化。",
+    "key_points": [
+      "开源且可自部署",
+      "启动时间 24 秒",
+      "会话自动备份"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/diggerhq/opencomputer",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Inkling 2 Mini 发布",
+    "summary": "Thinking Machines 推出 Inkling 2 Mini 小型 AI 加速器，提升边缘计算性能。",
+    "key_points": [
+      "小型化设计",
+      "提升 AI 推理速度",
+      "适用于边缘设备"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "And yet, it moves",
+    "summary": "该文章回顾伽利略关于运动的历史观点，强调科学真理的坚持。",
+    "key_points": [
+      "探讨伽利略运动论",
+      "强调科学精神",
+      "历史回顾"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "DreamCoder：作者新发布的编码 IDE",
+    "summary": "DreamCoder 是由 Mastering Emacs 作者推出的全新编码工具，集成 IDE 功能，提升开发效率。",
+    "key_points": [
+      "集成 IDE 与编码框架",
+      "针对 Emacs 用户优化",
+      "提升开发体验"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "AI模型声称证实黎曼猜想",
+    "summary": "一篇博客文章指出，所谓的‘随机鹦鹉’模型似乎给出了黎曼猜想的证明，引发社区热议。",
+    "key_points": [
+      "声称利用大语言模型得到证明",
+      "在 Hacker News 获得高关注度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://scottaaronson.blog/?p=10344",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Winedroid：在浏览器运行 Android 应用",
+    "summary": "Winedroid 项目展示了通过 WebAssembly 在无需 Android 系统的情况下运行 Android 应用的演示。",
+    "key_points": [
+      "基于 WASM 的 Android 兼容层",
+      "演示页面可直接体验"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://winedroid.soham.sh/demo/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Ravi Vakil 转发 GRH 证明进展",
+    "summary": "Ravi Vakil 转发了 Alessandro Masullo 对广义黎曼猜想的初步证明稿，Brian Conrad 已深入审阅并提供反馈，计划在斯坦福进一步完善。",
+    "key_points": [
+      "人类数学家提交的 GRH 证明草案",
+      "已有资深数学家审阅并给出意见"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "紧急公告：Alessandro Masullo 的 GRH 证明",
+    "summary": "在 Hacker News 上发布的紧急公告，提及 Alessandro Masullo 声称已证明广义黎曼猜想，并引用 Levent Alpöge 的相关声明。",
+    "key_points": [
+      "GRH 证明引发大量讨论",
+      "相关链接指向 PDF 与评论"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "开发者被晋升为架构师却未被告知",
+    "summary": "作者分享了公司在未通知的情况下将开发者直接晋升为架构师的经历，探讨了沟通和职业发展的问题。",
+    "key_points": [
+      "晋升过程缺乏透明度",
+      "引发对职场沟通的反思"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://manidoraisamy.com/developer-to-architect.html",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Vibecoding 推出推理芯片设计",
+    "summary": "Ankit G. 详细介绍了名为 Vibecoding 的新型推理芯片的设计理念和实现细节。",
+    "key_points": [
+      "专注于 AI 推理加速",
+      "博客提供技术实现细节"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "未受迫 Navier‑Stokes 奇点与 GRH 关联",
+    "summary": "Terry Tao 探讨了未受迫 Navier‑Stokes 奇点问题与广义黎曼猜想之间的潜在联系，发表在个人博客。",
+    "key_points": [
+      "将流体力学奇点与数论猜想相连",
+      "在 Hacker News 获得广泛关注"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "YC 及初创企业移民律师 AMA",
+    "summary": "Peter Roberts 作为移民律师在 Hacker News 进行 AMA，解答关于移民政策的常见问题，但不提供具体案件法律建议。",
+    "key_points": [
+      "针对 YC 与创业者的移民问题",
+      "强调不提供个案法律意见"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50577613",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Levent Alpöge 公开声称证明黎曼猜想",
+    "summary": "作者与 Claude 合作，声称发现黎曼猜想及其推广的证明。此发现被视为数学领域重大突破。",
+    "key_points": [
+      "与 Claude 合作发现黎曼猜想证明",
+      "方法可推广至广义黎曼猜想及扩展黎曼猜想"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Token 诈骗现象严重",
+    "summary": "Claire Vo 在视频中揭露 ChatPRD 平台被滥用进行 token 诈骗，导致免费试用被滥用并转售。",
+    "key_points": [
+      "ChatPRD 平台被滥用进行 token 诈骗",
+      "滥用导致免费试用被转售或商业化"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "橘鸦AI早报 2026-11-20",
+    "summary": "报道 ChatGPT、Gemini 等 AI 产品功能扩展，Antigravity 新增 SSH 连接，Qoder 免费用户受限等。",
+    "key_points": [
+      "ChatGPT、Gemini 功能扩展",
+      "Antigravity 新增 SSH 连接",
+      "Qoder 免费用户限制"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-20/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Palo Alto 以 45 亿收购 Applied Compute",
+    "summary": "Palo Alto Networks 以 45 亿全股票收购 Applied Compute，助力企业训练和部署开放权重模型。",
+    "key_points": [
+      "Palo Alto Networks 以 45 亿收购 Applied Compute",
+      "目标是帮助企业训练和部署开放权重模型"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-20-en/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Palo Alto 以 45 亿收购 Applied Compute",
+    "summary": "同上，网络安全巨头以 45 亿全股票收购 Applied Compute，支持企业使用开放权重模型。",
+    "key_points": [
+      "Palo Alto Networks 以 45 亿全股票收购 Applied Compute",
+      "支持企业训练和部署开放权重模型"
+    ],
+    "category": "投融资",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-20-zh/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "DailyDawn 2026-11-20",
+    "summary": "GitHub 上的 obra/superpowers 项目获得 2028 星，成为 Agentic 技能框架榜首；beacon.sh 在 Product Hunt 获得高票。",
+    "key_points": [
+      "obra/superpowers 成为 Agentic 技能框架榜首",
+      "beacon.sh 在 Product Hunt 获得高票"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-20",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "PostgreSQL 19 发布",
+    "summary": "PostgreSQL 19 版新增 WAIT FOR LSN 命令，实现读写一致性，解决 AI 漏洞问题导致的发布延迟。",
+    "key_points": [
+      "新增 WAIT FOR LSN 命令实现读写一致性",
+      "解决 AI 漏洞导致的发布延迟"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+    "published": "2026-11-19"
+  }
+]

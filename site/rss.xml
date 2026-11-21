@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Fri, 20 Nov 2026 03:49:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 03:40:35 +0000</lastBuildDate>
+  <item>
+    <title>数学界迎来历史性突破：AI与数学家携手攻克黎曼猜想，大模型与开源生态持续演进</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-21.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-21.html</guid>
+    <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-21 · 资讯 31 条
+分类：技术解读 10 · 行业动态 8 · 模型发布 2 · 开源项目 4 · 投融资 3 · 其他 4
+编者按
+各位读者好。今天是2026年11月21日，科技领域迎来了一个注定被载入史册的里程碑——数学界百年未解的黎曼猜想及其推广（GRH）迎来了实质性突破。多位数学家与AI模型（如Claude）的深度合作，交出了令人瞩目的证明进展，这不仅彻底打破了“大模型仅会随机鹦鹉”的质疑，更宣告了人工智能正式成为高阶科学探索的核心生产力。
+与此同时，大模型和开源生态在应用端持续狂飙。腾讯重磅开源了高达7700亿参数的旗舰模型Hy4，标志着国产开源多模态与端侧操作能力的再次跃升；而在产业投资与并购方面，Palo Alto Networks以45亿美元全股票收购Applied Compute，凸显了业界对于企业级开放权重模型训练与部署基础设施的强烈渴求</description>
+  </item>
   <item>
     <title>Palo Alto以45亿美元收购Applied Compute</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-20.html</link>
@@ -385,18 +396,5 @@ AI模型规模与硬件并进，开源5G与GPU硬件更新推动边缘计算。
 编者按
 各位读者好。今天是2026年10月23日，当前科技界的核心看点依然集中在人工智能向纵深发展的生态重构与标准建立上。Anthropic将Agent Skills与Model Context Protocol捐赠给Linux基金会旗下的Agentic AI Foundation，标志着AI代理的标准正从企业私有走向全面开源与社区共建，这为未来的多代理协作打下了坚实基础。
 与此同时，硬件与算力层面的创新正在改变商业格局。《经济学人》指出AI算力已成为“新石油”，急需建立全新的市场机制来进行定价与分配；而在具体落地方面，OpenAI推出了面向金融服务的ChatGPT版本，并加码流式视频与3D场景建基准，凸显出大模型正快速向高壁垒的垂直专业领域和复杂多模</description>
-  </item>
-  <item>
-    <title>Meta被判250亿美元罚款</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-22.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-22.html</guid>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-22 · 资讯 29 条
-分类：其他 5 · 开源项目 5 · 行业动态 10 · 技术解读 6 · 模型发布 2 · 投融资 1
-编者按
-AI 与安全双轮驱动，监管与技术并行。
-Meta被判250亿美元罚款，凸显数据隐私监管趋严；PHP 8.2.35安全补丁及时修复远程执行漏洞，提醒开发者持续关注语言生态安全；AI Daily报道OpenAI模型登陆Google Cloud，表明大型模型正向多云生态扩散。
-与此同时，eMudhra CA泄露事件暴露根证书链风险，DuckDB 2.0.0 LTS发布带来性能提升，LiteLLM后门警示依赖安全；mitmproxy新增--emudhra参数提升调试功能；Qpack放大攻击提醒HTTP/3服务器需加强协议防护。
-建议企业：及时更新关键语言和框架补丁；审计第三方依赖；强化根证书管理；在多云部署时评估模型安全与合规；对网络</description>
   </item>
 </channel></rss>
