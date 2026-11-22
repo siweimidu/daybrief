@@ -1,0 +1,400 @@
+[
+  {
+    "title": "OpenRouter 移除3家供应商并下线125个端点",
+    "summary": "OpenRouter 宣布停止与3家推理提供商合作，删除125个API端点，转向零数据保留政策，对开发者使用产生影响。",
+    "key_points": [
+      "移除3家提供商",
+      "下线125个端点",
+      "实施零数据保留"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Leonida：在PC上重新编译Xbox版GTA 6",
+    "summary": "开源项目 Leonida 将Xbox版《GTA 6》移植到PC，提供可运行的二进制文件，吸引玩家与开发者关注。",
+    "key_points": [
+      "将Xbox版GTA 6移植至PC",
+      "项目在GitHub开源"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/ItsNotRexed/Leonida",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "橘鸦AI早报：Antigravity 重置配额等多条更新",
+    "summary": "2026‑11‑22的AI早报列出多项行业动态，包括Antigravity 重置 Gemini 配额、Google Antigravity 更新、Cursor 更名为 Grok Build、OpenCode 降价以及OpenAI 新增通话文字转录功能。",
+    "key_points": [
+      "Antigravity 重置 Gemini 配额",
+      "多款产品更新与降价",
+      "OpenAI 通话结束后提供文字转录"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-22/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Sandwich Simulator 上线，模拟三明治制作",
+    "summary": "全新网页游戏 Sandwich Simulator 让玩家在浏览器中体验制作三明治的过程，已在 Hacker News 获得高票关注。",
+    "key_points": [
+      "浏览器中模拟三明治制作",
+      "在 Hacker News 获得 37 票"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://stulle.app/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "AI Daily：Anthropic 与 NYU 发布 AI 辅助 Navier‑Stokes 证明",
+    "summary": "AI Daily 报道 Anthropic 研究员与纽约大学教授发布 AI 辅助的 Navier‑Stokes 爆炸性证明，声称填补 OpenAI 方案的漏洞，引发业界关注。",
+    "key_points": [
+      "AI 辅助的 Navier‑Stokes 证明",
+      "与黎曼猜想同日发布",
+      "质疑 OpenAI 方案的完整性"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-22-en/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "AI 日报：Anthropic 与 NYU 发布 AI 辅助 Navier‑Stokes 证明",
+    "summary": "同上中文报道，Anthropic 研究员和纽约大学教授在同一天发布 AI 辅助的 Navier‑Stokes 证明，称补上了 OpenAI 方案的漏洞。",
+    "key_points": [
+      "AI 辅助的 Navier‑Stokes 证明",
+      "与黎曼猜想同日发布",
+      "指出 OpenAI 方案的缺口"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-22-zh/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Muru：AI 辅助的 Rust 服务器，支持 ASGI/WSGI",
+    "summary": "开源项目 Muru 由 Graham Dumpleton 开发，使用 Rust 与 AI 辅助技术，旨在为 Python ASGI 与 WSGI 应用提供高效的开发与生产环境。",
+    "key_points": [
+      "Rust 编写的服务器",
+      "AI 辅助开发流程",
+      "支持 ASGI 与 WSGI 应用"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "PcapAnalyzer：自托管的 pcap 分析工具，含27种检测",
+    "summary": "开源工具 PcapAnalyzer 可本地部署，用于分析 pcap 文件并提供27种问题检测，已在 Hacker News 获得 71 票的高度关注。",
+    "key_points": [
+      "本地部署的 pcap 分析器",
+      "包含27种问题检测",
+      "在 Hacker News 获得 71 票"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Rust GUI 未来100个方向的建议",
+    "summary": "文章提供了对未来100个Rust GUI项目的建议，强调了生态、跨平台和工具链的重要性，对Rust开发者规划新项目具有参考价值。",
+    "key_points": [
+      "提出生态建设和跨平台支持的建议",
+      "强调工具链成熟度对GUI开发的影响"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://linebender.org/blog/next-100-guis/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Tasklet招聘产品与基础设施工程师",
+    "summary": "Tasklet公司在招聘产品和代理基础设施工程师，显示其在AI平台建设上扩张团队，对行业人才需求有指示意义。",
+    "key_points": [
+      "招聘产品工程师和基础设施工程师",
+      "反映Tasklet在AI代理领域的扩张"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tasklet.ai/careers",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "捷克绳纹陶文化中的不平等出现",
+    "summary": "研究揭示捷克绳纹陶文化中出现的社会不平等现象，提供考古学视角的早期阶层分化证据，对理解欧洲史前社会结构重要。",
+    "key_points": [
+      "发现捷克绳纹陶文化中的不平等",
+      "提供早期社会分层的考古证据"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Pandex：欧盟AI代理官方法律框架",
+    "summary": "Pandex发布了针对AI代理的欧洲官方法律框架，旨在通过MCP（模型合规协议）规范AI行为，对AI合规和监管具有前瞻意义。",
+    "key_points": [
+      "推出针对AI代理的欧盟法律框架",
+      "基于MCP实现模型合规"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pandex.io",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Upload2Shell 漏洞 (CVE-2026-125396) 报告",
+    "summary": "报告了Upload2Shell漏洞（CVE-2026-125396），该漏洞允许远程代码执行，危及服务器安全，安全社区需及时修补。",
+    "key_points": [
+      "Upload2Shell 漏洞可实现远程代码执行",
+      "提醒及时更新和修补"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://pwn.ai/upload2shell",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Inkling-2-Mini 仅用5.4GB内存运行",
+    "summary": "Inkling-2-Mini模型在仅5.4GB内存下运行，展示了大模型在资源受限环境中的高效部署潜力，对边缘计算和模型压缩有启示。",
+    "key_points": [
+      "模型仅需5.4GB内存即可运行",
+      "展示资源受限环境下的部署可能"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Go语言实现的PostgreSQL扩展",
+    "summary": "该项目提供用Go语言编写的PostgreSQL扩展，简化了在Go生态中使用数据库功能，对开发者构建高性能服务有帮助。",
+    "key_points": [
+      "用Go实现PostgreSQL扩展",
+      "降低在Go项目中使用数据库的门槛"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://jespino.github.io/gopgext/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Lean 形式化黎曼猜想验证文件",
+    "summary": "提供了使用Lean定理证明器验证黎曼猜想的文件，标志着形式化数学在重大猜想上的进展，对数学和形式化验证社区意义重大。",
+    "key_points": [
+      "发布黎曼猜想的Lean形式化验证文件",
+      "展示形式化证明在深奥数学问题上的可行性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://math.mit.edu/~drew/grh/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Zero C#：无需运行时和垃圾回收的 C# 实现",
+    "summary": "Zero C# 项目展示了在不依赖传统运行时和垃圾回收器的情况下运行 C# 代码的可能性，旨在用于资源受限环境。",
+    "key_points": [
+      "无需运行时",
+      "无GC设计",
+      "适用于嵌入式或极简环境"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://onurgumus.github.io/zero-csharp/index.html",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Lean 形式化验证黎曼猜想的进展",
+    "summary": "Lean 社区发布了对黎曼猜想的形式化验证工作，利用交互式证明助手对该数学难题进行机器化证明。",
+    "key_points": [
+      "使用 Lean 证明",
+      "验证黎曼猜想的关键步骤",
+      "提升形式化数学可信度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "实验：引爆大块硝酸铅的过程",
+    "summary": "Science 博客记录了对大量硝酸铅进行引爆的实验，展示了其极高的爆炸威力和安全挑战。",
+    "key_points": [
+      "硝酸铅高能量",
+      "实验规模大",
+      "安全风险显著"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "显示器导致下载速度下降75% 的原因及解决",
+    "summary": "作者发现显示器的某些设置会导致网络下载速度下降 75%，并提供了通过 DisplayPort Ethernet 解决的方案。",
+    "key_points": [
+      "显示器影响网络带宽",
+      "下降75%",
+      "使用 DisplayPort Ethernet 解决"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "Gnupg 远程代码执行漏洞披露",
+    "summary": "Gnupg 公布了一个远程代码执行（RCE）漏洞，攻击者可利用该漏洞在受影响系统上执行任意代码，需及时更新。",
+    "key_points": [
+      "RCE 漏洞",
+      "影响 Gnupg 加密工具",
+      "需立即修补"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "每日科技早报：数学、AI模型、缓存等要闻",
+    "summary": "橘鸦AI早报汇总当天重要科技资讯，包括数学家与 Claude 合作证明黎曼猜想、Inkling 2 Mini 开源、Antigravity 扩容缓存池等。",
+    "key_points": [
+      "黎曼猜想合作证明",
+      "Inkling 2 Mini 开源",
+      "Antigravity 扩容缓存"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-21/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "AI Daily：腾讯开源770B模型等行业动态",
+    "summary": "AI Daily 报道腾讯开源 7700 亿参数的 Hy4 模型，具备图像、视频理解及电脑操作能力，同时提及 Apple 招 AI 代理等行业动态。",
+    "key_points": [
+      "腾讯 Hy4 770B 模型开源",
+      "支持多模态与电脑操作",
+      "Apple 招 AI 代理"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-21-en/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "AI日报：腾讯770B模型开源及AI代理招聘",
+    "summary": "AI 日报中文版本聚焦腾讯开源 Hy4 7700 亿参数旗舰模型及其多模态能力，另有 Apple AI 代理招聘和 OpenAI Dots 降价等消息。",
+    "key_points": [
+      "腾讯 Hy4 开源",
+      "多模态与电脑操作",
+      "Apple AI 代理招聘"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-21-zh/",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "GitHub Trending 新工具登榜",
+    "summary": "GitHub Trending 今日两款AI工具Claude‑BugHunter与firecrawl同步登榜，开发者利用零成本搭建代码审计流水线。",
+    "key_points": [
+      "Claude‑BugHunter 1622分，主打代码漏洞自动化检测",
+      "firecrawl 与其配合形成爬虫+审计闭环"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-21",
+    "published": "2026-11-21"
+  },
+  {
+    "title": "求职困境：15年资深工程师失业2年",
+    "summary": "15年资深软件工程师失业两年，资金紧张，正在寻找新机会。",
+    "key_points": [
+      "失业两年已耗尽储蓄",
+      "计划转行或兼职"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50583761",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "让思维引导身体",
+    "summary": "文章讨论如何通过心理方式控制身体行动。",
+    "key_points": [
+      "思维与身体的相互作用",
+      "提供实用技巧"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "胰腺癌新药Daraxonrasib获突破",
+    "summary": "新药Daraxonrasib被誉为胰腺癌治疗十年来最大突破。",
+    "key_points": [
+      "该药物显著提高生存率",
+      "可能改变治疗标准"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Ravi Vakil 讨论GRH证明进展",
+    "summary": "Ravi Vakil 讨论Alessandro Masullo关于广义黎曼猜想的证明进展。",
+    "key_points": [
+      "Masullo 提出证明",
+      "反馈正面，计划发布"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Levent Alpöge 公开声称发现黎曼猜想证明",
+    "summary": "Levent Alpöge 宣称与Claude一起发现黎曼猜想及其推广的证明。",
+    "key_points": [
+      "声称已证明黎曼猜想",
+      "计划进一步扩展"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "llm-gemini 0.38.1 发布",
+    "summary": "该版本修复了Gemini 4 Hydrogen/Neon 的 xhigh 级别支持问题，并更新比较表。",
+    "key_points": [
+      "修复 xhigh 级别支持",
+      "Hydrogen xhigh 产生更多输出"
+    ],
+    "category": "模型发布",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+    "published": "2026-11-20"
+  },
+  {
+    "title": "Token诈骗泛滥，危害严重",
+    "summary": "视频揭露ChatPRD平台被滥用进行Token诈骗，导致免费试用被滥用并转售。",
+    "key_points": [
+      "Token诈骗频发",
+      "对AI平台造成经济损失"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+    "published": "2026-11-20"
+  }
+]

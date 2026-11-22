@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 赋能数学重大突破，多模态大模型与开源生态迎来高光时刻 · AI 日报</title>
+<meta name="description" content="AI 日报：每天自动聚合 5 个信息源，用大模型提炼要点与编者按，北京时间 07:00 发布。">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f9;color:#1f2933;line-height:1.75;
+ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',sans-serif}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header.site{background:#111827;color:#fff;padding:14px 0}
+header.site .wrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+header.site .brand{font-weight:700;font-size:17px;color:#fff}
+header.site nav a{color:#cbd5e1;font-size:14px;margin-right:14px}
+header.site nav a:hover{color:#fff}
+.hero{background:#fff;border-bottom:1px solid #e5e7eb;padding:32px 0 26px}
+.hero h1{margin:0 0 10px;font-size:26px}
+.hero p.lead{margin:0 0 16px;color:#4b5563;font-size:15px}
+.badges span{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;
+ padding:3px 10px;font-size:12px;margin:0 6px 6px 0}
+main{padding:26px 0 60px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:22px 24px;margin-bottom:18px}
+.card h2{margin:0 0 12px;font-size:19px;border-bottom:1px solid #eef0f3;padding-bottom:8px}
+.card h3{margin:18px 0 6px;font-size:16px}
+.card p{margin:8px 0}
+.card ul,.card ol{margin:8px 0;padding-left:22px}
+.card li{margin:5px 0}
+pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow-x:auto;font-size:13px}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.meta{color:#6b7280;font-size:13px;margin:0 0 14px}
+.tagline{color:#374151;background:#f3f4f6;border-left:3px solid #9ca3af;
+ padding:8px 12px;border-radius:0 6px 6px 0;margin:10px 0}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.toc a{background:#f3f4f6;border-radius:6px;padding:5px 10px;font-size:13px}
+.issue-list{list-style:none;padding:0;margin:0}
+.issue-list li{padding:9px 0;border-bottom:1px dashed #e5e7eb;display:flex;gap:10px}
+.issue-list li:last-child{border-bottom:none}
+.issue-list .d{color:#6b7280;font-size:13px;min-width:92px}
+footer.site{border-top:1px solid #e5e7eb;background:#fff;padding:18px 0;color:#6b7280;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border:1px solid #e5e7eb;padding:7px 10px;text-align:left}
+th{background:#f9fafb}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <span class="brand">🤖 AI 日报</span>
+  <nav><a href="https://siweimidu.github.io/daybrief/">首页</a><a href="https://siweimidu.github.io/daybrief/archive.html">全部归档</a><a href="https://github.com/siweimidu/daybrief" style="color:#fff">源码</a></nav>
+</div></header>
+<main class="wrap"><div class="card"><h1>AI 赋能数学重大突破，多模态大模型与开源生态迎来高光时刻</h1><p class="meta">生成时间：2026-11-22 · 资讯 32 条</p><p class="meta">生成时间：2026-11-22 · 资讯 32 条</p>
+<p><strong>分类</strong>：行业动态 14 · 开源项目 6 · 技术解读 7 · 模型发布 2 · 其他 3</p>
+<h2>编者按</h2>
+<p>各位读者好，今天是 2026 年 11 月 22 日。回顾过去 24 小时，科技界最大的震撼莫过于人工智能在纯数学顶峰领域的持续突破。从 Anthropic 与纽约大学合作发布 AI 辅助的 Navier-Stokes 证明，到数学家借助 Claude 攻克黎曼猜想的进展，AI 已经不再局限于文本与代码生成，而是正成为人类攀登基础科学高峰的得力助手。</p>
+<p>与此同时，大模型与底层架构的竞争也在白热化。腾讯开源了高达 7700 亿参数的旗舰多模态模型 Hy4，展现了国产大模型在图像、视频理解和复杂电脑操作上的野心。而在轻量化方面，诸如仅需 5.4GB 内存运行的 Inkling-2-Mini 等模型，则标志着端侧与边缘计算正在快速打破资源限制，让高性能 AI 变得前所未有地触手可及。</p>
+<p>然而，繁荣的背后也伴随着治理与安全挑战。OpenRouter 移除多家供应商并下线 125 个 API 端点，凸显了推理服务商在数据隐私与零保留政策上面临的转型阵痛；欧盟发布的 AI 代理官方法律框架，以及近期频发的安全漏洞与 Token 诈骗，都在提醒行业合规与安全性已经刻不容缓。</p>
+<p>面对充满变数的开源生态与技术迭代，开发者和企业需要保持清醒。一方面，应当积极拥抱 AI 辅助工具链来提升科研与工程效率；另一方面，必须加强对数据隐私、模型合规以及供应链安全的风险防御，在创新与稳健之间找到最佳平衡点。</p>
+<h2>今日要点</h2>
+<h3>1. AI Daily：Anthropic 与 NYU 发布 AI 辅助 Navier‑Stokes 证明</h3>
+<ul>
+<li>来源：<a href="https://www.ainewslog.com/blog/grok-daily-2026-11-22-zh/">AI Daily</a></li>
+<li>点评：Anthropic 与纽约大学研究员共同发布 AI 辅助的 Navier-Stokes 证明，声称成功填补了前人方案的漏洞。这标志着大模型在解决流体力学等世界级数学难题上取得了实质性进展，展现了 AI 作为科研助手的巨大潜力。</li>
+</ul>
+<h3>2. Levent Alpöge 公开声称发现黎曼猜想证明</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Nov/20/levent-alpoge/">Simon Willison</a></li>
+<li>点评：数学家 Levent Alpöge 宣布在 Claude 的协助下发现了黎曼猜想及其推广的证明，并通过 Lean 形式化验证工具推进。AI 与形式化数学的结合正在加速人类对世纪难题的攻坚步伐。</li>
+</ul>
+<h3>3. AI日报：腾讯770B模型开源及AI代理招聘</h3>
+<ul>
+<li>来源：<a href="https://www.ainewslog.com/blog/grok-daily-2026-11-21-zh/">AI Daily</a></li>
+<li>点评：腾讯重磅开源 7700 亿参数的 Hy4 旗舰模型，具备强大的多模态图像、视频理解及电脑操作能力。此举进一步丰富了全球开源大模型生态，为企业级复杂智能代理应用提供了强有力的底层支撑。</li>
+</ul>
+<h3>4. Inkling-2-Mini 仅用5.4GB内存运行</h3>
+<ul>
+<li>来源：<a href="https://github.com/ShinMegamiBoson/lookatmyquant">Hacker News Front Page</a></li>
+<li>点评：该模型在极低的 5.4GB 内存消耗下依然能够高效运行，树立了轻量化模型的新标杆。它为边缘计算、本地部署以及资源受限环境下的 AI 应用普及带来了全新的可能性。</li>
+</ul>
+<h3>5. OpenRouter 移除3家供应商并下线125个端点</h3>
+<ul>
+<li>来源：<a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">Hacker News Front Page</a></li>
+<li>点评：OpenRouter 采取果断措施剥离部分推理提供商并全面转向零数据保留政策。这一行业变动表明，随着数据隐私监管趋严，API 聚合平台对供应商的合规审查正在变得前所未有地严格。</li>
+</ul>
+<h3>6. Pandex：欧盟AI代理官方法律框架</h3>
+<ul>
+<li>来源：<a href="https://www.pandex.io">Hacker News Front Page</a></li>
+<li>点评：欧盟正式发布针对 AI 代理的官方合规法律框架，试图通过模型合规协议（MCP）规范自主 AI 行为。这标志着 AI 代理技术正式进入强监管时代，合规性将成为企业产品落地的首要考量。</li>
+</ul>
+<h3>7. Leonida：在PC上重新编译Xbox版GTA 6</h3>
+<ul>
+<li>来源：<a href="https://github.com/ItsNotRexed/Leonida">Hacker News Front Page</a></li>
+<li>点评：开源项目 Leonida 成功将主机版《GTA 6》移植并在 PC 上重新编译运行。该项目展现了逆向工程与跨平台移植领域的高超技术水平，引发了开发者与硬核玩家的广泛热议。</li>
+</ul>
+<h3>8. Muru：AI 辅助的 Rust 服务器，支持 ASGI/WSGI</h3>
+<ul>
+<li>来源：<a href="https://simonwillison.net/2026/Nov/21/muru/">Simon Willison</a></li>
+<li>点评：该项目由资深开发者结合 Rust 与 AI 辅助技术打造，专为 Python ASGI/WSGI 应用提供高性能开发环境。它体现了用系统级语言重构 Web 基础架构、并借助 AI 提效的最新技术风潮。</li>
+</ul>
+<h2>其他资讯</h2>
+<ul>
+<li><strong><a href="https://daily.juya.uk/issues/2026-11-22/">橘鸦AI早报：Antigravity 重置配额等多条更新</a></strong>（橘鸦AI早报 · 行业动态）：2026‑11‑22的AI早报列出多项行业动态，包括Antigravity 重置 Gemini 配额、Google Antigravity 更新、Cursor 更名为 Grok Build、OpenCode 降价以及OpenAI 新增通话文字转录功能。</li>
+<li><strong><a href="https://stulle.app/">Sandwich Simulator 上线，模拟三明治制作</a></strong>（Hacker News Front Page · 其他）：全新网页游戏 Sandwich Simulator 让玩家在浏览器中体验制作三明治的过程，已在 Hacker News 获得高票关注。</li>
+<li><strong><a href="https://www.ainewslog.com/blog/grok-daily-2026-11-22-zh/">AI 日报：Anthropic 与 NYU 发布 AI 辅助 Navier‑Stokes 证明</a></strong>（AI Daily · 行业动态）：同上中文报道，Anthropic 研究员和纽约大学教授在同一天发布 AI 辅助的 Navier‑Stokes 证明，称补上了 OpenAI 方案的漏洞。</li>
+<li><strong><a href="https://github.com/sebaandrada-cell/PcapAnalyzer">PcapAnalyzer：自托管的 pcap 分析工具，含27种检测</a></strong>（Hacker News Front Page · 开源项目）：开源工具 PcapAnalyzer 可本地部署，用于分析 pcap 文件并提供27种问题检测，已在 Hacker News 获得 71 票的高度关注。</li>
+<li><strong><a href="https://linebender.org/blog/next-100-guis/">Rust GUI 未来100个方向的建议</a></strong>（Hacker News Front Page · 技术解读）：文章提供了对未来100个Rust GUI项目的建议，强调了生态、跨平台和工具链的重要性，对Rust开发者规划新项目具有参考价值。</li>
+<li><strong><a href="https://tasklet.ai/careers">Tasklet招聘产品与基础设施工程师</a></strong>（Hacker News Front Page · 行业动态）：Tasklet公司在招聘产品和代理基础设施工程师，显示其在AI平台建设上扩张团队，对行业人才需求有指示意义。</li>
+<li><strong><a href="https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746">捷克绳纹陶文化中的不平等出现</a></strong>（Hacker News Front Page · 其他）：研究揭示捷克绳纹陶文化中出现的社会不平等现象，提供考古学视角的早期阶层分化证据，对理解欧洲史前社会结构重要。</li>
+<li><strong><a href="https://pwn.ai/upload2shell">Upload2Shell 漏洞 (CVE-2026-125396) 报告</a></strong>（Hacker News Front Page · 技术解读）：报告了Upload2Shell漏洞（CVE-2026-125396），该漏洞允许远程代码执行，危及服务器安全，安全社区需及时修补。</li>
+<li><strong><a href="https://jespino.github.io/gopgext/">Go语言实现的PostgreSQL扩展</a></strong>（Hacker News Front Page · 开源项目）：该项目提供用Go语言编写的PostgreSQL扩展，简化了在Go生态中使用数据库功能，对开发者构建高性能服务有帮助。</li>
+<li><strong><a href="https://math.mit.edu/~drew/grh/">Lean 形式化黎曼猜想验证文件</a></strong>（Hacker News Front Page · 技术解读）：提供了使用Lean定理证明器验证黎曼猜想的文件，标志着形式化数学在重大猜想上的进展，对数学和形式化验证社区意义重大。</li>
+<li><strong><a href="https://onurgumus.github.io/zero-csharp/index.html">Zero C#：无需运行时和垃圾回收的 C# 实现</a></strong>（Hacker News Front Page · 开源项目）：Zero C# 项目展示了在不依赖传统运行时和垃圾回收器的情况下运行 C# 代码的可能性，旨在用于资源受限环境。</li>
+<li><strong><a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">Lean 形式化验证黎曼猜想的进展</a></strong>（Hacker News Front Page · 技术解读）：Lean 社区发布了对黎曼猜想的形式化验证工作，利用交互式证明助手对该数学难题进行机器化证明。</li>
+<li><strong><a href="https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really">实验：引爆大块硝酸铅的过程</a></strong>（Hacker News Front Page · 技术解读）：Science 博客记录了对大量硝酸铅进行引爆的实验，展示了其极高的爆炸威力和安全挑战。</li>
+<li><strong><a href="https://blog.tymscar.com/posts/studiodisplayethernet/">显示器导致下载速度下降75% 的原因及解决</a></strong>（Hacker News Front Page · 技术解读）：作者发现显示器的某些设置会导致网络下载速度下降 75%，并提供了通过 DisplayPort Ethernet 解决的方案。</li>
+<li><strong><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html">Gnupg 远程代码执行漏洞披露</a></strong>（Hacker News Front Page · 行业动态）：Gnupg 公布了一个远程代码执行（RCE）漏洞，攻击者可利用该漏洞在受影响系统上执行任意代码，需及时更新。</li>
+<li><strong><a href="https://daily.juya.uk/issues/2026-11-21/">每日科技早报：数学、AI模型、缓存等要闻</a></strong>（橘鸦AI早报 · 行业动态）：橘鸦AI早报汇总当天重要科技资讯，包括数学家与 Claude 合作证明黎曼猜想、Inkling 2 Mini 开源、Antigravity 扩容缓存池等。</li>
+<li><strong><a href="https://www.ainewslog.com/blog/grok-daily-2026-11-21-en/">AI Daily：腾讯开源770B模型等行业动态</a></strong>（AI Daily · 行业动态）：AI Daily 报道腾讯开源 7700 亿参数的 Hy4 模型，具备图像、视频理解及电脑操作能力，同时提及 Apple 招 AI 代理等行业动态。</li>
+<li><strong><a href="https://dailydawn.dev/zh/2026-11-21">GitHub Trending 新工具登榜</a></strong>（DailyDawn 中文 · 开源项目）：GitHub Trending 今日两款AI工具Claude‑BugHunter与firecrawl同步登榜，开发者利用零成本搭建代码审计流水线。</li>
+<li><strong><a href="https://news.ycombinator.com/item?id=50583761">求职困境：15年资深工程师失业2年</a></strong>（Hacker News Front Page · 其他）：15年资深软件工程师失业两年，资金紧张，正在寻找新机会。</li>
+<li><strong><a href="https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body">让思维引导身体</a></strong>（Hacker News Front Page · 其他）：文章讨论如何通过心理方式控制身体行动。</li>
+<li><strong><a href="https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib">胰腺癌新药Daraxonrasib获突破</a></strong>（Hacker News Front Page · 行业动态）：新药Daraxonrasib被誉为胰腺癌治疗十年来最大突破。</li>
+<li><strong><a href="https://simonwillison.net/2026/Nov/20/ravi-vakil/">Ravi Vakil 讨论GRH证明进展</a></strong>（Simon Willison · 技术解读）：Ravi Vakil 讨论Alessandro Masullo关于广义黎曼猜想的证明进展。</li>
+<li><strong><a href="https://simonwillison.net/2026/Nov/20/llm-gemini/">llm-gemini 0.38.1 发布</a></strong>（Simon Willison · 模型发布）：该版本修复了Gemini 4 Hydrogen/Neon 的 xhigh 级别支持问题，并更新比较表。</li>
+<li><strong><a href="https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/">Token诈骗泛滥，危害严重</a></strong>（Simon Willison · 行业动态）：视频揭露ChatPRD平台被滥用进行Token诈骗，导致免费试用被滥用并转售。</li>
+</ul></div></main>
+<footer class="site"><div class="wrap">
+  由 <a href="https://github.com/siweimidu/daybrief">siweimidu/daybrief</a> 自动生成 · 每天北京时间 07:00 更新 ·
+  <a href="https://siweimidu.github.io/daybrief/rss.xml">RSS</a> · <a href="https://siweimidu.github.io/daybrief/archive.html">归档</a>
+</div></footer>
+</body>
+</html>

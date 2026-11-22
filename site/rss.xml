@@ -4,7 +4,18 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sat, 21 Nov 2026 03:40:35 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 02:46:53 +0000</lastBuildDate>
+  <item>
+    <title>AI 赋能数学重大突破，多模态大模型与开源生态迎来高光时刻</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-22.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-22.html</guid>
+    <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-22 · 资讯 32 条
+分类：行业动态 14 · 开源项目 6 · 技术解读 7 · 模型发布 2 · 其他 3
+编者按
+各位读者好，今天是 2026 年 11 月 22 日。回顾过去 24 小时，科技界最大的震撼莫过于人工智能在纯数学顶峰领域的持续突破。从 Anthropic 与纽约大学合作发布 AI 辅助的 Navier-Stokes 证明，到数学家借助 Claude 攻克黎曼猜想的进展，AI 已经不再局限于文本与代码生成，而是正成为人类攀登基础科学高峰的得力助手。
+与此同时，大模型与底层架构的竞争也在白热化。腾讯开源了高达 7700 亿参数的旗舰多模态模型 Hy4，展现了国产大模型在图像、视频理解和复杂电脑操作上的野心。而在轻量化方面，诸如仅需 5.4GB 内存运行的 Inkling-2-Mini 等模型，则标志着端侧与边缘计算正在快速打破资源限制，让高性</description>
+  </item>
   <item>
     <title>数学界迎来历史性突破：AI与数学家携手攻克黎曼猜想，大模型与开源生态持续演进</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-21.html</link>
@@ -385,16 +396,5 @@ AI模型规模与硬件并进，开源5G与GPU硬件更新推动边缘计算。
 编者按
 今天是2026年10月24日，全球科技界迎来了一波密集的技术发布与安全挑战。从大模型层的持续迭代，到AI代理（Agent）标准化生态的跨越式发展，今天的资讯充分展现了人工智能正从单纯的“对话工具”向深度集成的生产力基础设施演进。在大模型领域，Kimi发布了K3.1 Pro及其高速版，Moonshot展现了其追赶顶尖梯队的强劲势头；与此同时，Block.xyz推出了号称最真实的全双工语音模型Dessa，而微信也交出了WeVisOne-VL视觉模型的答卷，多模态交互正在走向实时化与细腻化。
 除了底层能力的狂飙，AI生态的规范化与开源协作同样迎来了里程碑。Anthropic宣布将Agent Skills标准以及Model Context Proto</description>
-  </item>
-  <item>
-    <title>AI基础设施生态加速演进，开源代理运行时与垂直金融落地成焦点</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-23.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-23.html</guid>
-    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-23 · 资讯 30 条
-分类：行业动态 8 · 技术解读 6 · 开源项目 6 · 模型发布 2 · 其他 8
-编者按
-各位读者好。今天是2026年10月23日，当前科技界的核心看点依然集中在人工智能向纵深发展的生态重构与标准建立上。Anthropic将Agent Skills与Model Context Protocol捐赠给Linux基金会旗下的Agentic AI Foundation，标志着AI代理的标准正从企业私有走向全面开源与社区共建，这为未来的多代理协作打下了坚实基础。
-与此同时，硬件与算力层面的创新正在改变商业格局。《经济学人》指出AI算力已成为“新石油”，急需建立全新的市场机制来进行定价与分配；而在具体落地方面，OpenAI推出了面向金融服务的ChatGPT版本，并加码流式视频与3D场景建基准，凸显出大模型正快速向高壁垒的垂直专业领域和复杂多模</description>
   </item>
 </channel></rss>
