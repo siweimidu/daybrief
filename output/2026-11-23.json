@@ -1,0 +1,62 @@
+{
+  "subject": "AI服务器价格飙升，合同仍在",
+  "editorial": "AI 服务器价格飙升，合同仍在，显示供应链紧张与厂商议价权上升。\nOpenRouter 取消部分供应商资格，进一步压缩可选方案；同时 OpenAI 公开 Perplexity 指标，提示模型评估标准正被重新定义。\n在此背景下，0rwx 提出的 Unix 权限式 AI 访问模型为企业提供了更细粒度的安全框架；Muru 的 AI 辅助 Rust 服务器则展示了在成本与性能之间寻找平衡的技术路径。\n企业应主动审查合同条款，争取价格锁定或多元化供应商；同时加大对开源硬件与软件的投入，以降低对单一厂商的依赖。\n技术团队需要关注模型评估指标的演进，避免仅凭 perplexity 评判 AI 价值；安全团队则应采纳 0rwx 等模型，构建更稳固的访问控制。\n总之，AI 生态正处于成本与安全双重考验期，唯有通过多元化、标准化与技术创新，才能在竞争中保持优势。",
+  "highlights": [
+    {
+      "title": "AI服务器价格大幅上涨，合同仍在",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-23-en/",
+      "analysis": "厂商在交付时追加25%–45%费用，显示硬件成本与供应链压力正在上升；合同条款仍可调整，企业需警惕后续涨价风险。"
+    },
+    {
+      "title": "AI日报：合同签署后价格仍可上调",
+      "source_name": "AI Daily",
+      "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-23-zh/",
+      "analysis": "中文报道进一步确认价格可在合同后调整，强调供应商对价格的持续掌控；提示企业在签约时需加入价格上限或分段支付条款。"
+    },
+    {
+      "title": "AI与科技行业最新动态",
+      "source_name": "橘鸦AI早报",
+      "source_url": "https://daily.juya.uk/issues/2026-11-23/",
+      "analysis": "多条行业新闻聚焦 AI 生态的成本与监管，表明行业正面临成本与合规双重挑战；企业需同步关注政策与供应链动态。"
+    },
+    {
+      "title": "OpenAI perplexity and intelligence",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/perplexity-and-intelligence/",
+      "analysis": "OpenAI 公开 perplexity 指标的意义，提示模型评估正从单一指标向多维度转变；研发团队需结合多项指标评估模型价值。"
+    },
+    {
+      "title": "0rwx：类Unix权限的AI使用模型",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://0rwx.com/",
+      "analysis": "0rwx 提出的权限模型为 AI 访问控制提供了清晰框架，适合需要细粒度安全的企业；可作为安全架构的参考。"
+    },
+    {
+      "title": "Muru：AI 辅助 Rust 服务器",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "analysis": "Muru 通过 AI 辅助提升 Rust 服务器性能，展示了在成本与性能之间寻找平衡的技术路径；对需要高并发、低延迟的服务具有参考价值。"
+    },
+    {
+      "title": "Nespresso胶囊减咖啡量项目",
+      "source_name": "Hacker News Front Page",
+      "source_url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
+      "analysis": "Nespresso 通过降低胶囊咖啡粉量实现可持续目标，体现企业在成本与环保之间寻找新平衡；提示行业可借此降低原料成本。"
+    },
+    {
+      "title": "Antigravity与OpenAI语音更新",
+      "source_name": "橘鸦AI早报",
+      "source_url": "https://daily.juya.uk/issues/2026-11-22/",
+      "analysis": "Antigravity 重置 Gemini 配额、Cursor 更名为 Grok Build 等更新，显示 AI 生态快速迭代；企业需关注平台更新以避免服务中断。"
+    }
+  ],
+  "categories": {
+    "技术解读": 7,
+    "开源项目": 6,
+    "行业动态": 8,
+    "其他": 4
+  },
+  "generated_at": "2026-11-23T03:24:42.456041+00:00",
+  "source_count": 29
+}

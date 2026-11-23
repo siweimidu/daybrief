@@ -1,0 +1,365 @@
+[
+  {
+    "title": "高级角色物理技术概览",
+    "summary": "CMU发布的《Advanced Character Physics》PDF，提供角色物理模拟的学术资料，供研究与开发参考。",
+    "key_points": [
+      "CMU课程幻灯片PDF",
+      "在Hacker News上被分享"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
+    "published": "2026-11-23"
+  },
+  {
+    "title": "AI与科技行业最新动态",
+    "summary": "多条行业新闻披露：OpenAI公开内部指标Perplexity、蚂蚁集团开源医疗模型LingSante 3.1、特斯拉Reality View细节、Elon Musk警示AI资金短缺、OpenRouter下架供应商等。",
+    "key_points": [
+      "OpenAI公开Perplexity指标",
+      "蚂蚁集团开源医疗模型",
+      "特斯拉Reality View技术细节"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-23/",
+    "published": "2026-11-23"
+  },
+  {
+    "title": "基于档案视频的免费替代电视网",
+    "summary": "Spelunkr.tv利用Internet Archive的被遗忘视频搭建免费电视网络，提供另类媒体内容。",
+    "key_points": [
+      "使用Internet Archive视频",
+      "免费提供电视流媒体",
+      "打造替代电视平台"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://spelunkr.tv",
+    "published": "2026-11-23"
+  },
+  {
+    "title": "运营千级API认证的经验教训",
+    "summary": "Nango博客分享了为约900个API提供认证服务的运营经验，帮助开发者应对大规模API身份验证挑战。",
+    "key_points": [
+      "管理近千个API的认证",
+      "总结运营中的关键教训"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
+    "published": "2026-11-23"
+  },
+  {
+    "title": "AI服务器价格大幅上涨，合同仍在",
+    "summary": "Dell、HPE、Lenovo等AI服务器厂商在交付时要求客户额外支付25%至45%费用，同时OpenRouter撤销部分供应商资格。",
+    "key_points": [
+      "AI服务器价格上调25%-45%",
+      "OpenRouter下架三家供应商"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-23-en/",
+    "published": "2026-11-23"
+  },
+  {
+    "title": "AI日报：合同签署后价格仍可上调",
+    "summary": "同日中文报道指出，AI服务器厂商涨价、零数据保留承诺被质疑、OpenRouter撤销供应商资格等多项行业动态。",
+    "key_points": [
+      "AI服务器涨价",
+      "零数据保留承诺被质疑",
+      "OpenRouter撤销125个端点资格"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-23-zh/",
+    "published": "2026-11-23"
+  },
+  {
+    "title": "Nespresso胶囊减咖啡量项目",
+    "summary": "Nespresso启动Project Olympus，旨在降低每个咖啡胶囊中的咖啡粉重量，以实现可持续发展目标。",
+    "key_points": [
+      "项目名称Project Olympus",
+      "降低胶囊咖啡粉重量"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "0rwx：类Unix权限的AI使用模型",
+    "summary": "0rwx.com提出一种受Unix权限启发的AI使用模型，为AI访问控制提供简洁的概念框架。",
+    "key_points": [
+      "受Unix权限启发的模型",
+      "提供AI使用权限管理思路"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://0rwx.com/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Lean 正式化进度图",
+    "summary": "该文章展示了 Alessandro Masullo 手稿在 Lean 定理证明器中的形式化进度图，获 167 分，讨论热烈。",
+    "key_points": [
+      "展示进度图",
+      "社区关注度高"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "GL.iNet 安全通告 2026-11-20",
+    "summary": "GL.iNet 发布了2026年11月20日的安全公告，提醒用户注意漏洞，帖子获 110 分。",
+    "key_points": [
+      "发布安全公告",
+      "提醒用户更新"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Localcode：一键在 Mac 上实现代理编码",
+    "summary": "Localcode 是一个开源工具，使用单条命令在 Mac 上提供代理式编码功能，获得 30 分。",
+    "key_points": [
+      "单命令安装",
+      "开源项目"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/mjwsolo/localcode",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "《无用知识的价值》1939 PDF",
+    "summary": "该 PDF 收录了1939年的论文《The Usefulness of Useless Knowledge》，在 HN 获 74 分。",
+    "key_points": [
+      "历史论文",
+      "PDF 资源"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "BSD 如何摆脱 AT&T 许可",
+    "summary": "文章回顾了 BSD 系统从 AT&T 许可中独立的历程，获得 55 分。",
+    "key_points": [
+      "BSD 历史",
+      "自由软件运动"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "首个获批致幻剂能否成票房大片",
+    "summary": "报道首个获批的致幻剂药物是否有望成为商业巨作，帖子得 30 分。",
+    "key_points": [
+      "致幻剂获批",
+      "商业前景"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.pharmavoice.com/news/race-first-psilocybin-blockbuster-compass-usona/875270/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "本地 AI 入门：Inkling、Qwen 与 Unsloth",
+    "summary": "指南介绍了在本地部署 Inkling、Qwen 和 Unsloth 三种模型的步骤，获 279 分。",
+    "key_points": [
+      "本地部署指南",
+      "多模型示例"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "微型旧金山实时交通模型",
+    "summary": "SmallSF 项目提供了一个缩小版的旧金山，实时显示公交、飞机和船只，获得 165 分。",
+    "key_points": [
+      "实时交通可视化",
+      "缩小城市模型"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://smallsf.com/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Nyx：最古老的互联网服务提供商",
+    "summary": "文章介绍了 Nyx 声称自己是最早成立的 ISP，回顾其历史并探讨其在当今网络生态中的意义，帮助了解互联网基础设施的演变。",
+    "key_points": [
+      "Nyx 声称为最早的 ISP",
+      "回顾其历史与现状",
+      "讨论其在现代网络中的意义"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nyx.net/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "HTML <select> 框的全套 CSS 样式示例",
+    "summary": "作者利用 Claude Fable 5.2 生成展示所有 <select> 框可实现的 CSS 样式的页面，并分享个人最喜欢的样式代码，帮助开发者统一跨浏览器的表单外观。",
+    "key_points": [
+      "AI 生成的样式展示页面",
+      "提供推荐的 CSS 代码",
+      "提升表单跨浏览器一致性"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "假设读者对博客不感兴趣的写作策略",
+    "summary": "文章建议博主在创作时假设读者对内容不感兴趣，以此调整写作和推广策略，提高实际阅读率，对内容创作者的心态和效果提供指导。",
+    "key_points": [
+      "倡导逆向思维的写作心态",
+      "调整内容与推广策略",
+      "提升阅读率和互动"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "硅谷到底发生了什么？",
+    "summary": "文章分析硅谷从创新中心到面临挑战与转型的过程，探讨经济、政策、人才流动等因素，帮助读者理解科技产业格局的变化。",
+    "key_points": [
+      "硅谷的历史转折点",
+      "影响因素：经济、政策、人才",
+      "对科技产业格局的洞察"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "GTA 6 鸟类图鉴：副城与真实野生鸟",
+    "summary": "该文为 GTA 6 中的虚拟鸟类提供实地指南，关联游戏中的鸟与真实世界的物种，兼具游戏爱好者和鸟类爱好者的兴趣，提升游戏与自然教育的结合。",
+    "key_points": [
+      "列出游戏中的鸟类",
+      "对应真实世界的鸟种",
+      "融合游戏与自然科普"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "哈佛 CS 2881R：AI 安全研讨课",
+    "summary": "哈佛公开了 CS 2881R AI 安全研讨课的页面，列出课程主题和资源，强调在 AI 发展中安全研究的重要性，为学术界和业界关注 AI 风险的人员提供参考。",
+    "key_points": [
+      "课程页面与资源链接",
+      "聚焦 AI 安全主题",
+      "强调 AI 风险研究的重要性"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://boazbk.github.io/mltheoryseminar/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "困惑度与智能：OpenAI 的新解读",
+    "summary": "OpenAI 阐述语言模型的困惑度（perplexity）如何反映其智能水平，并探讨该指标在评估模型能力中的作用，为 AI 评估提供新的视角。",
+    "key_points": [
+      "解释困惑度概念",
+      "关联模型智能水平",
+      "讨论评估指标的意义"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/perplexity-and-intelligence/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "加入 NTP 池：我的树莓派实验",
+    "summary": "博主分享使用普通树莓派而非 Stratum 1 设备加入 NTP 池的经历，说明操作步骤和收获，对想参与公共时间服务的技术爱好者提供实用参考。",
+    "key_points": [
+      "使用树莓派加入 NTP 池",
+      "非 Stratum 1 设备的实现方式",
+      "对时间同步社区的贡献"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Antigravity与OpenAI语音更新",
+    "summary": "Antigravity 重置所有用户的 Gemini 配额，Google Antigravity 更新支持分支，Cursor 将更名为 Grok Build，OpenCode 降价 GLM 5.3 与 DeepSeek Flash 60%，OpenAI 语音团队宣布 Dots 通话后可查看文字转录。",
+    "key_points": [
+      "Antigravity 重置 Gemini 配额",
+      "Google Antigravity 更新支持分支",
+      "Cursor 将更名为 Grok Build"
+    ],
+    "category": "技术解读",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-22/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Anthropic NYU Navier-Stokes 证明",
+    "summary": "Anthropic 与纽约大学教授发布 AI 辅助 Navier-Stokes 证明，声称修补 OpenAI 方案漏洞。",
+    "key_points": [
+      "Anthropic 与 NYU 发布 AI 辅助 Navier-Stokes 证明",
+      "声称修补 OpenAI 方案漏洞"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-22-en/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "AI 研究与股市波动",
+    "summary": "同日发布 Navier-Stokes 证明的同时，英伟达单日跌幅 14%，纳指全年负增长，Anthropic 上市第二天股价下跌 9.1%。",
+    "key_points": [
+      "同日发布 Navier-Stokes 证明",
+      "英伟达单日跌幅 14%",
+      "纳指全年负增长"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-22-zh/",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Claude-BugHunter 与 GRH 工具链更新",
+    "summary": "GitHub Trending 新登 Claude-BugHunter，1803 星，提供本地代码漏洞检测；GRH 验证工具链已适配 3 大数学开源项目；Lean 社区 Riemann 证明工具链完成 Mathlib4 100% 适配。",
+    "key_points": [
+      "Claude-BugHunter 1803 星，开箱即用本地代码漏洞检测",
+      "GRH 验证工具链适配 3 大数学开源项目",
+      "Lean 社区 Riemann 证明工具链完成 Mathlib4 100% 适配"
+    ],
+    "category": "开源项目",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-22",
+    "published": "2026-11-22"
+  },
+  {
+    "title": "Muru：AI 辅助 Rust 服务器",
+    "summary": "Graham Dumpleton 推出 Muru，一款 AI 辅助的 Rust 服务器，旨在为 ASGI/WSGI Python 应用提供更佳的开发与生产部署体验，并持续公开开发日志。",
+    "key_points": [
+      "Muru 为 ASGI/WSGI Python 应用提供 AI 辅助 Rust 服务器",
+      "目标提升生产环境部署体验",
+      "开发日志持续公开"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "published": "2026-11-21"
+  }
+]
