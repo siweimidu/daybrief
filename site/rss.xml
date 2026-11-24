@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Mon, 23 Nov 2026 03:24:42 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 06:37:24 +0000</lastBuildDate>
+  <item>
+    <title>AI模型迭代与开源创新引领技术潮流</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-24.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-24.html</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-24 · 资讯 32 条
+分类：其他 5 · 开源项目 11 · 技术解读 8 · 行业动态 5 · 模型发布 3
+编者按
+本日最显著的趋势是大模型的快速迭代与开源生态的同步爆发，GLM‑5.4的循环Transformer架构展示了模型在保持参数规模不变的前提下提升深度的可能；与此同时，OpenAI 与 Cisco 合作的 Shirudo 以及 Declare 等项目正把安全与交互推向新高度。
+在产业层面，Nvidia 重新任命黄仁勋为 CEO，标志着公司在 AI 硬件竞争中的战略回归；而在软件层面，Simon Willison 推出的 Ladybird 浏览器 Alpha 以及 Declare UI 语言，预示着新一代开发者工具正从实验走向主流。
+开源项目的多样化也在加速：从 Stalwart 替代 Exchange 的邮件服务，到 GPUI 独立仓库的迁移，再</description>
+  </item>
   <item>
     <title>AI服务器价格飙升，合同仍在</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-23.html</link>
@@ -388,17 +400,5 @@ AI模型规模与硬件并进，开源5G与GPU硬件更新推动边缘计算。
 与此同时，Kimi、CapCut、Nanbeige 等多家产品同步发布功能更新或平台接入，OpenAI 28 天计划也在第 20 天全量重置，用量限制的松绑与新功能的叠加显示出AI生态的快速迭代与融合趋势。
 但成本压力并未全线消退，投资者自建算力面临电价高出公共供电 23% 的现实挑战，同时传统卷积神经网络在皮肤癌诊断上再次超越最新 LLM，提醒我们在追逐大模型的同时仍需关注硬件效率与模型适配性。
 建议企业在选型时把握价格下调的窗口期，评估本地部署的电力成本与安全合规（如 Unicode TR‑39），并积极尝试开源</description>
-  </item>
-  <item>
-    <title>AWS算力售罄与Kimi K3.1 Pro发布：AI基础设施与大模型双向提速</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-25.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-25.html</guid>
-    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-25 · 资讯 28 条
-分类：行业动态 13 · 技术解读 9 · 开源项目 4 · 模型发布 1 · 其他 1
-编者按
-各位读者好，今天是2026年10月25日。回顾过去24小时的科技圈，AI产业正呈现出两个极具戏剧性却又高度统一的趋势：一方面是算力基础设施的极度紧绷，另一方面是大模型与AI应用在激烈竞争中不断突破边界。
-最引人注目的行业风向来自AWS——其云AI容量已经彻底售罄至2027年，这一信号直接宣告了当前全球算力供需失衡的严峻现实。与此同时，在应用端，月之暗面正式发布了Kimi K3.1 Pro，不仅提供高速版本，更打破常规宣布将于11月4日公开完整模型权重。这种软硬件层面的剧烈碰撞，一方面拉高了整个行业的进入门槛，另一方面也通过开源和生态共建不断反哺开发社区。
-除了巨头博弈，开源和工具链生态同样迎来了井喷。GitHub Trending上Cloud</description>
   </item>
 </channel></rss>
