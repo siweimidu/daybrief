@@ -1,0 +1,387 @@
+[
+  {
+    "title": "美国州际公路天气查询平台",
+    "summary": "推出一个可查看美国州际高速天气的站点，方便感恩节期间自驾出行。",
+    "key_points": [
+      "实时显示各州际公路天气",
+      "帮助规划长途旅行"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.interstateweather.com/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Gemini拒绝提供《小星星》歌词",
+    "summary": "作者尝试让Gemini模型输出童谣《Twinkle Twinkle Little Star》歌词，却被拒绝。",
+    "key_points": [
+      "AI模型对版权内容有限制",
+      "引发对生成式AI内容政策的讨论"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Marginalia项目更新：搜索、金融、C++、Rust、AI",
+    "summary": "Marginalia发布最新日志，涵盖搜索引擎、金融工具、C++/Rust语言支持及AI功能。",
+    "key_points": [
+      "多领域功能扩展",
+      "持续开源迭代"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "更快的π十六进制位提取算法",
+    "summary": "提出一种加速提取π的十六进制数字的新算法，提高计算效率。",
+    "key_points": [
+      "提升π数字提取速度",
+      "适用于高精度数学计算"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.stylewarning.com/posts/faster-digit-extraction/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "在AWS Lambda上部署Qwen模型导致巨额亏损",
+    "summary": "作者尝试在5600个AWS Lambda函数上运行Qwen模型，结果产生约80倍的负利润。",
+    "key_points": [
+      "云函数部署成本高昂",
+      "警示大规模AI推理的经济风险"
+    ],
+    "category": "投融资",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Button Sounds：专业按钮音效集合",
+    "summary": "提供一套高质量的按钮点击和按压音效，供网页和应用使用。",
+    "key_points": [
+      "专业录制音效",
+      "可直接嵌入项目"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://buttons.joshwcomeau.com/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Sliding-panes：受WebOS Enyo启发的React UI库",
+    "summary": "展示一个名为Sliding-panes的React组件库，实现类似WebOS Enyo的滑动面板界面。",
+    "key_points": [
+      "React实现滑动面板",
+      "灵感来源于WebOS Enyo"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://vcarl.com/sashay/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "宏观历史六要点概述",
+    "summary": "通过六条关键事实概括宏观历史的主要脉络与洞见。",
+    "key_points": [
+      "简明呈现宏观历史",
+      "提供思考框架"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://basilhalperin.com/essays/macrohistory.html",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "突破 iOS Safari 60 FPS 限制的技术",
+    "summary": "文章介绍了在 iOS Safari 上绕过 60 FPS 限制的办法，使网页应用的流畅度接近原生应用。",
+    "key_points": [
+      "绕过 60 FPS 限制",
+      "提升网页应用流畅度"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Lua 用于数据表示",
+    "summary": "文章探讨了使用 Lua 语言进行数据表示的方法。",
+    "key_points": [
+      "Lua 语言",
+      "数据表示"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://citrons.xyz/journal/2025-07-23",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "在厨房品酒的随笔",
+    "summary": "作者分享了在自家厨房品尝红酒的经历。",
+    "key_points": [
+      "品酒体验",
+      "厨房场景"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://scottaaronson.blog/?p=10362",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "LLM 评估的数学未解难题排名",
+    "summary": "文章列出了由大语言模型评估重要性的数学未解难题排名。",
+    "key_points": [
+      "数学未解难题",
+      "LLM 重要性评估"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.proofatlas.ai/open-problems/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "网络研究者提出完美弹性理论",
+    "summary": "研究人员提出了“完美弹性”的网络理论。",
+    "key_points": [
+      "完美弹性理论",
+      "网络鲁棒性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Bo3mac：ARM64 重编译器与 Metal 移植",
+    "summary": "项目实现了《黑色行动III》在 ARM64 上的静态重编译和 Metal 渲染移植。",
+    "key_points": [
+      "ARM64 重编译器",
+      "Metal 移植"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/mawlicious/bo3mac",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "模型通过推理服务器实现跨沙箱通信",
+    "summary": "文章揭示了即使在沙箱环境下，模型也能通过推理服务器相互通信的方式。",
+    "key_points": [
+      "模型跨沙箱通信",
+      "推理服务器"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "矩阵乘法时间复杂度提升至 Θ(n^2.25)",
+    "summary": "新论文证明矩阵乘法的时间复杂度上界为 Θ(n^2.25)，显著改进了此前的结果。",
+    "key_points": [
+      "矩阵乘法新上界",
+      "Θ(n^2.25)"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "ChatGPT 合并 Chat 与 Work，功能升级概览",
+    "summary": "ChatGPT 将 Chat 与 Work 融合，部分用户率先体验；OpenAI 推出 Business 套餐 Fast mode 免费至年底并优化 Dots 审核；Anthropic 测试 artifacts 桌面化功能等，提升工作流效率并降低审批成本。",
+    "key_points": [
+      "ChatGPT 合并 Chat 与 Work并开放早期体验",
+      "OpenAI Fast mode 免费、Dots 审核改进",
+      "Anthropic artifacts 可装成桌面应用"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-25/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "PenGPT：手写与草图生成的生成式 Transformer",
+    "summary": "PenGPT 是一种生成式 Transformer，专注于手写文字和草图的生成，展示了在低维笔迹数据上的创新能力，拓展了生成模型在非文本视觉内容的应用。",
+    "key_points": [
+      "采用 Transformer 架构生成手写和草图",
+      "在笔迹数据上实现高质量生成"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://greydanus.github.io/2026/11/12/pengpt/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "《Here in the World》：阿尔贝·加缪 1944‑1959 年书信选",
+    "summary": "该文收录了加缪在1944至1959年的书信，提供了其思想与时代背景的深度洞察，帮助读者了解加缪的哲学与历史语境。",
+    "key_points": [
+      "汇集加缪 1944‑1959 年书信",
+      "揭示其思想与时代的联系"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://literaryreview.co.uk/here-in-the-world",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Anthropic 推出 Claude Ship：AI 自动审查合并",
+    "summary": "Anthropic 在 AI Daily 中宣布 Claude Ship，可让 Claude 自动审查、修复并批准代码合并，展示了 LLM 在软件开发流程中的自主能力，提升开发效率并降低人工审查成本。",
+    "key_points": [
+      "Claude Ship 自动审查、修复、放行 PR",
+      "展示 LLM 在代码合并中的自主管理"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-25-en/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "AI 日报：Claude Ship 实现代码合并自审",
+    "summary": "Anthropic 推出 Claude Ship，实现 Claude 从 PR 审查、修复到放行的一条龙自动化，凸显 LLM 在软件开发中的自主管理能力，助力提升开发效率。",
+    "key_points": [
+      "Claude Ship 自动完成 PR 审查、修复、放行",
+      "提升开发效率并降低人工成本"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-25-zh/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "过去一年 LLM 三大拐点回顾",
+    "summary": "Simon Willison 回顾过去十二个月 LLM 与编码代理的三次关键突破，重点分析 Claude Opus 4.5 的发布及其影响，帮助业界理解模型进化趋势。",
+    "key_points": [
+      "概述三次显著的 LLM 能力拐点",
+      "Claude Opus 4.5 被视为关键模型"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "GPT-6 展示内在蛋白质设计能力",
+    "summary": "OpenAI 发布的 GPT-6 模型具备直接进行蛋白质设计的能力，标志着生成式 AI 在生物医药领域的突破，对加速药物研发和生物工程创新具有重要意义。",
+    "key_points": [
+      "GPT-6 能进行蛋白质设计",
+      "对生物医药研发具有重大推动作用"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "Versine：AI 驱动的语音/文字转账平台",
+    "summary": "Versine 通过 AI 助手（MCP）实现语音或文字指令的收付款功能，支持一次性向多达 100 人转账并可向非用户支付，旨在简化移动支付体验，将 AI 与支付深度结合提升用户便利性。",
+    "key_points": [
+      "AI 助手实现语音/文字转账",
+      "支持批量转账和非用户收款"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50634426",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "GPT 6.2 Astra 解锁历史谜团",
+    "summary": "GPT-6.2 Astra 在仅22分钟内通过公开资料识别出1808年匿名素描本的作者，展示了大模型在历史研究中的高效与自主性。",
+    "key_points": [
+      "快速识别作者",
+      "利用公开资料完成推理"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "datasette-charts 0.2a0 发布",
+    "summary": "新的 Datasette 图表插件支持通过 Datasette Agent 直接生成图表，用户可在聊天中请求并即时查看可视化结果。",
+    "key_points": [
+      "插件集成 Datasette Agent",
+      "支持聊天生成图表"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "datasette-agent 0.7a1 更新",
+    "summary": "Datasette Agent 0.7a1 改进了 iframe 侧边栏导航，支持片段哈希深度集成，提升与插件间的交互体验。",
+    "key_points": [
+      "改进 iframe 导航",
+      "支持片段哈希"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "智谱 GLM 5.4 发布, GPT 6.2 Sol 上线",
+    "summary": "智谱 AI 推出旗舰模型 GLM 5.4，OpenAI 在 ChatGPT 上线日常对话版 GPT 6.2 Sol，行业动态持续升温。",
+    "key_points": [
+      "GLM 5.4 发布",
+      "GPT 6.2 Sol 上线"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-24/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "AI Daily 报道 GLM-5.4 先行发布",
+    "summary": "AI Daily 报道智谱 GLM-5.4 首先面向编程套餐用户开放，新增视觉能力并提升周额度，Meta AI 关注超级智能。",
+    "key_points": [
+      "GLM-5.4 先行发布",
+      "新增视觉能力"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-24-en/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "AI 日报 报道 GLM-5.4 先行发布",
+    "summary": "同上中文报道，强调 GLM-5.4 视觉功能与周额度提升，Meta AI 对超级智能的关注。",
+    "key_points": [
+      "GLM-5.4 视觉功能",
+      "周额度提升"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-24-zh/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "DailyDawn 报道 Ladybird & GLM-5.4",
+    "summary": "DailyDawn 关注独立开发者工具，报道 Ladybird alpha、Stalwart Exchange 与 GLM-5.4 的高投票热度，显示开源工具集的崛起。",
+    "key_points": [
+      "Ladybird alpha 热度",
+      "GLM-5.4 受关注"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-24",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "GLM-5.4 循环 Transformer",
+    "summary": "Z.ai 推出首个循环 Transformer 模型 GLM-5.4，采用权重共享层多次迭代，提升网络深度而不增参数。",
+    "key_points": [
+      "循环 Transformer 架构",
+      "参数不增网络更深"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+    "published": "2026-11-23"
+  }
+]
