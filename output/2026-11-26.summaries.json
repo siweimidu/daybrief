@@ -1,0 +1,370 @@
+[
+  {
+    "title": "Qualcomm Oryon 3登顶",
+    "summary": "Qualcomm发布的Oryon 3芯片在性能榜单上位居首位，显示其在移动处理器领域的竞争力。",
+    "key_points": [
+      "Oryon 3性能领先",
+      "提升Qualcomm市场地位"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "OpenAI缩减GPT-6.2使用，Astra加速40%，Sol加速25%",
+    "summary": "OpenAI降低了GPT-6.2的使用配额，同时Astra和Sol模型的响应速度分别提升40%和25%，对开发者成本和效率产生影响。",
+    "key_points": [
+      "使用配额被削减",
+      "Astra速度提升40%",
+      "Sol速度提升25%"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Olumino：Markdown笔记与间隔重复应用",
+    "summary": "Olumino是一款结合Mochi简洁界面和Anki记忆算法的开源笔记与复习工具，支持日语卡片和假名读音。",
+    "key_points": [
+      "融合Mochi与Anki优点",
+      "支持日语卡片",
+      "开源项目"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://olumino.app",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Minipg：单文件可执行的PostgreSQL",
+    "summary": "Minipg将PostgreSQL打包为单个可执行文件，简化部署和使用。",
+    "key_points": [
+      "PostgreSQL单文件打包",
+      "便捷部署"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://progrium.github.io/minipg/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "橘鸦AI早报 2026-11-26",
+    "summary": "本期报道包括Antigravity提升Neon缓存命中率28%，OpenAI修正Codex计费，Sand.ai发布MAGI 2视频模型，NVIDIA开放Nemotron Labs Image 30B A3B，PrismML开源5.9GB三值模型。",
+    "key_points": [
+      "Antigravity提升缓存命中率28%",
+      "OpenAI修正Codex计费",
+      "Sand.ai发布MAGI 2视频模型"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-26/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Tell HN：再次出现大量Ask HN",
+    "summary": "作者分析了Ask HN页面帖子稀缺的原因，指出其来源于前端页面的排名列表限制。",
+    "key_points": [
+      "Ask HN帖子稀缺",
+      "问题源于排名列表限制"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50649864",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "UI风格指南集合",
+    "summary": "该站点收集并保存了多个UI风格指南，供设计师参考。",
+    "key_points": [
+      "收集多套UI风格指南",
+      "提供设计参考"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://aresluna.org/ui-style-guides/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "AI Daily：矩阵乘法新上限，指数9/4",
+    "summary": "OpenAI预印本声称矩阵乘法的时间复杂度指数为9/4，否定了ω=2的可能，同时Nvidia悄然发布30B开源图像模型。",
+    "key_points": [
+      "矩阵乘法指数9/4",
+      "排除ω=2",
+      "Nvidia发布30B图像模型"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-26-en/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "OpenAI 证明矩阵乘法指数为9/4，否定n²猜想",
+    "summary": "OpenAI 预印本给出矩阵乘法时间复杂度指数恰为9/4，推翻长期认为可逼近 n² 的猜想。",
+    "key_points": [
+      "指数为9/4的正式证明",
+      "否定了 n² 逼近的长期猜想"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-26-zh/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Scott Aaronson 将复杂性理论比作显微镜突破",
+    "summary": "Aaronson 将当前在复杂性理论中的进展比作显微镜和望远镜的革命，暗示我们正进入数学真理的新大陆。",
+    "key_points": [
+      "把复杂性理论的突破类比为显微镜/望远镜的发现",
+      "预示数学真理的解析能力大幅提升"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Jev 可能是 Qwen3.5-35B-A3B 模型",
+    "summary": "在 Hacker News 上，社区通过延迟特征推测 Jev 与 Qwen3.5-35B-A3B 为同一模型。",
+    "key_points": [
+      "利用延迟分析辨识模型身份",
+      "引发对模型性能和实现细节的讨论"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://modaic.dev/blog/latency-doesnt-lie",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Bare Metal Qwen：在裸金属上运行的 LLM 示例",
+    "summary": "GitHub 项目展示如何在裸金属操作系统上部署 Qwen 大语言模型，实现底层直接运行。",
+    "key_points": [
+      "提供裸机 OS 的汇编实现示例",
+      "目标是让 LLM 直接在硬件上运行"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "在太平洋小岛部署付费电话的趣味实验",
+    "summary": "作者在一座偏远太平洋小岛上安装公共付费电话，纯粹为个人兴趣且不以盈利为目的。",
+    "key_points": [
+      "展示极端环境下的网络基础设施部署",
+      "强调个人动机与技术挑战"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Anthropic 精简版 GRH Lean 形式化验证",
+    "summary": "GitHub 仓库提供了更短的 Generalized Riemann Hypothesis（GRH）Lean 形式化证明代码。",
+    "key_points": [
+      "大幅压缩原始 Lean 代码",
+      "促进形式化数学在社区的使用"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/lsernau/grh-lean",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "《纽约时报》警告摄影师勿更新含AI功能的 Photoshop",
+    "summary": "《纽约时报》提醒摄影师更新 Photoshop 可能带入 AI 功能，影响作品真实性，建议保留旧版。",
+    "key_points": [
+      "担忧 AI 生成内容混淆摄影真实性",
+      "建议保持旧版以避免自动 AI 干预"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Ubuntu 安全更新响应缓慢引发关注",
+    "summary": "Openwall 报告 Ubuntu 在安全补丁发布上的响应时间较慢，可能增加系统风险。",
+    "key_points": [
+      "安全补丁延迟提升风险",
+      "社区呼吁提升响应速度"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Linux NFS服务器12年未修补的远程root漏洞",
+    "summary": "发现Linux内核NFS服务器中一个存在12年的预认证远程root漏洞，危及系统安全。",
+    "key_points": [
+      "12年未被发现的预认证远程root漏洞",
+      "影响Linux内核的NFS服务安全"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "事态规模惊人：最新发展概览",
+    "summary": "作者对当前事态的规模进行惊叹式描述，强调其前所未有的重要性。",
+    "key_points": [
+      "对事态规模的强烈感受",
+      "暗示可能产生深远影响"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://scottaaronson.blog/?p=10379",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "多项式Hirsch猜想被证伪",
+    "summary": "最新研究证明多项式Hirsch猜想不成立，对组合几何领域产生重要影响。",
+    "key_points": [
+      "Hirsch猜想被证伪",
+      "对多面体直径研究的意义"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "1Password安全事件更新",
+    "summary": "1Password公布2026年11月的安全事件进展，向用户说明影响范围与后续措施。",
+    "key_points": [
+      "披露安全事件细节",
+      "提供用户应对建议"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Black-Scholes模型推导详解",
+    "summary": "文章系统推导Black-Scholes期权定价模型，帮助读者理解其数学原理。",
+    "key_points": [
+      "完整推导Black-Scholes公式",
+      "解释模型在金融中的应用"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://david.alvarezrosa.com/posts/deriving-black-scholes/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Home Depot蓄水池潜水事件追问",
+    "summary": "对一位在Home Depot蓄水池潜水者的经历提出多项疑问，关注安全与监管问题。",
+    "key_points": [
+      "质疑潜水安全措施",
+      "关注公共设施监管"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Google发布Cogentic整数分解与离散对数论文",
+    "summary": "Google公开Cogentic项目的多篇论文，涉及整数分解、离散对数等密码学前沿研究。",
+    "key_points": [
+      "发布整数分解新方法",
+      "探讨离散对数等密码学问题"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Windows音量均衡逆向并移植至PipeWire",
+    "summary": "逆向工程实现Windows音量均衡功能，并将其移植到Linux的PipeWire音频系统。",
+    "key_points": [
+      "逆向实现Windows均衡功能",
+      "移植至PipeWire提升Linux音频体验"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/xoxorwr/pw-loudness-eq",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "ChatGPT 合并 Chat/Work，OpenAI 免费 Fast mode",
+    "summary": "ChatGPT 将 Chat 与 Work 两大功能合并，部分用户已开始体验；OpenAI 公开宣布 Business 套餐 Fast mode 将免费至年底，并改进 Dots 审核流程，减少额外审批；Antigravity 新版将非必要审批减半，Neon 任务速度提升 17%；Anthropic 推出 artifacts 可装成桌面应用的测试功能。",
+    "key_points": [
+      "ChatGPT 合并 Chat 与 Work",
+      "OpenAI Business Fast mode 免费至年底",
+      "Dots 审核流程优化"
+    ],
+    "category": "技术解读",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-25/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Anthropic 推出 Claude Ship 自动合并代码",
+    "summary": "Anthropic 推出 Claude Ship，能够自动审查、修复并批准 pull request，实现代码合并的自我批准；此外报道提及前 OpenAI 员工在会议室安装窃听器的事件。",
+    "key_points": [
+      "Claude Ship 自动审查、修复、批准 PR",
+      "前 OpenAI 员工窃听器事件"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-25-en/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "Claude Ship 自动合并代码，前 OpenAI 员工窃听器案",
+    "summary": "Anthropic 推出 Claude Ship，支持从 PR 审查到修复再到自动放行，实现代码合并的全流程自动化；同时报道前 OpenAI 员工在会议室安装窃听器并与沙特政府人士频繁联系的事件。",
+    "key_points": [
+      "Claude Ship 自动化 PR 流程",
+      "前 OpenAI 员工窃听器与沙特政府联系"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-25-zh/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "黄仁勋复职引发本地 LLM 部署热潮",
+    "summary": "黄仁勋被重新任命为 Nvidia CEO，导致开发者社区对本地大模型部署需求激增，RTX 系列显卡价格出现回调，独立开发者纷纷重启 Qwen3.8-27B 4-bit 量化项目。",
+    "key_points": [
+      "黄仁勋复职",
+      "本地 LLM 部署需求激增",
+      "RTX 显卡价格回调"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-25",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "LLM 三大转折点回顾",
+    "summary": "Simon Willison 在 AI Engineer Code Summit 发表主题演讲，回顾过去十二个月 LLM 与编码代理的三大转折点，并重点讨论 Claude Opus 4.5 的发布及其影响。",
+    "key_points": [
+      "三大 LLM 转折点",
+      "Claude Opus 4.5 发布周年",
+      "影响与评估"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "published": "2026-11-24"
+  },
+  {
+    "title": "GPT 6.2 Astra 解锁历史谜团",
+    "summary": "GPT-6.2 Astra 在 22 分钟内通过公开资料，自动识别了 Yale Beinecke Library 1808 年匿名素描本的作者，展示了大模型在历史研究中的快速推理能力。",
+    "key_points": [
+      "GPT-6.2 Astra 自动识别 1808 年素描本作者",
+      "22 分钟完成，利用公开资料",
+      "展示大模型历史研究潜力"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+    "published": "2026-11-24"
+  }
+]

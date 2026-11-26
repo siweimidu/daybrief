@@ -4,7 +4,22 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Wed, 25 Nov 2026 05:11:01 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 04:38:17 +0000</lastBuildDate>
+  <item>
+    <title>AI 日报</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-26.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-26.html</guid>
+    <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-26 · 资讯 30 条
+编者按
+今日要点
+其他资讯
+
+Qualcomm Oryon 3登顶（Hacker News Front Page · 行业动态）：Qualcomm发布的Oryon 3芯片在性能榜单上位居首位，显示其在移动处理器领域的竞争力。
+OpenAI缩减GPT-6.2使用，Astra加速40%，Sol加速25%（Hacker News Front Page · 技术解读）：OpenAI降低了GPT-6.2的使用配额，同时Astra和Sol模型的响应速度分别提升40%和25%，对开发者成本和效率产生影响。
+Olumino：Markdown笔记与间隔重复应用（Hacker News Front Page · 开源项目）：Olumino是一款结合Mochi简洁界面和Anki记忆算法的开源笔记与复习工具，支持日语卡片和假名读音。
+Minipg：单文件可执行的</description>
+  </item>
   <item>
     <title>AI 迎来多模态与自主编程新纪元：从 GPT-6 蛋白质设计到 Claude Ship 自动合并</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-25.html</link>
@@ -386,17 +401,5 @@ AI模型规模与硬件并进，开源5G与GPU硬件更新推动边缘计算。
 编者按
 今天的科技舞台迎来了新一轮的AI爆发期。Google DeepMind正式推出Genie 4世界模型，不仅支持实时场景切换，更将其与Gemini代理深度集成，标志着世界模型向着高互动、全栈代理的方向迈出坚实一步。与此同时，OpenAI发布了GPT-6.1 Terra，在视觉推理和计算机自动化操作上表现惊艳，显示出大模型正快速向具体的落地生产力渗透。
 在模型狂飙突进的同时，硬件与底层生态也迎来了重要更新。苹果在今日推出了搭载M6芯片的全新14英寸MacBook Pro与iMac，大幅提升了端侧能效与计算极限；而在开源和嵌入式领域，GitHub Universe会议徽章上跑起Game Boy Color模拟器、Ghostty 1.4的发布以及诸</description>
-  </item>
-  <item>
-    <title>OpenAI发布GPT-6.1 Terra，Anthropic正式启动IPO</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-27.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-27.html</guid>
-    <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-27 · 资讯 29 条
-分类：模型发布 2 · 开源项目 5 · 技术解读 9 · 行业动态 11 · 投融资 1 · 其他 1
-编者按
-各位科技爱好者，今天是2026年10月27日。今日科技圈迎来双料重磅，大模型双雄不约而同在商业化与技术演进上迈出关键一步。
-最值得关注的行业巨震当属AI领域的持续狂飙。OpenAI在今日正式发布了新一代大模型GPT-6.1 Terra，主打超强的视觉推理与电脑操作功能，试图将AI从对话助手彻底转化为能替代人类日常工作的数字员工。与此同时，AI基础设施与资本市场也迎来历史性节点，行业头部玩家Anthropic正式向美国SEC提交S-1招股说明书，拉开了大模型企业大规模登陆资本市场的序幕。
-在底层技术与科学研究方面，OpenAI的研究团队不仅推出了新模型，还宣称在数学、计算机科学和物理学领域取得了突破性发现，甚至在理论上否定了指数</description>
   </item>
 </channel></rss>
