@@ -4,7 +4,19 @@
   <link>https://siweimidu.github.io/daybrief/</link>
   <description>每天自动聚合 5 个 AI 信息源并生成的中文日报</description>
   <language>zh-cn</language>
-  <lastBuildDate>Thu, 26 Nov 2026 04:38:17 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 04:41:04 +0000</lastBuildDate>
+  <item>
+    <title>AI泡沫警示与计费风波：大模型生态的务实回归</title>
+    <link>https://siweimidu.github.io/daybrief/2026-11-27.html</link>
+    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-11-27.html</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description>生成时间：2026-11-27 · 资讯 32 条
+分类：行业动态 11 · 技术解读 7 · 开源项目 8 · 其他 4 · 模型发布 2
+编者按
+各位科技爱好者，今天是2026年11月27日。近期AI行业在算力管理、商业化计费以及模型基础设施上频频爆出新动态，其中既有对泡沫破裂的理性警示，也有技术落地层面的务实探索。从宏观市场来看，行业估值过高的隐忧正在加剧，投资者与开发者正逐渐将目光从单纯的参数竞赛转向降本增效与风险控制。
+在底层架构与计费生态方面，OpenAI 近期因 GPT-6.2 计费错误引发的补偿风波，折射出大厂在商业化运营中的频繁迭代与纠错压力。与此同时，DeepMind 开始尝试引入 AI 代理自主调度 Gemini 的实验算力，虽然标志着自动化资源管理迈出重要一步，但也再次提醒我们，通往完全自主的递归自我改进仍旧路途遥远。
+开源与工具链生态今日同样亮点纷呈。针对特定硬件</description>
+  </item>
   <item>
     <title>AI 日报</title>
     <link>https://siweimidu.github.io/daybrief/2026-11-26.html</link>
@@ -390,16 +402,5 @@ AI模型规模与硬件并进，开源5G与GPU硬件更新推动边缘计算。
 在业界讨论中，Ted Sanders 强调模型性能受规模、数据与算力多维因素影响，提醒企业在追求更大模型时要权衡成本；AI Daily 系列报道则聚焦多尺度策略优化和多模态递归自改进，预示长程智能体训练方法的突破。
 另一方面，AI 工具的实际落地也在加速，DailyDawn 报道的设计质量工具热度飙升，表明 AI 在产品设计环节的渗透已从实验走向主流。
 建议企业关</description>
-  </item>
-  <item>
-    <title>DeepMind Genie 4与OpenAI GPT-6.1 Terra震撼发布</title>
-    <link>https://siweimidu.github.io/daybrief/2026-10-28.html</link>
-    <guid isPermaLink="true">https://siweimidu.github.io/daybrief/2026-10-28.html</guid>
-    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    <description>生成时间：2026-10-28 · 资讯 29 条
-分类：模型发布 5 · 开源项目 5 · 行业动态 10 · 技术解读 8 · 投融资 1
-编者按
-今天的科技舞台迎来了新一轮的AI爆发期。Google DeepMind正式推出Genie 4世界模型，不仅支持实时场景切换，更将其与Gemini代理深度集成，标志着世界模型向着高互动、全栈代理的方向迈出坚实一步。与此同时，OpenAI发布了GPT-6.1 Terra，在视觉推理和计算机自动化操作上表现惊艳，显示出大模型正快速向具体的落地生产力渗透。
-在模型狂飙突进的同时，硬件与底层生态也迎来了重要更新。苹果在今日推出了搭载M6芯片的全新14英寸MacBook Pro与iMac，大幅提升了端侧能效与计算极限；而在开源和嵌入式领域，GitHub Universe会议徽章上跑起Game Boy Color模拟器、Ghostty 1.4的发布以及诸</description>
   </item>
 </channel></rss>

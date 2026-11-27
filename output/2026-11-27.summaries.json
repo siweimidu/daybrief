@@ -1,0 +1,408 @@
+[
+  {
+    "title": "Google 将公开单独 Android 开发者联系方式",
+    "summary": "Google Play 将在开发者页面展示单独 Android 开发者的电话号码和地址，提升用户联系便利性，却引发隐私与合规争议。",
+    "key_points": [
+      "展示开发者电话和地址",
+      "仅针对单独的 Android 开发者",
+      "引发隐私讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "新研究警示 AI 泡沫将破裂，预期市场大跌",
+    "summary": "最新研究指出 AI 领域估值过高，可能出现泡沫破裂，预计将导致重大市场崩溃，提醒投资者保持警惕。",
+    "key_points": [
+      "AI 估值被认为过热",
+      "预测市场将出现大幅回调",
+      "提醒投资者风险"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.london.edu/think/ai-bubble-about-to-burst",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "橘鸦 AI 早报：多项服务计费与模型更新",
+    "summary": "本期早报汇总 DeepSeek 网页端计费显示、Antigravity 重置 Gemini 额度、OpenAI 修复 GPT 6.2 计费错误并补偿、腾讯混元开源模型 DFly2 等多项技术动态。",
+    "key_points": [
+      "DeepSeek 公布对话费用与额度",
+      "Antigravity 为所有用户重置 Gemini 额度",
+      "OpenAI 修复 GPT 6.2 计费错误并提供补偿"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-27/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "硬盘价格异常飙升，黑五期间成本激增",
+    "summary": "黑色星期五期间硬盘价格出现异常上涨，导致消费者和企业的采购成本大幅提升。",
+    "key_points": [
+      "硬盘价格在促销季节异常高位",
+      "影响用户和企业采购预算"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "DeepMind 用 AI 代理管理 Gemini 实验算力",
+    "summary": "DeepMind 引入 AI 代理来调度部分算力用于 Gemini 实验，展示自动化资源管理潜力，但递归自我改进仍遥不可及。",
+    "key_points": [
+      "AI 代理负责部分算力调度",
+      "提升实验效率",
+      "递归自我改进仍未实现"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "AI Daily：OpenAI 承认 GPT-6.2 计费错误并补偿",
+    "summary": "OpenAI 公开承认 GPT‑6.2 计费失误，已修正并向用户提供 Astra 额度提升 40% 与一次储备重置作为补偿。",
+    "key_points": [
+      "计费错误已修正",
+      "用户获 Astra 额度加速40%",
+      "提供一次储备重置补偿"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-27-en/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "AI 日报：OpenAI 计费失误导致 Astra 额度加速",
+    "summary": "OpenAI 承认 GPT‑6.2 上线时计费错误，修正后 Astra 额度消耗加速 40%，并为用户提供一次储备重置作为补偿。",
+    "key_points": [
+      "计费错误导致 Astra 额度加速",
+      "提供一次储备重置补偿",
+      "引发德国消费者组织诉讼"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-27-zh/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Novita、StreamLake 等为字节跳动 Ark 包装库",
+    "summary": "文章指出 Novita、StreamLake 等项目实际上是 ByteDance Ark 平台的包装库，帮助开发者在不同环境中便捷使用 Ark 功能。",
+    "key_points": [
+      "这些项目是 Ark 的包装器",
+      "简化跨平台使用",
+      "面向开发者提供便利"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://kendell.dev/blog/arkwrapper/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "AI自托管更有趣",
+    "summary": "文章展示了让AI模型自行托管变得轻松有趣的新方法，降低了部署门槛。",
+    "key_points": [
+      "提供易用的自托管工具",
+      "降低技术门槛提升使用率"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://janlukas.blog/posts/ai-self-hosting",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "巴基斯坦建筑师卡米尔·汗·穆姆塔兹",
+    "summary": "报道了巴基斯坦建筑师卡米尔·汗·穆姆塔兹在国内受赞誉却在海外鲜为人知的现状。",
+    "key_points": [
+      "国内获赞誉",
+      "海外知名度低"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "用Slack表情衡量公司文化",
+    "summary": "作者提出用Slack表情的使用频率来量化公司文化，提供了新的评估思路。",
+    "key_points": [
+      "表情使用率作为指标",
+      "简化文化测量"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Rvoip：Rust实现的VoIP协议栈",
+    "summary": "开源项目Rvoip在Rust语言下实现了完整的VoIP协议栈，面向高性能通信。",
+    "key_points": [
+      "Rust语言优势",
+      "完整VoIP功能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/eisenzopf/rvoip",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "机器学习不确定性入门",
+    "summary": "文章介绍了机器学习中不确定性概念及其重要性，帮助读者理解相关技术。",
+    "key_points": [
+      "解释不确定性概念",
+      "阐述应用场景"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "BUI：全球最大2D图表库",
+    "summary": "BUI提供了基于Blender的2D图表库，声称是全球最大的此类库。",
+    "key_points": [
+      "基于BlenderUI",
+      "覆盖广泛图表类型"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bui.preetham.top/charts/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "乔治·怀特赛德斯逝世（1939-2026）",
+    "summary": "Science杂志纪念化学家乔治·怀特赛德斯的生平与贡献。",
+    "key_points": [
+      "回顾科研成就",
+      "影响深远"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "RansomwareHelp CTO因电汇诈骗被起诉",
+    "summary": "Krebs on Security报道RansomwareHelp的首席技术官因电汇诈骗被起诉，引发行业关注。",
+    "key_points": [
+      "CTO涉电汇诈骗",
+      "引发安全警示"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "YouTube 广告惩罚者：自动刷新页面",
+    "summary": "该工具在检测到广告播放时自动重新加载 YouTube 页面，帮助用户跳过广告，提高观看体验。",
+    "key_points": [
+      "检测广告后自动刷新",
+      "开源于 GitHub",
+      "在 Hacker News 获 311 点"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/antonpictures/youtube-punisher",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "AMD 专用 llama.cpp 分支",
+    "summary": "为 AMD GPU 优化的 llama.cpp 分支，提升本地大语言模型运行效率，扩展了 llama.cpp 在非 Nvidia 硬件上的可用性。",
+    "key_points": [
+      "针对 AMD GPU 优化",
+      "基于 llama.cpp 开源项目",
+      "在 Hacker News 获 307 点"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://devnull.land/amd-specific-llama-cpp",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "SimDrop：在 Finder 侧边栏显示 iOS 模拟器",
+    "summary": "该 macOS 工具将运行中的 iOS 模拟器以文件夹形式挂载到 Finder 侧边栏，便于快速访问下载和照片文件，简化开发者的模拟器文件管理。",
+    "key_points": [
+      "在 Finder 侧边栏显示模拟器",
+      "提供 Downloads 与 Photos 文件夹",
+      "模拟器启动/关闭时自动出现或消失"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/rxliuli/sim-drop",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "AI 去个性化的警示引述",
+    "summary": "文章引用 Jack Despain Zhou 的观点，指出生成式 AI 如 Claude 正在导致信息来源的同质化，提醒业界关注 AI 滥用风险。",
+    "key_points": [
+      "AI 让信息来源同质化",
+      "Claude 在多场景出现",
+      "涉及 AI 滥用讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Side-by-side：浏览器标签页中运行三台 Linux VM",
+    "summary": "该项目在单个浏览器标签页中并行运行三台 Linux 虚拟机，每台 VM 启动不同的浏览器，便于跨浏览器测试。",
+    "key_points": [
+      "单标签页运行三台 VM",
+      "每台运行不同浏览器",
+      "适用于跨浏览器测试"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://michidk.github.io/sidebyside/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "四年完成 Vim 手册出版",
+    "summary": "作者历时四年编写并发布《Learning to Play Vim》，提供从基础到高级的系统化学习资料，填补了 Vim 教程的空白。",
+    "key_points": [
+      "四年编写完整手册",
+      "覆盖基础到高级功能",
+      "针对 Vim 教程密度问题"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "http://themouseless.dev/vim/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "感恩节祝福帖",
+    "summary": "在感恩节期间，作者在 Hacker News 上发表祝福，鼓励大家与亲友共度或自行创造美好时光，提升社区温暖氛围。",
+    "key_points": [
+      "祝福感恩节",
+      "倡导积极心态"
+    ],
+    "category": "其他",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://news.ycombinator.com/item?id=50655664",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Nextcloud Office 桌面应用发布",
+    "summary": "Nextcloud 推出 Office Desktop 应用，使用户可在本地编辑文档并同步到云端，提升协作效率并丰富办公套件生态。",
+    "key_points": [
+      "桌面端 Office 应用",
+      "支持本地编辑与云同步",
+      "提升协作体验"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "sqlite3_rsync：SQLite 远程复制工具",
+    "summary": "sqlite3_rsync 是 SQLite 的实验性工具，首次出现在 3.47.0 版本，后在 3.50.0 进一步增强。它允许在不需要完整磁盘副本的情况下远程复制数据库，节省磁盘空间。",
+    "key_points": [
+      "实验性功能首次加入 SQLite 3.47.0",
+      "支持远程复制无需完整副本",
+      "节省磁盘空间"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "纽约时报警示摄影师勿更新 Photoshop AI 功能",
+    "summary": "纽约时报提醒摄影师不要更新 Photoshop 的 AI 功能，以保持照片的原始真实性。报社强调照片应呈现拍摄时的样子，避免过度编辑。",
+    "key_points": [
+      "纽约时报发布警示",
+      "AI 功能可能导致过度编辑",
+      "强调保持照片原始真实性"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "橘鸦AI早报：Neon 缓存提升、Codex 请求修正、MAGI 2 发布等",
+    "summary": "Antigravity 报告 Neon 缓存命中率提升 28%，OpenAI 邮件称 Codex 请求额度修正，Sand.ai 发布 MAGI 2 视频模型，NVIDIA 开放 Nemotron Labs Image 30B，PrismML 发布 5.9GB 三值模型。",
+    "key_points": [
+      "Neon 缓存命中率提升 28%",
+      "Codex 请求额度修正",
+      "MAGI 2 视频模型发布"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-26/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "AI Daily：OpenAI 预印本称矩阵乘法指数 9/4",
+    "summary": "OpenAI 预印本声称矩阵乘法指数为 9/4，排除长期猜想 ω=2；NVIDIA 静默发布 30B 参数图像模型。",
+    "key_points": [
+      "矩阵乘法指数 9/4 证明",
+      "排除 ω=2 猜想",
+      "NVIDIA 30B 图像模型发布"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-26-en/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "AI 日报：矩阵乘法指数 9/4 及 NVIDIA 30B 模型",
+    "summary": "OpenAI 预印本证明矩阵乘法指数为 9/4，否定 n² 近似猜想；NVIDIA 公开 30B 参数图像模型，长文字渲染测试分数超过 GPT Image 2，价格低于 Seedance 2.5 的十分之一。",
+    "key_points": [
+      "矩阵乘法指数 9/4 证明",
+      "否定 n² 近似猜想",
+      "NVIDIA 30B 模型公开"
+    ],
+    "category": "技术解读",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-26-zh/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "DailyDawn：minimind 框架与 9/4 矩阵乘法优化",
+    "summary": "GitHub Trending 的 minimind 框架支持 2 小时训练 64M 小模型；采用 9/4 矩阵乘法优化后，RTX3090 单卡推理吞吐量提升 38%。社区讨论热度翻倍。",
+    "key_points": [
+      "minimind 框架 2 小时训练 64M 模型",
+      "9/4 矩阵乘法优化提升 38% 吞吐量",
+      "社区讨论热度翻倍"
+    ],
+    "category": "技术解读",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-26",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "Scott Aaronson 论复杂性理论新视野",
+    "summary": "Scott Aaronson 认为我们正进入一个全新的数学真理大陆，类似于显微镜和望远镜的发现，提升了对复杂性理论宇宙的解析度。",
+    "key_points": [
+      "新数学真理大陆的出现",
+      "复杂性理论解析度提升",
+      "类比显微镜与望远镜"
+    ],
+    "category": "其他",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+    "published": "2026-11-25"
+  },
+  {
+    "title": "datasette-charts 0.3a0：新增图表注释功能",
+    "summary": "datasette-charts 0.3a0 版本新增图表注释功能，可添加线条、阴影区、标签，并可通过 Datasette Agent 自动生成注释图表。",
+    "key_points": [
+      "新增图表注释功能",
+      "支持线条、阴影区、标签",
+      "Datasette Agent 自动生成"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+    "published": "2026-11-25"
+  }
+]
