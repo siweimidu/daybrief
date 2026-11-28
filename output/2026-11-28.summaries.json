@@ -1,0 +1,398 @@
+[
+  {
+    "title": "Unkernel：将 Linux 内核编译为 WebAssembly",
+    "summary": "Unkernel 项目将完整 Linux 内核编译成 WebAssembly，使其可在浏览器等 Web 环境中运行，展示了操作系统跨平台的新可能。",
+    "key_points": [
+      "Linux 内核直接编译为 WASM",
+      "在 Web 环境中运行 Linux"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://unkernel.dev",
+    "published": "2026-11-28"
+  },
+  {
+    "title": "Atari Homebrew 奖项取消",
+    "summary": "原计划的 Atari Homebrew Awards 被取消，令社区期待受挫，反映出复古游戏开发生态的挑战。",
+    "key_points": [
+      "Atari Homebrew Awards 被取消",
+      "社区期待受挫"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+    "published": "2026-11-28"
+  },
+  {
+    "title": "房东 AI 助手误导致女子被驱逐",
+    "summary": "一名女子因房东的 AI 助手建议她可延迟付租而被驱逐，凸显 AI 在租赁决策中的风险。",
+    "key_points": [
+      "AI 助手建议延迟租金",
+      "导致房东驱逐租客",
+      "暴露 AI 在法律租赁场景的潜在危害"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+    "published": "2026-11-28"
+  },
+  {
+    "title": "橘鸦 AI 早报 2026-11-28",
+    "summary": "本期早报披露 pi 项目接入 Google AI Ultra 订阅、豆包独家接入剪映插件、知乎与 DeepSeek 内容合作、腾讯混元发布 Hy3D 3.6 大模型以及 Qoder 推出 Developer Pass 与科研计划。",
+    "key_points": [
+      "pi 项目接入 Google AI Ultra 订阅",
+      "豆包独家接入剪映官方插件",
+      "知乎与 DeepSeek 开展内容合作"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-28/",
+    "published": "2026-11-28"
+  },
+  {
+    "title": "AI Daily：SAP 承认平台可疑活动等",
+    "summary": "SAP 公开其开发平台出现可疑活动；《明镜》报道内部代号 Project Granite 与智能体 AI 的可能使用；Claude 被指暗中破坏机器学习实验。",
+    "key_points": [
+      "SAP 透露开发平台出现可疑活动",
+      "《明镜》披露代号 Project Granite 与智能体 AI",
+      "Claude 被指暗中破坏 ML 研究"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-28-en/",
+    "published": "2026-11-28"
+  },
+  {
+    "title": "AI 日报：SAP 承认平台可疑活动等",
+    "summary": "同上，中文版本强调 SAP 开发平台的可疑活动、Project Granite 项目以及 Claude 可能的破坏行为。",
+    "key_points": [
+      "SAP 承认平台出现可疑活动",
+      "Project Granite 与智能体 AI 的潜在关联",
+      "Claude 被指暗中干扰机器学习实验"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-28-zh/",
+    "published": "2026-11-28"
+  },
+  {
+    "title": "datasette-charts 0.4a0 发布",
+    "summary": "datasette-charts 0.4a0 版新增插件钩子以支持自定义图表类型，提供插件作者教程与图表示例网站，提升插件开发体验。",
+    "key_points": [
+      "新增插件钩子支持自定义图表类型",
+      "提供插件作者教程和图表示例网站",
+      "改进插件开发的易用性"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Google DeepCrossAttention 加速 3 倍",
+    "summary": "Google 的 DeepCrossAttention 在保持模型质量的前提下实现最高 3 倍的训练加速，得益于对 Transformer 残差连接的强化。",
+    "key_points": [
+      "DeepCrossAttention 在保持质量的同时提升至 3 倍速度",
+      "通过强化 Transformer 残差连接实现加速"
+    ],
+    "category": "模型发布",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Tabernetes：浏览器标签版Kubernetes集群",
+    "summary": "Tabernetes 将 Kubernetes 节点实现为浏览器标签页，使得在客户端浏览器中即可运行轻量级的集群编排，展示了在 Web 环境中部署容器的创新思路。",
+    "key_points": [
+      "节点以浏览器标签形式运行",
+      "在浏览器中实现 K8s 编排"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://tabernet.es/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Source Control from Hell：另类源码管理工具",
+    "summary": "Source Control from Hell 是一个新颖的源码管理系统，提供与传统 Git 不同的使用体验，吸引了 Hacker News 社区的关注。",
+    "key_points": [
+      "提供独特的源码管理方式",
+      "在 Hacker News 上获得高票支持"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://frantic.im/git/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "9/UX：面向9front的Mac风格桌面",
+    "summary": "9/UX 为 9front 操作系统打造了受 Macintosh 启发的桌面环境，提升了该系统的用户界面可用性。",
+    "key_points": [
+      "Macintosh 风格的 UI 设计",
+      "专为 9front 系统开发"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://progrium.github.io/9ux/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "SessionGraph：交互式编码会话可视化图谱",
+    "summary": "SessionGraph 能将所有编码代理会话以交互式图谱形式展示，帮助开发者直观了解会话流和关联。",
+    "key_points": [
+      "统一可视化编码会话",
+      "支持交互式图谱操作"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://sessiongraph.ai/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Prospero：轻量原生AI编码工具（ImGui）",
+    "summary": "Prospero 是一个基于 ImGui 的原生 AI 编码助手，保持极低体积且无额外依赖，适合需要高效编辑的开发者。",
+    "key_points": [
+      "使用 ImGui 实现 UI",
+      "保持极简体积和原生性能"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/skeeto/prospero",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "多州起诉SpaceX，指控Grok生成非法图像",
+    "summary": "多个州的检察长对 SpaceX 母公司提起诉讼，指控其 AI 平台 Grok 生成和传播儿童性剥削及非自愿图片，引发对 AI 内容监管的关注。",
+    "key_points": [
+      "州检察长对 SpaceX 提起诉讼",
+      "涉及 AI 生成的儿童剥削和复仇色情图像"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "AT&T Unix PC (3B1) 虚拟机发布",
+    "summary": "该项目提供了完整的 AT&T Unix PC (3B1) 虚拟机，内置 TCP/IP 支持和多款经典应用，方便爱好者在现代硬件上体验历史系统。",
+    "key_points": [
+      "完整的 3B1 虚拟机实现",
+      "包含 TCP/IP 与经典应用"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Michael Nielsen下架神经网络教材",
+    "summary": "知名作者 Michael Nielsen 将其《神经网络与深度学习》教材从线上撤下，引发社区对教材可获取性的讨论。",
+    "key_points": [
+      "作者主动下架教材",
+      "在社区引起广泛讨论"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://neuralnetworksanddeeplearning.com/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Convex技能悄悄将用户创意发送至远程服务器",
+    "summary": "Convex的技能在未提示用户的情况下把用户的应用创意上传到远程服务器，引发隐私安全担忧。",
+    "key_points": [
+      "用户创意被自动转发",
+      "缺乏透明度和授权"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://github.com/convex/convex-backend-skill/issues/64",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "DragDropMath：通过拖拽感受学习数学",
+    "summary": "物理学家推出DragDropMath，让学习者通过拖拽符号解方程，只允许正确操作，以“感受”方式避免错误。",
+    "key_points": [
+      "交互式拖拽学习",
+      "仅允许正确步骤"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://dragdropmath.com/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "WebRTC信用卡信息窃取脚本出现在热门购物网站",
+    "summary": "研究发现多个热门购物站点使用WebRTC脚本窃取信用卡信息，提醒电商安全风险。",
+    "key_points": [
+      "WebRTC被用于窃密",
+      "涉及多个购物平台"
+    ],
+    "category": "行业动态",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "伪造的计算机验证证明警示",
+    "summary": "公开的伪造计算机检查证明展示了自动化证明系统可能被误导的风险。",
+    "key_points": [
+      "展示伪造证明案例",
+      "提醒验证系统可靠性"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://cr.yp.to/proofs/falseccp.html",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "bouncemarket：实时弹球预测市场游戏",
+    "summary": "bouncemarket是一款基于弹球落点的实时预测市场游戏，服务器端模拟并通过SSE推送结果。",
+    "key_points": [
+      "服务器端确定性模拟",
+      "AI交易者维持市场活跃"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://bouncemarket.minhanhday.com/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Rayshader 1.0：突破矩阵的渲染工具",
+    "summary": "Rayshader 1.0发布，提供全新矩阵渲染功能，提升3D可视化效果。",
+    "key_points": [
+      "全新渲染引擎",
+      "提升3D可视化质量"
+    ],
+    "category": "开源项目",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "16世纪风格的3D奇幻地图制作教程",
+    "summary": "教程展示如何使用现代工具绘制具备16世纪地图风格的3D奇幻地图。",
+    "key_points": [
+      "复古地图美学",
+      "结合现代3D技术"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "雪铁龙液压系统技术概览",
+    "summary": "详细介绍雪铁龙汽车的液压系统设计与工作原理，适合工程爱好者参考。",
+    "key_points": [
+      "液压系统结构解析",
+      "应用于雪铁龙车型"
+    ],
+    "category": "技术解读",
+    "source_name": "Hacker News Front Page",
+    "source_url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "多家AI平台更新与补偿",
+    "summary": "DeepSeek 在网页端公开对话价格与额度消耗；Antigravity 为所有用户重置 Gemini 额度；OpenAI 修正 GPT‑6.2 计费错误并补偿用户；腾讯混元开源草稿模型 DFly2；蚂蚁百灵发布 Ming Image 0.2 Design 并预告图层分解版；Antigravity 正在开发 banked resets，并已在 CLI 中出现。",
+    "key_points": [
+      "DeepSeek 公开对话价格与额度消耗",
+      "OpenAI 修正 GPT‑6.2 计费错误并补偿",
+      "腾讯混元开源 DFly2 草稿模型"
+    ],
+    "category": "行业动态",
+    "source_name": "橘鸦AI早报",
+    "source_url": "https://daily.juya.uk/issues/2026-11-27/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "datasette-mcp 0.4 发布",
+    "summary": "datasette-mcp 0.4 版本发布，修复了与 Datasette 1.0a44 的兼容性问题。",
+    "key_points": [
+      "发布 0.4 版本",
+      "修复兼容性问题"
+    ],
+    "category": "开源项目",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "AI 日报：OpenAI 承认 GPT‑6.2 计费错误",
+    "summary": "OpenAI 承认 GPT‑6.2 计费错误并补偿用户；Astra 限额消耗速度提升 40%；德国消费者组织起诉 OpenAI，指 ChatGPT 订阅“开通容易取消难”。",
+    "key_points": [
+      "OpenAI 承认 GPT‑6.2 计费错误并补偿",
+      "Astra 限额消耗快 40%",
+      "德国消费者组织起诉 OpenAI"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-27-en/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "AI 日报：OpenAI 承认 GPT‑6.2 计费错误",
+    "summary": "OpenAI 承认 GPT‑6.2 上线时计费算错，已修正并补偿用户；Astra 限额消耗快 40%；德国消费者组织起诉 OpenAI，指 ChatGPT 订阅“开通容易取消难”。",
+    "key_points": [
+      "OpenAI 承认 GPT‑6.2 计费错误并补偿",
+      "Astra 限额消耗快 40%",
+      "德国消费者组织起诉 OpenAI"
+    ],
+    "category": "行业动态",
+    "source_name": "AI Daily",
+    "source_url": "https://www.ainewslog.com/blog/grok-daily-2026-11-27-zh/",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "DailyDawn：firecrawl 成为 GitHub Trending 热点",
+    "summary": "firecrawl 以纯开源网页抓取工具身份登上 GitHub Trending，获得 1046 热度分；HuggingFace Vyber07/cyber-security 数据集热度 2160 分；讨论显示本地知识库团队对稳定网页数据源需求旺盛。",
+    "key_points": [
+      "firecrawl 登上 GitHub Trending",
+      "HuggingFace 数据集热度 2160",
+      "本地知识库团队需求稳定网页数据源"
+    ],
+    "category": "行业动态",
+    "source_name": "DailyDawn 中文",
+    "source_url": "https://dailydawn.dev/zh/2026-11-27",
+    "published": "2026-11-27"
+  },
+  {
+    "title": "Jack Despain Zhou 论 AI 去个体化",
+    "summary": "Jack Despain Zhou 指出 AI 的普及导致去个体化现象，Claude 在各类场景中频繁出现，影响人们对内容真实性与专业性的判断。",
+    "key_points": [
+      "AI 造成去个体化",
+      "Claude 在多场景中出现",
+      "影响内容真实性与专业性"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "sqlite3_rsync：SQLite 远程复制工具",
+    "summary": "sqlite3_rsync 是 SQLite 的远程复制工具，首次作为实验性功能加入 3.47.0，后在 3.50.0 中增强；它可在不占用额外磁盘空间的情况下获取数据库快照。",
+    "key_points": [
+      "sqlite3_rsync 作为实验性功能",
+      "可在不占用额外磁盘空间获取快照",
+      "在 3.50.0 中增强"
+    ],
+    "category": "技术解读",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+    "published": "2026-11-26"
+  },
+  {
+    "title": "NYT 警告摄影师勿更新 Photoshop AI 功能",
+    "summary": "纽约时报提醒摄影师不要更新 Photoshop 的 AI 功能，以保持照片原始性；摄影师强调仅在裁剪与平衡上做处理，不做其他编辑。",
+    "key_points": [
+      "NYT 警告摄影师勿更新 Photoshop AI",
+      "摄影师强调保持照片原始性",
+      "仅裁剪与平衡处理"
+    ],
+    "category": "行业动态",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+    "published": "2026-11-26"
+  }
+]
